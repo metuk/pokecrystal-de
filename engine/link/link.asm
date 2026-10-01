@@ -16,13 +16,13 @@ LinkCommunications:
 	call LoadFontsBattleExtra
 	farcall LinkComms_LoadPleaseWaitTextboxBorderGFX
 	call WaitBGMap2
-	hlcoord 3, 8
+	hlcoord 2, 8
 	ld b, 2
-	ld c, 12
+	ld c, 14
 	ld d, h
 	ld e, l
 	farcall LinkTextbox2
-	hlcoord 4, 10
+	hlcoord 3, 10
 	ld de, String_PleaseWait
 	call PlaceString
 	call SetTradeRoomBGPals
@@ -1672,7 +1672,10 @@ LinkTradePlaceArrow:
 	hlcoord 6, 9
 	ld bc, SCREEN_WIDTH
 	call AddNTimes
-	ld [hl], '▷'
+	ld [hl], $1f
+	ld bc, 11
+	add hl, bc
+	ld [hl], $1f
 	ret
 
 LinkEngine_FillBox:
@@ -1724,16 +1727,16 @@ LinkTrade:
 	bccoord 1, 14
 	call PrintTextboxTextAt
 	call LoadStandardMenuHeader
-	hlcoord 10, 7
+	hlcoord 7, 7
 	ld b, 3
-	ld c, 7
+	ld c, 10
 	call LinkTextboxAtHL
 	ld de, String_TradeCancel
-	hlcoord 12, 8
+	hlcoord 9, 8
 	call PlaceString
 	ld a, 8
 	ld [w2DMenuCursorInitY], a
-	ld a, 11
+	ld a, 8
 	ld [w2DMenuCursorInitX], a
 	ld a, 1
 	ld [w2DMenuNumCols], a
