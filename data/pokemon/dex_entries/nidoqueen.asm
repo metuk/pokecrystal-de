@@ -1,10 +1,10 @@
-	db "DRILL@" ; species name
-	dw 403, 1320 ; height, weight
+	db "BOHRER@" ; species name
+	dw 22541, 33538 ; height, weight
 
-	db   "The hard scales"
-	next "that cover its"
-	next "strong body serve"
+	db   "ie harten Schup-"
+	next "pen, die seinen"
+	next "Körper bedecken,"
+	page "dienen als her-"
+	next "vorragender Schutz"
+	next "gegen Angriffe.@"
 
-	page "as excellent"
-	next "protection from"
-	next "any attack.@"

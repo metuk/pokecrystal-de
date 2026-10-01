@@ -106,29 +106,25 @@ GBPrinterString_CheckingLink: next " CHECKING LINK...@"
 GBPrinterString_Transmitting: next "  TRANSMITTING...@"
 GBPrinterString_Printing: next "    PRINTING...@"
 GBPrinterString_PrinterError1:
-	db   " Printer Error 1"
+	db   " Drucker fehler 1"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
-	db   "@"
+	next " Lies das GAME BOY"
+	next " PRINTER-Handbuch.@"
 GBPrinterString_PrinterError2:
-	db   " Printer Error 2"
+	db   " Drucker fehler 2"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
-	db   "@"
+	next " Lies das GAME BOY"
+	next " PRINTER-Handbuch.@"
 GBPrinterString_PrinterError3:
-	db   " Printer Error 3"
+	db   " Drucker fehler 3"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
-	db   "@"
+	next " Lies das GAME BOY"
+	next " PRINTER-Handbuch.@"
 GBPrinterString_PrinterError4:
-	db   " Printer Error 4"
+	db   " Drucker fehler 4"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
-	db   "@"
+	next " Lies das GAME BOY"
+	next " PRINTER-Handbuch.@"
 
 PrintPartyMonPage1:
 	call ClearBGPalettes
@@ -329,18 +325,17 @@ PrintParty_OTString:
 	db "OT/@"
 
 PrintParty_MoveString:
-	db "MOVE@"
+	db "ATTACKE/@"
 
 PrintParty_IDNoString:
 	db "<ID>№.@"
 
 PrintParty_StatsString:
-	db   "ATTACK"
-	next "DEFENSE"
-	next "SPCL.ATK"
-	next "SPCL.DEF"
-	next "SPEED"
-	db   "@"
+	db   "ANGR"
+	next "VER"
+	next "SPEZ.ANG"
+	next "SPEZ.VER"
+	next "INIT@"
 
 PrintParty_NoMoveString:
 	db "------------@"

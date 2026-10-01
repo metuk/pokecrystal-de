@@ -1,10 +1,10 @@
-	db "TINY MOUSE@" ; species name
-	dw 100, 40 ; height, weight
+	db "BABYMAUS@" ; species name
+	dw 5123, 33792 ; height, weight
 
-	db   "It is unskilled at"
-	next "storing electric"
-	next "power. Any kind of"
+	db   "s ist noch nicht"
+	next "erfahren im Umgang"
+	next "mit Elektrizität."
+	page "Bei jedem Stoせ"
+	next "entlädt es spontan"
+	next "Energie.@"
 
-	page "shock causes it to"
-	next "discharge energy"
-	next "spontaneously.@"

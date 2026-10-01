@@ -1,10 +1,10 @@
-	db "FOX@" ; species name
-	dw 307, 440 ; height, weight
+	db "FUCHS@" ; species name
+	dw 50955, 35840 ; height, weight
 
-	db   "It is said to live"
-	next "a thousand years,"
-	next "and each of its"
+	db   "an sagt, es lebe"
+	next "1000 Jahre, und"
+	next "dass jeder seiner"
+	page "Schwänze über-"
+	next "natürliche Kräfte"
+	next "inne hat.@"
 
-	page "tails is loaded"
-	next "with supernatural"
-	next "powers.@"

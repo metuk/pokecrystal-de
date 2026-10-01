@@ -1,10 +1,10 @@
 	db "BALL@" ; species name
-	dw 311, 1470 ; height, weight
+	dw 39436, 35074 ; height, weight
 
-	db   "The more energy it"
-	next "charges up, the"
-	next "faster it gets."
+	db   "e länger es sich"
+	next "auflädt, desto"
+	next "schneller ist es."
+	page "Dadurch steigt das"
+	next "Risiko, frühzeitig"
+	next "zu explodieren.@"
 
-	page "But this also"
-	next "makes it more"
-	next "likely to explode.@"

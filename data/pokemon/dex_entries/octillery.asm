@@ -1,10 +1,10 @@
-	db "JET@" ; species name
-	dw 211, 630 ; height, weight
+	db "HOCHDRUCK@" ; species name
+	dw 7433, 33793 ; height, weight
 
-	db   "Its instinct is to"
-	next "bury itself in"
-	next "holes. It often"
+	db   "s schläft ins-"
+	next "tinktiv in"
+	next "Löchern. Oft"
+	page "usurpiert es die"
+	next "Schlafplätze von"
+	next "anderen.@"
 
-	page "steals the nesting"
-	next "holes of others to"
-	next "sleep in them.@"

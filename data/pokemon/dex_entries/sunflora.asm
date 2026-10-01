@@ -1,10 +1,10 @@
-	db "SUN@" ; species name
-	dw 207, 190 ; height, weight
+	db "SONNE@" ; species name
+	dw 21768, 37376 ; height, weight
 
-	db   "As the hot season"
-	next "approaches, the"
-	next "petals on this"
+	db   "teht der Sommer"
+	next "bevor, werden die"
+	next "Blätter um das"
+	page "Gesicht dieses"
+	next "#MON aktiv"
+	next "und lebhaft.@"
 
-	page "#MON's face"
-	next "become more vivid"
-	next "and lively.@"

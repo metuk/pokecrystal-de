@@ -1,10 +1,10 @@
-	db "FLOWER@" ; species name
-	dw 104, 130 ; height, weight
+	db "BLUME@" ; species name
+	dw 14852, 37632 ; height, weight
 
-	db   "When these dance"
-	next "together, their"
-	next "petals rub against"
+	db   "anzen sie zusam-"
+	next "men, reiben ihre"
+	next "Blätter aneinander"
+	page "und erzeugen ein"
+	next "sehr entspannendes"
+	next "Geräusch.@"
 
-	page "each other,"
-	next "making pretty,"
-	next "relaxing sounds.@"

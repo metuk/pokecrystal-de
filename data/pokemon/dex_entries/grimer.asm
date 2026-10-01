@@ -1,10 +1,10 @@
-	db "SLUDGE@" ; species name
-	dw 211, 660 ; height, weight
+	db "SCHLAMM@" ; species name
+	dw 11273, 35329 ; height, weight
 
-	db   "When two of these"
-	next "#MON's bodies"
-	next "are combined"
+	db   "ombiniert man"
+	next "zwei dieser"
+	next "#MON, so"
+	page "entstehen völlig"
+	next "neue Arten von"
+	next "Gift.@"
 
-	page "together, new"
-	next "poisons are"
-	next "created.@"

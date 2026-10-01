@@ -1,10 +1,10 @@
-	db "GENETIC@" ; species name
-	dw 607, 2690 ; height, weight
+	db "GENMUTANT@" ; species name
+	dw 50196, 35844 ; height, weight
 
-	db   "Said to rest qui-"
-	next "etly in an"
-	next "undiscovered cave,"
+	db   "an sagt, es lebe"
+	next "allein in einer"
+	next "unentdeckten Höhle"
+	page "und dass es nur"
+	next "für den Kampf"
+	next "geschaffen wurde.@"
 
-	page "this #MON was"
-	next "created solely for"
-	next "battling.@"

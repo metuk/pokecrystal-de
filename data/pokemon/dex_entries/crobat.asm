@@ -1,10 +1,10 @@
-	db "BAT@" ; species name
-	dw 511, 1650 ; height, weight
+	db "FLEDERMAUS@" ; species name
+	dw 60946, 32770 ; height, weight
 
-	db   "As a result of its"
-	next "pursuit of faster,"
-	next "yet more silent"
+	db   "ufgrund seines"
+	next "Strebens noch"
+	next "schneller und lei-"
+	page "ser zu fliegen,"
+	next "wuchsen ihm zwei"
+	next "neue Flügel.@"
 
-	page "flight, a new set"
-	next "of wings grew on"
-	next "its hind legs.@"

@@ -1,10 +1,10 @@
 	db "GAS@" ; species name
-	dw 503, 2 ; height, weight
+	dw 272, 33792 ; height, weight
 
-	db   "It hides in the"
-	next "dark, planning to"
-	next "take the life of"
+	db   "s versteckt sich"
+	next "im Dunkeln und"
+	next "wartet nur darauf,"
+	page "dem nächsten Lebe-"
+	next "wesen sein Leben"
+	next "auszuhauchen.@"
 
-	page "the next living"
-	next "thing that wanders"
-	next "close by.@"

@@ -1,10 +1,10 @@
-	db "STAGBEETLE@" ; species name
-	dw 411, 1210 ; height, weight
+	db "KNEIFKÄFER@" ; species name
+	dw 9743, 37378 ; height, weight
 
-	db   "When the tempera-"
-	next "ture drops at"
-	next "night, it sleeps"
+	db   "inkt nachts die"
+	next "Temperatur, sucht"
+	next "es sich ein"
+	page "Versteck in"
+	next "Baumkronen oder"
+	next "unter Wurzeln.@"
 
-	page "on treetops or"
-	next "among roots where"
-	next "it is well hidden.@"

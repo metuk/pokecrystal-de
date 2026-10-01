@@ -1,10 +1,10 @@
-	db "BIG JAW@" ; species name
-	dw 200, 210 ; height, weight
+	db "GROSSMAUL@" ; species name
+	dw 24326, 33536 ; height, weight
 
-	db   "This rough critter"
-	next "chomps at any"
-	next "moving object it"
+	db   "ieser kleine"
+	next "Schnapper beiせt"
+	next "alles, was sich"
+	page "bewegt. Drehe ihm"
+	next "niemals den Rücken"
+	next "zu.@"
 
-	page "sees. Turning your"
-	next "back on it is not"
-	next "recommended.@"

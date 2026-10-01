@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 511, 70 ; height, weight
+	db "DRACHE@" ; species name
+	dw 8466, 33792 ; height, weight
 
-	db   "It sheds many lay-"
-	next "ers of skin as it"
-	next "grows larger. Dur-"
+	db   "s häutet sich, um"
+	next "zu wachsen."
+	next "Währenddessen wird"
+	page "es von einem"
+	next "schnellen Wasser-"
+	next "fall beschützt.@"
 
-	page "ing this process,"
-	next "it is protected by"
-	next "a rapid waterfall.@"

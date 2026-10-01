@@ -104,9 +104,9 @@ DisplayMoneyAndCoinBalance:
 	ret
 
 MoneyString:
-	db "MONEY@"
+	db "GELD@"
 CoinString:
-	db "COIN@"
+	db "MÜNZEN@"
 ShowMoney_TerminatorString:
 	db "@"
 
@@ -196,11 +196,11 @@ StartMenu_PrintBugContestStatus:
 .BallsJPString: ; unreferenced
 	db "ボール　　　こ@"
 .CaughtString:
-	db "CAUGHT@"
+	db "BESITZ:@"
 .BallsString:
-	db "BALLS:@"
+	db "BÄLLE:@"
 .NoneString:
-	db "None@"
+	db "KEINE@"
 .LevelString:
 	db "LEVEL@"
 

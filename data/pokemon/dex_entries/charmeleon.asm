@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
-	dw 307, 420 ; height, weight
+	db "FLAMME@" ; species name
+	dw 48651, 37376 ; height, weight
 
-	db   "If it becomes"
-	next "agitated during"
-	next "battle, it spouts"
+	db   "teigert es sich"
+	next "in einen Kampf"
+	next "hinein, spuckt es"
+	page "Flammen, die auf"
+	next "seine Umgebung"
+	next "übergreifen.@"
 
-	page "intense flames,"
-	next "incinerating its"
-	next "surroundings.@"

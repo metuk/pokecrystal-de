@@ -1,10 +1,10 @@
-	db "SHARP CLAW@" ; species name
-	dw 211, 620 ; height, weight
+	db "STICHKLAUE@" ; species name
+	dw 6153, 33537 ; height, weight
 
-	db   "This cunning"
-	next "#MON hides"
-	next "under the cover"
+	db   "ieses hinterlis-"
+	next "tige #MON"
+	next "nutzt den Schutz"
+	page "der Dunkelheit, um"
+	next "ahnungsloser Beute"
+	next "aufzulauern.@"
 
-	page "of darkness,"
-	next "waiting to attack"
-	next "its prey.@"

@@ -1,10 +1,10 @@
-	db "SHELLFISH@" ; species name
-	dw 503, 1890 ; height, weight
+	db "PANZERTIER@" ; species name
+	dw 22288, 33795 ; height, weight
 
-	db   "It firmly plants"
-	next "its feet on the"
-	next "ground before"
+	db   "he es seinen"
+	next "kräftigen Wasser-"
+	next "strahl abfeuert,"
+	page "sucht es sicheren"
+	next "Halt."
+	next "@"
 
-	page "shooting water"
-	next "from the jets on"
-	next "its back.@"

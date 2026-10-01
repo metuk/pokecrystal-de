@@ -1,10 +1,10 @@
-	db "LIVE COAL@" ; species name
-	dw 204, 470 ; height, weight
+	db "GLUTHERD@" ; species name
+	dw 54791, 33536 ; height, weight
 
-	db   "It naturally spits"
-	next "an 1100-degree"
-	next "flame. It is said"
+	db   "ie Flamme, die es"
+	next "spuckt, hat 600"
+	next "Grad C. Wo viele"
+	page "von ihnen sind,"
+	next "kommt es zu einem"
+	next "Vulkanausbruch.@"
 
-	page "when many appear,"
-	next "it heralds a"
-	next "volcanic eruption.@"

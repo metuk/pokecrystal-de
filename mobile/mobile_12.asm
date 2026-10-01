@@ -209,7 +209,7 @@ Function48187:
 	ret
 
 .String_TellLater:
-	db "Tell Later@"
+	db "@"
 
 Function4820d:
 	call PlaceHollowCursor
@@ -266,7 +266,7 @@ Function48272:
 	jp Function4840c
 
 MobileString_PersonalInfo:
-	db "Personal Info@"
+	db "@"
 
 Function48283:
 	lb bc, 2, 18
@@ -1260,8 +1260,7 @@ MenuHeader_0x48a9c:
 	menu_coords 10, 8, SCREEN_WIDTH - 1, 13
 
 String_48aa1:
-	db   "Tell Now"
-	next "Tell Later@"
+	db "@"
 
 Function48ab5:
 	ldh a, [hJoyPressed]

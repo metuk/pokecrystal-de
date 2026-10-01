@@ -1,10 +1,10 @@
-	db "KISS@" ; species name
-	dw 104, 130 ; height, weight
+	db "KUSS@" ; species name
+	dw 15364, 33536 ; height, weight
 
-	db   "The sensitivity of"
-	next "its lips develops"
-	next "most quickly."
+	db   "ie Empfindsamkeit"
+	next "seiner Lippen"
+	next "entwickelt sich am"
+	page "schnellsten. Mit"
+	next "ihnen tastet es"
+	next "fremde Objekte ab.@"
 
-	page "It uses them to"
-	next "try to identify"
-	next "unknown objects.@"

@@ -214,6 +214,8 @@ def classify_patch(tokens):
 			return (wrap or 'addr', name, addend)
 		if kind == 'bank_sym' and not wrap and not addend:
 			return ('bank', name, 0)
+		if kind == 'bank_sect' and not wrap and not addend:
+			return ('bank_sect', name, 0)
 	return None
 
 

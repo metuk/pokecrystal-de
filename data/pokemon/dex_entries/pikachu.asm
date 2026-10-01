@@ -1,10 +1,10 @@
-	db "MOUSE@" ; species name
-	dw 104, 130 ; height, weight
+	db "MAUS@" ; species name
+	dw 15364, 34816 ; height, weight
 
-	db   "When it is anger-"
-	next "ed, it immediately"
-	next "discharges the"
+	db   "st es wütend,"
+	next "entlädt sich die"
+	next "Elektrizität, die"
+	page "es in seinen"
+	next "Backentaschen"
+	next "aufgespart hat.@"
 
-	page "energy stored in"
-	next "the pouches in its"
-	next "cheeks.@"

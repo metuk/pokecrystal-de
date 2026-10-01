@@ -1,10 +1,10 @@
-	db "ROCK@" ; species name
-	dw 104, 440 ; height, weight
+	db "GESTEIN@" ; species name
+	dw 51204, 33536 ; height, weight
 
-	db   "Proud of their"
-	next "sturdy bodies,"
-	next "they bash against"
+	db   "a sie stolz auf"
+	next "ihre harten Körper"
+	next "sind, tragen sie"
+	page "Wettbewerbe aus,"
+	next "um den Härtesten"
+	next "zu ermitteln.@"
 
-	page "each other in a"
-	next "contest to prove"
-	next "whose is harder.@"

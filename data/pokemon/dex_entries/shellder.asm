@@ -1,10 +1,10 @@
-	db "BIVALVE@" ; species name
-	dw 100, 90 ; height, weight
+	db "MUSCHEL@" ; species name
+	dw 10243, 33536 ; height, weight
 
-	db   "Clamping on to an"
-	next "opponent reveals"
-	next "its vulnerable"
+	db   "a es seine ver-"
+	next "wundbarste Stelle"
+	next "beim Klammern"
+	page "preisgibt, tut es"
+	next "dies nur in wirk-"
+	next "lichen Notfällen.@"
 
-	page "parts, so it uses"
-	next "this move only as"
-	next "a last resort.@"

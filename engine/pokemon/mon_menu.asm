@@ -383,8 +383,8 @@ GiveTakeItemMenuData:
 .Items:
 	db STATICMENU_CURSOR ; flags
 	db 2 ; # items
-	db "GIVE@"
-	db "TAKE@"
+	db "GIB@"
+	db "NIMM@"
 
 PokemonSwapItemText:
 	text_far _PokemonSwapItemText
@@ -1087,7 +1087,7 @@ MoveScreen2DMenuData:
 	db PAD_CTRL_PAD | PAD_A | PAD_B ; accepted buttons
 
 String_MoveWhere:
-	db "Where?@"
+	db "WO?@"
 
 SetUpMoveScreenBG:
 	call ClearBGPalettes
@@ -1224,9 +1224,9 @@ PlaceMoveData:
 String_MoveType_Top:
 	db "┌─────┐@"
 String_MoveType_Bottom:
-	db "│TYPE/└@"
+	db "│TYP/ └@"
 String_MoveAtk:
-	db "ATK/@"
+	db "ANGR/@"
 String_MoveNoPower:
 	db "---@"
 

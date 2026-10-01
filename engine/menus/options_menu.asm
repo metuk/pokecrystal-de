@@ -75,21 +75,7 @@ _Option:
 	ret
 
 StringOptions:
-	db "TEXT SPEED<LF>"
-	db "        :<LF>"
-	db "BATTLE SCENE<LF>"
-	db "        :<LF>"
-	db "BATTLE STYLE<LF>"
-	db "        :<LF>"
-	db "SOUND<LF>"
-	db "        :<LF>"
-	db "PRINT<LF>"
-	db "        :<LF>"
-	db "MENU ACCOUNT<LF>"
-	db "        :<LF>"
-	db "FRAME<LF>"
-	db "        :TYPE<LF>"
-	db "CANCEL@"
+	db "TEXT-TEMPO<LF>     :<LF>KAMPFANIMATION<LF>     :<LF>KAMPFSTIL<LF>     :<LF>SOUND<LF>     :<LF>DRUCKEN<LF>     :<LF>MENÜ-STEUERUNG<LF>     :<LF>RAHMEN<LF>     :TYP <LF>ZURÜCK@"
 
 GetOptionPointer:
 	jumptable .Pointers, wJumptableIndex

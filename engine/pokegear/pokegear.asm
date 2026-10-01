@@ -2178,7 +2178,7 @@ TownMapBubble:
 	ret
 
 .Where:
-	db "Where?@"
+	db "WO?@"
 
 .Name:
 ; We need the map location of the default flypoint
@@ -2470,7 +2470,7 @@ Pokedex_GetArea:
 	ret
 
 .String_SNest:
-	db "'S NEST@"
+	db " FUNDORT@"
 
 .GetAndPlaceNest:
 	ld [wTownMapCursorLandmark], a

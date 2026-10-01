@@ -1,10 +1,10 @@
-	db "LAND SNAKE@" ; species name
-	dw 411, 310 ; height, weight
+	db "SCHLANGE@" ; species name
+	dw 35855, 33792 ; height, weight
 
-	db   "It hides deep"
-	next "inside caves where"
-	next "no light ever"
+	db   "s versteckt sich"
+	next "in finsteren"
+	next "Höhlen und"
+	page "verharrt dort fast"
+	next "ohne eine einzige"
+	next "Bewegung.@"
 
-	page "reaches it and"
-	next "remains virtually"
-	next "motionless there.@"

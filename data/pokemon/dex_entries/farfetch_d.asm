@@ -1,10 +1,10 @@
-	db "WILD DUCK@" ; species name
-	dw 207, 330 ; height, weight
+	db "WILDENTE@" ; species name
+	dw 38408, 37888 ; height, weight
 
-	db   "In order to pre-"
-	next "vent their"
-	next "extinction, more"
+	db   "m sie vor dem"
+	next "Aussterben zu be-"
+	next "wahren, haben mehr"
+	page "und mehr Menschen"
+	next "begonnen, sie zu"
+	next "züchten.@"
 
-	page "people have made"
-	next "an effort to breed"
-	next "these #MON.@"

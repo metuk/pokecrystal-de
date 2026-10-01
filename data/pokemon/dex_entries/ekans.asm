@@ -1,10 +1,10 @@
-	db "SNAKE@" ; species name
-	dw 607, 150 ; height, weight
+	db "SCHLANGE@" ; species name
+	dw 17684, 33792 ; height, weight
 
-	db   "It flutters the"
-	next "tip of its tongue"
-	next "to seek out the"
+	db   "s nimmt die Ge-"
+	next "genwart von Beute"
+	next "mit seiner Zungen-"
+	page "spitze wahr. Es"
+	next "verschlingt die"
+	next "Beute am Stück.@"
 
-	page "scent of prey,"
-	next "then swallows the"
-	next "prey whole.@"

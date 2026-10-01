@@ -1,10 +1,10 @@
-	db "SUPERPOWER@" ; species name
-	dw 411, 1550 ; height, weight
+	db "KRAFTPROTZ@" ; species name
+	dw 49423, 33538 ; height, weight
 
-	db   "This tough #MON"
-	next "always stays in"
-	next "the zone. Its"
+	db   "ieses starke"
+	next "#MON wird nie "
+	next "müde. Seine"
+	page "Muskeln werden mit"
+	next "jedem Kampf dicker"
+	next "und gröせer.@"
 
-	page "muscles become"
-	next "thicker after"
-	next "every battle.@"

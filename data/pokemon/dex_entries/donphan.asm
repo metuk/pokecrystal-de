@@ -1,10 +1,10 @@
-	db "ARMOR@" ; species name
-	dw 307, 2650 ; height, weight
+	db "PANZERTIER@" ; species name
+	dw 45067, 33540 ; height, weight
 
-	db   "Because this"
-	next "#MON's skin is"
-	next "so tough, a normal"
+	db   "ie Haut dieses"
+	next "#MON ist so"
+	next "dick, dass eine"
+	page "normale Attacke"
+	next "bei ihm keine Spu-"
+	next "ren hinterlässt.@"
 
-	page "attack won't even"
-	next "leave a scratch on"
-	next "it.@"

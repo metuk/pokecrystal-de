@@ -230,6 +230,10 @@ def main():
 		for sect in obj.sections:
 			for sym in sect.symbols:
 				sym_sect[sym.name] = id(sect)
+	sect_ids_by_name = defaultdict(list)
+	for obj in objects:
+		for sect in obj.sections:
+			sect_ids_by_name[sect.name].append(id(sect))
 	chunk_by_name = {}
 	for c in all_chunks:
 		for n in c.names:
@@ -240,6 +244,7 @@ def main():
 	def infer_pointers():
 		votes = defaultdict(Counter)
 		bank_votes = defaultdict(Counter)
+		sect_name_votes = defaultdict(Counter)
 		for c in all_chunks:
 			if c.de_off is None or c.src == 'gap':
 				continue
@@ -255,6 +260,8 @@ def main():
 				pos = c.de_off + p.offset - c.start
 				if kind == 'bank':
 					bank_votes[name][base[pos]] += 1
+				elif kind == 'bank_sect':
+					sect_name_votes[name][base[pos]] += 1
 				elif kind == 'addr' and p.type == 1:
 					v = base[pos] | base[pos + 1] << 8
 					votes[name][(v - addend) & 0xffff, built_bank, chunk_bank] += 1
@@ -267,6 +274,9 @@ def main():
 		for name, cnt in bank_votes.items():
 			if name in sym_sect:
 				sect_banks[sym_sect[name]][cnt.most_common(1)[0][0]] += 1000
+		for name, cnt in sect_name_votes.items():
+			for sid in sect_ids_by_name.get(name, ()):
+				sect_banks[sid][cnt.most_common(1)[0][0]] += 1000
 
 		ptrs = {}
 		for name, cnt in votes.items():
@@ -337,6 +347,18 @@ def main():
 				inferred += 1
 
 	json.dump(de, open(args.output, 'w'), indent=0, sort_keys=True)
+
+	# Unmatched chunks, for tools/de/todo.py
+	unmatched = []
+	for c in all_chunks:
+		if c.de_off is None or c.src == 'gap':
+			line = next((sym.line for sym in c.sect.symbols if sym.value == c.start), None)
+			unmatched.append({
+				'file': c.file, 'line': line, 'names': c.names, 'section': c.sect.name,
+				'size': c.size, 'built': c.built_off,
+				'de_guess': c.de_off,
+			})
+	json.dump(unmatched, open('de_unmatched.json', 'w'), indent=0)
 
 	# Report
 	srcs = Counter(c.src for c in all_chunks)

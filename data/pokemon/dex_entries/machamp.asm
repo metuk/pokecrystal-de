@@ -1,10 +1,10 @@
-	db "SUPERPOWER@" ; species name
-	dw 503, 2870 ; height, weight
+	db "KRAFTPROTZ@" ; species name
+	dw 5136, 33541 ; height, weight
 
-	db   "With four arms"
-	next "that react more"
-	next "quickly than it"
+	db   "a seine vier Arme"
+	next "schneller sind"
+	next "als sein Gehirn,"
+	page "kann es unzählige"
+	next "Schläge parallel"
+	next "ausführen.@"
 
-	page "can think, it can"
-	next "execute many"
-	next "punches at once.@"

@@ -1,10 +1,10 @@
-	db "SEA LION@" ; species name
-	dw 307, 1980 ; height, weight
+	db "SEEHUND@" ; species name
+	dw 33803, 37379 ; height, weight
 
-	db   "The light blue fur"
-	next "that covers it"
-	next "keeps it protected"
+	db   "ein hellblaues"
+	next "Fell schützt es"
+	next "vor Kälte. Es"
+	page "liebt das"
+	next "Schwimmen in"
+	next "Eismeeren.@"
 
-	page "against the cold."
-	next "It loves iceberg-"
-	next "filled oceans.@"

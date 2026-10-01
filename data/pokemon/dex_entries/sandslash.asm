@@ -1,10 +1,10 @@
-	db "MOUSE@" ; species name
-	dw 303, 650 ; height, weight
+	db "MAUS@" ; species name
+	dw 9994, 33793 ; height, weight
 
-	db   "Adept at climbing"
-	next "trees, it rolls"
-	next "into a spiny ball,"
+	db   "s hält sich in"
+	next "Bäumen auf und"
+	next "rollt sich zu-"
+	page "sammen, um Feinde"
+	next "von oben anzu-"
+	next "greifen.@"
 
-	page "then attacks its"
-	next "enemies from"
-	next "above.@"

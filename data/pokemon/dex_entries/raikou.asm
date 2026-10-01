@@ -1,10 +1,10 @@
-	db "THUNDER@" ; species name
-	dw 603, 3920 ; height, weight
+	db "DONNER@" ; species name
+	dw 62483, 33542 ; height, weight
 
-	db   "This rough #MON"
-	next "stores energy"
-	next "inside its body,"
+	db   "ieses aggressive"
+	next "#MON speichert"
+	next "Energie in seinem"
+	page "Körper und entlädt"
+	next "sie, wenn es über"
+	next "das Land streift.@"
 
-	page "then sweeps across"
-	next "the land, shooting"
-	next "off electricity.@"

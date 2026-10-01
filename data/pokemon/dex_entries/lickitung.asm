@@ -1,10 +1,10 @@
-	db "LICKING@" ; species name
-	dw 311, 1440 ; height, weight
+	db "SCHLECKER@" ; species name
+	dw 36620, 37378 ; height, weight
 
-	db   "It has a tongue"
-	next "that is over 6'6''"
-	next "long. It uses this"
+	db   "eine Zunge ist"
+	next "über 2 m lang."
+	next "Es setzt sie ein,"
+	page "um seinen gesamten"
+	next "Körper sauber zu"
+	next "lecken.@"
 
-	page "long tongue to"
-	next "lick its body"
-	next "clean.@"

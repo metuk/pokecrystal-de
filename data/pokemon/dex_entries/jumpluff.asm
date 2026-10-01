@@ -1,10 +1,10 @@
-	db "COTTONWEED@" ; species name
-	dw 207, 70 ; height, weight
+	db "LÖWENZAHN@" ; species name
+	dw 7688, 32768 ; height, weight
 
-	db   "Even in the fierc-"
-	next "est wind, it can"
-	next "control its fluff"
+	db   "uch im stärksten"
+	next "Wind kann es kon-"
+	next "trollieren, wo"
+	page "seine Saat auf dem"
+	next "Erdball nieder-"
+	next "gehen soll.@"
 
-	page "to make its way to"
-	next "any place in the"
-	next "world it wants.@"

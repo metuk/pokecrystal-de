@@ -1,10 +1,10 @@
-	db "LONG NECK@" ; species name
-	dw 411, 910 ; height, weight
+	db "LANGHALS@" ; species name
+	dw 40719, 34817 ; height, weight
 
-	db   "When it is in"
-	next "danger, its tail"
-	next "uses some sort of"
+	db   "st es in Gefahr,"
+	next "setzt sein Schwanz"
+	next "eine Art mystische"
+	page "Kraft ein, um sich"
+	next "den Angreifer vom"
+	next "Leib zu halten.@"
 
-	page "mysterious powers"
-	next "to drive away the"
-	next "enemy.@"

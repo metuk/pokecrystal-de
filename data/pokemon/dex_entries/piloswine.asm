@@ -1,10 +1,10 @@
-	db "SWINE@" ; species name
-	dw 307, 1230 ; height, weight
+	db "SCHWEIN@" ; species name
+	dw 11787, 37634 ; height, weight
 
-	db   "Although its legs"
-	next "are short, its"
-	next "rugged hooves"
+	db   "rotz kurzer Beine"
+	next "rutscht es auf"
+	next "eisigen Flächen"
+	page "nicht aus, da sei-"
+	next "ne Hufe ihm genü-"
+	next "gend Halt bieten.@"
 
-	page "prevent it from"
-	next "slipping, even on"
-	next "icy ground.@"

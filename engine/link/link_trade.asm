@@ -123,7 +123,7 @@ InitTradeSpeciesList:
 	ret
 
 .CancelString:
-	db "CANCEL@"
+	db "ABBRECHEN@"
 
 _LoadTradeScreenBorderGFX:
 	call __LoadTradeScreenBorderGFX

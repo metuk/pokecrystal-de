@@ -155,7 +155,7 @@ GoldenrodGameCornerTMVendorMenuHeader:
 	db "TM25    {4d:GOLDENRODGAMECORNER_TM25_COINS}@"
 	db "TM14    {4d:GOLDENRODGAMECORNER_TM14_COINS}@"
 	db "TM38    {4d:GOLDENRODGAMECORNER_TM38_COINS}@"
-	db "CANCEL@"
+	db "ZURÜCK@"
 
 GoldenrodGameCornerPrizeMonVendorScript:
 	faceplayer
@@ -239,9 +239,9 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
 	db "ABRA       {4d:GOLDENRODGAMECORNER_ABRA_COINS}@"
-	db "CUBONE     {4d:GOLDENRODGAMECORNER_CUBONE_COINS}@"
-	db "WOBBUFFET  {4d:GOLDENRODGAMECORNER_WOBBUFFET_COINS}@"
-	db "CANCEL@"
+	db "TRAGOSSO    800@"
+	db "WOINGENAU  1500@"
+	db "ZURÜCK@"
 
 GoldenrodGameCornerPharmacistScript:
 	faceplayer

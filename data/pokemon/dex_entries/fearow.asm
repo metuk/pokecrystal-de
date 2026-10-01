@@ -1,10 +1,10 @@
-	db "BEAK@" ; species name
-	dw 311, 840 ; height, weight
+	db "PICKVOGEL@" ; species name
+	dw 31756, 33537 ; height, weight
 
-	db   "It uses its long"
-	next "beak to attack. It"
-	next "has a surprisingly"
+	db   "a es mit seinem"
+	next "langen Schnabel"
+	next "angreift, verfügt"
+	page "es über eine nicht"
+	next "zu unterschätzende"
+	next "Reichweite.@"
 
-	page "long reach, so it"
-	next "must be treated"
-	next "with caution.@"

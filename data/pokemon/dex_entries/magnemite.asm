@@ -1,10 +1,10 @@
 	db "MAGNET@" ; species name
-	dw 100, 130 ; height, weight
+	dw 15363, 33024 ; height, weight
 
-	db   "The electricity"
-	next "emitted by the"
-	next "units on each side"
+	db   "eide Elemente an"
+	next "seinem Körper"
+	next "strahlen so viel"
+	page "Elektrizität ab,"
+	next "dass es ein star-"
+	next "ker Magnet wird.@"
 
-	page "of its body cause"
-	next "it to become a"
-	next "strong magnet.@"

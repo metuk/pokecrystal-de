@@ -298,7 +298,7 @@ OakTimeWhatTimeIsItText:
 	text_end
 
 String_oclock:
-	db "o'clock@"
+	db "UHR@"
 
 OakTimeWhatHoursText:
 	; What?@ @

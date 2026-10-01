@@ -1,10 +1,10 @@
 	db "LAVA@" ; species name
-	dw 207, 1210 ; height, weight
+	dw 9736, 37378 ; height, weight
 
-	db   "Its body is as hot"
-	next "as lava and is"
-	next "always billowing."
+	db   "ein Körper ist"
+	next "heiせer als Lava"
+	next "und wogt stets."
+	page "Manchmal schieせen"
+	next "Flammen aus seinem"
+	next "Haus.@"
 
-	page "Flames will"
-	next "occasionally burst"
-	next "from its shell.@"

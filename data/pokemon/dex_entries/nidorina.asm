@@ -1,10 +1,10 @@
-	db "POISON PIN@" ; species name
-	dw 207, 440 ; height, weight
+	db "GIFTDORN@" ; species name
+	dw 51208, 33792 ; height, weight
 
-	db   "It has a docile"
-	next "nature. If it is"
-	next "threatened with"
+	db   "s hat ein ruhiges"
+	next "Wesen. Wird es an-"
+	next "gegriffen, stellt"
+	page "es die Stacheln"
+	next "an seinem Körper"
+	next "auf.@"
 
-	page "attack, it raises"
-	next "the barbs that are"
-	next "all over its body.@"

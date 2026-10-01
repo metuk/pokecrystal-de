@@ -1,10 +1,10 @@
-	db "FOX@" ; species name
-	dw 200, 220 ; height, weight
+	db "FUCHS@" ; species name
+	dw 25350, 38400 ; height, weight
 
-	db   "As its body grows"
-	next "larger, its six"
-	next "warm tails become"
+	db   "enn es wächst,"
+	next "wird sein warmer"
+	next "6fach-Schweif"
+	page "schöner und be-"
+	next "kommt ein"
+	next "weicheres Fell.@"
 
-	page "more beautiful,"
-	next "with a more luxur-"
-	next "ious coat of fur.@"

@@ -1,10 +1,10 @@
-	db "MEGATON@" ; species name
-	dw 407, 6620 ; height, weight
+	db "URGESTEIN@" ; species name
+	dw 47118, 37387 ; height, weight
 
-	db   "Its rock-like body"
-	next "is so durable,"
-	next "even high-powered"
+	db   "ein felsartiger"
+	next "Körper ist so"
+	next "hart, dass selbst"
+	page "Dynamit keine"
+	next "Kratzer in seiner"
+	next "Haut hinterlässt.@"
 
-	page "dynamite blasts"
-	next "fail to scratch"
-	next "its rugged hide.@"

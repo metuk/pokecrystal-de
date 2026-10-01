@@ -1,10 +1,10 @@
-	db "PARENT@" ; species name
-	dw 703, 1760 ; height, weight
+	db "MUTTERTIER@" ; species name
+	dw 8214, 33539 ; height, weight
 
-	db   "To avoid"
-	next "crushing the"
-	next "baby it carries in"
+	db   "a es sein Baby,"
+	next "das in seinem"
+	next "Beutel sitzt,"
+	page "nicht verletzen"
+	next "will, schläft"
+	next "es im Stehen.@"
 
-	page "its pouch, it"
-	next "always sleeps"
-	next "standing up.@"

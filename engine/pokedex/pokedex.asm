@@ -1203,13 +1203,12 @@ Pokedex_DrawOptionScreenBG:
 	db $3b, " OPTION ", $3c, -1
 
 .Modes:
-	db   "NEW #DEX MODE"
-	next "OLD #DEX MODE"
-	next "A to Z MODE"
-	db   "@"
+	db   "NEUER #DEX"
+	next "ALTER #DEX"
+	next "A bis Z@"
 
 .UnownMode:
-	db "UNOWN MODE@"
+	db "ICOGNITO INDEX@"
 
 Pokedex_DrawSearchScreenBG:
 	call Pokedex_FillBackgroundColor2
@@ -1240,14 +1239,12 @@ Pokedex_DrawSearchScreenBG:
 	db $3d, "        ", $3e, -1
 
 .Types:
-	db   "TYPE1"
-	next "TYPE2"
-	db   "@"
+	db   "TYP1"
+	next "TYP2@"
 
 .Menu:
-	db   "BEGIN SEARCH!!"
-	next "CANCEL"
-	db   "@"
+	db   "SUCHE BEGINNEN!!"
+	next "ZURÜCK@"
 
 Pokedex_DrawSearchResultsScreenBG:
 	call Pokedex_FillBackgroundColor2
@@ -1280,10 +1277,9 @@ Pokedex_DrawSearchResultsScreenBG:
 	ret
 
 .BottomWindowText:
-	db   "SEARCH RESULTS"
-	next "  TYPE"
-	next "    FOUND!"
-	db   "@"
+	db   "Ergebnisse"
+	next "Element"
+	next "    gefunden@"
 
 Pokedex_PlaceSearchResultsTypeStrings:
 	ld a, [wDexSearchMonType1]
@@ -1732,20 +1728,20 @@ Pokedex_DisplayModeDescription:
 	dw .UnownMode
 
 .NewMode:
-	db   "<PK><MN> are listed by"
-	next "evolution type.@"
+	db   "<PKMN> nach"
+	next "Evolution ordnen.@"
 
 .OldMode:
-	db   "<PK><MN> are listed by"
-	next "official type.@"
+	db   "<PKMN> traditionell"
+	next "ordnen.@"
 
 .ABCMode:
-	db   "<PK><MN> are listed"
-	next "alphabetically.@"
+	db   "<PKMN> nach"
+	next "Alphabet ordnen.@"
 
 .UnownMode:
-	db   "UNOWN are listed"
-	next "in catching order.@"
+	db   "ICOGNITO in"
+	next "Fangreihenfolge.@"
 
 Pokedex_DisplayChangingModesMessage:
 	xor a
@@ -1767,8 +1763,8 @@ Pokedex_DisplayChangingModesMessage:
 	ret
 
 String_ChangingModesPleaseWait:
-	db   "Changing modes."
-	next "Please wait.@"
+	db   "Moduswechsel."
+	next "Bitte warten.@"
 
 Pokedex_UpdateSearchMonType:
 	ld a, [wDexArrowCursorPosIndex]
@@ -1967,8 +1963,8 @@ Pokedex_DisplayTypeNotFoundMessage:
 	ret
 
 .TypeNotFound:
-	db   "The specified type"
-	next "was not found.@"
+	db   "Gesuchtes Element"
+	next "nicht gefunden.@"
 
 Pokedex_UpdateCursorOAM:
 	ld a, [wCurDexMode]

@@ -1,10 +1,10 @@
-	db "LIGHTNING@" ; species name
-	dw 207, 540 ; height, weight
+	db "BLITZ@" ; species name
+	dw 62728, 33536 ; height, weight
 
-	db   "The negatively"
-	next "charged ions"
-	next "generated in its"
+	db   "ie negative La-"
+	next "dung der Ionen in"
+	next "seinem Fell ist"
+	page "die Ursache für"
+	next "das ständige Fun-"
+	next "kensprunggeräusch.@"
 
-	page "fur create a"
-	next "constant sparking"
-	next "noise.@"

@@ -28,16 +28,16 @@ PrintDayOfWeek:
 	ret
 
 .Days:
-	db "SUN@"
-	db "MON@"
-	db "TUES@"
-	db "WEDNES@"
-	db "THURS@"
-	db "FRI@"
-	db "SATUR@"
+	db "SONNTAG@"
+	db "MONTAG@"
+	db "DIENSTAG@"
+	db "MITTWOCH@"
+	db "DONNERSTAG@"
+	db "FREITAG@"
+	db "SAMSTAG@"
 
 .Day:
-	db "DAY@"
+	db "@"
 
 NewGame_ClearTilemapEtc:
 	xor a
@@ -778,7 +778,7 @@ NamePlayer:
 .Chris:
 	dname "CHRIS", NAME_LENGTH
 .Kris:
-	dname "KRIS", NAME_LENGTH
+	dname "KRISTA", NAME_LENGTH
 
 GSShowPlayerNamingChoices: ; unreferenced
 	call LoadMenuHeader

@@ -1,10 +1,10 @@
-	db "ROCK SKIN@" ; species name
-	dw 200, 1590 ; height, weight
+	db "FELSHAUT@" ; species name
+	dw 53254, 33794 ; height, weight
 
-	db   "Born deep under-"
-	next "ground, this"
-	next "#MON becomes a"
+	db   "s wurde tief im"
+	next "Erdreich geboren."
+	next "Hat es einen Berg"
+	page "Erde gefressen,"
+	next "verpuppt sich"
+	next "dieses #MON.@"
 
-	page "pupa after eating"
-	next "enough dirt to"
-	next "make a mountain.@"

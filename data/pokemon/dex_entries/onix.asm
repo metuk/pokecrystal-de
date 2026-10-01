@@ -1,10 +1,10 @@
-	db "ROCK SNAKE@" ; species name
-	dw 2810, 4630 ; height, weight
+	db "FELSNATTER@" ; species name
+	dw 13400, 38408 ; height, weight
 
-	db   "As it digs through"
-	next "the ground, it"
-	next "absorbs many hard"
+	db   "enn es sich durch"
+	next "die Erde gräbt,"
+	next "nimmt es viele"
+	page "harte Gegenstände"
+	next "auf, die seinen"
+	next "Körper erhärten.@"
 
-	page "objects. This is"
-	next "what makes its"
-	next "body so solid.@"

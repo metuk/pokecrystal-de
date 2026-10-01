@@ -1,10 +1,10 @@
-	db "STRINGSPIT@" ; species name
-	dw 108, 190 ; height, weight
+	db "FADENWURF@" ; species name
+	dw 21765, 34048 ; height, weight
 
-	db   "If prey becomes"
-	next "ensnared in its"
-	next "nest of spun"
+	db   "alls sich Beute"
+	next "in seinem Netz"
+	next "verfängt, verharrt"
+	page "es bewegungslos"
+	next "bis zum Einbruch"
+	next "der Nacht.@"
 
-	page "string, it waits"
-	next "motionlessly until"
-	next "it becomes dark.@"

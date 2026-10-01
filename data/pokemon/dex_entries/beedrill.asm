@@ -1,10 +1,10 @@
-	db "POISON BEE@" ; species name
-	dw 303, 650 ; height, weight
+	db "GIFTBIENE@" ; species name
+	dw 9994, 35841 ; height, weight
 
-	db   "It uses sharp,"
-	next "poisonous stings"
-	next "to defeat prey,"
+	db   "it seinen Gift-"
+	next "stacheln über-"
+	next "wältigt es seine"
+	page "Beute, die es"
+	next "dann zu seinem"
+	next "Stock trägt.@"
 
-	page "then takes the"
-	next "victim back to its"
-	next "nest for food.@"

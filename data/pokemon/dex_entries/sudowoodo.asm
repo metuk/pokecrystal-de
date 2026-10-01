@@ -1,10 +1,10 @@
 	db "IMITATION@" ; species name
-	dw 311, 840 ; height, weight
+	dw 31756, 33025 ; height, weight
 
-	db   "If a tree branch"
-	next "shakes when there"
-	next "is no wind, it's a"
+	db   "ewegt ein Baum"
+	next "bei Windstille "
+	next "einen Ast, ist es"
+	page "ein MOGELBAUM,"
+	next "das sich vor dem"
+	next "Regen schützt.@"
 
-	page "SUDOWOODO, not a"
-	next "tree. It hides"
-	next "from the rain.@"

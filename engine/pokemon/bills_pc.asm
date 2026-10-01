@@ -1008,7 +1008,7 @@ BillsPC_BoxName:
 	ret
 
 .PartyPKMN:
-	db "PARTY <PK><MN>@"
+	db "Dein Team@"
 
 PCMonInfo:
 ; Display a monster's pic and
@@ -1255,7 +1255,7 @@ endr
 	ret
 
 .CancelString:
-	db "CANCEL@"
+	db "ZURÜCK@"
 
 .PlaceNickname:
 	ld a, [de]
@@ -1971,7 +1971,7 @@ MovePKMNWithoutMail_InsertMon:
 	ret
 
 .Saving_LeaveOn:
-	db "Saving… Leave ON!@"
+	db "Speichern…@"
 
 .Jumptable:
 	dw .BoxToBox
@@ -2385,7 +2385,7 @@ BillsPC_PrintBoxName:
 	ret
 
 .Current:
-	db "CURRENT@"
+	db "Aktiviert@"
 
 BillsPC_ChangeBoxSubmenu:
 	ld hl, .MenuHeader
@@ -2465,24 +2465,24 @@ BillsPC_ChangeBoxSubmenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "SWITCH@"
+	db "WECH.@"
 	db "NAME@"
-	db "PRINT@"
-	db "QUIT@"
+	db "DRUCK@"
+	db "ZURÜCK@"
 
 BillsPC_PlaceChooseABoxString:
 	ld de, .ChooseABox
 	jr BillsPC_PlaceChangeBoxString
 
 .ChooseABox:
-	db "Choose a BOX.@"
+	db "<PK><MN>-BOX wählen.@"
 
 BillsPC_PlaceWhatsUpString:
 	ld de, .WhatsUp
 	jr BillsPC_PlaceChangeBoxString
 
 .WhatsUp:
-	db "What's up?@"
+	db "Wähle!@"
 
 BillsPC_PlaceEmptyBoxString_SFX:
 	ld de, .NoMonString
@@ -2495,7 +2495,7 @@ BillsPC_PlaceEmptyBoxString_SFX:
 	ret
 
 .NoMonString:
-	db "There's no #MON.@"
+	db "Kein #MON!@"
 
 BillsPC_PlaceChangeBoxString:
 	push de

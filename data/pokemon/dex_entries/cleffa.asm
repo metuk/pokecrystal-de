@@ -1,10 +1,10 @@
-	db "STARSHAPE@" ; species name
-	dw 100, 70 ; height, weight
+	db "STERNFORM@" ; species name
+	dw 7683, 38400 ; height, weight
 
-	db   "If the impact site"
-	next "of a meteorite is"
-	next "found, this"
+	db   "enn man den Ein-"
+	next "schlagkrater eines"
+	next "Meteors findet,"
+	page "ist dieses #MON"
+	next "bestimmt in der"
+	next "Nähe.@"
 
-	page "#MON is certain"
-	next "to be within the"
-	next "immediate area.@"

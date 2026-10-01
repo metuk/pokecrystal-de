@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
-	dw 303, 260 ; height, weight
+	db "BALLON@" ; species name
+	dw 30730, 37376 ; height, weight
 
-	db   "The rich, fluffy"
-	next "fur that covers"
-	next "its body feels so"
+	db   "ein dichtes,"
+	next "flauschiges Fell "
+	next "fühlt sich so toll"
+	page "an, dass man nicht"
+	next "aufhören kann, es"
+	next "anzufassen.@"
 
-	page "good that anyone"
-	next "who feels it can't"
-	next "stop touching it.@"

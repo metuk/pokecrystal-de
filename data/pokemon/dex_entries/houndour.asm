@@ -1,10 +1,10 @@
-	db "DARK@" ; species name
-	dw 200, 240 ; height, weight
+	db "HADES@" ; species name
+	dw 27654, 34816 ; height, weight
 
-	db   "Around dawn, its"
-	next "ominous howl"
-	next "echoes through the"
+	db   "m Morgengrauen"
+	next "schallt sein omi-"
+	next "nöses Geheule über"
+	page "das Gebiet, das es"
+	next "für sich"
+	next "beansprucht.@"
 
-	page "area to announce"
-	next "that this is its"
-	next "territory.@"

@@ -1,10 +1,10 @@
-	db "COCONUT@" ; species name
-	dw 607, 2650 ; height, weight
+	db "PALMFRUCHT@" ; species name
+	dw 45076, 34052 ; height, weight
 
-	db   "Living in a good"
-	next "environment makes"
-	next "it grow lots of"
+	db   "ühlt es sich"
+	next "wohl, wachsen ihm"
+	next "Köpfe. Fällt ein"
+	page "Kopf zu Boden,"
+	next "wird daraus ein"
+	next "OWEI.@"
 
-	page "heads. A head that"
-	next "drops off becomes"
-	next "an EXEGGCUTE.@"

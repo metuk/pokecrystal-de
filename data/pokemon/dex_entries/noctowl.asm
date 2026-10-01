@@ -1,10 +1,10 @@
-	db "OWL@" ; species name
-	dw 503, 900 ; height, weight
+	db "EULE@" ; species name
+	dw 38928, 32769 ; height, weight
 
-	db   "Its extremely soft"
-	next "feathers make no"
-	next "sound in flight."
+	db   "ufgrund seiner"
+	next "weichen Federn"
+	next "fliegt es so lei-"
+	page "se, dass es sich"
+	next "unbemerkt seiner"
+	next "Beute nähern kann.@"
 
-	page "It silently sneaks"
-	next "up on prey without"
-	next "being detected.@"

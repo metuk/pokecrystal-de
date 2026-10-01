@@ -1,10 +1,10 @@
 	db "ANGLER@" ; species name
-	dw 108, 260 ; height, weight
+	dw 30725, 37376 ; height, weight
 
-	db   "Its antennae, whi-"
-	next "ch evolved from a"
-	next "fin, have both po-"
+	db   "eine Antennen,"
+	next "die aus Flossen"
+	next "entstanden sind,"
+	page "sind sowohl posi-"
+	next "tiv als auch"
+	next "negativ geladen.@"
 
-	page "sitive and neg-"
-	next "ative charges flo-"
-	next "wing through them.@"

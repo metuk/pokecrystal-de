@@ -1,10 +1,10 @@
-	db "BUTTERFLY@" ; species name
-	dw 307, 710 ; height, weight
+	db "FALTER@" ; species name
+	dw 16395, 33793 ; height, weight
 
-	db   "It flits from"
-	next "flower to flower,"
-	next "collecting honey."
+	db   "s eilt von Blume"
+	next "zu Blume, ständig"
+	next "auf der Suche nach"
+	page "Honig. Es kann"
+	next "Blumen an deren"
+	next "Blüten erkennen.@"
 
-	page "It can even"
-	next "identify distant"
-	next "flowers in bloom.@"
