@@ -157,6 +157,32 @@ def main():
 	sects = build_chunks(objects)
 	all_chunks = [c for cs in sects for c in cs]
 
+	banned = set()
+	STRENGTH = {'unique-bank': 3, 'unique-rom': 3, 'ptr': 2, 'local': 2, 'seq': 1}
+
+	def place(c, off, src):
+		if (id(c), off) in banned:
+			return False
+		c.de_off, c.src = off, src
+		return True
+
+	def resolve_overlaps():
+		"""Each German byte belongs to at most one chunk; drop the weaker claim (or both)."""
+		placed = sorted((c for c in all_chunks if c.de_off is not None and c.src != 'gap' and c.size),
+			key=lambda c: c.de_off)
+		drop = set()
+		for a, b in zip(placed, placed[1:]):
+			if b.de_off < a.de_off + a.size:
+				sa, sb = STRENGTH.get(a.src, 0), STRENGTH.get(b.src, 0)
+				if sa >= sb:
+					drop.add(b)
+				if sb >= sa:
+					drop.add(a)
+		for c in drop:
+			banned.add((id(c), c.de_off))
+			c.de_off = c.src = None
+		return len(drop)
+
 	# Pass 1: unique global matches of specific chunks (prefer the same bank)
 	for c in all_chunks:
 		if c.spec() < MIN_SPEC:
@@ -203,9 +229,9 @@ def main():
 							continue
 						if c.spec() < WEAK_SPEC and not weak_ok:
 							continue
-						good = [off for off in candidates(cs, i, c) if c.matches_at(base, off)]
+						good = [off for off in candidates(cs, i, c) if c.matches_at(base, off) and (id(c), off) not in banned]
 						if good:
-							c.de_off, c.src = good[0], 'seq'
+							place(c, good[0], 'seq')
 							changed = True
 
 	# Pass 3: local search for short chunks between matched neighbours
@@ -223,7 +249,7 @@ def main():
 					continue
 				found = search(base, c.pattern(), lo, hi)
 				if len(found) == 1:
-					c.de_off, c.src = found[0], 'local'
+					place(c, found[0], 'local')
 
 	sym_sect = {}
 	for obj in objects:
@@ -301,6 +327,7 @@ def main():
 			ptrs[name] = (bank, addr)
 		return ptrs
 
+	resolve_overlaps()
 	ptrs = {}
 	for _ in range(20):
 		propagate()
@@ -312,9 +339,9 @@ def main():
 			if c is None or c.de_off is not None:
 				continue
 			off = rom_offset(bank, addr)
-			if c.matches_at(base, off):
-				c.de_off, c.src = off, 'ptr'
+			if c.matches_at(base, off) and place(c, off, 'ptr'):
 				new += 1
+		new += resolve_overlaps()
 		if not new:
 			break
 

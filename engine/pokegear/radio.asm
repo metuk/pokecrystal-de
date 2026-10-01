@@ -1042,15 +1042,15 @@ LC_Text9:
 	text_end
 
 LC_Text10:
-	text_far _LC_Text8
+	text_far _LC_Text10
 	text_end
 
 LC_Text11:
-	text_far _LC_Text9
+	text_far _LC_Text11
 	text_end
 
 LC_DragText1:
-	text_far _LC_Text10
+	text_far _LC_DragText1
 	text_end
 
 LC_DragText2:

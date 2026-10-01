@@ -281,13 +281,13 @@ PlayersPCMenuData:
 	dw PlayerLogOffMenu,       .LogOff
 	dw PlayerLogOffMenu,       .TurnOff
 
-.WithdrawItem: db "WITHDRAW ITEM@"
-.DepositItem:  db "DEPOSIT ITEM@"
-.TossItem:     db "TOSS ITEM@"
-.MailBox:      db "MAIL BOX@"
-.Decoration:   db "DECORATION@"
-.TurnOff:      db "TURN OFF@"
-.LogOff:       db "LOG OFF@"
+.WithdrawItem: db "ITEM AUFNEHMEN@"
+.DepositItem:  db "ITEM ABLEGEN@"
+.TossItem:     db "ITEM WEGWERFEN@"
+.MailBox:      db "BRIEFKASTEN@"
+.Decoration:   db "DEKORATION@"
+.TurnOff:      db "AUSLOGGEN@"
+.LogOff:       db "AUSLOGGEN@"
 
 .WhichPC:
 ; entries correspond to PLAYERSPC_* constants

@@ -234,10 +234,10 @@ BillsPCDepositMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "DEPOSIT@"
-	db "STATS@"
-	db "RELEASE@"
-	db "CANCEL@"
+	db "ABLEGEN@"
+	db "STATUS@"
+	db "FREILASSEN@"
+	db "ZURÜCK@"
 
 BillsPCClearThreeBoxes: ; unreferenced
 	hlcoord 0, 0
@@ -487,10 +487,10 @@ BillsPC_Withdraw:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "WITHDRAW@"
-	db "STATS@"
-	db "RELEASE@"
-	db "CANCEL@"
+	db "MITNEHMEN@"
+	db "STATUS@"
+	db "FREILASSEN@"
+	db "ZURÜCK@"
 
 _MovePKMNWithoutMail:
 	ld hl, wOptions
@@ -697,9 +697,9 @@ _MovePKMNWithoutMail:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "MOVE@"
-	db "STATS@"
-	db "CANCEL@"
+	db "WECHSELN@"
+	db "STATUS@"
+	db "ZURÜCK@"
 
 .PrepInsertCursor:
 	xor a
@@ -2215,10 +2215,10 @@ PCString_RemoveMail: db "Entferne BRIEF.@"
 PCString_ReleasedPKMN: db "<PK><MN> freigelassen.@"
 PCString_Bye: db "Ade, @"
 PCString_Stored: db " abgel.!@"
-PCString_Got: db "Got @"
-PCString_Non: db "Non.@" ; unreferenced
-PCString_BoxFull: db "The BOX is full.@"
-PCString_PartyFull: db "The party's full!@"
+PCString_Got: db " erhal.!@"
+PCString_Non: db "Nein@" ; unreferenced
+PCString_BoxFull: db "Die BOX ist voll!@"
+PCString_PartyFull: db "Team ist voll!@"
 PCString_NoReleasingEGGS: db "EI ablegen verbt.!@"
 
 _ChangeBox:

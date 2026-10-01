@@ -37,15 +37,15 @@ BattleMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	dn 2, 2 ; rows, columns
-	db 6 ; spacing
+	db 7 ; spacing
 	dba .Text
 	dbw BANK(@), NULL
 
 .Text:
-	db "FIGHT@"
+	db "KMPF@"
 	db "<PKMN>@"
-	db "PACK@"
-	db "RUN@"
+	db "BEUTEL@"
+	db "FLUCHT@"
 
 SafariBattleMenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -82,15 +82,15 @@ ContestBattleMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	dn 2, 2 ; rows, columns
-	db 12 ; spacing
+	db 8 ; spacing
 	dba .Text
 	dba .PrintParkBallsRemaining
 
 .Text:
-	db "FIGHT@"
+	db "KMPF@"
 	db "<PKMN>@"
-	db "PARKBALL×  @"
-	db "RUN@"
+	db "BALL×  @"
+	db "FLUCHT@"
 
 .PrintParkBallsRemaining:
 	hlcoord 13, 16

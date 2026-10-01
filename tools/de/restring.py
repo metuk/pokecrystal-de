@@ -251,6 +251,16 @@ class Walker:
 				i = run[-1][0] + 1
 				continue
 
+			if macro == 'db' and args and all(re.fullmatch(r'-?\d+|\$[0-9a-fA-F]+', a) for a in args):
+				de_vals = list(self.rom[pos:pos + len(args)])
+				if de_vals != list(self.built[bpos:bpos + len(args)]):
+					fmt = [f'${v:02x}' if a.startswith('$') else str(v) for a, v in zip(args, de_vals)]
+					out[i] = f'{indent}db {", ".join(fmt)}' + (f' {comment}' if comment else '')
+				pos += len(args)
+				bpos += len(args)
+				i += 1
+				continue
+
 			if macro in ('db', 'dw') and args and not any(a.startswith('"') for a in args):
 				size = (1 if macro == 'db' else 2) * len(args)
 				if macro == 'dw' and all(re.fullmatch(r'\d+', a) for a in args):
@@ -268,6 +278,18 @@ class Walker:
 					out[i] = f'{indent}menu_coords {x1}, {y1}, {x2}, {y2}' + (f' {comment}' if comment else '')
 				pos += 4
 				bpos += 4
+				i += 1
+				continue
+
+			if macro == 'dn' and len(args) % 2 == 0:
+				pos += len(args) // 2
+				bpos += len(args) // 2
+				i += 1
+				continue
+
+			if macro in ('dba', 'dab') and len(args) == 1:
+				pos += 3
+				bpos += 3
 				i += 1
 				continue
 

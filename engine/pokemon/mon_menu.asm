@@ -552,9 +552,9 @@ MonMailAction:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "READ@"
-	db "TAKE@"
-	db "QUIT@"
+	db "LIES@"
+	db "NIMM@"
+	db "ZURÜCK@"
 
 .MailLoseMessageText:
 	text_far _MailLoseMessageText
