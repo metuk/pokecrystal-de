@@ -34,14 +34,14 @@ CheckMagikarpLength:
 
 	; Did we beat the record?
 	ld hl, wMagikarpLength
-	ld de, wBestMagikarpLengthFeet
+	ld de, wBestMagikarpLength
 	ld c, 2
 	call CompareBytes
 	jr nc, .not_long_enough
 
 	; NEW RECORD!!! Let's save that.
 	ld hl, wMagikarpLength
-	ld de, wBestMagikarpLengthFeet
+	ld de, wBestMagikarpLength
 	ld a, [hli]
 	ld [de], a
 	inc de
@@ -270,9 +270,9 @@ CalcMagikarpLength:
 INCLUDE "data/events/magikarp_lengths.asm"
 
 MagikarpHouseSign:
-	ld a, [wBestMagikarpLengthFeet]
+	ld a, [wBestMagikarpLength]
 	ld [wMagikarpLength], a
-	ld a, [wBestMagikarpLengthInches]
+	ld a, [wBestMagikarpLength + 1]
 	ld [wMagikarpLength + 1], a
 	call PrintMagikarpLength
 	ld hl, .KarpGuruRecordText

@@ -3480,8 +3480,7 @@ wRoamMons_CurMapGroup:: db
 wRoamMons_LastMapNumber:: db
 wRoamMons_LastMapGroup:: db
 
-wBestMagikarpLengthFeet:: db
-wBestMagikarpLengthInches:: db
+wBestMagikarpLength:: ds 2 ; big-endian, in mm
 wMagikarpRecordHoldersName:: ds NAME_LENGTH
 
 wPokemonDataEnd::

@@ -1,6 +1,6 @@
 # Instructions
 
-These instructions explain how to set up the tools required to build **pokecrystal**, including [**rgbds**](https://github.com/gbdev/rgbds), which assembles the source files into a ROM.
+These instructions explain how to set up the tools required to build **pokecrystal-de**, including [**rgbds**](https://github.com/gbdev/rgbds), which assembles the source files into a ROM.
 
 If you run into trouble, ask for help on IRC or Discord (see [README.md](README.md)).
 
@@ -58,7 +58,7 @@ cd /cygdrive/c/Users/<user>/Desktop
 
 (The Windows `C:\` drive is called `/cygdrive/c/` in Cygwin. Replace *\<user>* in the example path with your username.)
 
-Now you're ready to [build **pokecrystal**](#build-pokecrystal).
+Now you're ready to [build **pokecrystal-de**](#build-pokecrystal-de).
 
 
 ## macOS
@@ -69,7 +69,7 @@ Open **Terminal** and prepare to enter commands.
 
 Then follow the [**rgbds** instructions](https://rgbds.gbdev.io/install#pre-built) for macOS to install **rgbds 1.0.4**.
 
-Now you're ready to [build **pokecrystal**](#build-pokecrystal).
+Now you're ready to [build **pokecrystal-de**](#build-pokecrystal-de).
 
 
 ## Linux
@@ -133,38 +133,34 @@ If your distro is not listed here, try to find the required software in its repo
 
 If `rgbds` is not available, you'll need to follow the [**rgbds** instructions](https://rgbds.gbdev.io/install#building-from-source) to build **rgbds 1.0.4** from source.
 
-Now you're ready to [build **pokecrystal**](#build-pokecrystal).
+Now you're ready to [build **pokecrystal-de**](#build-pokecrystal-de).
 
 
-## Build pokecrystal
+## Build pokecrystal-de
 
-To download the **pokecrystal** source files:
+To download the **pokecrystal-de** source files:
 
 ```bash
-git clone https://github.com/pret/pokecrystal
-cd pokecrystal
+git clone https://github.com/metuk/pokecrystal-de
+cd pokecrystal-de
 ```
 
-To build **pokecrystal.gbc**:
+To build **pokecrystal-de.gbc**:
 
 ```bash
 make
 ```
 
-To build **pokecrystal11.gbc**:
+To check that it matches the original ROM (Pokemon - Kristall-Edition (Germany), `sha1: accb584293ba056152f1fd908439b019017ff2fe`):
 
 ```bash
-make crystal11
+make compare
 ```
 
 ### Build with a local rgbds version
 
-If you have different projects that require different versions of `rgbds`, it might not be convenient to install rgbds 1.0.4 globally. Instead, you can put its files in a directory within pokecrystal, such as `pokecrystal/rgbds-1.0.4/`. Then specify it when you run `make`:
+If you have different projects that require different versions of `rgbds`, it might not be convenient to install rgbds 1.0.4 globally. Instead, you can put its files in a directory within pokecrystal-de, such as `pokecrystal-de/rgbds-1.0.4/`. Then specify it when you run `make`:
 
 ```bash
 make RGBDS=rgbds-1.0.4/
-```
-
-```bash
-make RGBDS=rgbds-1.0.4/ crystal11
 ```

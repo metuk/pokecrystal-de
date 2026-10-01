@@ -265,7 +265,7 @@ SetDefaultBoxNames:
 	db "BOX@"
 
 InitializeMagikarpHouse:
-	ld hl, wBestMagikarpLengthFeet
+	ld hl, wBestMagikarpLength
 	ld a, HIGH(1053) ; mm
 	ld [hli], a
 	ld a, LOW(1053)

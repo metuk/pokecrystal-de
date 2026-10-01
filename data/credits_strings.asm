@@ -105,10 +105,10 @@ CreditsStringsPointers:
 	dw .MobileStadiumDir
 	dw .Coordination
 	dw .Copyright
-	dw .UsVersionStaff
-	dw .UsCoordination
+	dw .GermanVersionStaff
+	dw .EuropeCoordination
 	dw .TextTranslation
-	dw .PaadTesting
+	dw .GermanProductTesting
 	dw .TextCheck
 	assert_table_length NUM_CREDITS_STRINGS
 
@@ -220,10 +220,10 @@ CreditsStringsPointers:
 .MobileSystemAd:      db "@"                          ; "モバイル　システムアドバイザー@"
 .MobileStadiumDir:    db "@"                          ; "モバイルスタジアム　ディレクター@"
 .Coordination:        db "    Koordination@"          ; "コーディネーター@"
-.UsVersionStaff:      db "   Deutsches Team@"
-.UsCoordination:      db "Europa-Koordination@"
+.GermanVersionStaff:  db "   Deutsches Team@"
+.EuropeCoordination:  db "Europa-Koordination@"
 .TextTranslation:     db "   Deutscher Text@"
-.PaadTesting:         db "  Product-Testing@"
+.GermanProductTesting: db "  Product-Testing@"
 .TextCheck:           db "     Text Check@"
 
 .Copyright:

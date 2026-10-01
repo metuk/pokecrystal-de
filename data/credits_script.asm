@@ -190,24 +190,24 @@ CreditsScript:
 ; Update the banner.
 	db CREDITS_SCENE, 3 ; Igglybuff
 
-	db     US_VERSION_STAFF, 2
+	db     GERMAN_VERSION_STAFF, 2
 
 	db CREDITS_WAIT, 9
 
-	db      US_COORDINATION, 1
+	db      EUROPE_COORDINATION, 1
 	db              KAI_ZEH, 2
 	db      HIROYUKI_UESUGI, 3
 
 	db CREDITS_WAIT, 12
 
-	db      US_COORDINATION, 1
+	db      EUROPE_COORDINATION, 1
 	db       JUNICHI_MASUDA, 2
 	db        KOHJI_NISHINO, 3
 	db      KUNIMI_KAWAMURA, 4
 
 	db CREDITS_WAIT, 12
 
-	db      US_COORDINATION, 1
+	db      EUROPE_COORDINATION, 1
 	db           TANJA_BAAR, 2
 	db          KAI_NEUMANN, 3
 
@@ -225,7 +225,7 @@ CreditsScript:
 
 	db CREDITS_WAIT, 12
 
-	db         PAAD_TESTING, 0
+	db         GERMAN_PRODUCT_TESTING, 0
 	db      MAURICE_TISDALE, 1
 	db      PATRICK_THIERET, 2
 	db          JENS_PEPPEL, 3
