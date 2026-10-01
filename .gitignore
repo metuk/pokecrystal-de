@@ -37,3 +37,8 @@ gfx/pokemon/*/frames.asm
 *.sn*
 *.sa*
 *.sg1
+
+# German disassembly working files
+de_syms.json
+retext_problems.txt
+__pycache__/

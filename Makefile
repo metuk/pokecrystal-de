@@ -89,7 +89,7 @@ tools:
 	$(MAKE) -C tools/
 
 
-RGBASMFLAGS += -Q8 -P includes.asm
+RGBASMFLAGS += -Q8 -P includes.asm -D _CRYSTAL11
 # Create a sym/map for debug purposes if `make` run with `DEBUG=1`
 ifeq ($(DEBUG),1)
 RGBASMFLAGS += -E
