@@ -404,15 +404,15 @@ SetDayOfWeek:
 	call LoadStandardMenuHeader
 	ld hl, .OakTimeWhatDayIsItText
 	call PrintText
-	hlcoord 9, 3
+	hlcoord 8, 3
 	ld b, 2
-	ld c, 9
+	ld c, 10
 	call Textbox
-	hlcoord 14, 3
+	hlcoord 13, 3
 	ld [hl], TIMESET_UP_ARROW
-	hlcoord 14, 6
+	hlcoord 13, 6
 	ld [hl], TIMESET_DOWN_ARROW
-	hlcoord 10, 5
+	hlcoord 9, 5
 	call .PlaceWeekdayString
 	call ApplyTilemap
 	ld c, 10
@@ -480,11 +480,11 @@ SetDayOfWeek:
 .finish_dpad
 	xor a
 	ldh [hBGMapMode], a
-	hlcoord 10, 4
+	hlcoord 9, 4
 	ld b, 2
-	ld c, 9
+	ld c, 10
 	call ClearBox
-	hlcoord 10, 5
+	hlcoord 9, 5
 	call .PlaceWeekdayString
 	call WaitBGMap
 	and a
