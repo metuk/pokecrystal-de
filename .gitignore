@@ -39,7 +39,7 @@ gfx/pokemon/*/frames.asm
 *.sa*
 *.sg1
 
-# German disassembly working files
+# output of ../pokecrystal-de-tools (porting tools)
 de_syms.json
 retext_problems.txt
 __pycache__/

@@ -8,28 +8,28 @@ Ziel-SHA1: `accb584293ba056152f1fd908439b019017ff2fe` (siehe `roms.sha1`).
 ```sh
 make -j$(nproc) RGBDS=../rgbds-1.0.4/          # baut pokecrystal-de.gbc
 make RGBDS=../rgbds-1.0.4/ compare             # SHA1-Prüfung
-tools/romdiff.py                               # Übereinstimmung pro Bank + erste Abweichungen (Label/Section)
-tools/romdiff.py -b 0x0a -n 50                 # nur Bank $0a
-tools/romdiff.py -s [-b 0x01]                  # nicht passende Sections mit Prozent
-tools/romdiff.py -l LabelName                  # Hexdump eines Labels: built vs. base
+python3 ../pokecrystal-de-tools/romdiff.py                               # Übereinstimmung pro Bank + erste Abweichungen (Label/Section)
+python3 ../pokecrystal-de-tools/romdiff.py -b 0x0a -n 50                 # nur Bank $0a
+python3 ../pokecrystal-de-tools/romdiff.py -s [-b 0x01]                  # nicht passende Sections mit Prozent
+python3 ../pokecrystal-de-tools/romdiff.py -l LabelName                  # Hexdump eines Labels: built vs. base
 ```
 
 - rgbds 1.0.4 liegt lokal in `../rgbds-1.0.4/`. Systemweit ist nur 0.9.1 installiert, das zu alt ist.
 - `baserom.gbc` ist ein Symlink auf `../Pokemon - Kristall-Edition (Germany).gbc`. Ist durch `*.gbc` gitignored und darf **nie** committet werden.
 
-## Portierungs-Pipeline (tools/de/)
+## Portierungs-Pipeline (../pokecrystal-de-tools/, eigenes Git-Repo)
 
 Iterativ ausführen (jede Runde findet mehr, weil die Build-ROM näher am Original ist):
 
 ```sh
 make -j$(nproc) RGBDS=../rgbds-1.0.4/
-python3 tools/de/locate.py     # Build-Code im baserom finden -> de_syms.json, de_unmatched.json
-python3 tools/de/retext.py     # text/line/para-Blöcke durch deutschen Text ersetzen
-python3 tools/de/restring.py   # li/dname/db-Strings, Beschreibungen, Dex-Einträge, Trainernamen
-python3 tools/de/todo.py [FILE]  # Dateien nach nicht passenden Bytes sortiert
-python3 tools/de/show.py FILE [-d] # englischer Quelltext neben deutschen Bytes (disassembliert / -d als Daten)
-python3 tools/de/regfx.py LABEL... | --all  # Grafiken (PNG) / Binärdateien aus baserom übernehmen, LZ-Flags suchen
-python3 tools/de/layout.py       # Section-Startadressen Build vs. DE
+python3 ../pokecrystal-de-tools/locate.py     # Build-Code im baserom finden -> de_syms.json, de_unmatched.json
+python3 ../pokecrystal-de-tools/retext.py     # text/line/para-Blöcke durch deutschen Text ersetzen
+python3 ../pokecrystal-de-tools/restring.py   # li/dname/db-Strings, Beschreibungen, Dex-Einträge, Trainernamen
+python3 ../pokecrystal-de-tools/todo.py [FILE]  # Dateien nach nicht passenden Bytes sortiert
+python3 ../pokecrystal-de-tools/show.py FILE [-d] # englischer Quelltext neben deutschen Bytes (disassembliert / -d als Daten)
+python3 ../pokecrystal-de-tools/regfx.py LABEL... | --all  # Grafiken (PNG) / Binärdateien aus baserom übernehmen, LZ-Flags suchen
+python3 ../pokecrystal-de-tools/layout.py       # Section-Startadressen Build vs. DE
 ```
 
 - `locate.py`: zerlegt Sections an Labels in Stücke. Zeiger-Bytes (Patches aus den .o-Dateien) sind Platzhalter.
@@ -61,7 +61,7 @@ python3 tools/de/layout.py       # Section-Startadressen Build vs. DE
 - 2026-10-02 (später): Grafiken übernommen (Logo, Tilesets, Diplom, Pokédex, Trainerpass, Schriften ...).
   Viele DE-Grafiken sind "literal-only" LZ-komprimiert (Flags in gfx/lz.mk). Zwei Intro-Tilemaps sind mit einem
   nicht reproduzierbaren Verfahren komprimiert und als `gfx/intro/*.de.lz` eingecheckt.
-  Struktur 99,2 % gefunden, positionsgenau 86,8 %. Rest: ~14 KB in ~360 Stücken (`tools/de/todo.py`).
+  Struktur 99,2 % gefunden, positionsgenau 86,8 %. Rest: ~14 KB in ~360 Stücken (`../pokecrystal-de-tools/todo.py`).
 
 - 2026-10-02 (abends): **bit-genau** (`make compare` OK, auch nach `make clean`).
   Wichtige Erkenntnisse: deutsche LZ-Grafiken brauchen meist `--literal-only --align 1`;
@@ -71,7 +71,7 @@ python3 tools/de/layout.py       # Section-Startadressen Build vs. DE
 
 ## Mögliche nächste Schritte
 
-1. Aufräumen für eine Einreichung bei pret: `tools/de/` auslagern oder entfernen, englische Kommentare prüfen
+1. Aufräumen für eine Einreichung bei pret (Werkzeuge sind bereits ausgelagert, vc/ entfernt, Credits-/Magikarp-Namen angepasst); englische Kommentare prüfen
    (z. B. „English“-Hinweise, `; unreferenced`-Markierungen), Labelnamen von englischen Texten passend umbenennen
    (z. B. US_VERSION_STAFF -> GERMAN_VERSION_STAFF).
 2. CI (`.github/workflows/main.yml`) auf `make compare` umstellen ist nicht möglich ohne baserom; `make` genügt.
