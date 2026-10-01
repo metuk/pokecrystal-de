@@ -61,7 +61,7 @@ GoldenrodBikeShopClerkIntroText:
 	done
 
 GoldenrodBikeShopClerkAgreedText:
-	text "Ja? Groせartig!"
+	text "Ja? Großartig!"
 
 	para "Gib mir bitte"
 	line "Namen und Nummer."

@@ -95,7 +95,7 @@ TrainerHouse1FYoungsterText:
 	para "Der CHAMP von"
 	line "ALABASTIA bereiste"
 
-	para "alle groせen und"
+	para "alle großen und"
 	line "kleinen Städte"
 	cont "in KANTO."
 	done

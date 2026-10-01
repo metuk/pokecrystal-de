@@ -35,7 +35,7 @@ ParryGreetText:
 	text "!"
 
 	para "Hattest du ein"
-	line "groせes Frühstück?"
+	line "großes Frühstück?"
 	done
 
 ParryGreetDayText:
@@ -55,7 +55,7 @@ ParryGreetNiteText:
 	text "!"
 
 	para "Hattest du ein"
-	line "groせes Abendessen?"
+	line "großes Abendessen?"
 	done
 
 ParryGenericText:

@@ -35,7 +35,7 @@ GoldenrodDeptStore1FReceptionistText:
 
 GoldenrodDeptStore1FGentlemanText:
 	text "Das KAUFHAUS"
-	line "bietet eine groせe"
+	line "bietet eine große"
 	cont "Auswahl."
 
 	para "Aber einige Items"

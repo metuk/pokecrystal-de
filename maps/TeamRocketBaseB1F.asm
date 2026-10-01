@@ -705,7 +705,7 @@ GruntM16BeatenText:
 	done
 
 GruntM16AfterBattleText:
-	text "Ich weiせ nicht,"
+	text "Ich weiß nicht,"
 	line "wo die Fallen"
 	cont "aufgestellt sind."
 

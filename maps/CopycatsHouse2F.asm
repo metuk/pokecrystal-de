@@ -352,7 +352,7 @@ CopycatText_Female_3:
 	para "<PLAYER>: Macht"
 	line "es wirklich so"
 
-	para "viel Spaせ mir"
+	para "viel Spaß mir"
 	line "alles nachzu-"
 	cont "sprechen und alles"
 	cont "nachzuahmen?"

@@ -225,7 +225,7 @@ FastShipB1FOnDutySailorText:
 
 	para "Er faulenzt"
 	line "irgendwo. Dieser"
-	cont "Müせiggänger!"
+	cont "Müßiggänger!"
 
 	para "Ich würde ihn"
 	line "selbst suchen,"
@@ -306,7 +306,7 @@ PicnickerDebraAfterBattleText:
 	cont "Ich habe gehört,"
 
 	para "es gibt viele"
-	line "groせe Städte"
+	line "große Städte"
 	cont "in KANTO."
 	done
 
@@ -410,7 +410,7 @@ SailorKennethBeatenText:
 
 SailorKennethAfterBattleText:
 	text "Acht ORDEN!"
-	line "Das heiせt, du"
+	line "Das heißt, du"
 
 	para "hast die ARENA-"
 	line "LEITER besiegt."

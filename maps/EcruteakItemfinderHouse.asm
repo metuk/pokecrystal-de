@@ -145,7 +145,7 @@ EcruteakThreeMonText:
 	line "durch die Stadt"
 	cont "rannten."
 
-	para "Es heiせt, sie ent-"
+	para "Es heißt, sie ent-"
 	line "standen durch Was-"
 	cont "ser, Blitz und"
 	cont "Feuer."

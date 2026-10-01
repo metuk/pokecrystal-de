@@ -588,7 +588,7 @@ Route32CooltrainerMText_HaveThisSeed:
 	para "Das Training in"
 	line "der PKMN-ARENA"
 
-	para "muss von groせem"
+	para "muss von großem"
 	line "Nutzen gewesen"
 
 	para "sein. Nimm dies"
@@ -606,7 +606,7 @@ Route32CooltrainerMText_ExperiencesShouldBeUseful:
 
 	para "werden dir auf"
 	line "deiner Reise von"
-	cont "groせem Nutzen"
+	cont "großem Nutzen"
 	cont "sein."
 	done
 
@@ -817,7 +817,7 @@ CamperRolandAfterText:
 
 PicnickerLiz1SeenText:
 	text "A-ha. Ja,"
-	line "du weiせt…"
+	line "du weißt…"
 
 	para "Wie bitte? Kampf?"
 	line "Ich telefoniere."
@@ -931,7 +931,7 @@ FriedaFridayText:
 
 	para "Denkst du nicht"
 	line "auch, dass Freitag"
-	cont "groせartig ist?"
+	cont "großartig ist?"
 	done
 
 FriedaNotFridayText:

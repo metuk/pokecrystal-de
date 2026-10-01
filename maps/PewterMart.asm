@@ -44,7 +44,7 @@ PewterMartSuperNerdText:
 
 	para "SEE DES ZORNS"
 	line "seien"
-	cont "auせergewöhnlich."
+	cont "außergewöhnlich."
 	done
 
 PewterMart_MapEvents:

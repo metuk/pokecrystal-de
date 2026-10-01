@@ -104,7 +104,7 @@ ChadProfElmGossipText:
 
 	para "Er war früher ein"
 	line "Assistent des"
-	cont "groせartigen"
+	cont "großartigen"
 	cont "PROF. EICH!"
 
 	para "Das ist cool!"
@@ -133,7 +133,7 @@ ChadKurtGossipText:
 	line "kennen sich schon"
 	cont "eine Ewigkeit."
 
-	para "Ich denke, groせ-"
+	para "Ich denke, groß-"
 	line "artige Menschen"
 	cont "ziehen einander"
 	cont "an!"
@@ -154,7 +154,7 @@ ChadLeagueGossipText:
 	line "Hauptquartiers."
 
 	para "Er ist wirklich"
-	line "groせartig."
+	line "großartig."
 	done
 
 ChadPokemonTalkGossipText:

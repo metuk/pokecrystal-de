@@ -9,5 +9,5 @@ MailEntry_Uppercase:
 	db "lower  DEL   END   "
 
 MailEntry_Lowercase:
-	db   "a b c d e f g h i jk l m n o p q r s tu v w x y z   . - /Ä Ö Ü ä に ぬ ö ü せ  ( ) “ ” [ ] ' : ; &GROせ  LÖSCH ENDE   どヅ<NULL>ゲさ<BOLD_C><WATASHI>"
+	db   "a b c d e f g h i jk l m n o p q r s tu v w x y z   . - /Ä Ö Ü ä に ぬ ö ü ß  ( ) “ ” [ ] ' : ; &GROß  LÖSCH ENDE   どヅ<NULL>ゲさ<BOLD_C><WATASHI>"
 	para "<NULL>ダ", $17, "<NULL>Rゾ", $04, "?<BOLD_C>ゲ'l<BOLD_C>ぃ8ぺ<SCROLL>わ<BOLD_C>F", $01, "<NULL>Lぶぴ<MOM>Rぺ<SCROLL>わ<BOLD_C>#<SCROLL><PK><BOLD_C>#<MOM>R<CR>ぬ<_CONT><PO>@"

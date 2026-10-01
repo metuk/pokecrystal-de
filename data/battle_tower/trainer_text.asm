@@ -108,7 +108,7 @@ _BTGreetingM7Text:
 	done
 
 _BTLossM7Text:
-	text "Hehehe, ich weiせ"
+	text "Hehehe, ich weiß"
 	line "jetzt, wie"
 	cont "geschickt du bist!"
 	done
@@ -216,7 +216,7 @@ _BTGreetingM13Text:
 _BTLossM13Text:
 	text "Ich wusste, ich"
 	line "würde gewinnen!"
-	cont "Ich bin groせartig!"
+	cont "Ich bin großartig!"
 	done
 
 _BTWinM13Text:
@@ -310,7 +310,7 @@ _BTLossM18Text:
 
 _BTWinM18Text:
 	text "Wer bin ich?"
-	line "Ich weiせ es nicht…"
+	line "Ich weiß es nicht…"
 	done
 
 _BTGreetingM19Text:
@@ -449,7 +449,7 @@ _BTWinF1Text:
 
 _BTGreetingF2Text:
 	text "Sieh! Meine #-"
-	line "MON sind so süせ!"
+	line "MON sind so süß!"
 	done
 
 _BTLossF2Text:
@@ -513,7 +513,7 @@ _BTWinF5Text:
 
 _BTGreetingF6Text:
 	text "Möchtest du etwas"
-	line "von meinen süせen"
+	line "von meinen süßen"
 	cont "#MON wissen?"
 	done
 
@@ -525,7 +525,7 @@ _BTLossF6Text:
 
 _BTWinF6Text:
 	text "Oh! Nein! Du bist"
-	line "ein scheuせlicher"
+	line "ein scheußlicher"
 	cont "Trainer!"
 	done
 

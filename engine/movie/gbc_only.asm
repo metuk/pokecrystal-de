@@ -125,7 +125,7 @@ DrawGBCOnlyGraphic:
 
 GBCOnlyString:
 	db   "Dieses Modul ist"
-	next "ausschlieせlich mit"
+	next "ausschließlich mit"
 	next "dem Game Boy Color"
 	next "kompatibel.@"
 

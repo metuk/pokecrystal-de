@@ -24,7 +24,7 @@ Route36RuinsOfAlphGateGrampsText:
 	text "Hast du diesen"
 	line "merkwürdigen Baum"
 
-	para "auf der Straせe"
+	para "auf der Straße"
 	line "gesehen?"
 
 	para "Das könnte"

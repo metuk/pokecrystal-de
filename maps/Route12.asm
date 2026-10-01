@@ -133,7 +133,7 @@ FisherBarneyAfterBattleText:
 
 	para "fabriziert, als"
 	line "das KRAFTWERK"
-	cont "auせer Betrieb war."
+	cont "außer Betrieb war."
 	done
 
 FisherKyleSeenText:
@@ -145,7 +145,7 @@ FisherKyleBeatenText:
 	done
 
 FisherKyleAfterBattleText:
-	text "Das Reiせen an der"
+	text "Das Reißen an der"
 	line "ANGEL, wenn du"
 
 	para "ein #MON"

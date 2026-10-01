@@ -31,7 +31,7 @@ ToddNumberAcceptedText:
 	line "in das KAUFHAUS"
 
 	para "von DUKATIA CITY."
-	line "Daher weiせ ich,"
+	line "Daher weiß ich,"
 
 	para "wann sie Angebote"
 	line "haben."

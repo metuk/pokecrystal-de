@@ -35,12 +35,12 @@ ElmsWifeText:
 	done
 
 ElmsSonText:
-	text "Wenn ich groせ bin,"
+	text "Wenn ich groß bin,"
 	line "helfe ich meinem"
 	cont "Papa!"
 
 	para "Ich werde ein"
-	line "groせartiger #-"
+	line "großartiger #-"
 	cont "MON-Professor!"
 	done
 

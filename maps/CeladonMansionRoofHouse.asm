@@ -44,7 +44,7 @@ CeladonMansionRoofHousePharmacistNotNightText:
 	line "unheimlich ist"
 
 	para "sie gar nicht,"
-	line "wenn es drauせen"
+	line "wenn es draußen"
 	cont "noch hell ist."
 
 	para "Komm wieder, wenn"
@@ -64,7 +64,7 @@ CeladonMansionRoofHousePharmacistStoryText:
 	line "darauf fahren…"
 
 	para "Das machte ihm so"
-	line "viel Spaせ, dass er"
+	line "viel Spaß, dass er"
 
 	para "gar nicht be-"
 	line "merkte, dass die"

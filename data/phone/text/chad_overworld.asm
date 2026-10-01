@@ -5,7 +5,7 @@ ChadAskNumber1Text:
 	cont "kennengelernt?"
 
 	para "Was? Wirklich? "
-	line "Das ist groせartig!"
+	line "Das ist großartig!"
 
 	para "Ich träume davon,"
 	line "ein #MON-"
@@ -20,7 +20,7 @@ ChadAskNumber1Text:
 	line "PROF. EICH reden."
 
 	para "Das macht sicher"
-	line "eine Menge Spaせ!"
+	line "eine Menge Spaß!"
 	done
 
 ChadAskNumber2Text:
@@ -31,7 +31,7 @@ ChadAskNumber2Text:
 	line "PROF. EICH reden."
 
 	para "Das macht sicher"
-	line "eine Menge Spaせ!"
+	line "eine Menge Spaß!"
 	done
 
 ChadNumberAcceptedText:

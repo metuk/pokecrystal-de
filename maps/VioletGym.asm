@@ -159,7 +159,7 @@ FalknerZephyrBadgeText:
 	cont "Wert deiner #-"
 	cont "MON."
 
-	para "Auせerdem können"
+	para "Außerdem können"
 	line "deine #MON"
 
 	para "jederzeit BLITZ"
@@ -209,7 +209,7 @@ FalknerFightDoneText:
 	para "Ich werde noch"
 	line "härter trainieren,"
 
-	para "um der gröせte Vo-"
+	para "um der größte Vo-"
 	line "gel-Experte aller"
 	cont "Zeiten zu werden!"
 	done

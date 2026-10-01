@@ -39,7 +39,7 @@ EcruteakLugiaSpeechHouseGrampsText:
 
 EcruteakLugiaSpeechHouseYoungsterText:
 	text "Ob es wirklich ein"
-	line "so groせes #MON"
+	line "so großes #MON"
 
 	para "gibt? Wenn ja, so"
 	line "muss es unfassbar"

@@ -25,7 +25,7 @@ OlivinePokecenter1FFisherText:
 	text "Der MATROSE im"
 	line "OLIVIANA CITY-CAFE"
 	cont "nebenan ist sehr"
-	cont "groせzügig."
+	cont "großzügig."
 
 	para "Er hat meinem"
 	line "#MON STÄRKE"

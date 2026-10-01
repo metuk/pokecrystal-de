@@ -259,7 +259,7 @@ ComeHomeForDSTText:
 	cont "oder WZ einzu-"
 	cont "stellen."
 
-	para "Übrigens, weiせt du"
+	para "Übrigens, weißt du"
 	line "über den Umgang"
 	cont "mit dem TELEFON"
 	cont "Bescheid?"

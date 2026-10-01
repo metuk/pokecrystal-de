@@ -401,7 +401,7 @@ SchoolboyJack1SeenText:
 	line "Dinge, über die"
 	cont "wir nichts wissen."
 
-	para "Aber ich weiせ"
+	para "Aber ich weiß"
 	line "mehr als du!"
 	done
 
@@ -441,7 +441,7 @@ PokefanfBeverly1BeatenText:
 PokefanBeverlyCuteMonText:
 	text "Ich muss zugeben,"
 	line "dass deine #MON"
-	cont "auch süせ sind."
+	cont "auch süß sind."
 	done
 
 PokefanmWilliamSeenText:
@@ -493,7 +493,7 @@ LassKriseBeatenText:
 LassKriseAfterBattleText:
 	text "Ich dachte, du"
 	line "starrst mich an,"
-	cont "weil ich süせ bin!"
+	cont "weil ich süß bin!"
 	done
 
 NationalParkRelaxationSquareText:

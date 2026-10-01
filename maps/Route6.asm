@@ -37,7 +37,7 @@ Route6UndergroundPathSign:
 	jumptext Route6UndergroundPathSignText
 
 Route6PokefanMText:
-	text "Die Straせe zum"
+	text "Die Straße zum"
 	line "KRAFTWERK bleibt"
 
 	para "gesperrt, bis das"
@@ -67,7 +67,7 @@ PokefanmRexAfterBattleText:
 	line "sich mein PHANPY"
 	cont "bewegt!"
 
-	para "Es ist so süせ,"
+	para "Es ist so süß,"
 	line "dass dein Herz"
 	cont "dahinschmilzt."
 	done
@@ -87,7 +87,7 @@ PokefanmAllanAfterBattleText:
 	line "sich mein"
 	cont "TEDDIURSA bewegt!"
 
-	para "Es ist so süせ,"
+	para "Es ist so süß,"
 	line "dass dein Herz"
 	cont "dahinschmilzt."
 	done

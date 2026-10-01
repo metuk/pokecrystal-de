@@ -448,9 +448,9 @@ GruntM6BeatenText:
 GruntM6AfterBattleText:
 	text "Unsere VORSTÄNDE"
 	line "wollen die Macht"
-	cont "an sich reiせen."
+	cont "an sich reißen."
 
-	para "Sie haben Groせes"
+	para "Sie haben Großes"
 	line "vor. Ich frage"
 	cont "mich, was das"
 	cont "wohl ist?"

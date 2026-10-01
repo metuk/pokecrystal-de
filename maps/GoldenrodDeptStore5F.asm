@@ -153,7 +153,7 @@ GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText:
 	done
 
 GoldenrodDeptStore5FReceptionistItsAdorableText:
-	text "Oh, wie süせ!"
+	text "Oh, wie süß!"
 
 	para "Du solltest ihm"
 	line "gute TM-Attacken"

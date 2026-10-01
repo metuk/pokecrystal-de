@@ -186,9 +186,9 @@ RuinsOfAlphKabutoChamberScientistCrypticText:
 
 RuinsOfAlphKabutoChamberScientistHoleText:
 	text "Ah! Hier ist noch"
-	line "ein groせes Loch!"
+	line "ein großes Loch!"
 
-	para "Es ist groせ genug,"
+	para "Es ist groß genug,"
 	line "um durchzugehen!"
 	done
 
@@ -235,7 +235,7 @@ RuinsOfAlphKabutoChamberWallPatternRightText:
 	done
 
 RuinsOfAlphKabutoChamberWallHoleText:
-	text "Da ist ein groせes"
+	text "Da ist ein großes"
 	line "Loch in der Wand!"
 	done
 

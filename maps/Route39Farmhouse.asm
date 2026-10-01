@@ -134,7 +134,7 @@ FarmerMText_BuyMilk:
 FarmerMText_GotMilk:
 	text "Bitte sehr!"
 	line "Trink aus und"
-	cont "genieせe es!"
+	cont "genieße es!"
 	done
 
 FarmerMText_NoMoney:

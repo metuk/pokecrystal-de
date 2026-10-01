@@ -242,7 +242,7 @@ Route25MistyDateText:
 	para "auftauchen und uns"
 	line "stören?"
 
-	para "Weiせt du, wie"
+	para "Weißt du, wie"
 	line "man Menschen wie"
 	cont "dich nennt?"
 
@@ -443,7 +443,7 @@ CooltrainermKevinBeatenText:
 
 CooltrainermKevinAfterBattleText:
 	text "Der Kampf war"
-	line "groせartig!"
+	line "großartig!"
 
 	para "Du und deine #-"
 	line "MON seid ein"

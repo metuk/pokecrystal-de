@@ -68,7 +68,7 @@ MomDeterminedText:
 	line "lich hart."
 
 	para "Aber, <PLAYER>,"
-	line "ich weiせ, dass du"
+	line "ich weiß, dass du"
 
 	para "sehr ausdauernd"
 	line "bist. Du schaffst"

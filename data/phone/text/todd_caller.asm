@@ -9,7 +9,7 @@ ToddLooksCuteLikeMeText:
 	done
 
 ToddDefeatedMonText:
-	text "Und, weiせt du?"
+	text "Und, weißt du?"
 
 	para "Jetzt können wir"
 	line "@"
@@ -71,7 +71,7 @@ ToddDepartmentStoreBargainSaleText:
 	cont "es jetzt Angebote!"
 
 	para "Niedrige Preise?"
-	line "Groせe Auswahl?"
+	line "Große Auswahl?"
 
 	para "Verpass nicht die"
 	line "Chance in DUKATIA!"

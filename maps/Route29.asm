@@ -250,7 +250,7 @@ CatchingTutorialBoxFullText:
 	text "#MON verstecken"
 	line "sich im Gras."
 
-	para "Niemand weiせ, wann"
+	para "Niemand weiß, wann"
 	line "sie auftauchen…"
 	done
 

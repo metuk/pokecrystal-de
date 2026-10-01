@@ -163,7 +163,7 @@ SwimmerfDawnAfterBattleText:
 	cont "SEESCHAUMINSELN…"
 
 	para "Uah, mein Freund"
-	line "ist so groせ und"
+	line "ist so groß und"
 
 	para "dennoch ein"
 	line "Schwächling!"
@@ -194,7 +194,7 @@ SwimmermJeromeAfterBattleText:
 
 Route19Fisher1Text:
 	text "Tut mir Leid."
-	line "Die Straせe ist"
+	line "Die Straße ist"
 	cont "aufgrund von Bau-"
 	cont "arbeiten gesperrt."
 

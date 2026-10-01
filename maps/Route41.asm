@@ -267,7 +267,7 @@ SwimmerfKayleeAfterBattleText:
 	text "Tief versteckt"
 	line "auf den STRUDEL-"
 	cont "INSELN soll ein"
-	cont "groせes #MON"
+	cont "großes #MON"
 	cont "leben."
 
 	para "Was für ein #-"
@@ -323,7 +323,7 @@ SwimmerfKaraSeenText:
 	cont "halte deinen Kopf"
 	cont "über Wasser und"
 	cont "paddle mit den"
-	cont "Füせen."
+	cont "Füßen."
 
 	para "Auf diese Weise"
 	line "legst du eine"

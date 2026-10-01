@@ -120,7 +120,7 @@ ErikaBeforeBattleText:
 	para "…Ich könnte gleich"
 	line "einschlafen…"
 
-	para "Ich heiせe ERIKA."
+	para "Ich heiße ERIKA."
 	line "Ich bin die ARENA-"
 	cont "LEITERIN von"
 	cont "PRISMANIA CITY."
@@ -146,7 +146,7 @@ ErikaBeatenText:
 	line "Ich gebe mich"
 	cont "geschlagen…"
 
-	para "Du bist auせerge-"
+	para "Du bist außerge-"
 	line "wöhnlich stark…"
 
 	para "Ich gebe dir den"
@@ -196,7 +196,7 @@ ErikaAfterBattleText:
 	line "Ansporn, sich"
 
 	para "mehr anzustrengen,"
-	line "wenn man weiせ,"
+	line "wenn man weiß,"
 
 	para "dass es starke"
 	line "Trainer gibt…"

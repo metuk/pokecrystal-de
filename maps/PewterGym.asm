@@ -142,7 +142,7 @@ BrockBoulderBadgeText:
 
 BrockFightDoneText:
 	text "ROCKO: Die Welt"
-	line "ist groせ. Es gibt"
+	line "ist groß. Es gibt"
 
 	para "immer noch viele"
 	line "starke Trainer wie"

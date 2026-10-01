@@ -451,12 +451,12 @@ FloriaText1:
 	line "seine Verkleidung"
 
 	para "auf, wenn man es"
-	line "gieせt!"
+	line "gießt!"
 
 	para "Genau! Ich sage es"
 	line "meiner Schwester"
 	cont "und leihe mir"
-	cont "ihre Gieせkanne!"
+	cont "ihre Gießkanne!"
 	done
 
 FloriaText2:
@@ -473,7 +473,7 @@ FloriaText2:
 	line "besiege, gibt sie"
 
 	para "mir vielleicht die"
-	line "Gieせkanne…"
+	line "Gießkanne…"
 	done
 
 RockSmashGuyText1:
@@ -540,7 +540,7 @@ Route36LassText:
 	text "Ein merkwürdiger"
 	line "Baum blockiert die"
 
-	para "Straせe nach"
+	para "Straße nach"
 	line "DUKATIA CITY."
 
 	para "Wegen dieses"

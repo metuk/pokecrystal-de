@@ -47,7 +47,7 @@ BirdKeeperBorisBeatenText:
 BirdKeeperBorisAfterBattleText:
 	text "Da du so stark"
 	line "bist, muss es"
-	cont "Spaせ machen, gegen"
+	cont "Spaß machen, gegen"
 	cont "dich zu kämpfen."
 	done
 

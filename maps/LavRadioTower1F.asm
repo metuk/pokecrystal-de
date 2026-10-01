@@ -95,7 +95,7 @@ LavRadioTower1FOfficerText:
 	line "besetzt wurde,"
 
 	para "mussten wir unsere"
-	line "Sicherheitsmaせ-"
+	line "Sicherheitsmaß-"
 	cont "nahmen erhöhen."
 	done
 

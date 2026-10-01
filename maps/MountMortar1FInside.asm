@@ -66,7 +66,7 @@ MountMortar1FInsideHiddenMaxRepel:
 
 PokemaniacMillerSeenText:
 	text "Heute verliere ich"
-	line "gewiせ nicht!"
+	line "gewiß nicht!"
 	done
 
 PokemaniacMillerBeatenText:

@@ -16,7 +16,7 @@ HouseForSaleSign:
 	jumptext HouseForSaleSignText
 
 Route5PokefanMText:
-	text "Die Straせe zum"
+	text "Die Straße zum"
 	line "KRAFTWERK bleibt"
 
 	para "gesperrt, bis das"

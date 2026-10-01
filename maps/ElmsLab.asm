@@ -768,7 +768,7 @@ ElmText_Accepted:
 	text "Danke, <PLAY_G>!"
 
 	para "Du bist mir eine"
-	line "groせe Hilfe!"
+	line "große Hilfe!"
 	done
 
 ElmText_Refused:
@@ -784,7 +784,7 @@ ElmText_ResearchAmbitions:
 	line "noch weiter in die"
 
 	para "Geheimnisse der"
-	line "#MON vorstoせen."
+	line "#MON vorstoßen."
 
 	para "Darauf kannst du"
 	line "dich verlassen!"
@@ -821,7 +821,7 @@ ElmText_MissionFromMrPokemon:
 	line "steht, dass es"
 
 	para "sich diesmal um"
-	line "etwas Groせes"
+	line "etwas Großes"
 	cont "handeln muss."
 
 	para "Das klingt zwar"
@@ -988,7 +988,7 @@ ElmAfterTheftText1:
 
 	para "Oh, was hat MR."
 	line "#MON denn"
-	cont "Groせes entdeckt?"
+	cont "Großes entdeckt?"
 	done
 
 ElmAfterTheftText2:
@@ -1007,7 +1007,7 @@ ElmAfterTheftText4:
 
 	para "Falls ja, dann ist"
 	line "es in der Tat eine"
-	cont "groせe Entdeckung!"
+	cont "große Entdeckung!"
 	done
 
 ElmAfterTheftText5:
@@ -1112,7 +1112,7 @@ ElmThoughtEggHatchedText:
 
 ShowElmTogepiText1:
 	text "LIND: <PLAY_G>, du"
-	line "siehst groせartig"
+	line "siehst großartig"
 	cont "aus!"
 	done
 
@@ -1254,10 +1254,10 @@ ElmGiveTicketText2:
 	text "Das Schiff legt in"
 	line "OLIVIANA CITY ab."
 
-	para "Aber das weiせt du"
+	para "Aber das weißt du"
 	line "ja schon, <PLAY_G>."
 
-	para "Schlieせlich bist"
+	para "Schließlich bist"
 	line "du mit deinen"
 
 	para "#MON schon"
@@ -1266,7 +1266,7 @@ ElmGiveTicketText2:
 
 	para "Überbringe PROF."
 	line "EICH in KANTO"
-	cont "meine Grüせe!"
+	cont "meine Grüße!"
 	done
 
 ElmsLabMonEggText: ; unreferenced

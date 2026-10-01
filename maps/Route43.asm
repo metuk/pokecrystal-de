@@ -341,12 +341,12 @@ PokemaniacBenBeatenText:
 
 PokemaniacBenAfterBattleText:
 	text "Du fragst, was ich"
-	line "auせer #MON"
+	line "außer #MON"
 	cont "noch mag?"
 
 	para "MARGIT vom Radio!"
 	line "Die ist bestimmt"
-	cont "süせ!"
+	cont "süß!"
 	done
 
 PokemaniacBrentSeenText:
@@ -444,13 +444,13 @@ CamperSpencerSeenText:
 	cont "seinen #MON -"
 	cont "das macht"
 	cont "unheimlich viel"
-	cont "Spaせ!"
+	cont "Spaß!"
 	done
 
 CamperSpencerBeatenText:
 	text "Verlieren macht"
 	line "überhaupt keinen"
-	cont "Spaせ…"
+	cont "Spaß…"
 	done
 
 CamperSpencerAfterBattleText:

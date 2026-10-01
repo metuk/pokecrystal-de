@@ -374,7 +374,7 @@ BirdKeeperBryanAfterBattleText:
 	cont "sie zu KURT."
 
 	para "Er macht dann"
-	line "daraus einen maせ-"
+	line "daraus einen maß-"
 	cont "gefertigten"
 	cont "#BALL."
 	done
@@ -460,7 +460,7 @@ OfficerDirkBeatenText:
 	done
 
 OfficerDirkAfterBattleText:
-	text "Du weiせt, dass"
+	text "Du weißt, dass"
 	line "die Nacht auf"
 	cont "ihre Weise"
 	cont "schön sein kann."

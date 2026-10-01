@@ -1,11 +1,11 @@
 VanceAskNumber1Text:
-	text "Du weiせt, dass"
+	text "Du weißt, dass"
 	line "du stark bist."
 
 	para "Ich wollte mich"
 	line "nicht verdrücken…"
 
-	para "Ich weiせ! Gibst"
+	para "Ich weiß! Gibst"
 	line "du mir deine Num-"
 	cont "mer? Wir werden"
 	cont "uns wiedersehen!"

@@ -503,7 +503,7 @@ PokemaniacDonaldBeatenText:
 PokemaniacDonaldAfterBattleText:
 	text "Erstellst du einen"
 	line "#DEX? Ich habe"
-	cont "einen heiせen"
+	cont "einen heißen"
 	cont "Tipp für dich."
 
 	para "WANDERER TOM auf"
@@ -544,7 +544,7 @@ GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
 
 	para "Ich verleihe"
 	line "deinen #MON ein"
-	cont "schöneres Äuせeres"
+	cont "schöneres Äußeres"
 	cont "für nur ¥500."
 
 	para "Soll ich damit"

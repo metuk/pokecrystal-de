@@ -48,7 +48,7 @@ RedsMomText1:
 	para "Wenn man nichts"
 	line "hört, soll das ja"
 
-	para "heiせen, dass es"
+	para "heißen, dass es"
 	line "ihm gut geht. Aber"
 	cont "ich mache mir"
 	cont "Sorgen um ihn."

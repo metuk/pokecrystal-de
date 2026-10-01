@@ -160,7 +160,7 @@ VermilionCitySuperNerdText:
 	text "Es gibt acht"
 	line "ARENEN in KANTO."
 
-	para "Das groせe Gebäude"
+	para "Das große Gebäude"
 	line "ist die PKMN-ARENA"
 	cont "von ORANIA CITY."
 	done

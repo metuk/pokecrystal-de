@@ -2,7 +2,7 @@
 	dbw 6, 95 ; height, weight
 
 	db   "Dieser kleine"
-	next "Schnapper beiせt"
+	next "Schnapper beißt"
 	next "alles, was sich"
 
 	page "bewegt. Drehe ihm"

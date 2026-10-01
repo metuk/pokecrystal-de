@@ -194,7 +194,7 @@ BugsyText_HiveBadgeSpeech:
 	para "Deine #MON"
 	line "können ZERSCHNEI-"
 	cont "DER nun auch"
-	cont "auせerhalb des"
+	cont "außerhalb des"
 	cont "Kampfes anwenden."
 
 	para "Bitte nimm auch"
@@ -240,7 +240,7 @@ BugCatcherBennySeenText:
 	line "entwickeln sich"
 
 	para "sehr früh. Das"
-	line "heiせt, dass sie"
+	line "heißt, dass sie"
 
 	para "auch schnell stär-"
 	line "ker werden."
@@ -278,7 +278,7 @@ BugCatcherAlAfterBattleText:
 	para "Mädchen mögen kei-"
 	line "ne Käfer-#MON."
 
-	para "Ich weiせ nicht,"
+	para "Ich weiß nicht,"
 	line "wieso…"
 	done
 

@@ -1,7 +1,7 @@
 	db "HUMANOTYP@" ; species name
 	dbw 14, 406 ; height, weight
 
-	db   "Es stöせt unter-"
+	db   "Es stößt unter-"
 	next "schiedliche Rufe"
 	next "aus. Es scheint,"
 

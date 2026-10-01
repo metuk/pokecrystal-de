@@ -128,7 +128,7 @@ VioletPokecenterElmsAideGiveEggText:
 	para "es im EI gewachsen"
 	line "ist."
 
-	para "Auせerdem muss es"
+	para "Außerdem muss es"
 	line "sich in der Nähe"
 
 	para "anderer #MON"

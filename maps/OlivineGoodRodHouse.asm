@@ -78,7 +78,7 @@ DontWantGoodRodText:
 
 HaveGoodRodText:
 	text "Wie stehtわ? Den"
-	line "groせen Fang ge-"
+	line "großen Fang ge-"
 	cont "macht?"
 	done
 

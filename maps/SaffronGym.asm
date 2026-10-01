@@ -180,7 +180,7 @@ SabrinaMarshBadgeText:
 	line "in der Lage war,"
 	cont "deine Stärke"
 	cont "vorauszusehen,"
-	cont "weiせ ich das ganz"
+	cont "weiß ich das ganz"
 	cont "sicher."
 
 	para "Du wirst ein"
@@ -301,7 +301,7 @@ SaffronGymGuideText:
 	cont "ist, nicht wahr?"
 
 	para "Ich erwarte"
-	line "Groせes von dir!"
+	line "Großes von dir!"
 
 	para "Viel Glück!"
 	done

@@ -206,7 +206,7 @@ PryceText_GlacierBadgeSpeech:
 	line "den SPEZ-Wert dei-"
 	cont "ner #MON."
 
-	para "Auせerdem können"
+	para "Außerdem können"
 	line "deine #MON"
 	cont "WHIRLPOOL einset-"
 	cont "zen, um echte"
@@ -244,7 +244,7 @@ PryceText_CherishYourPokemon:
 	para "noch viele Jahre"
 	line "zusammen sein."
 
-	para "Genieせt eure ge-"
+	para "Genießt eure ge-"
 	line "meinsame Zeit!"
 	done
 
@@ -377,7 +377,7 @@ MahoganyGymGuideText:
 	para "gerne mit Eis-"
 	line "Attacken ein."
 
-	para "Das heiせt, du"
+	para "Das heißt, du"
 	line "solltest ihn mit"
 
 	para "deinem brennenden"
@@ -389,7 +389,7 @@ MahoganyGymGuideWinText:
 	line "übel, aber du"
 	cont "bist noch besser!"
 
-	para "Das war ein heiせer"
+	para "Das war ein heißer"
 	line "Kampf, der die"
 
 	para "Kluft zwischen den"

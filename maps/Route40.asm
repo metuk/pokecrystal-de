@@ -277,14 +277,14 @@ Route40Lass2Text:
 	line "Sehenswürdigkeiten"
 
 	para "und die Atmosphäre"
-	line "zu genieせen."
+	line "zu genießen."
 
 	para "Da es eine Hafen-"
 	line "stadt ist, unter-"
 
 	para "scheidet sie sich"
 	line "von anderen"
-	cont "groせen Städten."
+	cont "großen Städten."
 	done
 
 Route40StandingYoungsterText:

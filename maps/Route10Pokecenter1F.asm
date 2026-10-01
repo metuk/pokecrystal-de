@@ -66,7 +66,7 @@ Route10Pokecenter1FGymGuideText_ReturnedMachinePart:
 	cont "kurz danach wieder"
 	cont "zerschlagen wurde."
 
-	para "Darüber weiせ ich"
+	para "Darüber weiß ich"
 	line "leider nichts."
 	done
 
@@ -75,7 +75,7 @@ Route10Pokecenter1FCooltrainerFText:
 	line "Gebäude verlässt,"
 
 	para "kannst du das Dach"
-	line "eines groせen"
+	line "eines großen"
 	cont "Hauses sehen."
 
 	para "Das ist das"

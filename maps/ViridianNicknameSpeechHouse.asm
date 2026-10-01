@@ -42,7 +42,7 @@ ViridianNicknameSpeechHousePokefanMText:
 	para "Das Tauschen von"
 	line "#MON macht mehr"
 
-	para "Spaせ, wenn sie"
+	para "Spaß, wenn sie"
 	line "Spitznamen haben."
 	done
 

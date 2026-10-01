@@ -1021,7 +1021,7 @@ Text_BrokeStadiumRules:
 	line "zufolge, musst du"
 
 	para "6 unterschiedliche"
-	line "#MON, auせer"
+	line "#MON, außer"
 	cont "EIER, mitbringen."
 
 	para "Die 6 #MON"

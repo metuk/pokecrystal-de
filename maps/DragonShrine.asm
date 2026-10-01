@@ -544,7 +544,7 @@ DragonShrineClairsGrandfatherText:
 	para "Lektion von dir"
 	line "gelernt zu haben."
 
-	para "Ich bin ihr Groせ-"
+	para "Ich bin ihr Groß-"
 	line "vater und"
 	cont "danke dir dafür."
 	done

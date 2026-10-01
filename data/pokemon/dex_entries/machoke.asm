@@ -7,4 +7,4 @@
 
 	page "Muskeln werden mit"
 	next "jedem Kampf dicker"
-	next "und gröせer.@"
+	next "und größer.@"

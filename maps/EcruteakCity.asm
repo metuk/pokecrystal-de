@@ -154,7 +154,7 @@ EcruteakCityLass2Text:
 	done
 
 EcruteakCityLass2Text_ReleasedBeasts:
-	text "Drei groせe #MON"
+	text "Drei große #MON"
 	line "sind in verschie-"
 	cont "dene Richtungen"
 	cont "davongelaufen! Was"

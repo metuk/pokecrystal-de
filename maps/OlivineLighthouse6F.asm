@@ -171,7 +171,7 @@ JasmineCianwoodPharmacyText:
 	cont "schnappt nach"
 	cont "Luft…"
 
-	para "…Ich weiせ, dass"
+	para "…Ich weiß, dass"
 	line "es eine gut"
 
 	para "sortierte APOTHEKE"

@@ -398,7 +398,7 @@ AzaleaTownKurtText1:
 	text "Im STEINEICHENWALD"
 	line "herrscht Unruhe!"
 
-	para "Was ist bloせ los?"
+	para "Was ist bloß los?"
 	done
 
 AzaleaTownKurtText2:

@@ -6,5 +6,5 @@
 	next "100 km unter"
 
 	page "Normalnull. Keiner"
-	next "weiせ, wie es dort"
+	next "weiß, wie es dort"
 	next "aussieht.@"

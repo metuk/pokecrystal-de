@@ -46,7 +46,7 @@ CinnabarIslandBlueText:
 	line "augenscheinlich"
 	cont "ein Trainer…"
 
-	para "Ich heiせe BLAU."
+	para "Ich heiße BLAU."
 
 	para "Ich war einmal ein"
 	line "CHAMP, wenn auch"

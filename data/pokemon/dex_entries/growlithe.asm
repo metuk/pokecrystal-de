@@ -1,7 +1,7 @@
 	db "HUND@" ; species name
 	dbw 7, 190 ; height, weight
 
-	db   "Stöせt es in seinem"
+	db   "Stößt es in seinem"
 	next "weiten Gebiet auf"
 	next "einen fremden Ge-"
 

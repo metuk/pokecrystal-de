@@ -88,7 +88,7 @@ OakWelcomeKantoText:
 	para "Was hältst du von"
 	line "den Trainern hier"
 
-	para "drauせen?"
+	para "draußen?"
 	line "Ziemlich stark,"
 
 	para "was?"
@@ -121,7 +121,7 @@ OakOpenMtSilverText:
 	line "richtig"
 	cont "eingeschätzt."
 
-	para "Weiせt du was,"
+	para "Weißt du was,"
 	line "<PLAY_G>? Ich"
 
 	para "werde es so ein-"
@@ -130,7 +130,7 @@ OakOpenMtSilverText:
 	cont "gehen kannst."
 
 	para "Der SILBERBERG ist"
-	line "ein groせes Habitat"
+	line "ein großes Habitat"
 
 	para "für viele wilde"
 	line "#MON."

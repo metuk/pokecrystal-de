@@ -6,5 +6,5 @@
 	next "Habitat zu be-"
 
 	page "schützen. Dabei"
-	next "stöせt es grelle"
+	next "stößt es grelle"
 	next "Schreie aus.@"

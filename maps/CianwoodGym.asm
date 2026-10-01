@@ -212,11 +212,11 @@ ChuckExplainBadgeText:
 	para "gilt auch für Ge-"
 	line "tauschte."
 
-	para "Auせerdem können"
+	para "Außerdem können"
 	line "deine #MON"
 
 	para "FLIEGEN auch"
-	line "auせerhalb eines"
+	line "außerhalb eines"
 	cont "Kampfes einsetzen."
 
 	para "Hier, nimm auch"
@@ -237,7 +237,7 @@ ChuckExplainTMText:
 
 ChuckAfterText:
 	text "WAHAHAH! Es hat"
-	line "Spaせ gemacht, ge-"
+	line "Spaß gemacht, ge-"
 	cont "gen dich zu kämp-"
 	cont "fen."
 
@@ -256,7 +256,7 @@ BlackbeltYoshiSeenText:
 	cont "sere Freundschaft."
 
 	para "Dieses Band wird"
-	line "nie zerreiせen!"
+	line "nie zerreißen!"
 	done
 
 BlackbeltYoshiBeatenText:

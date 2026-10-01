@@ -55,7 +55,7 @@ TiffanyLostAMonText:
 	done
 
 TiffanyBattleRematchText:
-	text "Ich weiせ, das"
+	text "Ich weiß, das"
 	line "überrascht dich,"
 
 	para "aber ich möchte"
@@ -81,7 +81,7 @@ TiffanyItsAwfulText:
 	line "in Eile und ich…"
 
 	para "Ich muss weg!"
-	line "Und tschüせ!"
+	line "Und tschüß!"
 	done
 
 TiffanyHangUpText:

@@ -43,7 +43,7 @@ OfferSuperRodText:
 	para "Wie ich sehe,"
 	line "macht dir Angeln"
 
-	para "Spaせ. Darüber gibt"
+	para "Spaß. Darüber gibt"
 	line "es keinen Zweifel!"
 
 	para "Na? Das stimmt"

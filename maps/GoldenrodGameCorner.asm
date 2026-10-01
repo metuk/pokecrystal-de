@@ -477,7 +477,7 @@ GoldenrodGameCornerLeftTheirDrinkText:
 	line "Getränk stehen"
 
 	para "lassen. Es riecht"
-	line "süせ!"
+	line "süß!"
 	done
 
 GoldenrodGameCorner_MapEvents:

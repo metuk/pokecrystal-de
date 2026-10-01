@@ -6,5 +6,5 @@
 	next "nossen zusammen."
 
 	page "Das Sekret an sei-"
-	next "nen Füせen führt zu"
+	next "nen Füßen führt zu"
 	next "seinem Standort.@"

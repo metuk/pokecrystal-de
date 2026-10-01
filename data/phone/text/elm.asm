@@ -182,7 +182,7 @@ ElmPhoneRadioTowerRocketTakeoverText:
 	para "Sie redeten über"
 	line "TEAM ROCKET."
 
-	para "<PLAY_G>, weiせt"
+	para "<PLAY_G>, weißt"
 	line "du etwas darüber?"
 
 	para "Vielleicht feiert"

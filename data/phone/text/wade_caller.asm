@@ -42,7 +42,7 @@ WadeLostAMonText:
 	para "entkam mir nur"
 	line "ganz knapp."
 
-	para "Ich weiせ, dass es"
+	para "Ich weiß, dass es"
 	line "kein seltenes"
 	cont "#MON ist…"
 
@@ -82,7 +82,7 @@ WadeBugCatchingContestText:
 	para "Gehst du hin,"
 	line "<PLAY_G>?"
 
-	para "Ich weiせ es noch"
+	para "Ich weiß es noch"
 	line "nicht sicher."
 	done
 

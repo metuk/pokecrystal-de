@@ -2,7 +2,7 @@
 	dbw 12, 186 ; height, weight
 
 	db   "Schüttelt es seine"
-	next "groせen Blätter,"
+	next "großen Blätter,"
 	next "verstreut es Gift-"
 
 	page "pollen, wodurch"

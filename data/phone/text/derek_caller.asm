@@ -39,7 +39,7 @@ DerekDefeatedMonText:
 	line "bezaubernd!"
 
 	para "Mein PIKACHU ist"
-	line "das Gröせte!"
+	line "das Größte!"
 	done
 
 DerekLostAMonText:
@@ -50,12 +50,12 @@ DerekLostAMonText:
 	text "."
 
 	para "Aber es war nicht"
-	line "süせ, also lieせ ich"
+	line "süß, also ließ ich"
 
 	para "es in Frieden…"
 	line "#MON müssen"
 
-	para "süせ sein, sonst"
+	para "süß sein, sonst"
 	line "taugen sie nichts."
 	done
 

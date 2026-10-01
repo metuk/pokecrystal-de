@@ -308,7 +308,7 @@ EusineSuicuneText:
 	line "und fabelhaft."
 
 	para "Und es rennt durch"
-	line "Städte und Straせen"
+	line "Städte und Straßen"
 
 	para "mit wahnsinniger"
 	line "Geschwindigkeit."
@@ -345,7 +345,7 @@ EusineAfterText:
 	line "#MON so"
 	cont "zugetan."
 
-	para "Jetzt weiせ ichわ."
+	para "Jetzt weiß ichわ."
 
 	para "Ich werde weiter"
 	line "nach SUICUNE"

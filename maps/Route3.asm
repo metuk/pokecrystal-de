@@ -75,7 +75,7 @@ FirebreatherOtisAfterBattleText:
 	done
 
 YoungsterWarrenSeenText:
-	text "Hmmm… Ich weiせ"
+	text "Hmmm… Ich weiß"
 	line "nicht, was ich"
 	cont "tun soll…"
 	done
@@ -118,7 +118,7 @@ FirebreatherBurtSeenText:
 	done
 
 FirebreatherBurtBeatenText:
-	text "Wow! Das ist heiせ!"
+	text "Wow! Das ist heiß!"
 	done
 
 FirebreatherBurtAfterBattleText:

@@ -183,7 +183,7 @@ MeetSunnyText:
 
 	para "Ich bin SONNFRIED"
 	line "von Sonntag. Soll"
-	cont "heiせen, heute ist"
+	cont "heißen, heute ist"
 	cont "Sonntag!"
 	done
 
@@ -231,7 +231,7 @@ SunnyGaveGiftText:
 
 SunnySundayText:
 	text "SONNFRIED: Meine"
-	line "Geschwister heiせen"
+	line "Geschwister heißen"
 	cont "MONJA, DIETLINDE,"
 	cont "MITKO, DONATUS,"
 	cont "FRIEDA und SAMSON."

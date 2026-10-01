@@ -44,7 +44,7 @@ Route19FuchsiaGateOfficerText_RocksCleared:
 	line "INSEL wurde"
 
 	para "niemand verletzt."
-	line "Das ist groせartig!"
+	line "Das ist großartig!"
 	done
 
 Route19FuchsiaGate_MapEvents:

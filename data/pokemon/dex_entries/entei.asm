@@ -6,5 +6,5 @@
 	next "streift das Land"
 
 	page "und spuckt Flam-"
-	next "men heiせer als"
+	next "men heißer als"
 	next "flüssiges Magma.@"

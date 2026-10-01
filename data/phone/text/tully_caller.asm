@@ -5,11 +5,11 @@ TullyMonHasGrownText:
 	line "ist erneut"
 	cont "gewachsen."
 
-	para "Es war groせ, als"
+	para "Es war groß, als"
 	line "ich es fing, aber"
 
 	para "jetzt ist es noch"
-	line "gröせer."
+	line "größer."
 	done
 
 TullyDefeatedMonText:
@@ -20,7 +20,7 @@ TullyDefeatedMonText:
 	text " K.O."
 
 	para "Es war riesig,"
-	line "ungefähr soo groせ."
+	line "ungefähr soo groß."
 
 	para "He, ich glaube, "
 	line "man kann das am"
@@ -36,7 +36,7 @@ TullyLostAMonText:
 	text "."
 
 	para "Es war riesig,"
-	line "ungefähr soo groせ."
+	line "ungefähr soo groß."
 
 	para "He, ich glaube, "
 	line "man kann das am"

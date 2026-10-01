@@ -365,7 +365,7 @@ DoubleKickDescription:
 
 MegaKickDescription:
 	db   "Starke"
-	next "Fuせ-Attacke.@"
+	next "Fuß-Attacke.@"
 
 JumpKickDescription:
 	db   "Verfehlt evtl."
@@ -384,7 +384,7 @@ HeadbuttDescription:
 	next "evtl. zurück.@"
 
 HornAttackDescription:
-	db   "Stoせ mit dem"
+	db   "Stoß mit dem"
 	next "Horn.@"
 
 FuryAttackDescription:

@@ -72,7 +72,7 @@ TiffanyGenericText:
 	para "Mein @"
 	text_ram wStringBuffer4
 	text_start
-	line "ist süせ und leb-"
+	line "ist süß und leb-"
 	cont "haft, weil ich es"
 
 	para "täglich in ein"

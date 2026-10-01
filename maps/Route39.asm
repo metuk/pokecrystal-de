@@ -236,7 +236,7 @@ PokefanMDerekText_NotBragging:
 	done
 
 PokefanfRuthSeenText:
-	text "Was für süせe"
+	text "Was für süße"
 	line "#MON!"
 
 	para "Zeigen wir uns"
@@ -252,12 +252,12 @@ PokefanfRuthBeatenText:
 	done
 
 PokefanfRuthAfterBattleText:
-	text "Weiせt du über"
+	text "Weißt du über"
 	line "Baby-#MON"
 	cont "Bescheid?"
 
 	para "Die sind bestimmt"
-	line "super-süせ!"
+	line "super-süß!"
 	done
 
 PokefanMDerekPikachuIsItText:
@@ -277,7 +277,7 @@ PsychicNormanBeatenText:
 	done
 
 PsychicNormanAfterBattleText:
-	text "Du weiせt von den"
+	text "Du weißt von den"
 	line "unterschiedlichen"
 	cont "#-Fähigkeiten?"
 
@@ -310,7 +310,7 @@ PokefanfJaimeAfterBattleText:
 	line "NACHTs, genau hier"
 	cont "auf ROUTE 39."
 
-	para "Ich weiせ nicht"
+	para "Ich weiß nicht"
 	line "warum, aber es"
 
 	para "scheint es zu"

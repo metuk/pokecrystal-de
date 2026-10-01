@@ -142,10 +142,10 @@ Route35GoldenrodGateRandyWeirdTreeBlockingRoadText:
 	para "Stimmt! Ein"
 	line "merkwürdiger"
 	cont "Baum hat die"
-	cont "Straせe blockiert."
+	cont "Straße blockiert."
 
 	para "Ich frage mich,"
-	line "ob die Straせe"
+	line "ob die Straße"
 	cont "jetzt frei ist."
 	done
 
@@ -184,7 +184,7 @@ Route35GoldenrodGateRandyMyPalWasSnoozingRightText:
 Route35GoldenrodGatePokefanFText:
 	text "Ein merkwürdiger"
 	line "Baum blockiert die"
-	cont "Straせe."
+	cont "Straße."
 
 	para "Er fängt an zu"
 	line "zappeln, wenn man"

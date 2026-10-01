@@ -1,7 +1,7 @@
 	db "LÖWENZAHN@" ; species name
 	dbw 6, 10 ; height, weight
 
-	db   "Es schlieせt bei"
+	db   "Es schließt bei"
 	next "Regen die Blüte"
 	next "auf seinem Kopf"
 

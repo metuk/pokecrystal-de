@@ -227,7 +227,7 @@ BurnedTowerRival_AfterText2:
 	done
 
 BurnedTower1FEusineIntroText:
-	text "EUSIN: Ich heiせe"
+	text "EUSIN: Ich heiße"
 	line "EUSIN."
 
 	para "Ich bin auf der"

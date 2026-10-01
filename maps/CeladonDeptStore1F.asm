@@ -50,7 +50,7 @@ CeladonDeptStore1FTeacherText:
 	text "Ich bin zum"
 	line "ersten Mal hier."
 
-	para "Es ist so groせ…"
+	para "Es ist so groß…"
 
 	para "Ich habe Angst,"
 	line "mich zu verlaufen."

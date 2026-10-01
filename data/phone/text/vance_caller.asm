@@ -38,7 +38,7 @@ VanceBattleRematchText:
 	text_ram wStringBuffer5
 	text "."
 
-	para "Du weiせt, wo wir"
+	para "Du weißt, wo wir"
 	line "uns zum ersten Mal"
 	cont "sahen?"
 

@@ -3,7 +3,7 @@
 
 	db   "Sein Körper ist"
 	next "stets schleimig."
-	next "Es stöせt sich den"
+	next "Es stößt sich den"
 
 	page "Kopf am Fluss-"
 	next "grund, aber das"

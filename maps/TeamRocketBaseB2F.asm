@@ -586,7 +586,7 @@ RocketBaseBossFThrashText:
 RocketBaseLanceShareFunText:
 	text "Heh! Sei nicht so"
 	line "egoistisch."
-	cont "Teile den Spaせ."
+	cont "Teile den Spaß."
 	done
 
 RocketBaseBossDontMeddleText:
@@ -752,7 +752,7 @@ RocketBaseLanceWhirlpoolText:
 	line "Gib dies einem"
 
 	para "#MON, um"
-	line "reiせende Strudel"
+	line "reißende Strudel"
 	cont "zu durchqueren."
 
 	para "Aber vergiss"
@@ -763,7 +763,7 @@ RocketBaseLanceWhirlpoolText:
 	cont "ARENA in MAHAGONIA"
 
 	para "CITY, um die VM"
-	line "auせerhalb eines"
+	line "außerhalb eines"
 
 	para "Kampfes"
 	line "einzusetzen."
@@ -895,7 +895,7 @@ GruntM19AfterBattleText:
 	cont "für diese Tür."
 
 	para "Wo er ist?"
-	line "Wer weiせ? Schau"
+	line "Wer weiß? Schau"
 	cont "doch selbst nach."
 	done
 

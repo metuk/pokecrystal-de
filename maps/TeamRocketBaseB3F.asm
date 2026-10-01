@@ -384,7 +384,7 @@ RocketBaseRivalText:
 
 	para "Ich bin wütend,"
 	line "dass ich gegen so"
-	cont "ein Groせmaul"
+	cont "ein Großmaul"
 	cont "verloren habe."
 
 	para "…Humpf! Für Typen"
@@ -446,7 +446,7 @@ RocketBaseMurkrowText:
 
 GruntF5SeenText:
 	text "Ob ich das"
-	line "Passwort weiせ?"
+	line "Passwort weiß?"
 
 	para "Vielleicht."
 

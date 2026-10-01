@@ -93,7 +93,7 @@ WillScript_WillBeforeText:
 	para "meine Psycho-#-"
 	line "MON zu verbessern."
 
-	para "Und schlieせlich"
+	para "Und schließlich"
 	line "habe ich es"
 	cont "in die TOP VIER"
 	cont "geschafft."

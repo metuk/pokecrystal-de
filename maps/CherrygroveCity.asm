@@ -375,7 +375,7 @@ GuideGentMartText:
 	cont "nen du #MON"
 	cont "fangen kannst."
 
-	para "Auせerdem findest"
+	para "Außerdem findest"
 	line "du hier viele"
 	cont "nützliche Items."
 	done
@@ -526,7 +526,7 @@ CherrygroveYoungsterText_NoPokedex:
 CherrygroveYoungsterText_HavePokedex:
 	text "Ich habe gegen die"
 	line "Trainer auf der"
-	cont "Straせe gekämpft."
+	cont "Straße gekämpft."
 
 	para "Meine #MON"
 	line "haben verloren!"

@@ -7,4 +7,4 @@
 
 	page "Maul weit öffnet"
 	next "und seine scharfen"
-	next "Reiせzähne zeigt.@"
+	next "Reißzähne zeigt.@"

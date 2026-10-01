@@ -32,7 +32,7 @@ WardensHomeBookshelf:
 	jumpstd PictureBookshelfScript
 
 WardensGranddaughterText1:
-	text "Mein Groせvater ist"
+	text "Mein Großvater ist"
 	line "der WÄRTER in der"
 	cont "SAFARI-ZONE."
 
@@ -57,7 +57,7 @@ WardensGranddaughterText2:
 
 	para "SAFARI-ZONE ge-"
 	line "schlossen wurde."
-	cont "Aber Groせvater ist"
+	cont "Aber Großvater ist"
 	cont "so stur…"
 	done
 
@@ -71,7 +71,7 @@ WardenPhotoText:
 
 SafariZonePhotoText:
 	text "Das Foto zeigt"
-	line "eine groせe Wiese,"
+	line "eine große Wiese,"
 
 	para "auf der seltene"
 	line "#MON"

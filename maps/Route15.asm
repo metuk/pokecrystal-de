@@ -95,7 +95,7 @@ TeacherColetteBeatenText:
 
 TeacherColetteAfterBattleText:
 	text "Ehe ich Lehrer"
-	line "wurde, vergaせ ich"
+	line "wurde, vergaß ich"
 
 	para "immer eine Menge"
 	line "Dinge."
@@ -139,7 +139,7 @@ SchoolboyKippBeatenText:
 
 SchoolboyKippAfterBattleText:
 	text "Meine Mutter macht"
-	line "sich immer groせe"
+	line "sich immer große"
 
 	para "Sorgen um mich."
 	line "Ständig muss ich"

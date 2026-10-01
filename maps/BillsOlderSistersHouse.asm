@@ -14,7 +14,7 @@ BillsOlderSistersHouseYoungsterScript:
 	jumptextfaceplayer BillsOlderSistersHouseYoungsterText
 
 BillsOlderSisterText:
-	text "Mein Groせvater"
+	text "Mein Großvater"
 	line "besucht meinen"
 	cont "Bruder BILL am KAP"
 	cont "bei AZURIA CITY."

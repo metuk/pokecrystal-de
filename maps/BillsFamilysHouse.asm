@@ -172,7 +172,7 @@ BillPopWontWorkText:
 	line "arbeitet nicht. Er"
 
 	para "geht den ganzen"
-	line "Tag müせig."
+	line "Tag müßig."
 
 	para "Er fängt an, zu"
 	line "nerven…"
@@ -238,7 +238,7 @@ BillsYoungerSisterPhoneFullText:
 	done
 
 BillsYoungerSisterStorageSystemText:
-	text "Mein groせer Bruder"
+	text "Mein großer Bruder"
 	line "BILL hat das PC-"
 	cont "#MON-LAGERUNGS-"
 	cont "SYSTEM erfunden."

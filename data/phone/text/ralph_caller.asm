@@ -80,7 +80,7 @@ RalphItemText:
 	para "Sorry! Pass auf,"
 	line "@"
 	text_ram wStringBuffer4
-	text " beiせen,"
+	text " beißen,"
 
 	para "als gäbe es kein"
 	line "Morgen und zwar"
@@ -104,7 +104,7 @@ RalphItemText:
 	done
 
 RalphNoItemText:
-	text "Yo, ich weiせ."
+	text "Yo, ich weiß."
 
 	para "Du suchst seltene"
 	line "#MON."

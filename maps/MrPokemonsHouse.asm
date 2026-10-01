@@ -220,7 +220,7 @@ MrPokemonIntroText5:
 	text "Ich gehe davon"
 	line "aus, dass PROF."
 	cont "LIND mehr darüber"
-	cont "weiせ."
+	cont "weiß."
 	done
 
 MrPokemonsHouse_MrPokemonHealText:
@@ -275,7 +275,7 @@ MrPokemonsHouse_OakText1:
 
 	para "Hm, ich verstehe!"
 
-	para "Ich weiせ, warum"
+	para "Ich weiß, warum"
 	line "PROF. LIND dir ein"
 
 	para "#MON für die"
@@ -306,7 +306,7 @@ MrPokemonsHouse_OakText1:
 	line "neueste Version"
 	cont "des #DEX."
 
-	para "Er erfaせt"
+	para "Er erfaßt"
 	line "automatisch Daten"
 
 	para "über #MON,"
@@ -377,7 +377,7 @@ MrPokemonsHouse_ForeignMagazinesText:
 
 MrPokemonsHouse_BrokenComputerText:
 	text "Dies ist ein"
-	line "groせer Computer."
+	line "großer Computer."
 	cont "Hm, er ist kaputt."
 	done
 

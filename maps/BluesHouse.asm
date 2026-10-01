@@ -125,7 +125,7 @@ DaisyAllDoneText:
 	cont "wunderschön?"
 
 	para "Es ist so ein"
-	line "süせes #MON."
+	line "süßes #MON."
 	done
 
 DaisyAlreadyGroomedText:

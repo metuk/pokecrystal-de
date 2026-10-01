@@ -756,7 +756,7 @@ IlexForestApprenticeIntroText:
 	cont "um nach ihm"
 	cont "zu suchen."
 
-	para "Er ist so groせ,"
+	para "Er ist so groß,"
 	line "dunkel und"
 	cont "unheimlich…"
 	done
@@ -843,7 +843,7 @@ Text_HeadbuttIntro:
 	line "Bäume zu"
 
 	para "schütteln."
-	line "Das macht Spaせ!"
+	line "Das macht Spaß!"
 
 	para "Probier es doch"
 	line "auch einmal!"
@@ -860,7 +860,7 @@ Text_HeadbuttOutro:
 
 Text_IlexForestLass:
 	text "Ist dem Waldpatron"
-	line "etwas zugestoせen?"
+	line "etwas zugestoßen?"
 	done
 
 IlexForestSignpostText:

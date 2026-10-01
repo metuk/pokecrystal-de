@@ -197,9 +197,9 @@ EatathonContestPosterText:
 	line "bis zum Umfallen!"
 
 	para "Kein Zeitlimit!"
-	line "Der gröせte"
+	line "Der größte"
 
-	para "Vielfraせ bekommt"
+	para "Vielfraß bekommt"
 	line "alles umsonst!"
 	done
 

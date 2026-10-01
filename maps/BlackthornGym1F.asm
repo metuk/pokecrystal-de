@@ -192,7 +192,7 @@ ClairText_GoToDragonsDen:
 	line "reif für die"
 	cont "#MON LIGA."
 
-	para "Ich weiせ. Stelle"
+	para "Ich weiß. Stelle"
 	line "dich der Drachen-"
 	cont "Trainer-Heraus-"
 	cont "forderung."
@@ -347,7 +347,7 @@ CooltrainerfLolaSeenText:
 	done
 
 CooltrainerfLolaBeatenText:
-	text "Groせartig!"
+	text "Großartig!"
 	done
 
 CooltrainerfLolaAfterBattleText:

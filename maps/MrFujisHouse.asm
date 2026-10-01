@@ -61,7 +61,7 @@ MrFujisHouseLassText:
 	cont "#MON im Stich"
 	cont "lassen."
 
-	para "Groせvater nimmt"
+	para "Großvater nimmt"
 	line "die armen, heimat-"
 	cont "losen #MON auf"
 	cont "und sorgt für sie."

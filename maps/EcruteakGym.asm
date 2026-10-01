@@ -243,11 +243,11 @@ MortyText_FogBadgeSpeech:
 	para "dir #MON bis zu"
 	line "LV 50."
 
-	para "Auせerdem können"
+	para "Außerdem können"
 	line "#MON, die SUR-"
 	cont "FER beherrschen,"
 
-	para "diesen auch auせer-"
+	para "diesen auch außer-"
 	line "halb eines Kampfes"
 	cont "einsetzen."
 
@@ -383,7 +383,7 @@ EcruteakGymGuideText:
 
 EcruteakGymGuideWinText:
 	text "Wow, <PLAYER>."
-	line "Du warst groせar-"
+	line "Du warst großar-"
 	cont "tig!"
 
 	para "Vor lauter Angst"

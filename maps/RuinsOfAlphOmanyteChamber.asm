@@ -124,7 +124,7 @@ RuinsOfAlphOmanyteChamberWallPatternRightText:
 	done
 
 RuinsOfAlphOmanyteChamberWallHoleText:
-	text "Da ist ein groせes"
+	text "Da ist ein großes"
 	line "Loch in der Wand!"
 	done
 

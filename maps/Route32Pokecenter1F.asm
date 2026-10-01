@@ -87,7 +87,7 @@ Route32Pokecenter1FFishingGuruText_No:
 
 Route32Pokecenter1FFishingGuruText_After:
 	text "Moin, lüttes Ding."
-	line "Und beiせen sie?"
+	line "Und beißen sie?"
 	done
 
 Route32Pokecenter1FCooltrainerFText:

@@ -16,7 +16,7 @@ LavenderSpeechHousePokefanFText:
 	text "LAVANDIA ist eine"
 	line "ruhige, kleine"
 
-	para "Stadt am Fuせe der"
+	para "Stadt am Fuße der"
 	line "Berge."
 
 	para "In letzter Zeit"

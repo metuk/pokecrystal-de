@@ -365,7 +365,7 @@ GoldenrodCityLassText:
 
 GoldenrodCityGrampsText:
 	text "Wow! Das ist eine"
-	line "groせe Stadt. Ich"
+	line "große Stadt. Ich"
 
 	para "finde mich noch"
 	line "gar nicht zurecht."
@@ -435,7 +435,7 @@ GoldenrodCityRadioTowerSignText:
 	done
 
 GoldenrodDeptStoreSignText:
-	text "Groせe Auswahl an"
+	text "Große Auswahl an"
 	line "#MON-Artikeln!"
 
 	para "DUKATIA CITY"

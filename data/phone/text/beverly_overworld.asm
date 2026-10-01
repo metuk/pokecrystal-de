@@ -1,6 +1,6 @@
 BeverlyAskNumber1Text:
 	text "Dein MARILL ist so"
-	line "niedlich und süせ!"
+	line "niedlich und süß!"
 
 	para "Du liebst #MON,"
 	line "genau wie ich!"
@@ -10,12 +10,12 @@ BeverlyAskNumber1Text:
 
 	para "Dann können wir"
 	line "ein wenig plau-"
-	cont "dern! Wie spaせig!"
+	cont "dern! Wie spaßig!"
 	done
 
 BeverlyAskNumber2Text:
 	text "Dein MARILL ist so"
-	line "niedlich und süせ!"
+	line "niedlich und süß!"
 
 	para "Wir sollten öfter"
 	line "miteinander reden,"

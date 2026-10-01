@@ -324,7 +324,7 @@ _CutNothingText::
 	prompt
 
 _BlindingFlashText::
-	text "Ein gleiせender"
+	text "Ein gleißender"
 	line "BLITZ erhellt"
 	cont "das Gebiet!@"
 	text_promptbutton
@@ -363,7 +363,7 @@ _UseWaterfallText::
 
 _HugeWaterfallText::
 	text "Wow, das ist ein"
-	line "groせer Wasserfall."
+	line "großer Wasserfall."
 	done
 
 _AskWaterfallText::
@@ -1092,7 +1092,7 @@ _MagikarpGuruMeasureText::
 	line "@"
 	text_ram wStringBuffer1
 	text "cm"
-	cont "groせ."
+	cont "groß."
 	prompt
 
 _KarpGuruRecordText::
@@ -1321,7 +1321,7 @@ _OakRating07::
 
 _OakRating08::
 	text "Sehr gut! Sammeln"
-	line "scheint dir Spaせ"
+	line "scheint dir Spaß"
 	cont "zu machen!"
 	done
 
@@ -1377,7 +1377,7 @@ _OakRating15::
 	text "Wow! Die 200-Marke"
 	line "ist erreicht! Dein"
 	cont "#DEX sieht"
-	cont "groせartig aus!"
+	cont "großartig aus!"
 	done
 
 _OakRating16::

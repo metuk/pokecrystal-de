@@ -63,7 +63,7 @@ SaffronPokecenter1FTeacherMobileText:
 	para "…Oh, aha."
 	line "Man kann auch über"
 
-	para "groせe Distanzen"
+	para "große Distanzen"
 	line "tauschen?"
 
 	para "Dann sage ich mei-"

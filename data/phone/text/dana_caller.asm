@@ -2,7 +2,7 @@ DanaTakingPhotosText:
 	text "Mein @"
 	text_ram wStringBuffer4
 	text_start
-	line "wird immer süせer!"
+	line "wird immer süßer!"
 
 	para "Ich habe schon"
 	line "viele Fotos"
@@ -24,7 +24,7 @@ DanaDefeatedMonText:
 	done
 
 DanaLostAMonText:
-	text "Weiせt du? Ein"
+	text "Weißt du? Ein"
 	line "wildes @"
 	text_ram wStringBuffer4
 	text_start
@@ -57,7 +57,7 @@ DanaHangUpText:
 	done
 
 DanaFoundItemText:
-	text "Weiせt du?"
+	text "Weißt du?"
 	line "Ich habe ein gutes"
 	cont "Geschenk für dich!"
 

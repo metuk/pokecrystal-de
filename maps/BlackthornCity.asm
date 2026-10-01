@@ -154,7 +154,7 @@ Text_ClairIsOut:
 	para "hinter der PKMN-"
 	line "ARENA gegangen."
 
-	para "Ich weiせ nicht,"
+	para "Ich weiß nicht,"
 	line "wann sie wieder-"
 	cont "kommt."
 	done
@@ -177,7 +177,7 @@ Text_ClairIsBeaten:
 
 	para "Wie erstaunlich!"
 
-	para "Soweit ich weiせ,"
+	para "Soweit ich weiß,"
 	line "hat sie bis jetzt"
 
 	para "nur gegen"
@@ -284,7 +284,7 @@ BlackthornCooltrainerF2Text:
 	cont "men?"
 
 	para "Du musst ein rich-"
-	line "tiger Heiせsporn"
+	line "tiger Heißsporn"
 	cont "sein!"
 	done
 

@@ -17,7 +17,7 @@ IlexForestAzaleaGateOfficerText:
 	text "Vorsicht! Verlaufe"
 	line "dich nicht! Der"
 	cont "STEINEICHENWALD"
-	cont "ist groせ."
+	cont "ist groß."
 	done
 
 IlexForestAzaleaGateGrannyText:

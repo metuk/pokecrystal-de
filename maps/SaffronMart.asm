@@ -22,7 +22,7 @@ SaffronMartCooltrainerFScript:
 
 SaffronMartCooltrainerMText:
 	text "In LAVANDIA"
-	line "ist ein groせer"
+	line "ist ein großer"
 	cont "RADIOTURM."
 	done
 

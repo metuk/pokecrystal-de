@@ -90,7 +90,7 @@ BuenaPhoneRocketText:
 	line "nicht die Zeit für"
 
 	para "dämliche und"
-	line "komische Grüせe!"
+	line "komische Grüße!"
 
 	para "Der RADIOTURM ist"
 	line "in Gefahr!"
@@ -104,7 +104,7 @@ BuenaPhoneWentOutWithBenText:
 	line "mit DJ BEN beim"
 
 	para "Essen! Ist das"
-	line "nicht groせartig?"
+	line "nicht großartig?"
 
 	para "Nicht nur das, er"
 	line "sagte auch, dass"
@@ -131,7 +131,7 @@ BuenaPhoneReceptionistText:
 	cont "sagt."
 
 	para "Aber sie ist wirk-"
-	line "lich die gröせte"
+	line "lich die größte"
 
 	para "Plaudertasche im"
 	line "RADIOTURM."
@@ -141,7 +141,7 @@ BuenaPhoneReceptionistText:
 
 	para "Ist das nicht"
 	line "lustig, wenn man"
-	cont "es weiせ?"
+	cont "es weiß?"
 
 	para "Bis später!"
 	done
@@ -168,13 +168,13 @@ BuenaPhoneLuckyNumberShowText:
 	done
 
 BuenaPhoneStressedFromWorkText:
-	text "Du weiせt, letzte"
+	text "Du weißt, letzte"
 	line "Nacht…"
 
 	para "Ich war so müde"
 	line "von der Arbeit und"
 
-	para "aせ jede Menge"
+	para "aß jede Menge"
 	line "Fast Food!"
 
 	para "MARIA und ich hab-"
@@ -299,11 +299,11 @@ BuenaPhonePikachuFanClubText:
 	done
 
 BuenaPhoneRadioTowerDirectorText:
-	text "Weiせt du was?"
+	text "Weißt du was?"
 	line "Der INTENDANT vom"
 
 	para "RADIOTURM ist ein"
-	line "groせer TV-Fan!"
+	line "großer TV-Fan!"
 
 	para "Vor geraumer Zeit,"
 	line "sagte man in einer"
@@ -394,7 +394,7 @@ BuenaPhoneStarterPokemonText:
 	line "zu ihr, oder?"
 
 	para "MARIAs TRAUMATO"
-	line "lieせ sie während"
+	line "ließ sie während"
 
 	para "der Arbeit immer"
 	line "einschlafen, also"
@@ -411,7 +411,7 @@ BuenaPhoneStarterPokemonText:
 	done
 
 BuenaPhoneCompanyVacationText:
-	text "Weiせt du? Jeder"
+	text "Weißt du? Jeder"
 	line "Angestellte vom"
 
 	para "RADIOTURM ist beim"
@@ -431,7 +431,7 @@ BuenaPhoneCompanyVacationText:
 
 	para "<PLAY_G>, ich"
 	line "hoffe, du hast ge-"
-	cont "nügend Spaせ für"
+	cont "nügend Spaß für"
 	cont "uns beide!"
 
 	para "Tschüss!"
@@ -551,7 +551,7 @@ BuenaPhoneCoopedUpInRadioTowerAnswerText:
 	cont "dann verlierst du"
 
 	para "den Kontakt nach"
-	line "Auせen. Das kann"
+	line "Außen. Das kann"
 	cont "dich langweilen."
 
 	para "Bis später!"

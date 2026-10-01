@@ -113,7 +113,7 @@ EcruteakPokecenter1F_BillText2:
 	cont "der ZEITKAPSEL"
 	cont "fertig geworden."
 
-	para "Du weiせt doch,"
+	para "Du weißt doch,"
 	line "dass man #MON"
 	cont "tauschen kann?"
 

@@ -553,7 +553,7 @@ YoungsterIanAfterText:
 	done
 
 CamperTodd1SeenText:
-	text "Ich weiせ, dass ich"
+	text "Ich weiß, dass ich"
 	line "#MON gut"
 	cont "aufziehen kann."
 
@@ -701,7 +701,7 @@ CooltrainerfJennBeatenText:
 
 CooltrainerfJennAfterText1:
 	text "ELSE: Bilde dir"
-	line "bloせ nichts ein!"
+	line "bloß nichts ein!"
 	cont "Meine Schwester"
 	cont "EDNA ist sehr"
 	cont "stark!"

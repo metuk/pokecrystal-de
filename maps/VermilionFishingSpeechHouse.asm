@@ -25,7 +25,7 @@ FishingDudeText:
 	cont "ZORNS getroffen?"
 
 	para "Er träumt davon,"
-	line "das gröせte"
+	line "das größte"
 
 	para "KARPADOR der Welt"
 	line "zu sehen."
@@ -39,7 +39,7 @@ FishingDudeText:
 	para "zeigen, das du"
 	line "fängst?"
 
-	para "Wer weiせ, viel-"
+	para "Wer weiß, viel-"
 	line "leicht fängst du"
 
 	para "das KARPADOR"
@@ -52,7 +52,7 @@ FishingDudesHousePhotoText:
 	cont "sehen sind…"
 
 	para "Sie haben viel"
-	line "Spaせ beim Angeln…"
+	line "Spaß beim Angeln…"
 	done
 
 VermilionFishingSpeechHouse_MapEvents:

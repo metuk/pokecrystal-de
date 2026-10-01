@@ -1,7 +1,7 @@
 	db "PSI@" ; species name
 	dbw 13, 565 ; height, weight
 
-	db   "Schlieせt es seine"
+	db   "Schließt es seine"
 	next "Augen, entstehen"
 	next "auf der Oberfläche"
 

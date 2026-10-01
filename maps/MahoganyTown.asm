@@ -155,7 +155,7 @@ RageCandyBarMerchantTryOneText:
 	done
 
 RageCandyBarMerchantSavorItText:
-	text "Gut! Genieせe ihn!"
+	text "Gut! Genieße ihn!"
 	done
 
 RageCandyBarMerchantNotEnoughMoneyText:
@@ -215,7 +215,7 @@ MahoganyTownFisherText:
 	done
 
 MahoganyTownLassText:
-	text "Besuche Groせmut-"
+	text "Besuche Großmut-"
 	line "ters Laden. Sie"
 
 	para "verkauft Artikel,"

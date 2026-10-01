@@ -7,4 +7,4 @@
 
 	page "es in einer Höhle,"
 	next "die es nur nachts"
-	next "verläせt.@"
+	next "verläßt.@"

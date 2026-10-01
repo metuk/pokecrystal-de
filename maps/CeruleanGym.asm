@@ -211,7 +211,7 @@ CeruleanGymGruntIntroText:
 CeruleanGymGruntBigMistakeText:
 	text "Oh nein! Du mich"
 	line "schon hast gese-"
-	cont "hen! Ich groせes"
+	cont "hen! Ich großes"
 	cont "Fehler gemacht!"
 	done
 
@@ -362,7 +362,7 @@ CeruleanGymGuideText:
 	para "Nachdem MISTY weg"
 	line "war, bin ich auch"
 
-	para "los, um Spaせ zu"
+	para "los, um Spaß zu"
 	line "haben. Hi-hi-hi."
 	done
 

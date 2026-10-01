@@ -2,7 +2,7 @@
 	dbw 5, 90 ; height, weight
 
 	db   "Es richtet seine"
-	next "groせen Ohren stän-"
+	next "großen Ohren stän-"
 	next "dig in alle Rich-"
 
 	page "tungen, um Gefahr"

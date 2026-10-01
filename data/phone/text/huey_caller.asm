@@ -16,7 +16,7 @@ HueyBattleRematchText:
 	done
 
 HueyHangUpText:
-	text "Und tschüせ!"
+	text "Und tschüß!"
 	done
 
 HueyWeHaveToBattleAgainSometimeText:

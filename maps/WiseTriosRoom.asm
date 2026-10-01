@@ -214,7 +214,7 @@ SageGakuSeenText:
 
 SageGakuBeatenText:
 	text "Stärker als wir"
-	line "dachten? Wer weiせ…"
+	line "dachten? Wer weiß…"
 	done
 
 SageGakuAfterBattleText:

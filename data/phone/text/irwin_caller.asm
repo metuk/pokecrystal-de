@@ -181,7 +181,7 @@ IrwinSnorlaxGossipText:
 	para "Ich habe dich aus"
 	line "der Ferne beo-"
 	cont "bachtet, daher"
-	cont "weiせ ich nicht,"
+	cont "weiß ich nicht,"
 	cont "was du getan hast."
 
 	para "Hast du eine Flöte"
@@ -245,7 +245,7 @@ IrwinFogBadgeGossipText:
 	done
 
 IrwinMarshBadgeGossipText:
-	text "<PLAY_G>, ich weiせ!"
+	text "<PLAY_G>, ich weiß!"
 
 	para "Du hast ganz schön"
 	line "für Aufregung ge-"

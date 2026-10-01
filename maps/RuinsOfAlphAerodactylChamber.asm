@@ -123,7 +123,7 @@ RuinsOfAlphAerodactylChamberWallPatternRightText:
 	done
 
 RuinsOfAlphAerodactylChamberWallHoleText:
-	text "Da ist ein groせes"
+	text "Da ist ein großes"
 	line "Loch in der Wand!"
 	done
 
@@ -139,7 +139,7 @@ RuinsOfAlphAerodactylChamberDescriptionText:
 
 	para "Beute mittels"
 	line "seiner sensen-"
-	cont "artigen Reiせzähne"
+	cont "artigen Reißzähne"
 	cont "an."
 	done
 

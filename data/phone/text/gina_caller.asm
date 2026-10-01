@@ -22,7 +22,7 @@ GinaDefeatedMonText:
 	done
 
 GinaLostAMonText:
-	text "Aber, weiせt du?"
+	text "Aber, weißt du?"
 
 	para "Ich habe immer"
 	line "noch kein"

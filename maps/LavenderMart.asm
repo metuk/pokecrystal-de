@@ -40,7 +40,7 @@ LavenderMartRockerText:
 	text "Ich habe von einem"
 	line "Kunstschmied"
 
-	para "gehört, der maせ-"
+	para "gehört, der maß-"
 	line "gefertigte #-"
 	cont "BÄLLE in AZALEA"
 

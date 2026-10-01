@@ -246,7 +246,7 @@ RuinsOfAlphResearchCenterScientist1Text:
 	line "zirka 1500"
 	cont "Jahre alt."
 
-	para "Aber niemand weiせ,"
+	para "Aber niemand weiß,"
 	line "warum sie erbaut"
 	cont "wurden."
 	done
@@ -344,7 +344,7 @@ RuinsOfAlphResearchCenterUnusedText2: ; unreferenced
 	para "Das bedeutet, dass"
 	line "Radiowellen einen"
 
-	para "gewissen Einfluせ"
+	para "gewissen Einfluß"
 	line "haben…"
 	done
 

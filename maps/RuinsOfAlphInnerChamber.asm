@@ -47,7 +47,7 @@ RuinsOfAlphStrangePresenceText:
 
 RuinsOfAlphInnerChamberFisherText:
 	text "Dies ist ein"
-	line "groせer Raum, aber"
+	line "großer Raum, aber"
 	cont "er ist leer."
 	done
 

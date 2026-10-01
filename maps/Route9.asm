@@ -112,8 +112,8 @@ PicnickerHeidiSeenText:
 	text "Warst du schon"
 	line "beim Picknicken?"
 
-	para "Das macht groせen"
-	line "Spaせ!"
+	para "Das macht großen"
+	line "Spaß!"
 	done
 
 PicnickerHeidiBeatenText:

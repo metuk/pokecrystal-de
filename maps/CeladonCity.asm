@@ -156,7 +156,7 @@ CeladonCityTeacher2Text:
 	line "ZENTRUM in"
 
 	para "PRISMANIA CITY"
-	line "bietet die gröせte"
+	line "bietet die größte"
 
 	para "und beste Auswahl"
 	line "an Artikeln."
@@ -179,7 +179,7 @@ CeladonCityLassText_Mobile: ; unreferenced
 	para "Stimmt es, dass"
 	line "man das #MON-"
 	cont "CENTER in DUKATIA"
-	cont "vergröせert hat?"
+	cont "vergrößert hat?"
 
 	para "Das ist toll! Ich"
 	line "wünschte, wir"

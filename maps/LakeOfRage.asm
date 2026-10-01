@@ -340,7 +340,7 @@ LakeOfRageGrampsText:
 
 LakeOfRageGrampsText_ClearedRocketHideout:
 	text "Haha! Die KARPA-"
-	line "DOR beiせen!"
+	line "DOR beißen!"
 	done
 
 LakeOfRageSuperNerdText:
@@ -442,7 +442,7 @@ CooltrainerfLoisSeenText:
 	line "umsonst hergekom-"
 	cont "men."
 
-	para "Ich weiせ was! Lass"
+	para "Ich weiß was! Lass"
 	line "uns kämpfen!"
 	done
 
@@ -463,7 +463,7 @@ MeetWesleyText:
 	para "Ich bin MITKO von"
 	line "Mittwoch. Soll"
 
-	para "heiせen, heute ist"
+	para "heißen, heute ist"
 	line "Mittwoch."
 	done
 

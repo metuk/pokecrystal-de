@@ -353,7 +353,7 @@ Route30YoungsterText_DirectionsToMrPokemonsHouse:
 
 Route30YoungsterText_EveryoneIsBattling:
 	text "Jedem macht das"
-	line "Kämpfen Spaせ!"
+	line "Kämpfen Spaß!"
 	done
 
 Route30CooltrainerFText:
@@ -401,7 +401,7 @@ YoungsterJoeyText_GiveHPUpAfterBattle:
 	text "Wieder verloren…"
 	line "Bist du stark!"
 
-	para "Oh fast vergaせ"
+	para "Oh fast vergaß"
 	line "ich, dass ich dir"
 	cont "das geben muss."
 

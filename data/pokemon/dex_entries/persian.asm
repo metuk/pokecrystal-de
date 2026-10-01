@@ -7,4 +7,4 @@
 
 	page "Wesen. Es zerfetzt"
 	next "seine Beute ein-"
-	next "fach aus Spaせ.@"
+	next "fach aus Spaß.@"

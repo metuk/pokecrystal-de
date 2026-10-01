@@ -167,6 +167,7 @@
 	charmap "ä",         $c3
 	charmap "ö",         $c4
 	charmap "ü",         $c5
+	charmap "ß",         $be ; no glyph in the font
 
 	charmap "'d",        $d0
 	charmap "'l",        $d1

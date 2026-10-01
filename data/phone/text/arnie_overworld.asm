@@ -32,7 +32,7 @@ ArnieAskNumber2Text:
 
 ArnieNumberAcceptedText:
 	text "Sollte ich ein"
-	line "auせergewöhnliches"
+	line "außergewöhnliches"
 
 	para "#MON sehen,"
 	line "melde ich mich!"

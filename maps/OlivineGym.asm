@@ -163,7 +163,7 @@ Jasmine_IronTailSpeech:
 	done
 
 Jasmine_GoodLuck:
-	text "Ähm… Ich weiせ"
+	text "Ähm… Ich weiß"
 	line "nicht, wie ich das"
 	cont "sagen soll, aber…"
 	cont "Viel Glück!"
@@ -174,12 +174,12 @@ OlivineGymGuideText:
 	line "neu entdeckten Typ"
 	cont "Stahl ein."
 
-	para "Ich weiせ nicht"
+	para "Ich weiß nicht"
 	line "viel darüber."
 	done
 
 OlivineGymGuideWinText:
-	text "Das war groせartig!"
+	text "Das war großartig!"
 
 	para "Der Typ Stahl,"
 	line "was?"

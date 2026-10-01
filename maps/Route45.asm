@@ -339,7 +339,7 @@ HikerErikAfterBattleText:
 HikerMichaelSeenText:
 	text "He! Du hast Mumm"
 	line "in den Knochen!"
-	cont "Aber weiせt du was?"
+	cont "Aber weißt du was?"
 
 	para "Wenn es um echte"
 	line "Courage geht, bin"
@@ -373,7 +373,7 @@ HikerParry3SeenText:
 
 HikerParry3BeatenText:
 	text "Ojemine! Ich bin"
-	line "der groせe"
+	line "der große"
 	cont "Verlierer!"
 	done
 
@@ -381,7 +381,7 @@ HikerParryAfterBattleText:
 	text "Ich bin eher"
 	line "langsam, was das"
 	cont "Denken betrifft,"
-	cont "weiせt du?"
+	cont "weißt du?"
 
 	para "Deswegen setze ich"
 	line "alles auf Kraft."
@@ -415,7 +415,7 @@ HikerTimothyAfterBattleText:
 	done
 
 HikerParryGivesIronText:
-	text "Ich weiせ nicht,"
+	text "Ich weiß nicht,"
 	line "wie ich gewinnen"
 	cont "kann!"
 
@@ -447,7 +447,7 @@ BlackbeltKenji3BeatenText:
 BlackbeltKenjiAfterBattleText:
 	text "Das schreit nach"
 	line "extremen"
-	cont "Maせnahmen."
+	cont "Maßnahmen."
 
 	para "Ich ziehe mich"
 	line "zurück in die"
@@ -515,7 +515,7 @@ CooltrainerfKellyBeatenText:
 
 CooltrainerfKellyAfterBattleText:
 	text "Ich mag keine"
-	line "übermäせig starken"
+	line "übermäßig starken"
 	cont "Attacken."
 
 	para "Ich will gewinnen,"

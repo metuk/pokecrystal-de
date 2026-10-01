@@ -83,7 +83,7 @@ KarenScript_KarenBeforeText:
 	line "Nummer 4 der"
 	cont "TOP VIER."
 
-	para "Du heiせt <PLAYER>?"
+	para "Du heißt <PLAYER>?"
 	line "Sehr amüsant."
 
 	para "Ich liebe #MON"
@@ -128,7 +128,7 @@ KarenScript_KarenDefeatText:
 	line "lings-#MON."
 
 	para "Ich mag deinen"
-	line "Stil. Du weiせt,"
+	line "Stil. Du weißt,"
 	cont "was wichtig ist."
 
 	para "Schreite voran!"

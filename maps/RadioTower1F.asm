@@ -425,7 +425,7 @@ RadioTower1FRadioCardWomanNotTakingQuizText:
 
 RadioTower1FLassText:
 	text "BEN ist ein"
-	line "groせartiger DJ."
+	line "großartiger DJ."
 
 	para "Seine sonore"
 	line "Stimme lässt mich"

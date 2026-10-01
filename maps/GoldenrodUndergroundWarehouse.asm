@@ -192,7 +192,7 @@ DirectorAfterText:
 	text "Ich flehe dich an,"
 	line "uns zu helfen."
 
-	para "Niemand weiせ, was"
+	para "Niemand weiß, was"
 	line "sie vorhaben, wenn"
 
 	para "sie erst Kontrolle"

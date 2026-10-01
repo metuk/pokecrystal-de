@@ -98,7 +98,7 @@ GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
 
 GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText:
 	text "Möchtest du auch"
-	line "die Gieせkanne aus-"
+	line "die Gießkanne aus-"
 	cont "leihen? Ich werde"
 	cont "nicht zulassen,"
 
@@ -138,7 +138,7 @@ GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
 	line "gefährlich sei."
 
 	para "Ich frage mich, ob"
-	line "sie mir ihre Gieせ-"
+	line "sie mir ihre Gieß-"
 	cont "kanne leiht, wenn"
 	cont "ich BIANKA"
 	cont "besiege…"

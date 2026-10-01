@@ -14,7 +14,7 @@ DanaAnswerPhoneDayText:
 	text_start
 	line "am Apparat."
 
-	para "Ich weiせ! Du bist"
+	para "Ich weiß! Du bist"
 	line "<PLAY_G>!"
 	done
 

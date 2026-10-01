@@ -4,7 +4,7 @@ ArnieMonIsSoCuteText:
 	text_start
 	line "ist immer dabei!"
 
-	para "Es ist so süせ!"
+	para "Es ist so süß!"
 	line "Ich liebe es!"
 	done
 
@@ -80,7 +80,7 @@ ArnieHaventSeenRareMonText:
 	para "Glück, seltene"
 	line "#MON zu sehen…"
 
-	para "Aber ich weiせ,"
+	para "Aber ich weiß,"
 	line "dass sie da sind!"
 	done
 

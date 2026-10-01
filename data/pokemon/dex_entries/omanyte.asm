@@ -5,6 +5,6 @@
 	next "schwamm es am"
 	next "Meeresgrund und"
 
-	page "fraせ Plankton."
+	page "fraß Plankton."
 	next "Selten gibt es"
 	next "Fossilienfunde.@"

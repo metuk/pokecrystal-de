@@ -5,6 +5,6 @@
 	next "warm wird, rollt"
 	next "es sich in einem"
 
-	page "groせen Blatt ein"
+	page "großen Blatt ein"
 	next "und fällt in einen"
 	next "tiefen Schlaf.@"

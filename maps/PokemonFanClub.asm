@@ -145,7 +145,7 @@ PokemonFanClubChairmanRapidashText:
 	para "Also… am liebsten"
 	line "habe ich GALLOPA…"
 
-	para "Es ist… süせ… lieb…"
+	para "Es ist… süß… lieb…"
 	line "klug… anmutig…"
 	cont "und… wunderbar…"
 	cont "nicht wahr?…"
@@ -157,7 +157,7 @@ PokemonFanClubChairmanRapidashText:
 	line "es schläft… warm"
 	cont "und weich… Oh, und"
 	cont "sensationell…"
-	cont "groせartig… einfach"
+	cont "großartig… einfach"
 	cont "göttlich…"
 	cont "Ups! Wie die Zeit"
 	cont "vergeht! Ich habe"
@@ -280,7 +280,7 @@ PokemonFanClubClefairyGuyPackIsJammedFullText:
 
 PokemonFanClubTeacherText:
 	text "Schau dir mein"
-	line "süせes LORBLATT an!"
+	line "süßes LORBLATT an!"
 
 	para "Das Blatt auf"
 	line "seinem Kopf ist so"

@@ -344,7 +344,7 @@ SSAquaGranddaughterWasPlayingFText:
 
 SSAquaGranddaughterHadFunText:
 	text "Das Spielen hat"
-	line "mir Spaせ gemacht!"
+	line "mir Spaß gemacht!"
 	done
 
 PokefanmColinSeenText:

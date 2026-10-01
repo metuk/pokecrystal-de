@@ -44,7 +44,7 @@ CeruleanPokecenter1FSuperNerdText_Mobile:
 	line "limit den Kampf,"
 
 	para "ist es nervenzer-"
-	line "reiせend den Ge-"
+	line "reißend den Ge-"
 	cont "winner abzuwarten."
 	done
 

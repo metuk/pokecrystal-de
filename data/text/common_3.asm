@@ -301,7 +301,7 @@ _PocketIsFullText::
 
 _SeerSeeAllText::
 	text "Ich sehe alles."
-	line "Ich weiせ alles…"
+	line "Ich weiß alles…"
 
 	para "Gewiss kenne ich"
 	line "deine #MON!"
@@ -311,7 +311,7 @@ _SeerCantTellAThingText::
 	text "Wiiieeee? Ich kann"
 	line "nichts sagen!"
 
-	para "Wieso weiせ ich"
+	para "Wieso weiß ich"
 	line "darüber nichts?"
 	done
 
@@ -363,7 +363,7 @@ _SeerTradeText::
 _SeerNoLocationText::
 	text "Was!? Unglaublich!"
 
-	para "Ich weiせ nicht"
+	para "Ich weiß nicht"
 	line "wie, aber es ist"
 
 	para "unglaublich!"
@@ -392,7 +392,7 @@ _SeerEggText::
 
 _SeerDoNothingText::
 	text "Fufufu! Ich sah,"
-	line "dass du müせig"
+	line "dass du müßig"
 	cont "gehst!"
 	done
 
@@ -942,14 +942,14 @@ _PhoneEllipseText::
 
 _PhoneOutOfAreaText::
 	text "Die Nummer ist"
-	line "auせerhalb des"
+	line "außerhalb des"
 	cont "Funknetzes."
 	done
 
 _PhoneJustTalkToThemText::
 	text "Du musst diesen"
 	line "Gesprächspartner"
-	cont "zu Fuせ aufsuchen!"
+	cont "zu Fuß aufsuchen!"
 	done
 
 _PhoneThankYouText::
@@ -1118,7 +1118,7 @@ _GearEllipseText::
 	done
 
 _GearOutOfServiceText::
-	text "Du bist auせerhalb"
+	text "Du bist außerhalb"
 	line "des Service-"
 	cont "gebiets."
 	prompt

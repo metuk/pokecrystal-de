@@ -237,7 +237,7 @@ VioletCityGrampsText:
 	line "PKMN-ARENA in"
 
 	para "VIOLA CITY ist"
-	line "ein groせartiger"
+	line "ein großartiger"
 	cont "Trainer!"
 
 	para "Er hat die PKMN-"

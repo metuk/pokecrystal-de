@@ -5,6 +5,6 @@
 	next "erfahren im Umgang"
 	next "mit Elektrizität."
 
-	page "Bei jedem Stoせ"
+	page "Bei jedem Stoß"
 	next "entlädt es spontan"
 	next "Energie.@"

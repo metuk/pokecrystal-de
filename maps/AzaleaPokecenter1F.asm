@@ -59,7 +59,7 @@ AzaleaPokecenter1FFishingGuruText:
 	done
 
 AzaleaPokecenter1FPokefanFText:
-	text "Weiせt du über"
+	text "Weißt du über"
 	line "APRIKOKOS Be-"
 	cont "scheid?"
 

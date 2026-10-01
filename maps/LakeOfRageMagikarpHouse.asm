@@ -105,8 +105,8 @@ MagikarpLengthRaterText_LakeOfRageHistory:
 	para "Diese Geschichte"
 	line "erzählte schon"
 
-	para "der Ur-Urgroせvater"
-	line "meines Groせvaters."
+	para "der Ur-Urgroßvater"
+	line "meines Großvaters."
 
 	para "Früher konnte man"
 	line "hier quicklebendi-"
@@ -136,7 +136,7 @@ MagikarpLengthRaterText_WorldsLargestMagikarp:
 	para "Vielleicht geht"
 	line "nun mein Traum in"
 	cont "Erfüllung, das"
-	cont "gröせte KARPADOR"
+	cont "größte KARPADOR"
 	cont "der Welt zu sehen!"
 
 	para "Hast du eine"
@@ -149,7 +149,7 @@ MagikarpLengthRaterText_YouHaveAMagikarp:
 	text "Ah, du hast ein"
 	line "KARPADOR! Lass uns"
 
-	para "sehen, wie groせ"
+	para "sehen, wie groß"
 	line "das Kleine ist."
 	done
 
@@ -180,7 +180,7 @@ MagikarpLengthRaterText_TooShort:
 	line "ich das gerne sa-"
 	cont "gen, aber ich habe"
 
-	para "schon gröせere ge-"
+	para "schon größere ge-"
 	line "sehen."
 	done
 

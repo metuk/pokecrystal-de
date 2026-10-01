@@ -183,7 +183,7 @@ Route33LassText:
 	line "es durch diese"
 	cont "Höhle geschafft!"
 
-	para "Sie war gröせer,"
+	para "Sie war größer,"
 	line "als ich annahm."
 
 	para "Ich war zu er-"

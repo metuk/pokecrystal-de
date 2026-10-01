@@ -1,6 +1,6 @@
 BethExhilaratingRideText:
 	text "Erinnerst du dich"
-	line "an mein süせes"
+	line "an mein süßes"
 	cont "@"
 	text_ram wStringBuffer4
 	text "?"

@@ -217,7 +217,7 @@ GruntF4BeatenText:
 
 GruntF4AfterBattleText:
 	text "Ich liebe mein"
-	line "hübsches Äuせeres!"
+	line "hübsches Äußeres!"
 
 	para "Wer schert sich"
 	line "um #MON?"
@@ -235,7 +235,7 @@ ScientistRichSeenText:
 ScientistRichBeatenText:
 	text "Hmmm…"
 
-	para "Jeder groせe Plan"
+	para "Jeder große Plan"
 	line "hat einen Haken."
 	done
 

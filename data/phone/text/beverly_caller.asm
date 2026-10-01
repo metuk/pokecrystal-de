@@ -6,7 +6,7 @@ BeverlyMadeMonEvenCuterText:
 	cont "schönert und es"
 
 	para "ist somit noch"
-	line "süせer als zuvor!"
+	line "süßer als zuvor!"
 	done
 
 BeverlyDefeatedMonText:
@@ -17,7 +17,7 @@ BeverlyDefeatedMonText:
 	para "Mein SNUBBULL, da"
 	line "bin ich sicher,"
 
-	para "war viel süせer"
+	para "war viel süßer"
 	line "als das wilde."
 	done
 

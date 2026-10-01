@@ -1,6 +1,6 @@
 KenjiAskNumber1Text:
 	text "Unser Kampf war"
-	line "groせartig!"
+	line "großartig!"
 
 	para "Ich möchte ein"
 	line "Andenken an dich!"

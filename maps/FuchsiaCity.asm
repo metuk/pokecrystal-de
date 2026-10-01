@@ -73,7 +73,7 @@ FuchsiaCityTeacherText:
 	line "SAFARI-ZONE"
 
 	para "geschlossen ist…"
-	line "Das ist schlieせ-"
+	line "Das ist schließ-"
 	cont "lich FUCHSANIAs"
 	cont "Hauptattraktion."
 	done

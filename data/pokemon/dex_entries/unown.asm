@@ -6,5 +6,5 @@
 	next "ICOGNITO gibt,"
 
 	page "glaubt man, sie"
-	next "besäせen verschie-"
+	next "besäßen verschie-"
 	next "dene Fähigkeiten.@"

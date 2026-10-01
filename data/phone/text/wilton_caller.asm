@@ -16,8 +16,8 @@ WiltonDefeatedMonText:
 	text_ram wStringBuffer4
 	text "…"
 
-	para "Du weiせt, dass mir"
-	line "Angeln mehr Spaせ"
+	para "Du weißt, dass mir"
+	line "Angeln mehr Spaß"
 
 	para "macht, als wilde"
 	line "#MON zu"
@@ -44,7 +44,7 @@ WiltonBattleRematchText:
 	text_ram wStringBuffer5
 	text ","
 
-	para "aber heute beiせt"
+	para "aber heute beißt"
 	line "nichts an."
 
 	para "Komm und vertreib"
@@ -78,7 +78,7 @@ WiltonHaventFoundAnythingText:
 
 WiltonNotBitingText:
 	text "Seufz…"
-	line "Sie beiせen nicht"
+	line "Sie beißen nicht"
 
 	para "wie sonst! Hier:"
 	line "@"
@@ -93,7 +93,7 @@ WiltonWantThisText:
 	text "Möchtest du das"
 	line "Item nicht? Ha!"
 
-	para "Du weiせt nicht,"
+	para "Du weißt nicht,"
 	line "wo es ist?"
 
 	para "@"

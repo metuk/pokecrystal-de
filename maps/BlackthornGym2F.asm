@@ -111,7 +111,7 @@ CooltrainerfFranSeenText:
 	line "ner an mir vorbei-"
 	cont "kommt!"
 
-	para "SANDRA wäre auせer"
+	para "SANDRA wäre außer"
 	line "sich, wenn ich"
 	cont "dies zulasse!"
 	done

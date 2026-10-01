@@ -250,7 +250,7 @@ ClairText_WhatsTheMatterDragonDen:
 	para "nicht zur"
 	line "#MON LIGA?"
 
-	para "Weiせt du, wie du"
+	para "Weißt du, wie du"
 	line "dorthin gelangst?"
 
 	para "Gehe von hier nach"

@@ -639,7 +639,7 @@ TwistedSpoonDesc:
 	next "Attacken. (TRAGEN)@"
 
 WhtApricornDesc:
-	db   "Eine weiせe"
+	db   "Eine weiße"
 	next "APRIKOKO.@"
 
 BlackbeltDesc:

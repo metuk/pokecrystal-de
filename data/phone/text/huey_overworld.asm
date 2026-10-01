@@ -6,7 +6,7 @@ HueyAskNumber1Text:
 	para "Heh, gib mir deine"
 	line "Telefonnummer."
 
-	para "Es macht Spaせ,"
+	para "Es macht Spaß,"
 	line "dich herauszufor-"
 	cont "dern. Ich rufe an,"
 
@@ -18,7 +18,7 @@ HueyAskNumber2Text:
 	text "Heh, gib mir deine"
 	line "Telefonnummer."
 
-	para "Es macht Spaせ,"
+	para "Es macht Spaß,"
 	line "dich herauszufor-"
 
 	para "dern. Ich rufe an,"

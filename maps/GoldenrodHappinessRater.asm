@@ -104,7 +104,7 @@ GoldenrodHappinessRatingText_SortOfHappy:
 	done
 
 GoldenrodHappinessRatingText_QuiteCute:
-	text "Es ist sehr süせ."
+	text "Es ist sehr süß."
 	done
 
 GoldenrodHappinessRatingText_NotUsedToYou:

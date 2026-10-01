@@ -305,7 +305,7 @@ Text_Route31SleepyMan:
 	cont "#MON zu viel"
 	cont "gelaufen."
 
-	para "Meine Füせe schmer-"
+	para "Meine Füße schmer-"
 	line "zen und ich bin"
 	cont "müde…"
 
@@ -412,7 +412,7 @@ Route31YoungsterText:
 	cont "DUNKELHÖHLE"
 	cont "gefunden."
 
-	para "Ich ziehe es groせ,"
+	para "Ich ziehe es groß,"
 	line "um später gegen"
 	cont "FALK anzutreten."
 

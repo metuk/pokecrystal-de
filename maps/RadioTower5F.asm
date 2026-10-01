@@ -266,7 +266,7 @@ Executivef1AfterBattleText:
 	text "<PLAYER>, oder?"
 
 	para "Ein Balg wie du"
-	line "weiせ die Gröせe"
+	line "weiß die Größe"
 
 	para "von TEAM ROCKET"
 	line "nicht zu würdigen."
@@ -344,7 +344,7 @@ RadioTower5FDirectorThankYouText:
 	para "#MON im ganzen"
 	line "Land gerettet."
 
-	para "Ich weiせ, es ist"
+	para "Ich weiß, es ist"
 	line "nicht viel, aber"
 	cont "nimm dies bitte."
 	done
@@ -408,7 +408,7 @@ RadioTower5FDirectorText:
 	text "INTENDANT: Hallo,"
 	line "<PLAY_G>!"
 
-	para "Du weiせt, ich"
+	para "Du weißt, ich"
 	line "liebe #MON."
 
 	para "Ich errichtete"

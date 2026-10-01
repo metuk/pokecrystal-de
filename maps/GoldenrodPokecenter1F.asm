@@ -344,7 +344,7 @@ GoldenrodPokecomCenterPerson2Text: ; unreferenced
 	line "TAUBSI-BRIEF!"
 
 	para "Setzt es sich"
-	line "durch, schlieせe"
+	line "durch, schließe"
 
 	para "ich viele neue"
 	line "Freundschaften!"
@@ -376,9 +376,9 @@ GoldenrodPokecomCenterPerson5Text: ; unreferenced
 	text "Ich erhielt ein"
 	line "weibliches"
 	cont "HOPPSPROSS, das"
-	cont "SEAMUS heiせt!"
+	cont "SEAMUS heißt!"
 
-	para "So heiせt mein"
+	para "So heißt mein"
 	line "Vater!"
 	done
 
@@ -436,7 +436,7 @@ GoldenrodPokecomCenterPerson11Text: ; unreferenced
 	line "und verehrt."
 
 	para "Wie kann ich es"
-	line "bloせ in die NACH-"
+	line "bloß in die NACH-"
 	cont "RICHTEN schaffen?"
 	done
 
@@ -554,7 +554,7 @@ GoldenrodPokecenter1FAskGiveAwayAnEonMailText:
 	done
 
 GoldenrodPokecenter1FPokefanFThisIsForYouText:
-	text "Oh, groせartig!"
+	text "Oh, großartig!"
 	line "Danke, Schatz!"
 
 	para "Hier, als Aus-"

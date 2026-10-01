@@ -5,6 +5,6 @@
 	next "Honig. Seine"
 	next "Pfoten schmecken"
 
-	page "immer süせ, da es"
+	page "immer süß, da es"
 	next "ständig nach Honig"
 	next "sucht.@"

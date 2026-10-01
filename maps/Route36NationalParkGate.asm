@@ -662,7 +662,7 @@ Route36NationalParkGateOfficer1WaitHereForAnnouncementText:
 Route36NationalParkGateOfficer1OkGoFinishText:
 	text "Gut. Geh bitte"
 	line "wieder zurück nach"
-	cont "drauせen und komm"
+	cont "draußen und komm"
 	cont "zum Ende."
 	done
 
@@ -691,9 +691,9 @@ BugCatchingContestant1BText:
 BugCatchingContestant1BStillCompetingText:
 	text "ULI: Glück spielt"
 	line "natürlich eine"
-	cont "groせe Rolle dabei."
+	cont "große Rolle dabei."
 
-	para "Man weiせ nie,"
+	para "Man weiß nie,"
 	line "welches #MON"
 	cont "auftauchen wird."
 	done
@@ -709,7 +709,7 @@ BugCatchingContestant2BText:
 BugCatchingContestant2BStillCompetingText:
 	text "ALAN: Du gewinnst"
 	line "vielleicht mit"
-	cont "groせen #MON?"
+	cont "großen #MON?"
 	done
 
 BugCatchingContestant3BText:
@@ -785,7 +785,7 @@ BugCatchingContestant6BStillCompetingText:
 BugCatchingContestant7BText:
 	text "CINDY: Du hast"
 	line "gewonnen? Das ist"
-	cont "groせartig!"
+	cont "großartig!"
 
 	para "Hättest du Lust,"
 	line "mit mir auf die"

@@ -199,7 +199,7 @@ OlivineCityRivalText:
 	line "du nicht im"
 	cont "LEUCHTTURM?"
 
-	para "Wer weiせ, viel-"
+	para "Wer weiß, viel-"
 	line "leicht wirst du"
 	cont "dadurch ein wenig"
 	cont "stärker!"
@@ -207,7 +207,7 @@ OlivineCityRivalText:
 
 OlivineCitySailor1Text:
 	text "Nachts sind dunkle"
-	line "Straせen gefähr-"
+	line "Straßen gefähr-"
 	cont "lich."
 
 	para "Auch das Meer"

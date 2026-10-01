@@ -16,7 +16,7 @@ GuideGentsHouseGuideGentText:
 	text "Als ich noch ein"
 	line "Junge war, war ich"
 	cont "ein richtiger"
-	cont "Heiせsporn!"
+	cont "Heißsporn!"
 
 	para "Ich gebe dir einen"
 	line "Rat: Fange viele"

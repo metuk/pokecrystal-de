@@ -155,7 +155,7 @@ CeruleanCityCooltrainerMText1:
 	line "sich am Ende von"
 
 	para "ROUTE 9, auf der"
-	line "Straせe östlich"
+	line "Straße östlich"
 	cont "von hier."
 
 	para "Es muss dort einen"
@@ -169,7 +169,7 @@ CeruleanCityCooltrainerMText2:
 
 	para "Das ist bestimmt"
 	line "sehr schwer. Aber"
-	cont "Spaせ macht es"
+	cont "Spaß macht es"
 	cont "sicher auch."
 	done
 
@@ -202,7 +202,7 @@ CeruleanCityCooltrainerFText3:
 	done
 
 CeruleanCityFisherText:
-	text "Ich bin ein groせer"
+	text "Ich bin ein großer"
 	line "Fan von der ARENA-"
 	cont "LEITERIN in AZURIA"
 	cont "CITY. Ihr Name ist"

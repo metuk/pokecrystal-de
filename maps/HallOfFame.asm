@@ -100,7 +100,7 @@ HallOfFame_LanceText:
 	line "CHAMP, der"
 
 	para "alle Zeichen von"
-	line "Gröせe in sich"
+	line "Größe in sich"
 	cont "vereint!"
 
 	para "<PLAY_G>, darf ich"

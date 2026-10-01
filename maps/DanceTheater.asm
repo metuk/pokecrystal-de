@@ -250,7 +250,7 @@ SurfGuyNeverLeftAScratchText:
 	text "Die KIMONO-GIRLS"
 	line "sind nicht nur"
 
-	para "groせartige Tänzer,"
+	para "großartige Tänzer,"
 	line "sie sind auch gute"
 	cont "#MON-Trainer."
 

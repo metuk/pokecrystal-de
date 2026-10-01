@@ -27,14 +27,14 @@ Route30BerryHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 Route30BerrySpeechHouseMonEatBerriesText:
-	text "Du weiせt, dass"
+	text "Du weißt, dass"
 	line "#MON BEEREN"
 	cont "fressen."
 
 	para "Die KP meiner "
 	line "#MON sind ge-"
 	cont "stiegen, weil sie"
-	cont "eine BEERE fraせen."
+	cont "eine BEERE fraßen."
 
 	para "Hier, ich teile"
 	line "mit dir!"

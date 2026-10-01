@@ -43,7 +43,7 @@ CeladonMansion1FBookshelf:
 	jumpstd PictureBookshelfScript
 
 CeladonMansionManagerText:
-	text "Meine süせen #-"
+	text "Meine süßen #-"
 	line "MON sind meine"
 
 	para "Begleiter. Mit"

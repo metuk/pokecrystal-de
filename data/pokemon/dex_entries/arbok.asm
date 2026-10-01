@@ -5,6 +5,6 @@
 	next "schüchtern, bläht"
 	next "es seine Brust auf"
 
-	page "und stöせt unheim-"
+	page "und stößt unheim-"
 	next "liche Laute durch"
 	next "sein Maul aus.@"

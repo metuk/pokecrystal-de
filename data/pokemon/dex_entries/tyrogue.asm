@@ -7,4 +7,4 @@
 
 	page "es gegen jeden an."
 	next "Es besitzt"
-	next "groせen Kampfgeist.@"
+	next "großen Kampfgeist.@"

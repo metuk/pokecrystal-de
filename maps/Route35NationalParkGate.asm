@@ -227,7 +227,7 @@ Route35NationalParkGateOfficer1AskToParticipateText:
 	line "@"
 	text_ram wStringBuffer3
 	text "."
-	cont "Das heiせt, heute"
+	cont "Das heißt, heute"
 
 	para "findet das Käfer-"
 	line "turnier statt."
@@ -410,7 +410,7 @@ Route35NationalParkGateOfficer1WaitAtNorthGateText:
 Route35NationalParkGateOfficer1OkGoFinishText:
 	text "Gut. Geh bitte"
 	line "wieder zurück nach"
-	cont "drauせen und komm"
+	cont "draußen und komm"
 	cont "zum Ende."
 	done
 
@@ -426,7 +426,7 @@ Route35NationalParkGateOfficer1ContestIsOverText:
 
 Route35NationalParkGateOfficer1WeHoldContestsText:
 	text "Die Turniere"
-	line "werden regelmäせig"
+	line "werden regelmäßig"
 
 	para "hier im PARK"
 	line "abgehalten. Nimm"

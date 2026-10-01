@@ -945,7 +945,7 @@ _PnP_SoSoText::
 
 _PnP_GreatText::
 	text_start
-	line "ist groせartig."
+	line "ist großartig."
 	done
 
 _PnP_MyTypeText::
@@ -1501,7 +1501,7 @@ _NPCTradeWrongText2::
 	done
 
 _NPCTradeCompleteText2::
-	text "Groせartig! Danke!"
+	text "Großartig! Danke!"
 
 	para "Endlich habe ich"
 	line "ein @"
@@ -1604,7 +1604,7 @@ _MomLeavingText1::
 	para "Aber was kann ich"
 	line "für dich tun?"
 
-	para "Ich weiせ! Ich"
+	para "Ich weiß! Ich"
 	line "werde für dich"
 	cont "sparen."
 
@@ -1828,7 +1828,7 @@ _YourMonHasGrownText::
 	text "Dein @"
 	text_ram wStringBuffer1
 	text_start
-	line "ist groせ geworden."
+	line "ist groß geworden."
 
 	para "Es ist um @"
 	text_decimal $d087, 1, 3

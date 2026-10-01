@@ -72,7 +72,7 @@ ViridianPokecenter1FCooltrainerFText:
 	done
 
 ViridianPokecenter1FBugCatcherText:
-	text "Mein groせer Traum"
+	text "Mein großer Traum"
 	line "ist es, ARENA-"
 	cont "LEITER zu werden."
 	done

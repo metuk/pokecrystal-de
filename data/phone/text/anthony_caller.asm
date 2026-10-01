@@ -5,15 +5,15 @@ AnthonyMonAteSomeBerriesText:
 	para "@"
 	text_ram wStringBuffer4
 	text " einige"
-	line "BEEREN fraせ."
+	line "BEEREN fraß."
 
 	para "Es schien das Mahl"
-	line "zu genieせen. Also"
+	line "zu genießen. Also"
 
-	para "aせ ich auch"
+	para "aß ich auch"
 	line "welche."
 
-	para "Ich weiせ nicht, ob"
+	para "Ich weiß nicht, ob"
 	line "die Leute sie es-"
 	cont "sen sollten, aber"
 	cont "sie schmecken gut!"
@@ -29,7 +29,7 @@ AnthonyDefeatedMonText:
 	line "begegnet."
 
 	para "Sie sind kein"
-	line "groせes Problem."
+	line "großes Problem."
 	done
 
 AnthonyLostAMonText:
@@ -134,7 +134,7 @@ AnthonyHurryText:
 
 	para "DUNKELHÖHLE! Auf!"
 
-	para "Ich weiせ, ich habe"
+	para "Ich weiß, ich habe"
 	line "es schon erwähnt,"
 
 	para "aber DUMMISEL"

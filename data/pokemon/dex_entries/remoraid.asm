@@ -2,9 +2,9 @@
 	dbw 6, 120 ; height, weight
 
 	db   "Um zu entkommen,"
-	next "schieせt es Wasser"
+	next "schießt es Wasser"
 	next "aus seinem Maul"
 
 	page "und nutzt den"
-	next "Rückstoせ für seine"
+	next "Rückstoß für seine"
 	next "Flucht.@"

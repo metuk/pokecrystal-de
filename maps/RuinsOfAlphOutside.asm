@@ -175,7 +175,7 @@ RuinsOfAlphOutsideScientistText:
 	cont "gibt es noch"
 	cont "viel mehr davon."
 
-	para "Ich weiせ! Lass"
+	para "Ich weiß! Lass"
 	line "mich deinen #-"
 	cont "DEX erweitern."
 	cont "Mir nach!"
@@ -200,7 +200,7 @@ SuperNerdStanAfterBattleText:
 	line "sind ungefähr"
 	cont "1500 Jahre alt."
 
-	para "Niemand weiせ,"
+	para "Niemand weiß,"
 	line "wer sie erbaute."
 
 	para "Die Bedeutung der "
@@ -209,7 +209,7 @@ SuperNerdStanAfterBattleText:
 	cont "nicht geklärt."
 
 	para "Das Ganze ist ein"
-	line "groせes Rätsel…"
+	line "großes Rätsel…"
 	done
 
 PsychicNathanSeenText:
@@ -262,7 +262,7 @@ RuinsOfAlphOutsideFisherText1:
 
 RuinsOfAlphOutsideFisherText2:
 	text "Den RUINEN wohnt"
-	line "ein groせes"
+	line "ein großes"
 	cont "Geheimnis inne!"
 
 	para "…Ich denke…"

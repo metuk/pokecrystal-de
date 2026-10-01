@@ -276,7 +276,7 @@ PokemaniacShaneSeenText:
 	para "Das ist mein"
 	line "Geheimversteck!"
 	cont "Verschwinde, du"
-	cont "Auせenseiter!"
+	cont "Außenseiter!"
 	done
 
 PokemaniacShaneBeatenText:

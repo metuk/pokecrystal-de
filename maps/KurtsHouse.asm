@@ -571,7 +571,7 @@ KurtsHouseKurtJustFinishedYourBallText:
 	done
 
 KurtsHouseKurtTurnedOutGreatText:
-	text "KURT: Er ist groせ-"
+	text "KURT: Er ist groß-"
 	line "artig geworden."
 
 	para "Versuche, ein"
@@ -634,7 +634,7 @@ KurtsGranddaughterSlowpokeGoneText:
 	done
 
 KurtsGranddaughterLonelyText:
-	text "Groせvater ist"
+	text "Großvater ist"
 	line "fort… Ich fühle"
 	cont "mich so einsam…"
 	done
@@ -656,7 +656,7 @@ KurtsGranddaughterDadText:
 	cont "#BÄLLE analy-"
 	cont "siert."
 
-	para "Ich muss mit Groせ-"
+	para "Ich muss mit Groß-"
 	line "vater und FLEGMON"
 	cont "zu Hause bleiben."
 	done
@@ -672,7 +672,7 @@ KurtsGranddaughterHelpText:
 
 KurtsGranddaughterFunText:
 	text "BÄLLE anfertigen"
-	line "macht Spaせ!"
+	line "macht Spaß!"
 	done
 
 KurtsGranddaughterGSBallText:

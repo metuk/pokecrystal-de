@@ -256,7 +256,7 @@ SageLiFlashExplanationText:
 	cont "Orte erhellen."
 
 	para "Um BLITZ auch"
-	line "auせerhalb eines"
+	line "außerhalb eines"
 
 	para "Kampfes anwenden"
 	line "zu können, benö-"

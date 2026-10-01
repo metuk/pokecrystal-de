@@ -66,7 +66,7 @@ BrentGenericText:
 	line "CENTER kommen."
 
 	para "Du lässt deine"
-	line "#MON regelmäせig"
+	line "#MON regelmäßig"
 
 	para "heilen, oder? Ich"
 	line "bin beeindruckt."

@@ -8,7 +8,7 @@ ReenaMonsIsAPerfectMatchText:
 	text "?"
 
 	para "Ja, genau. Das"
-	line "süせe @"
+	line "süße @"
 	text_ram wStringBuffer4
 	text "."
 

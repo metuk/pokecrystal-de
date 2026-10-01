@@ -559,7 +559,7 @@ UndergroundRivalWinText:
 	line "angestrengt."
 
 	para "Warum habe ich"
-	line "bloせ verloren?"
+	line "bloß verloren?"
 	done
 
 UndergroundRivalAfterText:
@@ -640,7 +640,7 @@ GoldenrodUndergroundSwitchRoomEntrances_TeacherText:
 GruntM11SeenText:
 	text "Öffne einen Roll-"
 	line "laden und ein an-"
-	cont "derer schlieせt."
+	cont "derer schließt."
 
 	para "Ich wette, du"
 	line "kommst nicht so"
@@ -692,7 +692,7 @@ GruntM25AfterBattleText:
 
 	para "Dadurch wird das"
 	line "Öffnen und Schlie-"
-	cont "せen der Rollläden"
+	cont "ßen der Rollläden"
 	cont "verändert."
 	done
 
@@ -755,7 +755,7 @@ GruntM13BeatenText:
 
 GruntM13AfterBattleText:
 	text "Durch deine Venen"
-	line "flieせt wohl Eis,"
+	line "fließt wohl Eis,"
 	cont "da du TEAM ROCKET"
 	cont "nicht für bare"
 	cont "Münze nimmst."

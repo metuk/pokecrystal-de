@@ -27,7 +27,7 @@ CianwoodPhotoStudioFishingGuruScript:
 
 CianwoodPhotoStudioFishingGuruText_Question:
 	text "Deine #MON sind"
-	line "groせartig!"
+	line "großartig!"
 
 	para "Wie wärわ mit ei-"
 	line "nem Foto als Sou-"

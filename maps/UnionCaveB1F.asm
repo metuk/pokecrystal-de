@@ -148,7 +148,7 @@ PokemaniacCalvinBeatenText:
 PokemaniacCalvinAfterBattleText:
 	text "Ich sollte meine"
 	line "Ergebnisse sammeln"
-	cont "und anschlieせend"
+	cont "und anschließend"
 	cont "veröffentlichen."
 
 	para "Vielleicht werde"

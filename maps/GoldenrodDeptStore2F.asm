@@ -84,7 +84,7 @@ GoldenrodDeptStore2FGentlemanText:
 	line "zeigt mir, dass"
 
 	para "DUKATIA CITY eine"
-	line "sehr groせe Stadt"
+	line "sehr große Stadt"
 	cont "ist."
 
 	para "Dieses Angebot ist"

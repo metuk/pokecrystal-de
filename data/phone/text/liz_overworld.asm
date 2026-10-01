@@ -1,6 +1,6 @@
 LizAskNumber1Text:
 	text "Oh? Du bist auf"
-	line "groせer Reise und"
+	line "großer Reise und"
 
 	para "besuchst Sehens-"
 	line "würdigkeiten. Gut!"

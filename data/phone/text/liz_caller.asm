@@ -165,7 +165,7 @@ LizSurfPikachuGossipText:
 LizMooMooMilkGossipText:
 	text "Hör zu!"
 
-	para "Weiせt du Bescheid"
+	para "Weißt du Bescheid"
 	line "über die KUHMUH-"
 	cont "MILCH? Du kannst"
 
@@ -252,7 +252,7 @@ LizBugCatchingContestGossipText:
 	para "Ich habe mit dem"
 	line "RAUPY gewonnen."
 	cont "Ist das nicht"
-	cont "groせartig?"
+	cont "großartig?"
 	done
 
 LizBeautifulTrainerGossipText:
@@ -275,7 +275,7 @@ LizForgotGossipText:
 
 	para "Uh… Ähm… Ups!"
 
-	para "Ich vergaせ, was"
+	para "Ich vergaß, was"
 	line "ich sagen wollte!"
 	done
 

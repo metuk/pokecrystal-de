@@ -237,7 +237,7 @@ Text_CallMomOnGear:
 	text "Ruf deine Mama mit"
 	line "dem #COM an,"
 
-	para "damit sie weiせ,"
+	para "damit sie weiß,"
 	line "was du machst."
 	done
 

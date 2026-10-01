@@ -319,7 +319,7 @@ Route27FisherHeyText:
 	done
 
 Route27FisherText:
-	text "Weiせt du, was du"
+	text "Weißt du, was du"
 	line "gerade getan hast?"
 
 	para "Du hast deinen"
@@ -431,7 +431,7 @@ PsychicGilbertSeenText:
 
 	para "Mmmmmmm…"
 
-	para "Ich weiせ! Du"
+	para "Ich weiß! Du"
 	line "denkst darüber"
 	cont "nach, zur #MON"
 	cont "LIGA zu gehen!"

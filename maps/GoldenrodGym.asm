@@ -226,7 +226,7 @@ WhitneyWhatDoYouWantText:
 	line "du? Einen ORDEN?"
 
 	para "Oh, stimmt, ich"
-	line "vergaせ. Hier ist"
+	line "vergaß. Hier ist"
 	cont "der BASISORDEN."
 	done
 
@@ -240,11 +240,11 @@ WhitneyPlainBadgeText:
 	line "SISORDENs können"
 
 	para "deine #MON"
-	line "STÄRKE auch auせer-"
+	line "STÄRKE auch außer-"
 	cont "halb eines Kampfes"
 	cont "einsetzen."
 
-	para "Auせerdem erhöht er"
+	para "Außerdem erhöht er"
 	line "die INIT deiner"
 	cont "#MON."
 
@@ -263,7 +263,7 @@ WhitneyAttractText:
 
 	para "Passt das nicht"
 	line "perfekt zu einem"
-	cont "süせen Ding wie"
+	cont "süßen Ding wie"
 	cont "mir?"
 	done
 
@@ -279,7 +279,7 @@ LassCarrieSeenText:
 	text "Lass dich nicht"
 	line "von dem netten"
 
-	para "Äuせeren meiner"
+	para "Äußeren meiner"
 	line "#MON täuschen."
 
 	para "Sie können dich"
