@@ -5,6 +5,7 @@
 *.1bpp
 *.2bpp
 *.lz
+!*.de.lz
 *.gbcpal
 *.dimensions
 *.animated.tilemap

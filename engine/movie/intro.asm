@@ -1724,10 +1724,10 @@ IntroCrystalUnownsGFX:
 INCBIN "gfx/intro/crystal_unowns.2bpp.lz"
 
 IntroCrystalUnownsTilemap:
-INCBIN "gfx/intro/crystal_unowns.tilemap.lz"
+INCBIN "gfx/intro/crystal_unowns.tilemap.de.lz" ; compressed differently than tools/lzcompress can reproduce
 
 IntroCrystalUnownsAttrmap:
-INCBIN "gfx/intro/crystal_unowns.attrmap.lz"
+INCBIN "gfx/intro/crystal_unowns.attrmap.de.lz" ; compressed differently than tools/lzcompress can reproduce
 
 IntroCrystalUnownsPalette:
 INCLUDE "gfx/intro/crystal_unowns.pal"
