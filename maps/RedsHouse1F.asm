@@ -35,41 +35,44 @@ RedsHouse1FBookshelf:
 RedsMomText1:
 	text "Hi!"
 
-	para "RED's been away"
-	line "for a long time."
+	para "ROT ist schon seit"
+	line "langem fort."
 
-	para "He hasn't called"
-	line "either, so I have"
+	para "Er hat sich auch"
+	line "nicht gemeldet."
 
-	para "no idea where he"
-	line "is or what he's"
-	cont "been doing."
+	para "Ich habe keine"
+	line "Ahnung, wo er ist"
+	cont "oder was er tut."
 
-	para "They say that no"
-	line "word is proof that"
+	para "Wenn man nichts"
+	line "hört, soll das ja"
 
-	para "he's doing fine,"
-	line "but I do worry"
-	cont "about him."
+	para "heiせen, dass es"
+	line "ihm gut geht. Aber"
+	cont "ich mache mir"
+	cont "Sorgen um ihn."
 	done
 
 RedsMomText2:
-	text "I worry about RED"
-	line "getting hurt or"
+	text "Ich habe Angst,"
+	line "dass sich ROT"
 
-	para "sick, but he's a"
-	line "boy. I'm proud"
+	para "verletzt oder"
+	line "krank wird. Aber"
 
-	para "that he is doing"
-	line "what he wants to"
+	para "er ist ein Junge"
+	line "und ich bin stolz,"
 
-	para "do."
+	para "dass er macht, was"
+	line "ihm gefällt."
 	done
 
 RedsHouse1FTVText:
-	text "They have programs"
-	line "that aren't shown"
-	cont "in JOHTO…"
+	text "Sie haben"
+	line "Programme, die man"
+	cont "in JOHTO nicht"
+	cont "empfängt…"
 	done
 
 RedsHouse1F_MapEvents:

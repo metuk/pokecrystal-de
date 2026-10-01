@@ -1,25 +1,25 @@
 ErinAnswerPhoneText:
-	text "Yes, this is"
+	text "Ja, hier ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
 	para "Oh. Hi, <PLAY_G>!"
-	line "Good morning!"
+	line "Guten Morgen!"
 	done
 
 ErinAnswerPhoneDayText:
-	text "Yes, this is"
+	text "Ja, hier ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
 	para "Oh, hi, <PLAY_G>!"
-	line "Yahoo!"
+	line "Juhu!"
 	done
 
 ErinAnswerPhoneNiteText:
-	text "Yes, this is"
+	text "Ja, hier ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
@@ -30,39 +30,39 @@ ErinAnswerPhoneNiteText:
 ErinGreetText:
 	text "<PLAY_G>!"
 
-	para "It's @"
+	para "@"
 	text_ram wStringBuffer3
-	text "!"
-	line "Good morning!"
+	text " hier!"
+	line "Guten Morgen!"
 	done
 
 ErinGreetDayText:
 	text "<PLAY_G>!"
 
-	para "It's @"
+	para "@"
 	text_ram wStringBuffer3
-	text "!"
-	line "Working hard?"
+	text " hier!"
+	line "Hart am Arbeiten?"
 	done
 
 ErinGreetNiteText:
 	text "<PLAY_G>!"
 
-	para "It's @"
+	para "@"
 	text_ram wStringBuffer3
-	text "!"
-	line "Were you up?"
+	text " hier!"
+	line "Bist du wach?"
 	done
 
 ErinGenericText:
-	text "Are you raising"
-	line "your #MON?"
+	text "Trainierst du"
+	line "deine #MON?"
 
-	para "Hey, @"
-	text_ram wStringBuffer3
-	text "'s"
-	line "@"
+	para "Das @"
 	text_ram wStringBuffer4
-	text " is"
-	cont "looking good!"
+	text_start
+	line "von @"
+	text_ram wStringBuffer3
+	text_start
+	cont "sieht gut aus!"
 	done

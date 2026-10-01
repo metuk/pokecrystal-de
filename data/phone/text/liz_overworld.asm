@@ -1,44 +1,51 @@
 LizAskNumber1Text:
-	text "Oh? You're on a"
-	line "big journey to see"
-	cont "the sights? Neat!"
+	text "Oh? Du bist auf"
+	line "groせer Reise und"
 
-	para "Let's be friends!"
-	line "Can I have your"
-	cont "phone number?"
+	para "besuchst Sehens-"
+	line "würdigkeiten. Gut!"
 
-	para "I want to hear"
-	line "about everything"
-	cont "you've seen!"
+	para "Ich möchte dein"
+	line "Freund sein! Gibst"
+
+	para "du mir deine"
+	line "Telefonnummer?"
+
+	para "Berichte mir von"
+	line "allem, was dir"
+	cont "widerfährt!"
 	done
 
 LizAskNumber2Text:
-	text "Let's be friends!"
-	line "Can I have your"
-	cont "phone number?"
+	text "Ich möchte dein"
+	line "Freund sein! Gibst"
 
-	para "I want to hear"
-	line "about everything"
-	cont "you've seen!"
+	para "du mir deine"
+	line "Telefonnummer?"
+
+	para "Berichte mir von"
+	line "allem, was dir"
+	cont "widerfährt!"
 	done
 
 LizNumberAcceptedText:
-	text "I'll telephone you"
-	line "if I hear anything"
-	cont "interesting."
+	text "Ich melde mich,"
+	line "wenn ich etwas In-"
+	cont "teressantes höre."
 	done
 
 LizNumberDeclinedText:
-	text "Aww… You won't be"
-	line "my friend?"
+	text "Oh… du willst"
+	line "nicht mein"
+	cont "Freund sein?"
 	done
 
 LizPhoneFullText:
-	text "Wait! Your phone"
-	line "list is filled up!"
+	text "Oh, dein Nummern-"
+	line "speicher ist voll!"
 	done
 
 LizRematchText:
-	text "You're late! Let's"
-	line "get started now!"
+	text "Du kommst spät!"
+	line "Los jetzt!"
 	done

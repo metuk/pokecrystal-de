@@ -523,401 +523,440 @@ Movement_Route32CooltrainerMReset2:
 	step_end
 
 Route32CooltrainerMText_WhatsTheHurry:
-	text "Wait up!"
-	line "What's the hurry?"
+	text "Warte!"
+	line "Warum die Eile?"
 	done
 
 Route32CooltrainerMText_AideIsWaiting:
-	text "<PLAYER>, right?"
-	line "Some guy wearing"
+	text "<PLAYER>, oder?"
+	line "Ein Typ mit einer"
 
-	para "glasses was look-"
-	line "ing for you."
+	para "Brille hat nach"
+	line "dir gefragt."
 
-	para "See for yourself."
-	line "He's waiting for"
+	para "Kümmere dich um"
+	line "ihn. Er erwartet"
 
-	para "you at the #MON"
+	para "dich im #MON-"
 	line "CENTER."
 	done
 
 Route32CooltrainerMText_UnusedSproutTower:
-	text "Have you gone to"
-	line "SPROUT TOWER?"
+	text "Warst du im"
+	line "KNOFENSA-TURM?"
 
-	para "If you ever visit"
-	line "VIOLET CITY, "
+	para "Wenn du jemals"
+	line "nach VIOLA CITY"
 
-	para "they'll expect you"
-	line "to train there."
+	para "kommst, erwartet"
+	line "man von dir, dass"
+	cont "du dort trai-"
+	cont "nierst."
 
-	para "That's basic for"
-	line "trainers. Go to"
-	cont "SPROUT TOWER!"
+	para "Das ist ein Muss"
+	line "für alle Trainer."
+	cont "Geh zum"
+	cont "KNOFENSA-TURM!"
 	done
 
 Route32CooltrainerMText_VioletGym:
-	text "Have you gone to"
-	line "the #MON GYM?"
+	text "Warst du schon in"
+	line "der PKMN-ARENA?"
 
-	para "You can test your"
-	line "#MON and your-"
-	cont "self there."
+	para "Dort kannst du"
+	line "deine #MON und"
+	cont "dich auf die Probe"
+	cont "stellen."
 
-	para "It's a rite of"
-	line "passage for all"
-	cont "trainers!"
+	para "Es ist eine Art"
+	line "Ritus für alle"
+	cont "Trainer!"
 	done
 
 Route32CooltrainerMText_HaveThisSeed:
-	text "You have some good"
-	line "#MON there."
+	text "Du besitzt einige"
+	line "gute #MON."
 
-	para "It must be from"
-	line "the training you"
+	para "Sie sind bestimmt"
+	line "wegen der vielen"
 
-	para "gave them around"
-	line "VIOLET CITY."
+	para "Kämpfe, die du mit"
+	line "ihnen bei VIOLA"
+	cont "CITY absolviert"
+	cont "hast, so gut."
 
-	para "The training at"
-	line "the GYM must have"
+	para "Das Training in"
+	line "der PKMN-ARENA"
 
-	para "been especially"
-	line "helpful."
+	para "muss von groせem"
+	line "Nutzen gewesen"
 
-	para "As a souvenir of"
-	line "VIOLET CITY, take"
-	cont "this."
+	para "sein. Nimm dies"
+	line "als Andenken an"
+	cont "VIOLA CITY."
 
-	para "It increases the"
-	line "power of grass-"
-	cont "type moves."
+	para "Damit werden"
+	line "Pflanzen-Attacken"
+	cont "verstärkt."
 	done
 
 Route32CooltrainerMText_ExperiencesShouldBeUseful:
-	text "Your experiences"
-	line "in VIOLET CITY"
+	text "Die Erfahrungen"
+	line "von VIOLA CITY"
 
-	para "should be useful"
-	line "for your journey."
+	para "werden dir auf"
+	line "deiner Reise von"
+	cont "groせem Nutzen"
+	cont "sein."
 	done
 
 Text_MillionDollarSlowpokeTail:
-	text "How would you like"
-	line "to have this"
+	text "Wie möchtest du"
+	line "die schmackhafte,"
 
-	para "tasty, nutritious"
-	line "SLOWPOKETAIL?"
+	para "gehaltvolle"
+	line "FLEGMONRUTE"
+	cont "zubereitet haben?"
 
-	para "For you right now,"
-	line "just ¥1,000,000!"
+	para "Für dich jetzt nur"
+	line "¥1,000,000!"
 
-	para "You'll want this!"
+	para "Möchtest du sie?"
 	done
 
 Text_ThoughtKidsWereLoaded:
-	text "Tch! I thought"
-	line "kids these days"
-	cont "were loaded…"
+	text "Ts! Ich dachte,"
+	line "die Kinder von"
+	cont "heute wären"
+	cont "stinkreich…"
 	done
 
 Text_RefusedToBuySlowpokeTail:
-	text "You don't want it?"
-	line "Then scram. Shoo!"
+	text "Du möchtest sie"
+	line "nicht? Dann mach"
+	cont "dich vom Acker!"
 	done
 
 FisherJustinSeenText:
-	text "Whoa!"
+	text "Wow!"
 
-	para "You made me lose"
-	line "that fish!"
+	para "Wegen dir habe ich"
+	line "den Fisch ver-"
+	cont "loren!"
 	done
 
 FisherJustinBeatenText:
-	text "Sploosh!"
+	text "Platsch!"
 	done
 
 FisherJustinAfterText:
-	text "Calm, collected…"
-	line "The essence of"
+	text "Geduld…"
+	line "Die Voraussetzung"
 
-	para "fishing and #-"
-	line "MON is the same."
+	para "für das Angeln und"
+	line "für #MON ist"
+	cont "dieselbe."
 	done
 
 FisherRalph1SeenText:
-	text "I'm really good at"
-	line "both fishing and"
+	text "Ich beherrsche"
+	line "beides, Angeln und"
 	cont "#MON."
 
-	para "I'm not about to"
-	line "lose to any kid!"
+	para "Darum werde ich"
+	line "nicht verlieren!"
 	done
 
 FisherRalph1BeatenText:
-	text "Tch! I tried to"
-	line "rush things…"
+	text "Ts! Ich wollte"
+	line "die Sache"
+	cont "beschleunigen…"
 	done
 
 FisherRalphAfterText:
-	text "Fishing is a life-"
-	line "long passion."
+	text "Angeln ist eine"
+	line "Leidenschaft für"
 
-	para "#MON are life-"
-	line "long friends!"
+	para "das ganze Leben."
+	line "#MON sind"
+	cont "Kameraden fürs"
+	cont "Leben!"
 	done
 
 FisherRalphSwarmText:
-	text "One, two, three…"
-	line "Muahahaha, what a"
+	text "Eins, Zwei, Drei…"
+	line "Muahahaha, welch"
 
-	para "great haul!"
-	line "I'm done! Go ahead"
+	para "ein Fang!"
+	line "Ich bin fertig!"
 
-	para "and catch as many"
-	line "as you can, kid!"
+	para "Mach weiter und"
+	line "fange so viel du"
+	cont "kannst, Kiddie!"
 	done
 
 Route32UnusedFisher1SeenText: ; unreferenced
-	text "I keep catching"
-	line "the same #MON…"
+	text "Ich fange die"
+	line "gleichen #MON…"
 
-	para "Maybe a battle"
-	line "will turn things"
-	cont "around for me."
+	para "Vielleicht ändert"
+	line "ein Kampf"
+	cont "die Sache."
 	done
 
 Route32UnusedFisher1BeatenText: ; unreferenced
-	text "Nothing ever goes"
-	line "right for me now…"
+	text "Mir gelingt ein-"
+	line "fach nichts…"
 	done
 
 Route32UnusedFisher1AfterText: ; unreferenced
-	text "How come the guy"
-	line "next to me catches"
-	cont "good #MON?"
+	text "Wie kann der"
+	line "Bursche neben mir"
+	cont "gute #MON"
+	cont "fangen?"
 	done
 
 Route32UnusedFisher2SeenText: ; unreferenced
-	text "Heh, I'm on a roll"
-	line "today. How about a"
-	cont "battle, kid?"
+	text "Heh, heute habe"
+	line "ich einen Lauf."
+	cont "Lass uns kämpfen,"
+	cont "Kröte."
 	done
 
 Route32UnusedFisher2BeatenText: ; unreferenced
-	text "Oof. I wasn't"
-	line "lucky that time."
+	text "Uff. Dieses Mal"
+	line "hatte ich kein"
+	cont "Glück."
 	done
 
 Route32UnusedFisher2AfterText: ; unreferenced
-	text "You have to have a"
-	line "good ROD if you"
+	text "Du benötigst die"
+	line "PROFIANGEL, wenn"
 
-	para "want to catch good"
-	line "#MON."
+	para "du gute #MON"
+	line "fangen möchtest."
 	done
 
 FisherHenrySeenText:
-	text "My #MON?"
-	line "Freshly caught!"
+	text "Meine #MON?"
+	line "Frisch gefangen!"
 	done
 
 FisherHenryBeatenText:
-	text "SPLASH?"
+	text "PLATSCHER?"
 	done
 
 FisherHenryAfterText:
-	text "Freshly caught"
-	line "#MON are no"
+	text "Frisch gefangene"
+	line "#MON können"
 
-	para "match for properly"
-	line "raised ones."
+	para "gut trainierten"
+	line "nicht Paroli"
+	cont "bieten."
 	done
 
 YoungsterAlbertSeenText:
-	text "I haven't seen you"
-	line "around before."
+	text "Ich habe dich hier"
+	line "noch nie gesehen."
 
-	para "So you think you"
-	line "are pretty tough?"
+	para "Du denkst also,"
+	line "du bist stark?"
 	done
 
 YoungsterAlbertBeatenText:
-	text "You're strong!"
+	text "Du bist stark!"
 	done
 
 YoungsterAlbertAfterText:
-	text "I'm going to try"
-	line "to be the best"
-	cont "with my favorites."
+	text "Ich versuche, mit"
+	line "meinen Lieblingen"
+	cont "der Beste zu sein."
 
-	para "I'm not using the"
-	line "same tough #MON"
-	cont "as everyone else."
+	para "Ich setze nicht"
+	line "auf zähe #MON,"
+	cont "wie die anderen."
 	done
 
 YoungsterGordonSeenText:
-	text "I found some good"
-	line "#MON in the"
-	cont "grass!"
+	text "Ich habe gute"
+	line "#MON im"
+	cont "Gras gefunden!"
 
-	para "I think they'll do"
-	line "it for me!"
+	para "Ich denke, sie"
+	line "passen ganz gut"
+	cont "zu mir!"
 	done
 
 YoungsterGordonBeatenText:
-	text "Darn. I thought I"
-	line "could win."
+	text "Mist. Ich dachte,"
+	line "ich könnte"
+	cont "gewinnen."
 	done
 
 YoungsterGordonAfterText:
-	text "The grass is full"
-	line "of clingy things."
+	text "Im Gras findest"
+	line "du viele Dinge."
 	done
 
 CamperRolandSeenText:
-	text "That glance…"
-	line "It's intriguing."
+	text "Dieser Blick…"
+	line "Wie faszinierend."
 	done
 
 CamperRolandBeatenText:
-	text "Hmmm. This is"
-	line "disappointing."
+	text "Hm. Das ist"
+	line "enttäuschend."
 	done
 
 CamperRolandAfterText:
-	text "If you don't want"
-	line "to battle, just"
-	cont "avoid eye contact."
+	text "Wenn du nicht"
+	line "kämpfen möchtest,"
+	cont "vermeide Blick-"
+	cont "kontakt."
 	done
 
 PicnickerLiz1SeenText:
-	text "Uh-huh. Yeah, and"
-	line "you know…"
+	text "A-ha. Ja,"
+	line "du weiせt…"
 
-	para "Pardon? Battle?"
-	line "I'm on the phone."
+	para "Wie bitte? Kampf?"
+	line "Ich telefoniere."
 
-	para "Oh, all right. But"
-	line "make it fast."
+	para "Oh, O.K. Aber"
+	line "mach schnell."
 	done
 
 PicnickerLiz1BeatenText:
-	text "Oh! I've got to"
-	line "relieve my anger!"
+	text "Ich muss meinem"
+	line "Ärger Luft machen!"
 	done
 
 PicnickerLiz1AfterText:
-	text "I was having a"
-	line "nice chat too."
+	text "Ich hatte einen"
+	line "netten Plausch."
 	done
 
 BirdKeeperPeterSeenText:
-	text "That BADGE! It's"
-	line "from VIOLET CITY!"
+	text "Dieser ORDEN! Er"
+	line "ist aus VIOLA"
+	cont "CITY!"
 
-	para "You beat FALKNER?"
+	para "Du hast FALK"
+	line "besiegt?"
 	done
 
 BirdKeeperPeterBeatenText:
-	text "I know what my"
-	line "weaknesses are."
+	text "Ich kenne meine"
+	line "Schwächen."
 	done
 
 BirdKeeperPeterAfterText:
-	text "I should train"
-	line "again at the GYM"
-	cont "in VIOLET CITY."
+	text "Ich sollte in der"
+	line "PKMN-ARENA von"
+	cont "VIOLA CITY weiter"
+	cont "trainieren."
 	done
 
 Route32UnusedText: ; unreferenced
-	text "The fishermen"
-	line "yelled at me for"
-	cont "bugging them…"
+	text "Die Angler schrien"
+	line "mich an, weil ich"
+	cont "sie belauschte…"
 	done
 
 Text_RoarIntro:
-	text "WROOOOAR!"
-	line "PEOPLE RUN WHEN I"
+	text "BRÜLL!"
+	line "DIE LEUTE LAUFEN"
 
-	para "ROAR! BUT YOU"
-	line "CAME LOOKING!"
+	para "DAVON, WENN ICH"
+	line "BRÜLLE! DU ABER"
+	cont "WOLLTEST MICH"
+	cont "SEHEN!"
 
-	para "THAT PLEASES ME!"
-	line "NOW TAKE THIS!"
+	para "DAS GEFÄLLT MIR!"
+	line "HIER BITTE SCHÖN!"
 	done
 
 Text_RoarOutro:
-	text "WROOOAR!"
-	line "IT'S ROAR!"
+	text "BRÜLL!"
+	line "ES IST BRÜLLER!"
 
-	para "EVEN #MON RUN"
-	line "FROM A GOOD ROAR!"
+	para "SOGAR #MON"
+	line "LAUFEN DAVON,"
+	cont "WENN DU IHN"
+	cont "EINSETZT!"
 	done
 
 MeetFriedaText:
-	text "FRIEDA: Yahoo!"
-	line "It's Friday!"
+	text "FRIEDA: Juhu!"
+	line "Es ist Freitag!"
 
-	para "I'm FRIEDA of"
-	line "Friday!"
+	para "Ich bin FRIEDA"
+	line "von Freitag!"
 
-	para "Nice to meet you!"
+	para "Schön dich"
+	line "kennen zu lernen!"
 	done
 
 FriedaGivesGiftText:
-	text "Here's a POISON"
-	line "BARB for you!"
+	text "Hier, GIFTSTICH"
+	line "ist für dich!"
 	done
 
 FriedaGaveGiftText:
-	text "FRIEDA: Give it to"
-	line "a #MON that has"
-	cont "poison-type moves."
+	text "FRIEDA: Gib es"
+	line "einem #MON, das"
+	cont "über Gift-Attacken"
+	cont "verfügt."
 
 	para "Oh!"
 
-	para "It's wicked!"
+	para "Es ist gemein!"
 
-	para "You'll be shocked"
-	line "how good it makes"
-	cont "poison moves!"
+	para "Du wirst dich"
+	line "wundern, wie"
+	cont "effektiv deine"
+	cont "Gift-Attacken"
+	cont "werden!"
 	done
 
 FriedaFridayText:
-	text "FRIEDA: Hiya! What"
-	line "day do you like?"
+	text "FRIEDA: Hossa!"
+	line "Welchen Wochentag"
+	cont "hast du am"
+	cont "liebsten?"
 
-	para "I love Friday. No"
-	line "doubt about it!"
+	para "Ich liebe Freitag."
+	line "Daran gibt es"
+	cont "keinen Zweifel!"
 
-	para "Don't you think"
-	line "it's great too?"
+	para "Denkst du nicht"
+	line "auch, dass Freitag"
+	cont "groせartig ist?"
 	done
 
 FriedaNotFridayText:
-	text "FRIEDA: Isn't it"
-	line "Friday today?"
+	text "FRIEDA: Ist heute"
+	line "nicht Freitag?"
 
-	para "It's so boring"
-	line "when it's not!"
+	para "Es wäre langwei-"
+	line "lig, wenn nicht!"
 	done
 
 Route32SignText:
 	text "ROUTE 32"
 
-	para "VIOLET CITY -"
-	line "AZALEA TOWN"
+	para "VIOLA CITY -"
+	line "AZALEA CITY"
 	done
 
 Route32RuinsSignText:
-	text "RUINS OF ALPH"
-	line "EAST ENTRANCE"
+	text "ALPH-RUINEN"
+	line "OSTEINGANG"
 	done
 
 Route32UnionCaveSignText:
-	text "UNION CAVE"
-	line "AHEAD"
+	text "EINHEITSTUNNEL"
+	line "Geradeaus"
 	done
 
 Route32_MapEvents:

@@ -1,78 +1,79 @@
 ChadAnswerPhoneText:
-	text "Hello, this is"
+	text "Hallo, hier ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
 	para "Hi, <PLAY_G>!"
-	line "Good morning!"
+	line "Guten Morgen!"
 	done
 
 ChadAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Hallo, hier ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Hi, <PLAY_G>, good"
-	line "day!"
+	para "Hi, <PLAY_G>,"
+	line "guten Tag!"
 	done
 
 ChadAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Hallo, hier ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Hi, <PLAY_G>, good"
-	line "evening!"
+	para "Hi, <PLAY_G>,"
+	line "guten Abend!"
 	done
 
 ChadGreetText:
-	text "Hi, <PLAY_G>, good"
-	line "morning!"
+	text "Hi, <PLAY_G>,"
+	line "guten Morgen!"
 
-	para "It's @"
+	para "@"
 	text_ram wStringBuffer3
-	text "."
-	line "How are you?"
+	text " hier."
+	line "Wie geht es dir?"
 	done
 
 ChadGreetDayText:
-	text "Hi, <PLAY_G>, good"
-	line "day!"
+	text "Hi, <PLAY_G>,"
+	line "guten Tag!"
 
-	para "It's @"
+	para "@"
 	text_ram wStringBuffer3
-	text "."
-	line "How are you?"
+	text " hier."
+	line "Wie geht es dir?"
 	done
 
 ChadGreetNiteText:
-	text "Hi, <PLAY_G>, good"
-	line "evening!"
+	text "Hi, <PLAY_G>,"
+	line "guten Abend!"
 
-	para "It's @"
+	para "@"
 	text_ram wStringBuffer3
-	text "."
-	line "How are you?"
+	text " hier."
+	line "Wie geht es dir?"
 	done
 
 ChadGenericText:
-	text "How are your"
-	line "#MON doing?"
+	text "Wie geht es deinen"
+	line "#MON?"
 
-	para "You know PROF.OAK,"
-	line "so of course your"
-	cont "#MON are fine!"
+	para "Du kennst PROF."
+	line "EICH, also geht es"
+	cont "deinen #MON"
+	cont "gut!"
 
-	para "My #MON are"
-	line "doing well too."
+	para "Meinen #MON"
+	line "geht es auch gut."
 
-	para "But then, I am"
-	line "trying to become a"
+	para "Aber ich möchte ja"
+	line "auch ein #MON-"
+	cont "Professor werden,"
 
-	para "#MON professor,"
-	line "so that shouldn't"
-	cont "be a big surprise."
+	para "also ist das keine"
+	line "Überraschung."
 	done

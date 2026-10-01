@@ -524,267 +524,298 @@ UndergroundRivalRetreatMovement2:
 	step_end
 
 UndergroundRivalBeforeText:
-	text "Hold it!"
+	text "Stehen bleiben!"
 
-	para "I saw you, so I"
-	line "tailed you."
+	para "Ich sah dich und"
+	line "bin dir gefolgt."
 
-	para "I don't need you"
-	line "underfoot while I"
+	para "Hör auf, mir"
+	line "nachzustellen, ich"
 
-	para "take care of TEAM"
-	line "ROCKET."
+	para "muss mich um TEAM"
+	line "ROCKET kümmern."
 
-	para "…Wait a second."
-	line "You beat me be-"
-	cont "fore, didn't you?"
+	para "…Moment."
+	line "Du hast mich schon"
+	cont "besiegt, oder?"
 
-	para "That was just a"
-	line "fluke."
+	para "Das war nur"
+	line "Dusel."
 
-	para "But I repay my"
-	line "debts!"
+	para "Ich begleiche"
+	line "meine Rechnungen!"
 	done
 
 UndergroundRivalWinText:
-	text "…Why…"
-	line "Why do I lose?"
+	text "…Warum…"
+	line "Warum habe ich"
+	cont "verloren?"
 
-	para "I've assembled the"
-	line "toughest #MON."
+	para "Ich habe die"
+	line "stärksten #MON"
+	cont "zusammengetragen."
 
-	para "I didn't ease up"
-	line "on the gas."
+	para "Ich habe mich so"
+	line "angestrengt."
 
-	para "So why do I lose?"
+	para "Warum habe ich"
+	line "bloせ verloren?"
 	done
 
 UndergroundRivalAfterText:
-	text "…I don't under-"
-	line "stand…"
+	text "…Ich verstehe"
+	line "es nicht…"
 
-	para "Is what that LANCE"
-	line "guy said true?"
+	para "Ist es wahr, was"
+	line "dieser SIEGFRIED"
+	cont "erzählt?"
 
-	para "That I don't treat"
-	line "#MON properly?"
+	para "Dass ich meine"
+	line "#MON nicht"
+	cont "richtig behandle?"
 
-	para "Love…"
+	para "Liebe…"
 
-	para "Trust…"
+	para "Vertrauen…"
 
-	para "Are they really"
-	line "what I lack?"
+	para "Fehlt mir das"
+	line "wirklich?"
 
-	para "Are they keeping"
-	line "me from winning?"
+	para "Verhindern diese"
+	line "Mängel, dass ich"
+	cont "gewinne?"
 
-	para "I… I just don't"
-	line "understand."
+	para "Ich… ich verstehe"
+	line "es nicht."
 
-	para "But it's not going"
-	line "to end here."
+	para "Aber es wird"
+	line "hier nicht enden."
 
-	para "Not now. Not"
-	line "because of this."
+	para "Nicht jetzt."
+	line "Nicht deswegen."
 
-	para "I won't give up my"
-	line "dream of becoming"
-
-	para "the world's best"
-	line "#MON trainer!"
+	para "Ich werde meinen"
+	line "Traum, der welt-"
+	cont "beste #MON-"
+	cont "Trainer zu sein,"
+	cont "nicht aufgeben!"
 	done
 
 UndergroundRivalLossText:
-	text "Humph. This is my"
-	line "real power, wimp."
+	text "Hm. Das ist meine"
+	line "wahre Stärke,"
+	cont "du Schwächling."
 
-	para "I'll make TEAM"
-	line "ROCKET history."
+	para "TEAM ROCKET wird"
+	line "dank mir nur noch"
+	cont "Geschichte sein."
 
-	para "And I'm going to"
-	line "grind that LANCE"
-	cont "under my heels."
+	para "Ich werde diesen"
+	line "SIEGFRIED wie"
+	cont "einen Wurm"
+	cont "zertreten."
 	done
 
 GoldenrodUndergroundSwitchRoomEntrances_SuperNerdText:
-	text "I was challenged"
-	line "to a battle down-"
-	cont "stairs."
+	text "Ich wurde da unten"
+	line "zu einem Kampf"
+	cont "herausgefordert."
 
-	para "It's rough down"
-	line "there. You'd"
-	cont "better be careful."
+	para "Da unten herrschen"
+	line "rauhe Sitten. Sei"
+	cont "auf der Hut."
 	done
 
 GoldenrodUndergroundSwitchRoomEntrances_TeacherText:
-	text "There are some"
-	line "shops downstairs…"
+	text "Da unten gibt es"
+	line "Geschäfte…"
 
-	para "But there are"
-	line "also trainers."
+	para "Aber da unten sind"
+	line "auch Trainer. Ich"
 
-	para "I'm scared to go"
-	line "down there."
+	para "traue mich nicht"
+	line "hinunter."
 	done
 
 GruntM11SeenText:
-	text "Open one shutter,"
-	line "another closes."
+	text "Öffne einen Roll-"
+	line "laden und ein an-"
+	cont "derer schlieせt."
 
-	para "Bet you can't get"
-	line "where you want!"
+	para "Ich wette, du"
+	line "kommst nicht so"
+	cont "weit, wie du es"
+	cont "dir vorstellst!"
 	done
 
 GruntM11BeatenText:
-	text "Drat! I was sunk"
-	line "by indecision!"
+	text "Verflixt! Meine"
+	line "Unentschlossenheit"
+	cont "war mein Ruin!"
 	done
 
 GruntM11AfterBattleText:
-	text "I'm confused too…"
-	line "The switch on the"
+	text "Auch ich bin…"
+	line "verwirrt. Der"
 
-	para "end is the one to"
-	line "press first, but…"
+	para "letzte Schalter"
+	line "muss zuerst"
+	cont "betätigt werden,"
+	cont "aber…"
 	done
 
 GruntM25SeenText:
-	text "Kwahaha!"
+	text "Uff!"
 
-	para "Confounded by the"
-	line "shutters, are we?"
+	para "Wir sind von den"
+	line "Rollläden ver-"
+	cont "wirrt!"
 
-	para "I'll let you in on"
-	line "a secret if you"
-	cont "can beat me!"
+	para "Ich verrate dir"
+	line "ein Geheimnis,"
+	cont "wenn du mich"
+	cont "besiegst!"
 	done
 
 GruntM25BeatenText:
-	text "Uwww…"
-	line "I blew it."
+	text "Arghh… Ich"
+	line "habわ vermasselt."
 	done
 
 GruntM25AfterBattleText:
-	text "All right. A hint!"
+	text "O.K. Ein Hinweis!"
 
-	para "Change the order"
-	line "of switching."
+	para "Betätige die"
+	line "Schalter in einer"
+	cont "anderen Reihen-"
+	cont "folge."
 
-	para "That'll change the"
-	line "ways the shutters"
-	cont "open and close."
+	para "Dadurch wird das"
+	line "Öffnen und Schlie-"
+	cont "せen der Rollläden"
+	cont "verändert."
 	done
 
 BurglarDuncanSeenText:
-	text "Fork over your"
-	line "goodies!"
+	text "Wirf deine"
+	line "Goodies herüber!"
 	done
 
 BurglarDuncanBeatenText:
-	text "Mercy!"
+	text "Gnade!"
 	done
 
 BurglarDuncanAfterBattleText:
-	text "Steal and sell!"
-	line "That's basic in"
-	cont "crime, kid!"
+	text "Stehlen und"
+	line "Hehlen! Das ist"
+	cont "die Basis aller"
+	cont "Verbrechen!"
 	done
 
 BurglarEddieSeenText:
-	text "They ditched this"
-	line "project before"
-	cont "they finished."
+	text "Sie haben das"
+	line "Projekt abge-"
+	cont "brochen, noch ehe"
+	cont "sie fertig waren."
 
-	para "I'm searching for"
-	line "leftover loot."
+	para "Ich suche nach"
+	line "Überresten der"
+	cont "Beute."
 	done
 
 BurglarEddieBeatenText:
-	text "Over the top!"
+	text "Das ist zu viel!"
 	done
 
 BurglarEddieAfterBattleText:
-	text "UNDERGROUND WARE-"
-	line "HOUSE?"
+	text "UNTERGRUND"
+	line "LAGERHAUS?"
 
-	para "What do you want"
-	line "to go there for?"
+	para "Warum möchtest du"
+	line "dorthin?"
 
-	para "There's nothing"
-	line "down there."
+	para "Da unten wirst"
+	line "du nichts finden."
 	done
 
 GruntM13SeenText:
-	text "I don't care if"
-	line "you're lost."
+	text "Es ist mir egal,"
+	line "wenn du dich"
+	cont "verläufst."
 
-	para "You show up here,"
-	line "you're nothing but"
-	cont "a victim!"
+	para "Du tauchst hier"
+	line "auf! Du bist nur"
+	cont "ein Opfer!"
 	done
 
 GruntM13BeatenText:
-	text "Urk! Yeah, think"
-	line "you're cool, huh?"
+	text "Urk! Du glaubst,"
+	line "du bist cool, häh?"
 	done
 
 GruntM13AfterBattleText:
-	text "You must have ice"
-	line "in your veins to"
-	cont "dis TEAM ROCKET."
+	text "Durch deine Venen"
+	line "flieせt wohl Eis,"
+	cont "da du TEAM ROCKET"
+	cont "nicht für bare"
+	cont "Münze nimmst."
 	done
 
 SwitchRoomText_Switch1:
-	text "It's labeled"
-	line "SWITCH 1."
+	text "Hier steht"
+	line "SCHALTER 1."
 	done
 
 GruntF3SeenText:
-	text "Are you lost? No,"
-	line "you can't be."
+	text "Hast du dich"
+	line "verirrt? Nein, das"
+	cont "kann nicht sein."
 
-	para "You don't have"
-	line "that scared look."
+	para "Es ist keine Angst"
+	line "in deinem Blick."
 
-	para "I'll give you"
-	line "something to be"
-	cont "scared about!"
+	para "Ich zeige dir"
+	line "etwas, das dir"
+	cont "Angst macht!"
 	done
 
 GruntF3BeatenText:
-	text "How could you?"
+	text "Wie konntest du?"
 	done
 
 GruntF3AfterBattleText:
-	text "Go wherever you'd"
-	line "like! Get lost!"
-	cont "See if I care!"
+	text "Geh nur! Verlaufe"
+	line "dich! Dann wirst"
+	cont "du feststellen,"
+	cont "dass es mir egal"
+	cont "ist!"
 	done
 
 SwitchRoomText_OffTurnOn:
-	text "It's OFF."
-	line "Turn it ON?"
+	text "Er ist ausge-"
+	line "schaltet."
+	cont "Einschalten?"
 	done
 
 SwitchRoomText_OnTurnOff:
-	text "It's ON."
-	line "Turn it OFF?"
+	text "Er ist einge-"
+	line "schaltet."
+	cont "Ausschalten?"
 	done
 
 SwitchRoomText_Switch2:
-	text "It's labeled"
-	line "SWITCH 2."
+	text "Hier steht"
+	line "SCHALTER 2."
 	done
 
 SwitchRoomText_Switch3:
-	text "It's labeled"
-	line "SWITCH 3."
+	text "Hier steht"
+	line "SCHALTER 3."
 	done
 
 SwitchRoomText_Emergency:
-	text "It's labeled"
-	line "EMERGENCY."
+	text "Hier steht"
+	line "NOTFALL."
 	done
 
 GoldenrodUndergroundSwitchRoomEntrances_MapEvents:

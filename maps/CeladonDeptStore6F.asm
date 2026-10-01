@@ -102,48 +102,51 @@ CeladonDeptStore6FElevatorButton: ; unreferenced
 	jumpstd ElevatorButtonScript
 
 CeladonVendingText:
-	text "A vending machine!"
-	line "Here's the menu."
+	text "Ein Automat!"
+	line "Hier ist die"
+	cont "Anleitung."
 	done
 
 CeladonClangText:
-	text "Clang!"
+	text "Klang!"
 
 	para "@"
 	text_ram wStringBuffer3
 	text_start
-	line "popped out."
+	line "liegt im Schacht."
 	done
 
 CeladonVendingNoMoneyText:
-	text "Oops, not enough"
-	line "money…"
+	text "Ups, nicht"
+	line "genügend Geld…"
 	done
 
 CeladonVendingNoSpaceText:
-	text "There's no more"
-	line "room for stuff…"
+	text "Da ist nicht genug"
+	line "Platz für mehr"
+	cont "Utensilien…"
 	done
 
 CeladonDeptStore6FSuperNerdText:
-	text "A vending machine"
-	line "with a prize rou-"
-	cont "lette…"
+	text "Ein Spielautomat"
+	line "mit einem"
+	cont "Roulette…"
 
-	para "You never see"
-	line "those anymore."
+	para "Die gibt es schon"
+	line "lange nicht mehr."
 	done
 
 CeladonDeptStore6FYoungsterText:
-	text "Aww! There's no"
-	line "games here!"
+	text "Aww! Hier gibt es"
+	line "keine Spiele!"
 
-	para "I wanted to play…"
+	para "Ich wollte doch"
+	line "spielen…"
 	done
 
 CeladonDeptStore6FDirectoryText:
-	text "6F: ROOFTOP SQUARE"
-	line "VENDING MACHINES"
+	text "5S: DACHTERRASSE"
+	line "SPIELAUTOMATEN"
 	done
 
 CeladonDeptStore6F_MapEvents:

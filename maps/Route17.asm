@@ -66,68 +66,76 @@ Route17HiddenMaxElixer:
 	hiddenitem MAX_ELIXER, EVENT_ROUTE_17_HIDDEN_MAX_ELIXER
 
 BikerRileySeenText:
-	text "Hey, you! You're"
-	line "from JOHTO, huh?"
+	text "Heh, du! Bist"
+	line "du aus JOHTO?"
 	done
 
 BikerRileyBeatenText:
-	text "Whoa, you kick!"
+	text "Boah, du legst"
+	line "aber los!"
 	done
 
 BikerRileyAfterBattleText:
-	text "Don't get cocky,"
-	line "you JOHTO punk!"
+	text "Wer't nicht frech,"
+	line "du Null aus JOHTO!"
 	done
 
 BikerJoelSeenText:
-	text "Wow. That's a cool"
-	line "BICYCLE!"
+	text "Wow! Das ist ein"
+	line "tolles FAHRRAD!"
 	done
 
 BikerJoelBeatenText:
-	text "But you don't just"
-	line "look cool…"
+	text "Aber du siehst"
+	line "nicht nur cool"
+	cont "aus…"
 	done
 
 BikerJoelAfterBattleText:
-	text "I look cool, but"
-	line "I'm weak, so I'm"
-	cont "not really cool."
+	text "Ich sehe zwar cool"
+	line "aus, bin aber"
+	cont "schwach, also bin"
+	cont "ich nicht wirklich"
+	cont "cool."
 
-	para "I have to train"
-	line "harder…"
+	para "Ich muss härter"
+	line "trainieren…"
 	done
 
 BikerGlennSeenText:
-	text "Hey! Want to have"
-	line "a speed battle?"
+	text "Hey! Wie wäre"
+	line "es mit einem"
+	cont "Schnellkampf?"
 	done
 
 BikerGlennBeatenText:
-	text "Yikes! You've got"
-	line "awesome torque!"
+	text "Ups! Du hast"
+	line "ganz schön Kraft!"
 	done
 
 BikerGlennAfterBattleText:
-	text "Hands-free riding"
-	line "is considered cool"
-	cont "on CYCLING ROAD."
+	text "Freihändig fahren"
+	line "gilt als cool"
+	cont "auf dem RADWEG."
 	done
 
 BikerCharlesSeenText:
-	text "We're fearless"
-	line "highway stars!"
+	text "Wir sind die"
+	line "furchtlosen Helden"
+	cont "des RADWEGs!"
 	done
 
 BikerCharlesBeatenText:
-	text "Arrrgh! Crash and"
-	line "burn!"
+	text "Argh! Bumm und"
+	line "krach!"
 	done
 
 BikerCharlesAfterBattleText:
-	text "Reckless driving"
-	line "causes accidents!"
-	cont "Take it easy!"
+	text "Durch rücksichts-"
+	line "loses Fahren"
+	cont "passieren viele"
+	cont "Unfälle! Bleib"
+	cont "locker!"
 	done
 
 Route17_MapEvents:

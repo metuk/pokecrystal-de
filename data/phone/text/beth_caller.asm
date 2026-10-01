@@ -1,98 +1,104 @@
 BethExhilaratingRideText:
-	text "Do you remember my"
-	line "sweet @"
+	text "Erinnerst du dich"
+	line "an mein süせes"
+	cont "@"
 	text_ram wStringBuffer4
 	text "?"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " runs"
-	line "very fast."
+	text " rennt"
+	line "sehr schnell."
 
-	para "It's exhilarating"
-	line "to ride on its"
+	para "Es ist wahrlich"
+	line "berauschend auf"
 
-	para "back when it"
-	line "really gets going."
+	para "ihm zu reiten,"
+	line "wenn es loslegt."
 	done
 
 BethDefeatedMonText:
-	text "Oh, have you ever"
-	line "seen a @"
+	text "Oh, hast du schon"
+	line "je ein @"
 	text_ram wStringBuffer4
 	text_start
-	cont "before?"
+	cont "gesehen?"
 
-	para "I just battled"
-	line "one…"
+	para "Ich habe gerade"
+	line "gegen eines"
+	cont "gekämpft…"
 
-	para "It was much faster"
-	line "than I expected."
+	para "Es war schneller,"
+	line "als ich dachte."
 
-	para "I was a little"
-	line "shocked."
+	para "Ich war ein wenig"
+	line "perplex."
 
-	para "I still won, of"
-	line "course."
+	para "Natürlich habe ich"
+	line "dennoch gewonnen."
 	done
 
 BethLostAMonText:
-	text "Oh, I just saw a"
-	line "wild @"
+	text "Oh, ich habe"
+	line "soeben ein wildes"
+
+	para "@"
 	text_ram wStringBuffer4
-	text "."
+	text_start
+	line "gesehen."
 
-	para "I was trying to"
-	line "catch it when I"
+	para "Ich wollte es"
+	line "fangen, aber ich"
 
-	para "noticed that I was"
-	line "all out of #"
-	cont "BALLS."
+	para "musste feststel-"
+	line "len, dass ich"
 
-	para "If you don't check"
-	line "your items, you"
+	para "keine #BÄLLE"
+	line "mehr hatte."
 
-	para "may run out at the"
-	line "worst time."
+	para "Wenn du deinen"
+	line "Item-Bestand nicht"
 
-	para "I hope you learn"
-	line "from my mistake."
+	para "kennst, kann es"
+	line "dir ähnlich erge-"
+	cont "hen! Lerne aus"
+	cont "meinem Fehler."
 	done
 
 BethBattleRematchText:
-	text "Do you want to"
-	line "battle? I'm going"
-	cont "to win this time!"
+	text "Willst du kämpfen?"
+	line "Dieses Mal gewinne"
+	cont "ich!"
 
-	para "I'll be waiting"
-	line "for you around"
+	para "Hier erwarte ich"
+	line "dich:"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "."
-	line "Look for me, OK?"
+	line "Komm vorbei, O.K.?"
 	done
 
 BethHangUpText:
-	text "OK, bye-bye!"
+	text "O.K., bye-bye!"
 	done
 
 BethLetsBattleAgainSometimeText:
-	text "Let's battle again"
-	line "sometime!"
+	text "Lass uns wieder"
+	line "mal kämpfen!"
 	done
 
 BethReminderText:
-	text "Um… <PLAY_G>?"
-	line "What's wrong?"
+	text "Ähm… <PLAY_G>?"
+	line "Was ist los?"
 
-	para "Did you forget our"
-	line "deal?"
+	para "Hast du unsere Ab-"
+	line "machung vergessen?"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "That's where I'm"
-	line "waiting."
+	para "Genau dort warte"
+	line "ich auf dich."
 	done

@@ -1,67 +1,69 @@
 GinaAskNumber1Text:
-	text "Whenever I see a"
-	line "strong trainer, I"
+	text "Immer wenn ich auf"
+	line "einen starken"
 
-	para "want to be their"
-	line "cheerleader."
+	para "Trainer treffe,"
+	line "möchte ich sein"
+	cont "Cheerleader sein."
 
-	para "When I'm on my"
-	line "walk, I sometimes"
-	cont "pick up items."
+	para "Manchmal finde ich"
+	line "Items bei einem"
+	cont "Spaziergang."
 
-	para "If I get anything,"
-	line "you can have it!"
+	para "Finde ich etwas,"
+	line "bekommst du es."
 
-	para "Want to give me"
-	line "your number?"
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 
-	para "I'll call as soon"
-	line "as I get anything."
+	para "Ich rufe an, wenn"
+	line "ich etwas finde."
 	done
 
 GinaAskNumber2Text:
-	text "If I find an item,"
-	line "you can have it!"
+	text "Falls ich ein Item"
+	line "finde, gebe ich"
+	cont "es dir!"
 
-	para "Want to give me"
-	line "your number?"
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 	done
 
 GinaNumberAcceptedText:
-	text "I'll call as soon"
-	line "as I get anything!"
+	text "Ich rufe an, wenn"
+	line "ich etwas habe!"
 	done
 
 GinaNumberDeclinedText:
-	text "Is that so? Well,"
-	line "I'll still be"
-	cont "rooting for you!"
+	text "Stimmt das? Nun,"
+	line "ich jubele dir"
+	cont "noch immer zu!"
 	done
 
 GinaPhoneFullText:
-	text "But your phone is"
-	line "all filled up!"
+	text "Dein Nummern-"
+	line "speicher ist voll!"
 	done
 
 GinaRematchText:
-	text "I've been waiting!"
+	text "Ich warte!"
 
-	para "I've gotten a bit"
-	line "better at this!"
+	para "Ich habe Fort-"
+	line "schritte gemacht!"
 	done
 
 GinaGiftText:
-	text "So you're finally"
-	line "here!"
+	text "Endlich bist du"
+	line "gekommen!"
 
-	para "I think this will"
-	line "make you happy."
+	para "Ich denke, das"
+	line "wird dir gefallen."
 	done
 
 GinaPackFullText:
-	text "Your PACK looks"
-	line "completely full."
+	text "Dein BEUTEL ist"
+	line "randvoll."
 
-	para "I'll have to hold"
-	line "on to this."
+	para "Das muss ich wohl"
+	line "behalten."
 	done

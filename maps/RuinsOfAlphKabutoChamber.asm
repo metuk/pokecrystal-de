@@ -146,109 +146,116 @@ RuinsOfAlphKabutoChamberSkyfallTopMovement:
 	step_end
 
 RuinsOfAlphKabutoChamberReceptionistText:
-	text "Welcome to this"
-	line "chamber."
+	text "Willkommen in"
+	line "diesem Raum."
 
-	para "There are sliding"
-	line "panels that depict"
+	para "Hier gibt es ver-"
+	line "schiebbare Plat-"
+	cont "ten, die ein #-"
+	cont "MON darstellen,"
 
-	para "a #MON drawn by"
-	line "the ancients."
+	para "das aus der Antike"
+	line "stammt."
 
-	para "Slide the panels"
-	line "around to form the"
-	cont "picture."
+	para "Verschiebe die"
+	line "Platten so, dass"
+	cont "ein Bild entsteht."
 
-	para "To the right is a"
-	line "description of the"
-	cont "#MON."
+	para "Rechts findest du"
+	line "eine Beschreibung"
+	cont "des #MON."
 
-	para "Scientists in the"
-	line "back are examining"
-
-	para "some newly found"
-	line "patterns."
+	para "Die Forscher im"
+	line "Hintergrund unter-"
+	cont "suchen neu ent-"
+	cont "deckte Muster."
 	done
 
 RuinsOfAlphKabutoChamberScientistCrypticText:
-	text "Recently, strange,"
-	line "cryptic patterns"
-	cont "have appeared."
+	text "Neulich sind"
+	line "seltsame Muster"
+	cont "aufgetaucht."
 
-	para "It's odd. They"
-	line "weren't here a"
-	cont "little while ago…"
+	para "Es ist merkwürdig."
+	line "Vor kurzem waren"
+	cont "sie noch nicht da…"
 
-	para "You should take a"
-	line "look at the walls."
+	para "Wirf einen Blick"
+	line "auf die Wände."
 	done
 
 RuinsOfAlphKabutoChamberScientistHoleText:
-	text "Ah! Here's another"
-	line "huge hole!"
+	text "Ah! Hier ist noch"
+	line "ein groせes Loch!"
 
-	para "It's big enough to"
-	line "go through!"
+	para "Es ist groせ genug,"
+	line "um durchzugehen!"
 	done
 
 RuinsOfAlphKabutoChamberScientistTremorText:
-	text "That tremor was"
-	line "pretty scary!"
+	text "Das Beben war"
+	line "Furcht erregend!"
 
-	para "But I'm more"
-	line "concerned about"
-	cont "this wall here…"
+	para "Aber die Wand hier"
+	line "macht mir mehr"
+	cont "Sorgen…"
 	done
 
 RuinsOfAlphKabutoChamberUnusedText: ; unreferenced
-	text "The patterns on"
-	line "the wall appear to"
-	cont "be words!"
+	text "Die Muster an der"
+	line "Wand sind tatsäch-"
+	cont "lich Worte!"
 
-	para "And those sliding"
-	line "stone panels seem"
+	para "Und die verschieb-"
+	line "baren Steinplatten"
 
-	para "to be signals of"
-	line "some kind."
+	para "scheinen ein"
+	line "Signal zu sein."
 
-	para "I think they make"
-	line "#MON appear,"
-
-	para "but it's not clear"
-	line "yet…"
+	para "Ich glaube sie"
+	line "veranlassen #-"
+	cont "MON sich zu zei-"
+	cont "gen, aber das ist"
+	cont "noch nicht sicher…"
 	done
 
 RuinsOfAlphKabutoChamberWallPatternLeftText:
-	text "Patterns appeared"
-	line "on the walls…"
+	text "Es sind Muster an"
+	line "den Wänden…"
 	done
 
 RuinsOfAlphKabutoChamberUnownText: ; unreferenced
-	text "It's UNOWN text!"
+	text "Es ist"
+	line "ICOGNITO-Schrift!"
 	done
 
 RuinsOfAlphKabutoChamberWallPatternRightText:
-	text "Patterns appeared"
-	line "on the walls…"
+	text "Es sind Muster an"
+	line "den Wänden…"
 	done
 
 RuinsOfAlphKabutoChamberWallHoleText:
-	text "There's a big hole"
-	line "in the wall!"
+	text "Da ist ein groせes"
+	line "Loch in der Wand!"
 	done
 
 RuinsOfAlphKabutoChamberAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "MON."
+	text "Dies ist eine"
+	line "Nachbildung eines"
+	cont "antiken #MON."
 	done
 
 RuinsOfAlphKabutoChamberDescriptionText:
-	text "A #MON that hid"
-	line "on the sea floor."
+	text "Ein #MON, das"
+	line "sich am Meeres-"
+	cont "grund versteckte"
 
-	para "Eyes on its back"
-	line "scanned the area."
+	para "und mit seinen"
+	line "Augen auf dem"
+
+	para "Rücken die Um-"
+	line "gebung genau"
+	cont "beobachtete."
 	done
 
 RuinsOfAlphKabutoChamber_MapEvents:

@@ -1,106 +1,107 @@
 ArnieMonIsSoCuteText:
-	text "I'm always with my"
-	line "@"
+	text "Mein @"
 	text_ram wStringBuffer4
-	text "!"
+	text_start
+	line "ist immer dabei!"
 
-	para "It's so cute!"
-	line "I just love it!"
+	para "Es ist so süせ!"
+	line "Ich liebe es!"
 	done
 
 ArnieDefeatedMonText:
-	text "Changing the topic"
-	line "here, I saw this"
-
-	para "@"
+	text "Themawechsel! Ich"
+	line "sah zum ersten Mal"
+	cont "ein @"
 	text_ram wStringBuffer4
-	text " for the"
-	line "first time."
+	text "."
 
-	para "It was easy to"
-	line "beat, actually."
+	para "Es war einfach zu"
+	line "besiegen."
 	done
 
 ArnieLostAMonText:
-	text "I was wondering,"
-	line "do you happen to"
-	cont "have @"
+	text "Ich fragte mich,"
+	line "ob du zufällig ein"
+	cont "@"
 	text_ram wStringBuffer4
-	text "?"
+	text " hast?"
 
-	para "I can't seem to"
-	line "catch one. What is"
+	para "Ich kann keines"
+	line "fangen. Was ist"
 
-	para "its weakness, I"
-	line "wonder."
+	para "wohl seine"
+	line "Schwäche?"
 	done
 
 ArnieBattleRematchText:
-	text "Hey, let's battle"
-	line "our #MON!"
+	text "Heh, lass unsere"
+	line "#MON kämpfen!"
 
-	para "I won't lose to"
-	line "you battling or in"
+	para "Ich verliere weder"
+	line "im Kampf noch im"
 
-	para "the Bug-Catching"
-	line "Contest!"
+	para "Käferturnier"
+	line "gegen dich!"
 
-	para "I'll be here on"
+	para "Ich bin hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 ArnieHangUpText:
-	text "Let's talk again,"
-	line "huh?"
+	text "Lass uns erneut"
+	line "plaudern?"
 	done
 
 ArnieSwarmText:
-	text "Boy, am I glad I"
-	line "caught you!"
+	text "Bin ich froh, dass"
+	line "ich dich noch"
+	cont "erwische!"
 
-	para "A whole bunch of"
+	para "Ein ganzer Schwarm"
 	line "@"
 	text_ram wStringBuffer4
-	text " have"
+	text " ist"
 
-	para "appeared around"
+	para "hier aufgetaucht:"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 
-	para "You have to see"
-	line "this!"
+	para "Das musst du dir"
+	line "ansehen!"
 	done
 
 ArnieHaventSeenRareMonText:
-	text "I haven't had any"
-	line "luck seeing rare"
-	cont "#MON lately…"
+	text "In letzter Zeit"
+	line "hatte ich kein"
 
-	para "But I know they're"
-	line "out there!"
+	para "Glück, seltene"
+	line "#MON zu sehen…"
+
+	para "Aber ich weiせ,"
+	line "dass sie da sind!"
 	done
 
 ArnieReminderText:
-	text "Hey, where are you"
-	line "now?"
+	text "Heh, wo bist du"
+	line "jetzt?"
 
-	para "Let's battle. I'll"
-	line "be waiting for you"
-	cont "on @"
+	para "Lass uns kämpfen."
+	line "Ich warte hier:"
+	cont "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 ArnieHurryText:
-	text "Hello? Are you"
-	line "coming or what?"
+	text "Hallo? Kommst du"
+	line "oder nicht?"
 
-	para "You're missing out"
-	line "on seeing YANMA!"
+	para "Du verpasst YANMA"
+	line "zu sehen!"
 
-	para "Get down to ROUTE"
-	line "35 right now!"
+	para "Komm sofort zu"
+	line "ROUTE 35!"
 	done

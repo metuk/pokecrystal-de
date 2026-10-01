@@ -319,189 +319,218 @@ Route44HiddenElixer:
 	hiddenitem ELIXER, EVENT_ROUTE_44_HIDDEN_ELIXER
 
 FisherWilton1SeenText:
-	text "Aack! You made me"
-	line "lose a POLIWAG!"
+	text "Aah! Wegen dir"
+	line "habe ich ein"
+	cont "QUAPSEL verloren!"
 
-	para "What are you going"
-	line "to do about it?"
+	para "Was wirst du"
+	line "deswegen unter-"
+	cont "nehmen?"
 	done
 
 FisherWilton1BeatenText:
-	text "Just forget about"
-	line "it."
+	text "Vergiss es"
+	line "einfach."
 	done
 
 FisherWiltonHugePoliwagText:
-	text "That POLIWAG that"
-	line "got away…"
-	cont "It was huge."
+	text "Dieses QUAPSEL,"
+	line "das geflohen ist…"
+	cont "Das war riesig."
 
-	para "I swear it must've"
-	line "been 16 feet long!"
+	para "Ich könnte"
+	line "schwören, dass es"
+	cont "5 Meter lang war!"
 	done
 
 FisherEdgarSeenText:
-	text "I fish until I"
-	line "can't anymore."
+	text "Ich angle so"
+	line "lange, bis ich"
+	cont "nicht mehr kann."
 
-	para "I also battle"
-	line "until I drop."
+	para "Und ich kämpfe"
+	line "bis zum Umfallen."
 
-	para "That's my"
-	line "relationship"
-	cont "with my #MON."
+	para "So gehe ich"
+	line "auch mit meinen"
+	cont "#MON um."
 	done
 
 FisherEdgarBeatenText:
-	text "Hmmmm… "
-	line "This isn't right."
+	text "Hmm…"
+	line "Das ist nicht"
+
+	para "richtig."
 	done
 
 FisherEdgarAfterBattleText:
-	text "That's 100 wins"
-	line "to 101 losses."
+	text "Das sind 100 Siege"
+	line "und 101 verlorene"
+	cont "Kämpfe."
 
-	para "I won't battle"
-	line "again for a while."
+	para "Ich kämpfe jetzt"
+	line "eine Weile lang"
+	cont "nicht mehr."
 	done
 
 BirdKeeperVance1SeenText:
-	text "Do you know about"
-	line "the legendary bird"
-	cont "#MON?"
+	text "Hast du schon von"
+	line "dem legendären"
+	cont "Vogel-#MON"
+	cont "gehört?"
 	done
 
 BirdKeeperVance1BeatenText:
-	text "Whew! You're hot"
-	line "stuff."
+	text "Puh! Du bist nicht"
+	line "von schlechten"
+	cont "Eltern."
 	done
 
 BirdKeeperVanceLegendaryBirdsText:
-	text "ARTICUNO, ZAPDOS"
-	line "and MOLTRES are"
+	text "ARKTOS, ZAPDOS"
+	line "und LAVADOS sind"
 
-	para "the three legend-"
-	line "ary bird #MON."
+	para "die drei"
+	line "legendären Vogel-"
+	cont "#MON."
 
-	para "I heard there are"
-	line "other legendary"
-	cont "birds, though."
+	para "Es gibt aber auch"
+	line "andere legendäre"
+	cont "Vogel-#MON."
 	done
 
 BirdKeeperVance2BeatenText:
-	text "Why can't I ever"
-	line "beat you?"
+	text "Warum kann ich"
+	line "dich nicht"
+	cont "besiegen?"
 
-	para "Oh yeah, here you"
-	line "go. It's that gift"
+	para "Oh yeah, hier. Das"
+	line "ist das Geschenk,"
 
-	para "I couldn't give"
-	line "you last time."
+	para "das ich dir das"
+	line "letzte Mal nicht"
+	cont "geben konnte."
 	done
 
 PsychicPhilSeenText:
-	text "I'm gonna win,"
-	line "for sure!"
+	text "Ich gewinne"
+	line "hundertprozentig!"
 	done
 
 PsychicPhilBeatenText:
-	text "Arrgh… That's a"
-	line "shocking loss…"
+	text "Aah… Das ist"
+	line "eine schockierende"
+	cont "Niederlage…"
 	done
 
 PsychicPhilAfterBattleText:
-	text "It's important to"
-	line "have conviction"
-	cont "on your side."
+	text "Es ist wichtig,"
+	line "von sich selbst"
+	cont "überzeugt zu sein."
 	done
 
 PokemaniacZachSeenText:
-	text "I'll do anything"
-	line "to get my hands on"
-	cont "rare #MON!"
+	text "Ich tue alles,"
+	line "um seltene #MON"
+	cont "in die Finger zu"
+	cont "bekommen!"
 	done
 
 PokemaniacZachBeatenText:
-	text "Oooh, your #MON"
-	line "are so appealing."
+	text "Ach, deine #MON"
+	line "sind ja niedlich."
 	done
 
 PokemaniacZachAfterBattleText:
-	text "If a #MON has"
-	line "different colors"
+	text "Ein #MON,"
+	line "dessen Färbung"
 
-	para "from usual, it's"
-	line "more valuable."
+	para "sich von der"
+	line "normalen unter-"
+	cont "scheidet, ist"
+	cont "wertvoller."
 
-	para "What? You mean"
-	line "that's not true?"
+	para "Was? Willst du"
+	line "behaupten, das sei"
+	cont "nicht wahr?"
 	done
 
 CooltrainermAllenSeenText:
-	text "I can tell you're"
-	line "a good trainer by"
-	cont "looking at you."
+	text "Ich kann sehen,"
+	line "dass du ein guter"
+	cont "Trainer bist."
 
-	para "I'm good at #-"
-	line "MON, and I can see"
-	cont "that you are too."
+	para "Ich kenne mich gut"
+	line "mit #MON aus"
+	cont "und ich sehe, dass"
+	cont "du das auch tust."
 	done
 
 CooltrainermAllenBeatenText:
-	text "Tch! It's a total"
-	line "loss on my part."
+	text "Puh! Das war ja"
+	line "der totale"
+	cont "Reinfall!"
 	done
 
 CooltrainermAllenAfterBattleText:
-	text "Wow. You have a"
-	line "lot of BADGES."
+	text "Wow! Du hast ja"
+	line "viele ORDEN!"
 
-	para "No wonder you're"
-	line "so tough."
+	para "Kein Wunder, dass"
+	line "du so stark bist."
 
-	para "I wonder if"
-	line "ECRUTEAK GYM's"
+	para "Ich frage mich,"
+	line "ob JENS, der"
 
-	para "MORTY is still in"
-	line "training?"
+	para "ARENALEITER von"
+	line "TEAK CITY, noch"
+	cont "immer trainiert?"
 
-	para "He really hammered"
-	line "me."
+	para "Er hat mich"
+	line "wirklich fertig"
+	cont "gemacht."
 	done
 
 CooltrainerfCybilSeenText:
-	text "You look strong."
+	text "Du siehst sehr"
+	line "stark aus."
 
-	para "Good trainers seek"
-	line "tough opponents"
-	cont "instinctively."
+	para "Gute Trainer"
+	line "suchen instinktiv"
+	cont "nach starken"
+	cont "Gegnern."
 	done
 
 CooltrainerfCybilBeatenText:
-	text "Nope! This won't"
-	line "do at all."
+	text "Nein! So geht das"
+	line "auf gar keinen"
+	cont "Fall."
 	done
 
 CooltrainerfCybilAfterBattleText:
-	text "We all get better"
-	line "by experiencing"
-	cont "many battles."
+	text "Mit den Kämpfen"
+	line "steigen unsere"
+	cont "Erfahrungen und"
+	cont "wir werden besser."
 
-	para "I battled a lot to"
-	line "become what I am"
-	cont "today--an elite."
+	para "Ich habe viele"
+	line "Kämpfe ausge-"
+	cont "tragen, um das zu"
+	cont "werden, was ich"
+	cont "heute bin - ein"
+	cont "Profi."
 	done
 
 Route44Sign1Text:
 	text "ROUTE 44"
-	line "ICE PATH AHEAD"
+	line "EISPFAD VORAUS"
 	done
 
 Route44Sign2Text:
 	text "ROUTE 44"
 
-	para "MAHOGANY TOWN -"
-	line "BLACKTHORN CITY"
+	para "MAHAGONIA CITY -"
+	line "EBENHOLZ CITY"
 	done
 
 Route44_MapEvents:

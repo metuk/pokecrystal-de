@@ -39,14 +39,15 @@ Route17Route18GateOfficerText:
 	done
 
 Route17Route18GateCannotPassText:
-	text "Hang on! Don't you"
-	line "have a BICYCLE?"
+	text "Warte! Hast du"
+	line "kein FAHRRAD?"
 
-	para "The CYCLING ROAD"
-	line "is beyond here."
+	para "Der RADWEG"
+	line "beginnt da vorne."
 
-	para "You have to have a"
-	line "BICYCLE to go on."
+	para "Ohne FAHRRAD"
+	line "darfst du ihn"
+	cont "nicht benutzen."
 	done
 
 Route17Route18Gate_MapEvents:

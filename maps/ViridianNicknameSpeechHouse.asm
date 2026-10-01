@@ -32,31 +32,33 @@ Rattey:
 	end
 
 ViridianNicknameSpeechHousePokefanMText:
-	text "Do you put a lot"
-	line "of thought into"
+	text "Machst du dir"
+	line "viele Gedanken"
 
-	para "naming your"
-	line "#MON?"
+	para "darüber, wie du"
+	line "deine #MON"
+	cont "nennen sollst?"
 
-	para "Giving them good"
-	line "nicknames adds to"
+	para "Das Tauschen von"
+	line "#MON macht mehr"
 
-	para "the fun of trading"
-	line "with others."
+	para "Spaせ, wenn sie"
+	line "Spitznamen haben."
 	done
 
 ViridianNicknameSpeechHouseLassText:
-	text "They're SPEARY--"
-	line "a SPEAROW--and"
-	cont "RATTEY--a RATTATA."
+	text "Das sind HABBI--"
+	line "ein HABITAK--und"
+	cont "FRATZI--ein"
+	cont "RATTFRATZ."
 	done
 
 SpearyText:
-	text "SPEARY: Ch-chun!"
+	text "HABBI: Kr-rrr!"
 	done
 
 RatteyText:
-	text "RATTEY: Kikiii!"
+	text "FRATZI: Kikiii!"
 	done
 
 ViridianNicknameSpeechHouse_MapEvents:

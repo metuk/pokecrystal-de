@@ -1,73 +1,71 @@
 JoeyAnswerPhoneText:
-	text "Hi, @"
 	text_ram wStringBuffer3
-	text " here!"
+	text ", hallo!"
 
-	para "Oh, <PLAYER>? You"
-	line "doing well?"
+	para "Oh, <PLAYER>?"
+	line "Geht es dir gut?"
 	done
 
 JoeyAnswerPhoneDayText:
-	text "Hi, @"
 	text_ram wStringBuffer3
-	text " here!"
+	text ", hallo!"
 
-	para "Oh, <PLAYER>? You"
-	line "doing well?"
+	para "Oh, <PLAYER>?"
+	line "Geht es dir gut?"
 	done
 
 JoeyAnswerPhoneNiteText:
-	text "Hi, @"
 	text_ram wStringBuffer3
-	text " here!"
+	text ", hallo!"
 
-	para "Oh, <PLAYER>? You"
-	line "doing well?"
+	para "Oh, <PLAYER>?"
+	line "Geht es dir gut?"
 	done
 
 JoeyGreetText:
 	text "Yo, <PLAYER>!"
-	line "How're you doing?"
+	line "Wie geht es dir?"
 
-	para "This is @"
+	para "Ich, @"
 	text_ram wStringBuffer3
 	text ","
-	line "got a minute?"
+	line "hast du Zeit?"
 	done
 
 JoeyGreetDayText:
-	text "Yo, <PLAYER>! How's"
-	line "it going?"
+	text "Yo, <PLAYER>!"
+	line "Wie stehtわ?"
 
-	para "This is @"
+	para "@"
 	text_ram wStringBuffer3
-	text "."
-	line "Got a minute?"
+	text ", hallo!"
+	line "Hast du Zeit?"
 	done
 
 JoeyGreetNiteText:
 	text "Yo, <PLAYER>!"
-	line "How're you doing?"
+	line "Wie geht es dir?"
 
-	para "This is @"
+	para "@"
 	text_ram wStringBuffer3
-	text ","
-	line "got a minute?"
+	text ", hallo,"
+	line "hast du Zeit?"
 	done
 
 JoeyGenericText:
-	text "How are your"
-	line "#MON doing?"
+	text "Wie geht es deinen"
+	line "#MON?"
 
-	para "My @"
+	para "Mein @"
 	text_ram wStringBuffer4
-	text "'s"
-	line "raring to go, just"
-	cont "like always."
+	text_start
+	line "ist nicht zu hal-"
+	cont "ten, wie immer."
 
-	para "It's the only one"
-	line "I have. I'm going"
+	para "Es ist mein Ein"
+	line "und Alles. Ich"
 
-	para "to become a great"
-	line "trainer with it!"
+	para "werde mit ihm ein"
+	line "toller Trainer"
+	cont "sein!"
 	done

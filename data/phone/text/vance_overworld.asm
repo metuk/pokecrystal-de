@@ -1,73 +1,78 @@
 VanceAskNumber1Text:
-	text "You know, you are"
-	line "really strong."
+	text "Du weiせt, dass"
+	line "du stark bist."
 
-	para "But I don't want"
-	line "to just slink off…"
+	para "Ich wollte mich"
+	line "nicht verdrücken…"
 
-	para "I know! Could I"
-	line "get your number?"
-
-	para "Let's meet up for"
-	line "more battles!"
+	para "Ich weiせ! Gibst"
+	line "du mir deine Num-"
+	cont "mer? Wir werden"
+	cont "uns wiedersehen!"
 	done
 
 VanceAskNumber2Text:
-	text "I want to battle"
-	line "tough trainers as"
-	cont "often as I can!"
+	text "Ich will so oft es"
+	line "geht gegen starke"
+	cont "Trainer antreten!"
 
-	para "Could I get your"
-	line "number?"
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 
-	para "Let's meet up for"
-	line "more battles!"
+	para "Dann können wir"
+	line "öfter kämpfen!"
 	done
 
 VanceNumberAcceptedText:
-	text "Don't forget to"
-	line "come see me when I"
-	cont "challenge you!"
+	text "Vergiss nicht mich"
+	line "aufzusuchen, wenn"
+	cont "ich dich"
+	cont "herausfordere!"
 	done
 
 VanceNumberDeclinedText:
-	text "A bird-user friend"
-	line "isn't a bad thing"
-	cont "to have, I think…"
+	text "Ein Freund, der"
+	line "mit Vogel-#MON"
+	cont "kämpft, ist nicht"
+	cont "übel, denke ich…"
 
-	para "Won't you"
-	line "reconsider?"
+	para "Wie denkst du"
+	line "darüber?"
 	done
 
 VancePhoneFullText:
-	text "Your phone's out"
-	line "of memory. Delete"
-	cont "a number for me!"
+	text "Dein Nummern-"
+	line "speicher ist voll."
+	cont "Schaffe Platz für"
+	cont "meine Nummer!"
 	done
 
 VanceRematchText:
-	text "Am I happy to see"
-	line "you! I won't lose!"
+	text "Ich freue mich,"
+	line "dich zu sehen. Ich"
+	cont "werde siegen!"
 	done
 
 VancePackFullText:
-	text "Oh, too bad. You"
-	line "don't have room."
+	text "Schade. Du hast"
+	line "keinen Platz mehr."
 
-	para "I'll give it to"
-	line "you next time!"
+	para "Ich gebe es dir"
+	line "beim nächsten Mal!"
 	done
 
 VanceRematchGiftText:
-	text "You are really,"
-	line "really strong!"
+	text "Du bist wirklich"
+	line "sehr stark!"
 
-	para "Thanks for taking"
-	line "me on so often--I"
+	para "Danke, dass du so"
+	line "oft mit mir ge-"
+	cont "kämpft hast. Ich"
 
-	para "learned a whole"
-	line "lot from you."
+	para "habe viel von dir"
+	line "gelernt."
 
-	para "I know! This will"
-	line "do as my thanks!"
+	para "Nimm dies als"
+	line "Zeichen meiner"
+	cont "Wertschätzung!"
 	done

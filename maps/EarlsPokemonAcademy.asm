@@ -161,250 +161,296 @@ AcademyEarlSpinMovement:
 	step_end
 
 AcademyEarlIntroText:
-	text "EARL, I am!"
+	text "EARL, so lautet"
+	line "mein Name!"
 
-	para "Wonderful are"
-	line "#MON, yes!"
+	para "Wunderbar sind"
+	line "#MON, oui!"
 
-	para "Teach you I will"
-	line "to be a better"
-	cont "trainer!"
+	para "Isch werde dir"
+	line "beibringen, ein"
 
-	para "What you want to"
-	line "know? Want to be"
-	cont "a winner is you?"
+	para "besserer Trainer"
+	line "zu werden!"
+
+	para "Was möchtest du"
+	line "wissen? Willst ein"
+	cont "Gewinner du sein?"
 	done
 
 AcademyEarlTeachHowToWinText:
-	text "Good! Teach you,"
-	line "I will!"
+	text "Gut! So lass misch"
+	line "dir erklären!"
 
-	para "In battle, #MON"
-	line "top on list jump"
-	cont "out first!"
+	para "Im Kampf wird das"
+	line "erste #MON auf"
+	cont "der Liste begin-"
+	cont "nen!"
 
-	para "Change order in"
-	line "list, make battle"
-	cont "easy, maybe!"
+	para "Ändere die Auf-"
+	line "stellung in der"
+	cont "Liste, um dich den"
+	cont "Gegebenheiten an-"
+	cont "zupassen!"
 
-	para "More from me you"
-	line "want to hear?"
+	para "Möschtest du noch"
+	line "mehr ören?"
 	done
 
 AcademyEarlTeachMoreText:
-	text "So, want to know"
-	line "how to raise"
-	cont "#MON well?"
+	text "Du möschtest also"
+	line "wissen, wie man"
+	cont "#MON rischtisch"
+	cont "trainiert?"
 	done
 
 AcademyEarlTeachHowToRaiseWellText:
-	text "Fine! Teach you,"
-	line "I will!"
+	text "Gut! So lass misch"
+	line "erklären!"
 
-	para "If #MON come"
-	line "out in battle even"
+	para "Selbst, wenn ein"
+	line "#MON nur kurz"
 
-	para "briefly, some EXP."
-	line "Points it gets."
+	para "an einem Kampf"
+	line "teilnimmt, erhält"
+	cont "es einige EP."
 
-	para "At top of list put"
-	line "weak #MON."
+	para "Platziere schwache"
+	line "#MON an der"
 
-	para "Switch in battle"
-	line "quick!"
+	para "Spitze der Liste."
+	line "Tausche sie dann"
 
-	para "This way, weak"
-	line "#MON strong"
-	cont "become!"
+	para "im Kampf gegen ein"
+	line "anderes #MON."
+
+	para "So können auch"
+	line "schwache #MON"
+	cont "stark werden!"
 	done
 
 AcademyEarlNoMoreToTeachText:
-	text "Oh! Smart student"
-	line "you are! Nothing"
-	cont "more do I teach!"
+	text "Oh! Du bist eine"
+	line "schlaue Schüler!"
+	cont "Isch kann dir nun"
+	cont "nischts mehr bei-"
+	cont "bringen."
 
-	para "Good to #MON"
-	line "you must be!"
+	para "Sei lieb zu deinen"
+	line "#MON!"
 	done
 
 EarlsPokemonAcademyYoungster1Text:
-	text "I'm taking notes"
-	line "of the teacher's"
-	cont "lecture."
+	text "Ich mache mir No-"
+	line "tizen über die"
+	cont "Ausführungen."
 
-	para "I'd better copy"
-	line "the stuff on the"
-	cont "blackboard too."
+	para "Besser, ich"
+	line "schreibe auch"
+	cont "alles von der Ta-"
+	cont "fel ab."
 	done
 
 EarlsPokemonAcademyGameboyKid1Text:
-	text "I traded my best"
-	line "#MON to the"
-	cont "guy beside me."
+	text "Ich tauschte mein"
+	line "bestes #MON"
+	cont "mit diesem Kerl."
 	done
 
 EarlsPokemonAcademyGameboyKid2Text:
-	text "Huh? The #MON I"
-	line "just got is hold-"
-	cont "ing something!"
+	text "Hä? Das #MON,"
+	line "das ich bekommen"
+	cont "habe, hält etwas!"
 	done
 
 EarlsPokemonAcademyYoungster2Text:
-	text "A #MON holding"
-	line "a BERRY will heal"
-	cont "itself in battle."
+	text "Ein #MON, das"
+	line "eine BEERE hält,"
+	cont "wird sich im Kampf"
+	cont "selbst heilen."
 
-	para "Many other items"
-	line "can be held by"
-	cont "#MON…"
+	para "Noch viele andere"
+	line "Items können von"
+	cont "#MON gehalten"
+	cont "werden…"
 
-	para "It sure is tough"
-	line "taking notes…"
+	para "Es ist nicht ein-"
+	line "fach, sich all"
+	cont "diese Notizen zu"
+	cont "machen…"
 	done
 
 AcademyBlackboardText:
-	text "The blackboard"
-	line "describes #MON"
+	text "Auf der Tafel wer-"
+	line "den die Statusver-"
+	cont "änderungen von"
 
-	para "status changes in"
-	line "battle."
+	para "#MON während"
+	line "eines Kampfes er-"
+	cont "klärt."
 	done
 
 AcademyBlackboardText2: ; unreferenced
-	text "Read which topic?"
+	text "Über welches Thema"
+	line "willst du lesen?"
 	done
 
 AcademyPoisonText:
-	text "If poisoned, a"
-	line "#MON steadily"
-	cont "loses HP."
+	text "Wird ein #MON"
+	line "vergiftet, ver-"
+	cont "liert es ständig"
+	cont "KP."
 
-	para "Poison lingers"
-	line "after the battle,"
+	para "Die Vergiftung"
+	line "dauert auch nach"
 
-	para "and HP is lost as"
-	line "you walk."
+	para "dem Kampf noch an"
+	line "und es verliert"
+	cont "weiterhin KP."
 
-	para "To cure it, use an"
-	line "ANTIDOTE."
+	para "Um es zu heilen,"
+	line "musst du GEGENGIFT"
+	cont "einsetzen."
 	done
 
 AcademyParalysisText:
-	text "Paralysis reduces"
-	line "speed and may"
-	cont "prevent movement."
+	text "Paralyse reduziert"
+	line "die Geschwindig-"
+	cont "keit und verhin-"
+	cont "dert eventuell"
+	cont "jede Bewegung."
 
-	para "It remains after"
-	line "battle, so use"
-	cont "a PARLYZ HEAL."
+	para "Sie dauert nach"
+	line "dem Kampf noch an,"
+	cont "also setze einen"
+	cont "PARAHEILER ein."
 	done
 
 AcademySleepText:
-	text "If asleep, your"
-	line "#MON can't make"
-	cont "a move."
+	text "Schläft ein #-"
+	line "MON, kann es nicht"
+	cont "angreifen."
 
-	para "A sleeping #MON"
-	line "doesn't wake up"
-	cont "after battle."
+	para "Es wacht auch nach"
+	line "dem Kampf nicht"
+	cont "auf."
 
-	para "Wake it up with"
-	line "an AWAKENING."
+	para "Wecke es mit Hilfe"
+	line "von AUFWECKER"
+	cont "wieder auf."
 	done
 
 AcademyBurnText:
-	text "A burn steadily"
-	line "consumes HP."
+	text "Eine Verbrennung"
+	line "lässt die KP ste-"
+	cont "tig sinken und re-"
+	cont "duziert die An-"
+	cont "griffskraft."
 
-	para "It also reduces"
-	line "attack power."
+	para "Die Verbrennung"
+	line "bleibt nach dem"
+	cont "Kampf bestehen."
 
-	para "A burn lingers"
-	line "after battle."
-
-	para "Use a BURN HEAL as"
-	line "the cure."
+	para "Verwende einen"
+	line "FEUERHEILER zur"
+	cont "Heilung."
 	done
 
 AcademyFreezeText:
-	text "If your #MON is"
-	line "frozen, it can't"
-	cont "do a thing."
+	text "Ist dein #MON"
+	line "eingefroren, ist"
 
-	para "It remains frozen"
-	line "after battle."
+	para "es zu keiner"
+	line "Handlung fähig."
 
-	para "Thaw it out with"
-	line "an ICE HEAL."
+	para "Dieser Zustand"
+	line "hält auch nach dem"
+
+	para "Kampf an."
+	line "Um es aufzutauen,"
+
+	para "verwende einen"
+	line "EISHEILER."
 	done
 
 AcademyNotebookText:
-	text "It's this kid's"
-	line "notebook…"
+	text "Es ist das Notiz-"
+	line "buch dieses Kin-"
+	cont "des…"
 
-	para "Catch #MON"
-	line "using # BALLS."
+	para "Fange #MON"
+	line "mit #BÄLLEN."
 
-	para "Up to six can be"
-	line "in your party."
+	para "Bis zu sechs kön-"
+	line "nen sich gleich-"
+	cont "zeitig im Team be-"
+	cont "finden."
 
-	para "Keep reading?"
+	para "Weiterlesen?"
 	done
 
 AcademyNotebookText1:
-	text "Before throwing a"
-	line "# BALL, weaken"
-	cont "the target first."
+	text "Bevor man den"
+	line "#BALL wirft,"
+	cont "muss das Ziel ge-"
+	cont "schwächt werden."
 
-	para "A poisoned or"
-	line "burned #MON is"
-	cont "easier to catch."
+	para "Ein vergiftetes"
+	line "oder verbranntes"
+	cont "#MON kann"
+	cont "leichter gefangen"
+	cont "werden."
 
-	para "Keep reading?"
+	para "Weiterlesen?"
 	done
 
 AcademyNotebookText2:
-	text "Some moves may"
-	line "cause confusion."
+	text "Manche Attacken"
+	line "verwirren dein"
+	cont "#MON."
 
-	para "Confusion may make"
-	line "a #MON attack"
-	cont "itself."
+	para "Ein verwirrtes"
+	line "#MON kann sich"
+	cont "auch selbst ver-"
+	cont "letzen."
 
-	para "Leaving battle"
-	line "clears up any"
-	cont "confusion."
+	para "Nach einem Kampf"
+	line "endet auch die"
+	cont "Verwirrung."
 
-	para "Keep reading?"
+	para "Weiterlesen?"
 	done
 
 AcademyNotebookText3:
-	text "People who catch"
-	line "and use #MON"
+	text "Leute, die #-"
+	line "MON fangen und in"
 
-	para "in battle are"
-	line "#MON trainers."
+	para "Kämpfen einsetzen,"
+	line "nennt man #-"
+	cont "MON-Trainer."
 
-	para "They are expected"
-	line "to visit #MON"
+	para "Man erwartet von"
+	line "ihnen, dass sie"
 
-	para "GYMS and defeat"
-	line "other trainers."
+	para "ARENEN besuchen"
+	line "und gegen andere"
+	cont "Trainer antreten."
 
-	para "The next page"
-	line "is… Blank!"
+	para "Die nächste Seite"
+	line "ist… leer!"
 
-	para "Boy: E-he-he…"
+	para "Junge: E-he-he…"
 
-	para "I haven't written"
-	line "anymore…"
+	para "Mehr habe ich"
+	line "nicht aufgeschrie-"
+	cont "ben…"
 	done
 
 AcademyStickerMachineText:
-	text "This super machine"
-	line "prints data out as"
+	text "Mit dieser Maschi-"
+	line "ne kann man"
 
-	para "stickers!"
+	para "Sticker drucken!"
 	done
 
 EarlsPokemonAcademy_MapEvents:

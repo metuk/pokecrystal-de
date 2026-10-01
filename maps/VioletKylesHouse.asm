@@ -19,15 +19,19 @@ Kyle:
 	end
 
 VioletKylesHousePokefanMText:
-	text "A #MON you get"
-	line "in a trade grows"
-	cont "quickly."
+	text "Ein #MON, das"
+	line "du durch Tausch"
+	cont "erhalten hast,"
+	cont "wird schneller"
+	cont "wachsen."
 
-	para "But if you don't"
-	line "have the right GYM"
+	para "Aber wenn du nicht"
+	line "im Besitz des pas-"
+	cont "senden ORDENs"
 
-	para "BADGE, they may"
-	line "disobey you."
+	para "bist, gehorchen"
+	line "sie dir vielleicht"
+	cont "nicht."
 	done
 
 VioletKylesHouse_MapEvents:

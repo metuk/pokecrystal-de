@@ -66,12 +66,12 @@ UnionCaveB1FBoulder:
 	jumpstd StrengthBoulderScript
 
 HikerPhillipSeenText:
-	text "It's been a while"
-	line "since I last saw"
-	cont "another person."
+	text "Mir ist schon"
+	line "lange niemand"
+	cont "mehr begegnet."
 
-	para "Don't be shy."
-	line "Let's battle!"
+	para "Hab keine Angst."
+	line "Lass uns kämpfen!"
 	done
 
 HikerPhillipBeatenText:
@@ -79,75 +79,81 @@ HikerPhillipBeatenText:
 	done
 
 HikerPhillipAfterBattleText:
-	text "I've been lost for"
-	line "a long time…"
+	text "Ich bin lange"
+	line "herumgeirrt…"
 
-	para "I don't mind it"
-	line "here, but I am"
-	cont "soooo hungry!"
+	para "Das hier macht mir"
+	line "nichts aus, aber"
+	cont "ich bin hungrig!"
 	done
 
 HikerLeonardSeenText:
-	text "What do you know!"
-	line "A visitor!"
+	text "Sieh mal einer an!"
+	line "Ein Besucher!"
 	done
 
 HikerLeonardBeatenText:
-	text "Wahahah! You're a"
-	line "feisty one!"
+	text "Wahahah! Du bist"
+	line "aber lebhaft!"
 	done
 
 HikerLeonardAfterBattleText:
-	text "I live down here."
+	text "Ich wohne hier"
+	line "unten."
 
-	para "You can, too, if"
-	line "you'd like."
+	para "Wenn du möchtest,"
+	line "kannst du bei"
+	cont "mir einziehen."
 
-	para "There's plenty of"
-	line "room, you see."
+	para "Es ist noch"
+	line "genügend Platz."
 	done
 
 PokemaniacAndrewSeenText:
-	text "Who's there?"
+	text "Wer ist da?"
 
-	para "Leave me and my"
-	line "#MON alone!"
+	para "Lass mich und"
+	line "meine #MON"
+	cont "in Frieden!"
 	done
 
 PokemaniacAndrewBeatenText:
-	text "Go…"
-	line "Go away!"
+	text "Verschwinde…"
+	line "Geh weg!!"
 	done
 
 PokemaniacAndrewAfterBattleText:
-	text "Just me and my"
-	line "#MON. I'm de-"
-	cont "lirious with joy."
+	text "Nur ich und meine"
+	line "#MON. Ich"
+	cont "bin überglücklich."
 	done
 
 PokemaniacCalvinSeenText:
-	text "I came all the way"
-	line "here to conduct my"
-	cont "#MON research."
+	text "Ich bin hierher"
+	line "gekommen, um"
+	cont "meine #MON-"
+	cont "Forschungen"
+	cont "durchzuführen."
 
-	para "Let me demonstrate"
-	line "my findings in a"
-	cont "real battle!"
+	para "Ich zeige dir"
+	line "meine Ergebnisse"
+	cont "in einem Kampf!"
 	done
 
 PokemaniacCalvinBeatenText:
-	text "You demonstrated"
-	line "on me!"
+	text "Du hast es mir"
+	line "aber gezeigt!"
 	done
 
 PokemaniacCalvinAfterBattleText:
-	text "I should compile"
-	line "and announce my"
-	cont "study findings."
+	text "Ich sollte meine"
+	line "Ergebnisse sammeln"
+	cont "und anschlieせend"
+	cont "veröffentlichen."
 
-	para "I might even be-"
-	line "come famous like"
-	cont "PROF.ELM."
+	para "Vielleicht werde"
+	line "ich so berühmt"
+	cont "wie PROF. LIND."
 	done
 
 UnionCaveB1F_MapEvents:

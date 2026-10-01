@@ -79,55 +79,61 @@ KarensRoom_EnterMovement:
 	step_end
 
 KarenScript_KarenBeforeText:
-	text "I am KAREN of the"
-	line "ELITE FOUR."
+	text "Ich bin MELANIE."
+	line "Nummer 4 der"
+	cont "TOP VIER."
 
-	para "You're <PLAYER>?"
-	line "How amusing."
+	para "Du heiせt <PLAYER>?"
+	line "Sehr amüsant."
 
-	para "I love dark-type"
-	line "#MON."
+	para "Ich liebe #MON"
+	line "des Typs Unlicht."
 
-	para "I find their wild,"
-	line "tough image to be"
+	para "Ihr wilder, harter"
+	line "Ruf gefällt mir."
 
-	para "so appealing. And"
-	line "they're so strong."
+	para "Und sie sind"
+	line "wirklich stark."
 
-	para "Think you can take"
-	line "them? Just try to"
-	cont "entertain me."
+	para "Glaubst du, du"
+	line "kannst es mit uns"
+	cont "aufnehmen? Los,"
+	cont "ich will mich"
+	cont "amüsieren."
 
-	para "Let's go."
+	para "Auf gehtわ."
 	done
 
 KarenScript_KarenBeatenText:
-	text "Well, aren't you"
-	line "good. I like that"
-	cont "in a trainer."
+	text "Nun, du bist"
+	line "gut. Das gefällt"
+	cont "mir an einem"
+	cont "Trainer."
 	done
 
 KarenScript_KarenDefeatText:
-	text "Strong #MON."
+	text "Starke #MON."
 
-	para "Weak #MON."
+	para "Schwache #MON."
 
-	para "That is only the"
-	line "selfish perception"
-	cont "of people."
+	para "Das ist nur eine"
+	line "subjektive Ein-"
+	cont "schätzung anderer"
+	cont "Menschen."
 
-	para "Truly skilled"
-	line "trainers should"
+	para "Wirklich begabte"
+	line "Trainer gewinnen"
 
-	para "try to win with"
-	line "their favorites."
+	para "mit ihren Lieb-"
+	line "lings-#MON."
 
-	para "I like your style."
-	line "You understand"
-	cont "what's important."
+	para "Ich mag deinen"
+	line "Stil. Du weiせt,"
+	cont "was wichtig ist."
 
-	para "Go on--the CHAM-"
-	line "PION is waiting."
+	para "Schreite voran!"
+	line "Der CHAMP"
+	cont "wartet."
 	done
 
 KarensRoom_MapEvents:

@@ -150,129 +150,135 @@ EcruteakTinTowerEntranceSageBlocksRightMovement:
 	step_end
 
 EcruteakTinTowerEntranceSageText:
-	text "TIN TOWER is off"
-	line "limits to anyone"
+	text "Wenn du nicht im"
+	line "Besitz des ORDENs"
 
-	para "without ECRUTEAK"
-	line "GYM's BADGE."
+	para "von TEAK CITY"
+	line "bist, darfst du"
 
-	para "Sorry, but you'll"
-	line "have to leave."
+	para "den ZINNTURM nicht"
+	line "betreten."
 	done
 
 EcruteakTinTowerEntranceSageText_GotFogBadge:
-	text "TIN TOWER is off"
-	line "limits to anyone"
+	text "Wenn du nicht im"
+	line "Besitz des ORDENs"
 
-	para "without ECRUTEAK"
-	line "GYM's BADGE."
+	para "von TEAK CITY"
+	line "bist, darfst du"
 
-	para "Ah!"
+	para "den ZINNTURM nicht"
+	line "betreten. Ah!"
 
-	para "ECRUTEAK's GYM"
-	line "BADGE! Please, go"
-	cont "right through."
+	para "Das ist der ORDEN"
+	line "von TEAK CITY! Du"
+	cont "darfst passieren."
 	done
 
 EcruteakTinTowerEntranceSageText_NoClearBell:
-	text "A momentous event"
-	line "has occurred."
+	text "Ein denkwürdiger"
+	line "Augenblick."
 
-	para "I beg your pardon,"
-	line "but I must ask you"
-	cont "to leave."
+	para "Entschuldigung,"
+	line "aber ich muss dich"
+	cont "bitten zu gehen."
 
-	para "…What soothes the"
-	line "soul…"
+	para "…Was lindert"
+	line "Seelenschmerzen…"
 
-	para "The WISE TRIO say"
-	line "things that are so"
+	para "Das TRIO der"
+	line "WEISEN sagt stets"
 
-	para "very difficult to"
-	line "understand…"
+	para "Dinge, die sehr"
+	line "schwierig zu ver-"
+	cont "stehen sind…"
 	done
 
 EcruteakTinTowerEntranceSageText_HearsClearBell:
-	text "A momentous event"
-	line "has occurred."
+	text "Ein denkwürdiger"
+	line "Augenblick."
 
-	para "I beg your pardon,"
-	line "but I must ask you"
-	cont "to leave."
+	para "Entschuldigung,"
+	line "aber ich muss dich"
+	cont "bitten zu gehen."
 
 	para "<……><……><……>"
 
 	para "Ah!"
 
-	para "The sound of that"
-	line "CLEAR BELL!"
+	para "Das Läuten der"
+	line "KLARGLOCKE!"
 
-	para "It… It's sublime!"
+	para "Es… ist erhaben!"
 
-	para "I've never heard"
-	line "so beautiful a"
-	cont "sound before!"
+	para "Das schönste Läu-"
+	line "ten, das ich je"
+	cont "hörte!"
 
-	para "That bell's chime"
-	line "is indicative of"
-	cont "the bearer's soul."
+	para "Dieser Ton sagt"
+	line "alles über die"
+	cont "Seele des Trägers"
+	cont "aus."
 
-	para "You…"
+	para "Du…"
 
-	para "You may be able to"
-	line "make it through"
-	cont "TIN TOWER."
+	para "Du könntest es"
+	line "durch den"
+	cont "ZINNTURM schaffen."
 
-	para "Please, do go on."
+	para "Schreite voran."
 	done
 
 EcruteakTinTowerEntranceSageText_PleaseDoGoOn:
-	text "Please, do go on."
+	text "Schreite voran."
 	done
 
 EcruteakTinTowerEntranceSageText_HeardClearBell:
-	text "That bell's chime"
-	line "is indicative of"
-	cont "the bearer's soul."
+	text "Dieser Ton sagt"
+	line "alles über die"
+	cont "Seele des Trägers"
+	cont "aus."
 
-	para "You…"
+	para "Du…"
 
-	para "You may be able to"
-	line "make it through"
-	cont "TIN TOWER."
+	para "Du könntest es"
+	line "durch den"
+	cont "ZINNTURM schaffen."
 
-	para "Please, do go on."
+	para "Schreite voran."
 	done
 
 EcruteakTinTowerEntranceWanderingSageText:
-	text "The TIN TOWER"
-	line "ahead is a nine-"
+	text "Der ZINNTURM da"
+	line "vorne ist ein"
 
-	para "tier tower of"
-	line "divine beauty."
+	para "8-stöckiger Turm"
+	line "von göttlicher"
+	cont "Schönheit."
 
-	para "It soothes the"
-	line "soul of all who"
-	cont "see it."
+	para "Er beruhigt die"
+	line "Seelen derer, die"
+	cont "ihn betrachten."
 	done
 
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
-	text "The TIN TOWER"
-	line "shook! A #MON"
+	text "Der ZINNTURM bebt!"
+	line "Ein #MON muss"
 
-	para "must have returned"
-	line "to the top!"
+	para "auf der Spitze ge-"
+	line "landet sein!"
 	done
 
 EcruteakTinTowerEntranceGrampsText:
-	text "Two towers…"
-	line "Two #MON…"
+	text "Zwei Türme…"
+	line "Zwei #MON…"
 
-	para "But when one"
-	line "burned down, both"
+	para "Aber als einer"
+	line "niederbrannte,"
 
-	para "#MON flew away,"
-	line "never to return."
+	para "flogen beide #-"
+	line "MON fort und kamen"
+	cont "nie wieder zurück."
 	done
 
 EcruteakTinTowerEntrance_MapEvents:

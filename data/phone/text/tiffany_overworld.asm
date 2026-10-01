@@ -1,62 +1,63 @@
 TiffanyAskNumber1Text:
-	text "Hi! You like"
-	line "CLEFAIRY too?"
+	text "Hi! Du magst PIEPI"
+	line "auch?"
 
-	para "They're so very"
-	line "cute, aren't they?"
+	para "Sie sind so"
+	line "niedlich, oder?"
 
-	para "I think we can be"
-	line "good friends!"
+	para "Ich denke wir wer-"
+	line "den gute Freunde!"
 
-	para "I want to know"
-	line "your phone number!"
+	para "Gib mir doch deine"
+	line "Telefonnummer!"
 
-	para "Let's talk about"
-	line "CLEFAIRY!"
+	para "Wir können über"
+	line "PIEPI reden!"
 	done
 
 TiffanyAskNumber2Text:
-	text "I want to know"
-	line "your phone number!"
+	text "Gib mir doch deine"
+	line "Telefonnummer!"
 
-	para "Let's talk about"
-	line "CLEFAIRY!"
+	para "Wir können über"
+	line "PIEPI reden!"
 	done
 
 TiffanyNumberAcceptedText:
-	text "Isn't my CLEFAIRY"
-	line "super-adorable?"
+	text "Ist mein PIEPI"
+	line "nicht wunderbar?"
 	done
 
 TiffanyNumberDeclinedText:
-	text "Aww… Oh well."
-	line "Look for me if you"
+	text "Argh… Oh, nun."
+	line "Melde dich, wenn"
 
-	para "want to talk about"
-	line "CLEFAIRY."
+	para "du über PIEPI"
+	line "reden möchtest."
 	done
 
 TiffanyPhoneFullText:
-	text "Oh? Your phone"
-	line "registry is full."
+	text "Oh? Dein Nummern-"
+	line "speicher ist voll."
 	done
 
 TiffanyRematchText:
-	text "There you are!"
+	text "Bitte schön!"
 
-	para "CLEFAIRY, I want"
-	line "you to try hard!"
+	para "PIEPI, gib dein"
+	line "Bestes!"
 	done
 
 TiffanyGiftText:
-	text "You took a long"
-	line "time. See this?"
+	text "Du hast lange"
+	line "gebraucht. Sieh!"
 
-	para "Isn't it cute?"
-	line "It's a PINK BOW."
+	para "Ist das nicht"
+	line "toll, ein"
+	cont "ROSA BAND."
 	done
 
 TiffanyPackFullText:
-	text "Uh-oh. Your PACK"
-	line "is crammed full."
+	text "Oh-oh. Dein Beutel"
+	line "platzt gleich."
 	done

@@ -196,168 +196,182 @@ CeruleanGymGruntBacksAwayMovement:
 	step_end
 
 CeruleanGymGruntIntroText:
-	text "Oops! I so sorry!"
-	line "You not hurt,"
-	cont "okay?"
+	text "Ups! Tut ja so"
+	line "Leid mir! Du nicht"
+	cont "verletzt, du O.K.?"
 
-	para "I very busy."
-	line "No time for talk-"
-	cont "ing with you. Not"
-	cont "good for me if"
-	cont "seen by somebody."
+	para "Ich schwer"
+	line "beschäftigt. Nicht"
+	cont "Zeit für Reden."
+	cont "Nicht gut, wenn"
+	cont "ich gesehen"
+	cont "werden."
 	done
 
 CeruleanGymGruntBigMistakeText:
-	text "Oh no! You seen"
-	line "me already! I make"
-	cont "big mistake!"
+	text "Oh nein! Du mich"
+	line "schon hast gese-"
+	cont "hen! Ich groせes"
+	cont "Fehler gemacht!"
 	done
 
 CeruleanGymGruntByeText:
-	text "Hey, you! Forget"
-	line "you see me, okay?"
+	text "He, du! Du ver-"
+	line "gessen, dass du"
 
-	para "You see, hear,"
-	line "know nothing,"
+	para "mich gesehen, ja?"
+	line "Du nichts sehen,"
 
-	para "okay?"
-	line "Bye, kid! Nothing!"
+	para "hören und wissen!"
+	line "Tschüss!"
 
-	para "Bye-bye a go-go!"
+	para "Und Tschüss!"
 	done
 
 CeruleanGymNote1Text:
-	text "Sorry, I'll be out"
-	line "for a while."
-	cont "MISTY, GYM LEADER"
+	text "Ich bin leider"
+	line "eine Zeit lang"
+	cont "unterwegs. ARENA-"
+	cont "LEITERIN, MISTY."
 	done
 
 CeruleanGymNote2Text:
-	text "Since MISTY's out,"
-	line "we'll be away too."
-	cont "GYM TRAINERS"
+	text "Nachdem MISTY"
+	line "nicht hier ist,"
+	cont "sind wir TRAINER"
+	cont "auch nicht da."
 	done
 
 MistyIntroText:
-	text "MISTY: I was ex-"
-	line "pecting you, you"
-	cont "pest!"
+	text "MISTY: Ich habe"
+	line "dich erwartet, du"
+	cont "Nervensäge!"
 
-	para "You may have a"
-	line "lot of JOHTO GYM"
+	para "Du hast zwar"
+	line "viele ORDEN von"
 
-	para "BADGES, but you'd"
-	line "better not take me"
-	cont "too lightly."
+	para "JOHTO, aber unter-"
+	line "schätze mich"
+	cont "lieber nicht!"
 
-	para "My water-type"
-	line "#MON are tough!"
+	para "Meine Wasser-"
+	line "#MON sind hart!"
 	done
 
 MistyWinLossText:
-	text "MISTY: You really"
-	line "are good…"
+	text "MISTY: Du bist"
+	line "wirklich gut…"
 
-	para "I'll admit that"
-	line "you are skilled…"
+	para "Ich gebe zu, dass"
+	line "du sehr geschickt"
+	cont "bist…"
 
-	para "Here you go. It's"
-	line "CASCADEBADGE."
+	para "Hier hast du den"
+	line "QUELLORDEN."
 	done
 
 ReceivedCascadeBadgeText:
-	text "<PLAYER> received"
-	line "CASCADEBADGE."
+	text "<PLAYER> erhält"
+	line "QUELLORDEN."
 	done
 
 MistyFightDoneText:
-	text "MISTY: Are there"
-	line "many strong train-"
-	cont "ers in JOHTO? Like"
-	cont "you, I mean."
+	text "MISTY: Gibt es"
+	line "viele starke"
+	cont "Trainer wie dich"
+	cont "in JOHTO?"
 
-	para "I'm going to"
-	line "travel one day, so"
+	para "Eines Tages werde"
+	line "ich mich aufmachen"
 
-	para "I can battle some"
-	line "skilled trainers."
+	para "und gegen einige"
+	line "ausgebildete"
+	cont "Trainer kämpfen."
 	done
 
 SwimmerfDianaSeenText:
-	text "Sorry about being"
-	line "away. Let's get on"
-	cont "with it!"
+	text "Es tut mir Leid,"
+	line "dass ich so lange"
+	cont "weg war. Lass uns"
+	cont "anfangen!"
 	done
 
 SwimmerfDianaBeatenText:
-	text "I give up! You're"
-	line "the winner!"
+	text "Ich gebe auf! Du"
+	line "hast gewonnen!"
 	done
 
 SwimmerfDianaAfterBattleText:
-	text "I'll be swimming"
-	line "quietly."
+	text "Ich werde in Ruhe"
+	line "vor mich hin-"
+	cont "schwimmen."
 	done
 
 SwimmerfBrianaSeenText:
-	text "Don't let my ele-"
-	line "gant swimming un-"
-	cont "nerve you."
+	text "Ich hoffe, meine"
+	line "elegante Art zu"
+	cont "schwimmen zermürbt"
+	cont "dich nicht."
 	done
 
 SwimmerfBrianaBeatenText:
-	text "Ooh, you calmly"
-	line "disposed of me…"
+	text "Oh, du hast mich"
+	line "ohne viel Auf-"
+	cont "hebens erledigt…"
 	done
 
 SwimmerfBrianaAfterBattleText:
-	text "Don't be too smug"
-	line "about beating me."
+	text "Freue dich nicht"
+	line "zu sehr über"
+	cont "deinen Sieg."
 
-	para "MISTY will destroy"
-	line "you if you get"
-	cont "complacent."
+	para "MISTY wird dich"
+	line "fertig machen,"
+
+	para "wenn du selbst-"
+	line "gefällig wirst."
 	done
 
 SwimmermParkerSeenText:
-	text "Glub…"
+	text "Glugger…"
 
-	para "I'm first! Come"
-	line "and get me!"
+	para "Erster! Fang"
+	line "mich doch!"
 	done
 
 SwimmermParkerBeatenText:
-	text "This can't be…"
+	text "Das darf nicht"
+	line "wahr sein…"
 	done
 
 SwimmermParkerAfterBattleText:
-	text "MISTY has gotten"
-	line "much better in the"
-	cont "past few years."
+	text "MISTY ist in den"
+	line "letzten Jahren"
+	cont "immer besser"
+	cont "geworden."
 
-	para "Don't let your"
-	line "guard down, or"
-	cont "you'll be crushed!"
+	para "Sei auf der Hut,"
+	line "sonst wirst du"
+	cont "platt gemacht!"
 	done
 
 CeruleanGymGuideText:
-	text "Yo! CHAMP in"
-	line "making!"
+	text "He! Du CHAMP"
+	line "in spe!"
 
-	para "Since MISTY was"
-	line "away, I went out"
+	para "Nachdem MISTY weg"
+	line "war, bin ich auch"
 
-	para "for some fun too."
-	line "He-he-he."
+	para "los, um Spaせ zu"
+	line "haben. Hi-hi-hi."
 	done
 
 CeruleanGymGuideWinText:
-	text "Hoo, you showed me"
-	line "how tough you are."
+	text "Oje, du bist"
+	line "ganz schön hart."
 
-	para "As always, that"
-	line "was one heck of a"
-	cont "great battle!"
+	para "Das war wie immer"
+	line "ein super Kampf!"
 	done
 
 CeruleanGym_MapEvents:

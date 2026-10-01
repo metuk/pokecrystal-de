@@ -630,98 +630,108 @@ SecurityCameraMovement9:
 
 CameraGrunt1SeenText:
 	text "Hey!"
-	line "Intruder alert!"
+	line "Eindringling!"
+	cont "Alarm!"
 	done
 
 CameraGrunt1BeatenText:
-	text "Dang… I failed…"
+	text "Mist… Ich habe"
+	line "versagt…"
 	done
 
 CameraGrunt2SeenText:
-	text "It's my turn!"
-	line "There's no escape!"
+	text "Ich bin dran!"
+	line "Es gibt kein"
+	cont "Entkommen!"
 	done
 
 CameraGrunt2BeatenText:
-	text "Surveillance cams"
-	line "are in the #MON"
-	cont "statues."
+	text "In den #MON-"
+	line "Statuen sind Über-"
+	cont "wachungskameras"
+	cont "installiert."
 
-	para "We'll keep appear-"
-	line "ing until you trip"
-	cont "a secret switch."
+	para "Wir greifen weiter"
+	line "an, bis du einen"
+	cont "Geheimschalter"
+	cont "betätigst."
 	done
 
 ScientistJedSeenText:
-	text "This was once a"
-	line "ninja hideout."
+	text "Dies war einmal"
+	line "ein Ninjaversteck."
 
-	para "There are traps to"
-	line "confound intruders"
-	cont "like you."
+	para "Es wurden Fallen"
+	line "aufgestellt, um"
+	cont "Eindringlinge wie"
+	cont "dich zu verwirren."
 	done
 
 ScientistJedBeatenText:
-	text "I get it…"
+	text "Ich habわ…"
 	done
 
 ScientistJedAfterBattleText:
-	text "All right. I'll"
-	line "divulge a secret"
-	cont "about our hideout."
+	text "O.K. Ich verrate"
+	line "dir ein Geheimnis"
+	cont "über unseren"
+	cont "Unterschlupf."
 
-	para "That thing on the"
-	line "floor up ahead is"
-	cont "a warp panel."
+	para "Das Feld da vorne"
+	line "am Boden ist ein"
+	cont "Warpfeld."
 
-	para "If you step on it,"
-	line "you'll be warped"
+	para "Sobald du es"
+	line "betrittst, wirst"
 
-	para "back to the en-"
-	line "trance."
+	para "du zurück zum"
+	line "Eingang gewarpt."
 	done
 
 GruntM16SeenText:
-	text "Heheh. Feeling"
-	line "lucky, punk?"
+	text "Hehe. Bist du"
+	line "glücklich, Punk?"
 
-	para "Go ahead, take"
-	line "another step."
+	para "Los! Mach einen"
+	line "weiteren Schritt."
 
-	para "We've got traps"
-	line "set in the floor!"
+	para "Wir haben Fallen"
+	line "in den Boden"
+	cont "eingebaut!"
 	done
 
 GruntM16BeatenText:
-	text "Kaboom!"
+	text "Kawumm!"
 	done
 
 GruntM16AfterBattleText:
-	text "I don't even know"
-	line "where the traps"
-	cont "are planted."
+	text "Ich weiせ nicht,"
+	line "wo die Fallen"
+	cont "aufgestellt sind."
 
-	para "You'll just have"
-	line "to collect your"
-	cont "courage and walk."
+	para "Du musst deinen"
+	line "ganzen Mut"
+	cont "zusammennehmen"
+	cont "und weitergehen."
 	done
 
 TeamRocketBaseB1FSecurityCameraText:
-	text "It's a PERSIAN"
-	line "statue…"
+	text "Das ist eine"
+	line "SNOBILIKAT-Statue…"
 
-	para "Its eyes are oddly"
-	line "shiny."
+	para "Es ist ein"
+	line "seltsamer Glanz"
+	cont "in ihren Augen."
 	done
 
 TeamRocketBaseB1FSecretSwitchText:
-	text "A secret switch!"
-	line "Better press it."
+	text "Ein Geheimschal-"
+	line "ter! Betätige ihn!"
 	done
 
 TeamRocketBaseB1FSwitchOffText:
-	text "The switch is"
-	line "turned off."
+	text "Der Schalter"
+	line "steht auf AUS."
 	done
 
 TeamRocketBaseB1F_MapEvents:

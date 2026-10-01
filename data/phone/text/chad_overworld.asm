@@ -1,56 +1,58 @@
 ChadAskNumber1Text:
-	text "Huh? Is that thing"
-	line "a #DEX? Have"
-	cont "you met PROF.OAK?"
+	text "Oh? Ist dieses Ge-"
+	line "rät ein #DEX?"
+	cont "Hast du PROF. EICH"
+	cont "kennengelernt?"
 
-	para "Huh? You have? "
-	line "That's way cool!"
+	para "Was? Wirklich? "
+	line "Das ist groせartig!"
 
-	para "I have a dream of"
-	line "becoming a #MON"
+	para "Ich träume davon,"
+	line "ein #MON-"
 
-	para "researcher like"
-	line "PROF.OAK."
+	para "Forscher wie PROF."
+	line "EICH zu werden."
 
-	para "May I please have"
-	line "your phone number?"
+	para "Gibst du mir bitte"
+	line "deine Nummer?"
 
-	para "We should chat"
-	line "about PROF.OAK."
+	para "Wir können über"
+	line "PROF. EICH reden."
 
-	para "I'm sure it will"
-	line "be loads of fun!"
+	para "Das macht sicher"
+	line "eine Menge Spaせ!"
 	done
 
 ChadAskNumber2Text:
-	text "May I please have"
-	line "your phone number?"
+	text "Gibst du mir bitte"
+	line "deine Nummer?"
 
-	para "We should chat"
-	line "about PROF.OAK."
+	para "Wir können über"
+	line "PROF. EICH reden."
 
-	para "I'm sure it will"
-	line "be loads of fun!"
+	para "Das macht sicher"
+	line "eine Menge Spaせ!"
 	done
 
 ChadNumberAcceptedText:
-	text "You must listen to"
-	line "PROF.OAK'S #MON"
-	cont "TALK, right?"
+	text "Du musst PROF."
+	line "EICHs #MON-"
+	cont "TALK einschalten,"
+	cont "nicht wahr?"
 	done
 
 ChadNumberDeclinedText:
-	text "Oh… I wish I had a"
-	line "chance to meet"
-	cont "PROF.OAK…"
+	text "Oh… ich wünschte,"
+	line "ich könnte PROF."
+	cont "EICH treffen…"
 	done
 
 ChadPhoneFullText:
-	text "Your phone list is"
-	line "completely full!"
+	text "Dein Nummern-"
+	line "speicher ist voll!"
 	done
 
 ChadRematchText:
-	text "I've been waiting!"
-	line "Let's battle now!"
+	text "Ich warte schon!"
+	line "Ich zermalme dich!"
 	done

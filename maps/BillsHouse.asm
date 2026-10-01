@@ -210,145 +210,157 @@ BillsGrandpa:
 	end
 
 BillsGrandpaIntroText:
-	text "Hm? You know BILL?"
-	line "He's my grandson."
+	text "Hm? Kennst du"
+	line "BILL? Er ist mein"
+	cont "Enkel."
 
-	para "He's in JOHTO. He"
-	line "does something"
+	para "Er ist in JOHTO."
+	line "Er kümmert sich"
 
-	para "with PCs, so I'm"
-	line "house-sitting."
+	para "um PCs und ich"
+	line "passe auf das"
+	cont "Haus auf."
 	done
 
 BillsGrandpaAskToSeeMonText:
-	text "If you have that"
-	line "#MON, may I see"
-	cont "it, please?"
+	text "Hast du dieses"
+	line "#MON? Darf ich"
+	cont "es sehen?"
 	done
 
 BillsGrandpaExcitedToSeeText:
-	text "You will show me?"
-	line "How good of you!"
+	text "Du zeigst es mir?"
+	line "Wie lieb von dir!"
 	done
 
 BillsGrandpaYouDontHaveItTextText:
-	text "You don't have it?"
-	line "That's too bad…"
+	text "Du hast es nicht?"
+	line "Das ist schade…"
 	done
 
 BillsGrandpaShownPokemonText:
-	text "Ah, so that is"
+	text "Ah, das ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Isn't it cute!"
-	line "That's so kind of"
-	cont "you."
+	para "Ist das nicht"
+	line "niedlich!"
+	cont "Das ist nett "
+	cont "von dir."
 	done
 
 BillsGrandpaTokenOfAppreciationText:
-	text "Thanks!"
+	text "Danke!"
 
-	para "This is a token of"
-	line "my appreciation."
+	para "Das ist ein"
+	line "Zeichen meiner"
+	cont "Anerkennung."
 	done
 
 BillsGrandpaComeAgainText:
-	text "Come visit again"
-	line "sometime."
+	text "Besuche mich bitte"
+	line "wieder."
 	done
 
 BillsGrandpaShownAllThePokemonText:
-	text "Thanks for showing"
-	line "me so many cute"
-	cont "#MON."
+	text "Danke, dass du mir"
+	line "so viele niedliche"
+	cont "#MON gezeigt"
+	cont "hast."
 
-	para "I really enjoyed"
-	line "myself. I'm glad"
+	para "Ich habe mich"
+	line "wirklich amüsiert."
 
-	para "I've lived such a"
-	line "long life."
+	para "Ich bin froh, dass"
+	line "ich das noch"
+	cont "erleben durfte."
 	done
 
 BillsGrandpaWrongPokemonText:
 	text "Hm?"
 
-	para "That's not the"
-	line "#MON that I was"
-	cont "told about."
+	para "Das ist nicht das"
+	line "#MON, von dem"
+	cont "ich gehört habe."
 	done
 
 BillsGrandpaLickitungText:
-	text "My grandson BILL"
-	line "told me about a"
+	text "Mein Enkel BILL"
+	line "hat mir von einem"
 
-	para "#MON that has a"
-	line "long tongue."
+	para "#MON mit einer"
+	line "langen Zunge"
+	cont "erzählt."
 	done
 
 BillsGrandpaOddishText:
-	text "Ah, my grandson"
-	line "mentioned a round,"
+	text "Ah, mein Enkel"
+	line "erwähnte ein"
 
-	para "green #MON that"
-	line "has leaves growing"
-	cont "on its head."
+	para "rundes, grünes "
+	line "#MON, auf"
+	cont "dessen Kopf Blät-"
+	cont "ter wachsen."
 	done
 
 BillsGrandpaStaryuText:
-	text "Do you know of a"
-	line "sea #MON that"
+	text "Kennst du ein"
+	line "Wasser-#MON"
 
-	para "has a red sphere"
-	line "in its body?"
+	para "mit einer roten"
+	line "Kugel im Körper?"
 
-	para "You know, the one"
-	line "that's shaped like"
-	cont "a star?"
+	para "Es sieht aus wie"
+	line "ein Stern!"
 
-	para "I heard that it"
-	line "appears at night."
+	para "Ich hörte, es"
+	line "taucht NACHTs auf."
 
-	para "I would surely"
-	line "like to see it."
+	para "Ich würde es"
+	line "gerne sehen."
 	done
 
 BillsGrandpaGrowlitheText:
-	text "BILL told me about"
-	line "a #MON that is"
+	text "BILL erzählte mir"
+	line "von einem #MON,"
 
-	para "very loyal to its"
-	line "trainer."
+	para "das seinem Trainer"
+	line "gegenüber sehr"
+	cont "loyal ist."
 
-	para "It's supposed to"
-	line "ROAR well."
+	para "Es scheint ein"
+	line "guter BRÜLLER zu"
+	cont "sein."
 	done
 
 BillsGrandpaVulpixText:
-	text "I heard about a"
-	line "cute #MON that"
-	cont "has six tails."
+	text "Ich hörte von"
+	line "einem niedlichen"
+	cont "#MON, das"
+	cont "sechs Schwänze"
+	cont "hat."
 
-	para "I would love to"
-	line "hug a cute #MON"
-	cont "like that."
+	para "So ein niedliches"
+	line "#MON würde ich"
+	cont "gerne umarmen."
 	done
 
 BillsGrandpaPichuText:
-	text "Do you know that"
-	line "hugely popular"
+	text "Kennst du dieses"
+	line "sehr beliebte"
 	cont "#MON?"
 
-	para "The #MON that"
-	line "has a yellow body"
-	cont "and red cheeks."
+	para "Das #MON, mit"
+	line "dem gelben Körper"
+	cont "und den roten"
+	cont "Wangen."
 
-	para "I would love to"
-	line "see what it looks"
+	para "Ich würde gerne"
+	line "sehen, wie es vor"
 
-	para "like before it"
-	line "evolves."
+	para "seiner Entwicklung"
+	line "aussieht."
 	done
 
 BillsHouse_MapEvents:

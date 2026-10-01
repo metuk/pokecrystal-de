@@ -1,73 +1,75 @@
 TullyAskNumber1Text:
-	text "Hey, you're trying"
-	line "to be the ultimate"
+	text "Heh, du möchtest"
+	line "auch der beste"
 
-	para "trainer too? Then"
-	line "we're comrades!"
+	para "Trainer sein? Dann"
+	line "bist du mein"
+	cont "Kamerad!"
 
-	para "If I find any more"
-	line "items by the"
+	para "Wenn ich am Wasser"
+	line "noch mehr Items"
 
-	para "water, I'll give"
-	line "you some."
+	para "finde, gebe ich"
+	line "dir welche ab."
 
-	para "Just give me your"
-	line "phone number."
+	para "Gib mir doch deine"
+	line "Telefonnummer."
 	done
 
 TullyAskNumber2Text:
-	text "If I find any more"
-	line "items by the"
+	text "Wenn ich am Wasser"
+	line "noch mehr Items"
 
-	para "water, I'll give"
-	line "you some."
+	para "finde, gebe ich"
+	line "dir welche ab."
 
-	para "Just give me your"
-	line "phone number."
+	para "Gib mir doch deine"
+	line "Telefonnummer."
 	done
 
 TullyNumberAcceptedText:
-	text "You'll be hearing"
-	line "from me if I find"
-	cont "something good."
+	text "Ich rufe dich an,"
+	line "wenn ich etwas"
+	cont "Nützliches finde."
 	done
 
 TullyNumberDeclinedText:
-	text "Is that so? Then"
-	line "I'll just have to"
-	cont "use them myself."
+	text "Wirklich? Dann"
+	line "habe ich alles nur"
+	cont "für mich."
 	done
 
 TullyPhoneFullText:
-	text "Your phone list is"
-	line "all filled up."
+	text "Dein Nummern-"
+	line "speicher ist voll."
 
-	para "Come back if you"
-	line "make room for me."
+	para "Schaffe Platz und"
+	line "komme wieder."
 	done
 
 TullyRematchText:
-	text "I've been doing"
-	line "more than just"
+	text "Seit unserem"
+	line "letzten Treffen"
 
-	para "fishing since we"
-	line "last met."
+	para "habe ich nicht"
+	line "nur geangelt."
 
-	para "You're in for a"
-	line "big surprise!"
+	para "Überzeuge dich"
+	line "selbst!"
 	done
 
 TullyGiftText:
-	text "Hey, there you"
-	line "are!"
+	text "Ah! Da bist du"
+	line "endlich!"
 
-	para "Here's a gift, as"
-	line "promised!"
+	para "Wie versprochen,"
+	line "dein Geschenk!"
 	done
 
 TullyPackFullText:
-	text "Your PACK's full?"
+	text "Dein BEUTEL"
+	line "ist voll?"
 
-	para "Come back later--"
-	line "that'll do it."
+	para "Komm später,"
+	line "in Ordnung?"
 	done

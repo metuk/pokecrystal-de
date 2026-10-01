@@ -234,148 +234,165 @@ Movement_NinjaSpin:
 	step_end
 
 JanineText_DisappointYou:
-	text "Fufufufu…"
+	text "Hehehehe…"
 
-	para "I'm sorry to dis-"
-	line "appoint you…"
+	para "Es tut mir Leid,"
+	line "dich enttäuschen"
+	cont "zu müssen…"
 
-	para "I'm only joking!"
+	para "Ich mache"
+	line "nur Witze!"
 
-	para "I'm the real deal!"
+	para "Jetzt geht es"
+	line "rund!"
 
-	para "JANINE of FUCHSIA"
-	line "GYM, that's me!"
+	para "Ich bin JANINA,"
+	line "ARENALEITERIN von"
+
+	para "FUCHSANIA CITY!"
 	done
 
 JanineText_ToughOne:
-	text "JANINE: You're a"
-	line "tough one. You"
-	cont "definitely won…"
+	text "JANINA: Du bist"
+	line "recht stark. Ein"
+	cont "klarer Sieg für"
+	cont "dich…"
 
-	para "Here's SOULBADGE."
-	line "Take it."
+	para "Nimm jetzt den"
+	line "SEELENORDEN."
 	done
 
 Text_ReceivedSoulBadge:
-	text "<PLAYER> received"
-	line "SOULBADGE."
+	text "<PLAYER> erhält"
+	line "SEELENORDEN."
 	done
 
 JanineText_ToxicSpeech:
-	text "JANINE: You're so"
-	line "tough! I have a"
-	cont "special gift!"
+	text "JANINA: Du bist so"
+	line "stark! Ich habe"
+	cont "ein Geschenk für"
+	cont "dich!"
 
-	para "It's TOXIC, a pow-"
-	line "erful poison that"
+	para "Es ist TOXIN, ein"
+	line "sehr starkes Gift,"
 
-	para "steadily saps the"
-	line "victim's HP."
+	para "das dem Opfer"
+	line "ständig KP"
+	cont "entzieht."
 	done
 
 JanineText_ApplyMyself:
-	text "JANINE: I'm going"
-	line "to really apply"
+	text "JANINA: Ich werde"
+	line "mich jetzt mehr"
 
-	para "myself and improve"
-	line "my skills."
+	para "anstrengen und"
+	line "meine Fähigkeiten"
+	cont "optimieren."
 
-	para "I want to become"
-	line "better than both"
-	cont "Father and you!"
+	para "Ich möchte meinen"
+	line "Vater und dich"
+	cont "übertreffen!"
 	done
 
 LassAliceBeforeText:
-	text "Fufufu!"
+	text "Hehehe!"
 
-	para "I'm JANINE, the"
-	line "GYM LEADER!"
+	para "Ich bin JANINA,"
+	line "die ARENALEITERIN!"
 
-	para "No, I'm not!"
-	line "Gotcha, sucker!"
+	para "Bin ich doch"
+	line "nicht! Reinge-"
+	cont "fallen, Blödmann!"
 	done
 
 LassAliceBeatenText:
-	text "I had you fooled…"
+	text "Ich habe dich"
+	line "reingelegt…"
 	done
 
 LassAliceAfterText:
-	text "How will you dis-"
-	line "tinguish our real"
-	cont "LEADER?"
+	text "Wie erkennst du"
+	line "die Echte"
+	cont "ARENALEITERIN?"
 	done
 
 LassLindaBeforeText:
-	text "Fooled you!"
+	text "Reingelegt!"
 	line "Hahaha!"
 	done
 
 LassLindaBeatenText:
-	text "Ooh… I lost…"
-	line "You're not weak…"
+	text "Oh… Ich habe"
+	line "verloren… Du bist"
+	cont "kein Schwächling…"
 	done
 
 LassLindaAfterText:
-	text "Well? Wasn't my"
-	line "disguise perfect?"
+	text "Na, war meine"
+	line "Maskerade nicht"
+	cont "perfekt?"
 	done
 
 PicnickerCindyBeforeText:
-	text "I'm JANINE!"
+	text "Ich bin JANINA!"
 
-	para "How did you know I"
-	line "was real?"
+	para "Woher wusstest du,"
+	line "dass ich die Echte"
+	cont "bin?"
 
-	para "Let's battle!"
+	para "Auf in den Kampf!"
 	done
 
 PicnickerCindyBeatenText:
-	text "Darn it!"
-	line "I wanted to win!"
+	text "Mist! Ich"
+	line "wollte gewinnen!"
 	done
 
 PicnickerCindyAfterText:
-	text "You must be"
-	line "getting tired."
+	text "Du musst langsam"
+	line "müde werden."
 	done
 
 CamperBarryBeforeText:
-	text "Wahahaha!"
+	text "Hahahaha!"
 
-	para "You betcha!"
-	line "I'm JANINE!"
+	para "Du kannst Gift"
+	line "darauf nehmen,"
+	cont "dass ich JANINA"
+	cont "bin!"
 	done
 
 CamperBarryBeatenText:
-	text "My disguise was"
-	line "right on! Dang!"
+	text "Meine Verkleidung"
+	line "hat funktioniert!"
 	done
 
 CamperBarryAfterText:
-	text "Hey, you. Was my"
-	line "disguise cute or"
-	cont "what, huh?"
+	text "He, Holzkopf. War"
+	line "meine Verkleidung"
+	cont "nicht hübsch?"
 	done
 
 FuchsiaGymGuideText:
-	text "Yo, CHAMP in"
-	line "making!"
+	text "He! Ein CHAMP"
+	line "in spe!"
 
-	para "Whoops! Take a"
-	line "good look around"
+	para "Nanu! Sieh dich"
+	line "mal um. Alle"
 
-	para "you. The trainers"
-	line "all look like the"
-	cont "LEADER, JANINE."
+	para "Trainer sehen aus"
+	line "wie die ARENA-"
+	cont "LEITERIN JANINA."
 
-	para "Which of them is"
-	line "the real JANINE?"
+	para "Welche davon ist"
+	line "die echte JANINA?"
 	done
 
 FuchsiaGymGuideWinText:
-	text "That was a great"
-	line "battle, trainer"
-	cont "from JOHTO!"
+	text "Das war ein"
+	line "hervorragender"
+	cont "Kampf, Trainer"
+	cont "aus JOHTO!"
 	done
 
 FuchsiaGym_MapEvents:

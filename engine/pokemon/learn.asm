@@ -221,7 +221,7 @@ AskForgetMoveText:
 	text_end
 
 Text_1_2_and_Poof:
-	text_far Text_MoveForgetCount ; 1, 2 and…
+	text_far Text_MoveForgetCount
 	text_asm
 	push de
 	ld de, SFX_SWITCH_POKEMON

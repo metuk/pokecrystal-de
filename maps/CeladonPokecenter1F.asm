@@ -71,76 +71,80 @@ CeladonEusine:
 	step_end
 
 CeladonPokecenter1FCooltrainerFText:
-	text "ERIKA is a master"
-	line "of grass #MON."
+	text "ERIKA versteht es"
+	line "meisterlich, mit"
 
-	para "She'll make you"
-	line "pay if you don't"
-	cont "watch yourself."
+	para "Pflanzen-#MON"
+	line "umzugehen."
+
+	para "Eine Unachtsamkeit"
+	line "wird dir bei ihr"
+	cont "übel bekommen."
 	done
 
 CeladonPokecenter1FPharmacistText:
-	text "TEAM ROCKET's"
-	line "hideout is in the"
+	text "Das Versteck von"
+	line "TEAM ROCKET befin-"
+	cont "det sich im Keller"
+	cont "der SPIELHALLE."
 
-	para "basement of the"
-	line "GAME CORNER."
-
-	para "Oh, wait. That was"
-	line "three years ago."
+	para "Oh, warte. Das war"
+	line "vor drei Jahren."
 	done
 
 CeladonEusineText1:
-	text "EUSINE: Hi!"
+	text "EUSIN: Hi!"
 
-	para "I'm back visiting"
-	line "my hometown."
-
-	para "It's been quite a"
-	line "while."
+	para "Ich komme gerade"
+	line "von meinem Heimat-"
+	cont "ort zurück. Es ist"
+	cont "schon lange her."
 	done
 
 EusineLeavesCeladonText:
-	text "<PLAYER>, have you"
-	line "heard?"
+	text "<PLAYER>, hast du"
+	line "das gehört?"
 
-	para "There have been"
-	line "fresh rumors of a"
+	para "Es gibt neue Ge-"
+	line "rüchte über ein"
 
-	para "rainbow-colored"
-	line "#MON appearing"
-	cont "at TIN TOWER."
+	para "regenbogenfarbenes"
+	line "#MON, dass"
 
-	para "I've just had my"
-	line "party healed, so"
+	para "sich am ZINNTURM"
+	line "zeigt."
 
-	para "now I'm headed to"
-	line "ECRUTEAK."
+	para "Ich habe mein Team"
+	line "gerade heilen las-"
+	cont "sen und bin auf"
+	cont "dem Weg nach TEAK."
 
-	para "I'll be seeing"
-	line "you, <PLAYER>!"
+	para "Wir sehen uns spä-"
+	line "ter, <PLAYER>!"
 	done
 
 NoBeastsText:
-	text "Oh, by the way,"
+	text "Oh, übrigens,"
 	line "<PLAYER>."
 
-	para "Have you caught"
-	line "the legendary"
+	para "Hast du die legen-"
+	line "dären #MON"
 
-	para "#MON RAIKOU and"
-	line "ENTEI?"
+	para "RAIKOU und ENTEI"
+	line "gefangen?"
 
 	para "<……><……><……>"
 
 	para "Okay…"
 
-	para "If you catch even"
-	line "one, I hope that"
-	cont "you'll inform me."
+	para "Falls du auch nur"
+	line "eines von ihnen"
 
-	para "I'm counting on"
-	line "you, <PLAYER>!"
+	para "fängst, gibst du"
+	line "mir Bescheid."
+
+	para "Ich zähle auf"
+	line "dich, <PLAYER>!"
 	done
 
 CeladonPokecenter1F_MapEvents:

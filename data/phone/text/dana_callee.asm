@@ -1,37 +1,38 @@
 DanaAnswerPhoneText:
 	text "Hi, @"
 	text_ram wStringBuffer3
-	text " on the"
-	line "line."
+	text_start
+	line "am Apparat."
 
-	para "Hey! It's <PLAY_G>!"
+	para "Heh! Ist das nicht"
+	line "<PLAY_G>!"
 	done
 
 DanaAnswerPhoneDayText:
 	text "Hi, @"
 	text_ram wStringBuffer3
-	text " on the"
-	line "line."
+	text_start
+	line "am Apparat."
 
-	para "I know!"
-	line "It's <PLAY_G>!"
+	para "Ich weiせ! Du bist"
+	line "<PLAY_G>!"
 	done
 
 DanaAnswerPhoneNiteText:
 	text "Hi, @"
 	text_ram wStringBuffer3
-	text " on the"
-	line "line."
+	text_start
+	line "am Apparat."
 
 	para "<PLAY_G>?"
-	line "What's up?"
+	line "Was ist los?"
 	done
 
 DanaGreetText:
 	text "Uh, <PLAY_G>?"
 
-	para "It's me!"
-	line "It's me, @"
+	para "Ich biるs!"
+	line "Ich, @"
 	text_ram wStringBuffer3
 	text "!"
 	done
@@ -39,8 +40,8 @@ DanaGreetText:
 DanaGreetDayText:
 	text "Uh, <PLAY_G>?"
 
-	para "It's me!"
-	line "It's me, @"
+	para "Ich biるs!"
+	line "Ich, @"
 	text_ram wStringBuffer3
 	text "!"
 	done
@@ -48,21 +49,20 @@ DanaGreetDayText:
 DanaGreetNiteText:
 	text "Uh, <PLAY_G>?"
 
-	para "It's me!"
-	line "It's me, @"
+	para "Ich biるs!"
+	line "Ich, @"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 DanaGenericText:
-	text "My @"
+	text "Mein @"
 	text_ram wStringBuffer4
-	text " is"
-	line "so full of energy,"
+	text_start
+	line "strotzt vor Ener-"
+	cont "gie, das macht mir"
+	cont "ein wenig Angst."
 
-	para "it's a little"
-	line "scary."
-
-	para "How are your"
-	line "#MON doing?"
+	para "Wie geht es deinen"
+	line "#MON?"
 	done

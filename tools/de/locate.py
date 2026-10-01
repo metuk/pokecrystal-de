@@ -60,9 +60,9 @@ def map_section_offsets(path):
 
 
 class Chunk:
-	__slots__ = ('obj', 'sect', 'start', 'end', 'names', 'mask', 'built_off', 'de_off', 'src', 'index')
+	__slots__ = ('obj', 'sect', 'start', 'end', 'names', 'mask', 'built_off', 'de_off', 'src', 'index', 'file')
 
-	def __init__(self, obj, sect, start, end, names, mask):
+	def __init__(self, obj, sect, start, end, names, mask, file=None):
 		self.obj = obj
 		self.sect = sect
 		self.start = start
@@ -72,6 +72,7 @@ class Chunk:
 		self.built_off = sect.rom_offset + start
 		self.de_off = None
 		self.src = None
+		self.file = file
 
 	@property
 	def size(self):
@@ -112,14 +113,16 @@ def build_chunks(objects):
 					mask[p.offset + i] = 1
 			bounds = defaultdict(list)
 			bounds[0]
+			files = {}
 			for sym in sect.symbols:
 				if 0 <= sym.value < sect.size:
 					bounds[sym.value].append(sym.name)
+					files.setdefault(sym.value, sym.file)
 			starts = sorted(bounds)
 			chunks = []
 			for i, s in enumerate(starts):
 				e = starts[i + 1] if i + 1 < len(starts) else sect.size
-				c = Chunk(obj, sect, s, e, bounds[s], mask[s:e])
+				c = Chunk(obj, sect, s, e, bounds[s], mask[s:e], files.get(s))
 				chunks.append(c)
 			for i, c in enumerate(chunks):
 				c.index = i
@@ -175,12 +178,21 @@ def main():
 	# Specific chunks propagate from either neighbour; weak (short) chunks only
 	# when the candidate positions from both neighbours agree (or only one exists).
 	def candidates(cs, i, c):
-		cands = []
-		if i > 0 and cs[i - 1].de_off is not None and cs[i - 1].src != 'gap':
-			cands.append(cs[i - 1].de_off + cs[i - 1].size)
-		if i + 1 < len(cs) and cs[i + 1].de_off is not None and cs[i + 1].src != 'gap':
-			cands.append(cs[i + 1].de_off - c.size)
-		return cands
+		# Short chunks may only chain from one side within the same source file
+		# (whole files may have moved); with both neighbours they must agree.
+		prev = cs[i - 1] if i > 0 and cs[i - 1].de_off is not None and cs[i - 1].src != 'gap' else None
+		nxt = cs[i + 1] if i + 1 < len(cs) and cs[i + 1].de_off is not None and cs[i + 1].src != 'gap' else None
+		a = prev.de_off + prev.size if prev else None
+		b = nxt.de_off - c.size if nxt else None
+		if c.spec() >= WEAK_SPEC:
+			return [x for x in (a, b) if x is not None]
+		if a is not None and b is not None:
+			return [a] if a == b else []
+		if a is not None and prev.file == c.file:
+			return [a]
+		if b is not None and nxt.file == c.file:
+			return [b]
+		return []
 
 	for weak_ok in (False, True):
 		changed = True
@@ -198,8 +210,6 @@ def main():
 						continue
 					good = [off for off in cands if c.matches_at(base, off)]
 					if not good:
-						continue
-					if weak and len(set(cands)) > 1:
 						continue
 					c.de_off, c.src = good[0], 'seq'
 					changed = True
@@ -223,7 +233,8 @@ def main():
 	# Pass 4: an unmatched chunk right after a matched one starts where that one ends
 	for cs in sects:
 		for i, c in enumerate(cs):
-			if c.de_off is None and i > 0 and cs[i - 1].de_off is not None and cs[i - 1].src != 'gap':
+			if c.de_off is None and i > 0 and cs[i - 1].de_off is not None and cs[i - 1].src != 'gap' \
+					and cs[i - 1].file == c.file:
 				c.de_off, c.src = cs[i - 1].de_off + cs[i - 1].size, 'gap'
 
 	# Collect label addresses
@@ -258,6 +269,20 @@ def main():
 				v = base[pos] | base[pos + 1] << 8
 				votes[name][(v - addend) & 0xffff, built_bank, chunk_bank] += 1
 
+	# DE bank of each built section: located chunks, plus BANK() votes of its labels
+	sym_sect = {}
+	for obj in objects:
+		for sect in obj.sections:
+			for sym in sect.symbols:
+				sym_sect[sym.name] = id(sect)
+	sect_banks = defaultdict(Counter)
+	for c in all_chunks:
+		if c.de_off is not None and c.src != 'gap':
+			sect_banks[id(c.sect)][c.de_off // BANK] += c.size
+	for name, cnt in bank_votes.items():
+		if name in sym_sect:
+			sect_banks[sym_sect[name]][cnt.most_common(1)[0][0]] += 1000
+
 	inferred = 0
 	for name, cnt in votes.items():
 		if name in de or name not in sym_addrs:
@@ -272,6 +297,8 @@ def main():
 			bank = bank_votes[name].most_common(1)[0][0]
 		elif sb == built_bank:
 			bank = chunk_bank
+		elif sect_banks.get(sym_sect.get(name)):
+			bank = sect_banks[sym_sect[name]].most_common(1)[0][0]
 		else:
 			continue
 		de[name] = {'bank': bank, 'addr': addr, 'src': 'ptr'}

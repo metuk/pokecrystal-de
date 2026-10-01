@@ -736,202 +736,228 @@ IlexForestPlayerStepsDownMovement:
 	step_end
 
 IlexForestApprenticeIntroText:
-	text "Oh, man… My boss"
-	line "is going to be"
-	cont "steaming…"
+	text "Oh, Mist… Mein"
+	line "Boss wird sauer"
+	cont "sein…"
 
-	para "The FARFETCH'D"
-	line "that CUTS trees"
+	para "Das PORENTA, das"
+	line "mit dem ZER-"
+	cont "SCHNEIDER Bäume"
 
-	para "for charcoal took"
-	line "off on me."
+	para "fällt, um nach"
+	line "Holzkohle zu"
 
-	para "I can't go looking"
-	line "for it here in the"
-	cont "ILEX FOREST."
+	para "suchen, ist"
+	line "abgehauen."
 
-	para "It's too big, dark"
-	line "and scary for me…"
+	para "Ich traue mich"
+	line "nicht in den"
+	cont "STEINEICHENWALD,"
+	cont "um nach ihm"
+	cont "zu suchen."
+
+	para "Er ist so groせ,"
+	line "dunkel und"
+	cont "unheimlich…"
 	done
 
 IlexForestApprenticeAfterText:
-	text "Wow! Thanks a"
-	line "whole bunch!"
+	text "Wow! Vielen Dank"
+	line "auch!"
 
-	para "My boss's #MON"
-	line "won't obey me be-"
-	cont "cause I don't have"
-	cont "a BADGE."
+	para "Die #MON von"
+	line "meinem Boss"
+	cont "gehorchen mir"
+	cont "nicht, da ich"
+	cont "keinen ORDEN"
+	cont "besitze."
 	done
 
 Text_ItsTheMissingPokemon:
-	text "It's the missing"
-	line "#MON!"
+	text "Das ist das"
+	line "verschollene"
+	cont "#MON!"
 	done
 
 Text_Kwaaaa:
-	text "FARFETCH'D: Kwaa!"
+	text "PORENTA: Quack!"
 	done
 
 Text_CharcoalMasterIntro:
-	text "Ah! My FARFETCH'D!"
+	text "Ah! Mein PORENTA!"
 
-	para "You found it for"
-	line "us, kid?"
+	para "Du hast es für uns"
+	line "gefunden?"
 
-	para "Without it, we"
-	line "wouldn't be able"
+	para "Wir können ohne"
+	line "es nicht den"
 
-	para "to CUT trees for"
-	line "charcoal."
+	para "ZERSCHNEIDER"
+	line "einsetzen, mit dem"
+	cont "wir Bäume fällen,"
+	cont "um Holzkohle zu"
+	cont "finden."
 
-	para "Thanks, kid!"
+	para "Danke!"
 
-	para "Now, how can I"
-	line "thank you…"
+	para "Wie kann ich"
+	line "dir danken…"
 
-	para "I know! Here, take"
-	line "this."
+	para "Ah genau! Nimm"
+	line "dies."
 	done
 
 Text_CharcoalMasterOutro:
-	text "That's the CUT HM."
-	line "Teach that to a"
+	text "Diese VM enthält"
+	line "ZERSCHNEIDER."
 
-	para "#MON to clear"
-	line "small trees."
+	para "Bring sie einem"
+	line "#MON bei, um"
+	cont "kleine Sträucher"
+	cont "zu zerschneiden."
 
-	para "Of course, you"
-	line "have to have the"
+	para "Du benötigst noch"
+	line "den ORDEN aus der"
 
-	para "GYM BADGE from"
-	line "AZALEA to use it."
+	para "PKMN-ARENA von"
+	line "AZALEA CITY, um"
+	cont "sie einzusetzen."
 	done
 
 Text_CharcoalMasterTalkAfter:
-	text "Do you want to"
-	line "apprentice as a"
+	text "Soll ich dich"
+	line "lehren, wie man"
 
-	para "charcoal maker"
-	line "with me?"
+	para "ein Köhler wird?"
 
-	para "You'll be first-"
-	line "rate in ten years!"
+	para "In zehn Jahren"
+	line "wirst du ein"
+	cont "Meister sein!"
 	done
 
 Text_HeadbuttIntro:
-	text "What am I doing?"
+	text "Was ich mache?"
+	line "Ich setze"
 
-	para "I'm shaking trees"
-	line "using HEADBUTT."
+	para "KOPFNUSS ein, um"
+	line "Bäume zu"
 
-	para "It's fun. Here,"
-	line "you try it too!"
+	para "schütteln."
+	line "Das macht Spaせ!"
+
+	para "Probier es doch"
+	line "auch einmal!"
 	done
 
 Text_HeadbuttOutro:
-	text "Rattle trees with"
-	line "HEADBUTT. Some-"
-	cont "times, sleeping"
-	cont "#MON fall out."
+	text "Benutze KOPFNUSS,"
+	line "um Bäume zu"
+	cont "schütteln. Manch-"
+	cont "mal fallen schla-"
+	cont "fende #MON"
+	cont "herunter."
 	done
 
 Text_IlexForestLass:
-	text "Did something"
-	line "happen to the"
-	cont "forest's guardian?"
+	text "Ist dem Waldpatron"
+	line "etwas zugestoせen?"
 	done
 
 IlexForestSignpostText:
-	text "ILEX FOREST is"
-	line "so overgrown with"
+	text "Der STEINEICHEN-"
+	line "WALD ist so dicht,"
 
-	para "trees that you"
-	line "can't see the sky."
+	para "dass man den"
+	line "Himmel nicht sehen"
+	cont "kann."
 
-	para "Please watch out"
-	line "for items that may"
-	cont "have been dropped."
+	para "Halte Ausschau"
+	line "nach verlorenen"
+	cont "Gegenständen."
 	done
 
 Text_IlexForestShrine:
-	text "ILEX FOREST"
-	line "SHRINE…"
+	text "STEINEICHENWALD-"
+	line "SCHREIN…"
 
-	para "It's in honor of"
-	line "the forest's"
-	cont "protector…"
+	para "Er wurde zu Ehren"
+	line "des Waldpatrons"
+	cont "aufgestellt…"
 	done
 
 Text_ShrineCelebiEvent:
-	text "ILEX FOREST"
-	line "SHRINE…"
+	text "STEINEICHENWALD-"
+	line "SCHREIN…"
 
-	para "It's in honor of"
-	line "the forest's"
-	cont "protector…"
+	para "Er wurde zu Ehren"
+	line "des Waldpatrons"
+	cont "aufgestellt…"
 
-	para "Oh? What is this?"
+	para "Oh? Was ist das?"
 
-	para "It's a hole."
-	line "It looks like the"
+	para "Ein Loch. Es"
+	line "scheint, als ob"
 
-	para "GS BALL would fit"
-	line "inside it."
+	para "der GS-BALL genau"
+	line "hier hinein passt."
 
-	para "Want to put the GS"
-	line "BALL here?"
+	para "Den GS-BALL hier"
+	line "hineinlegen?"
 	done
 
 Text_InsertGSBall:
-	text "<PLAYER> put in the"
-	line "GS BALL."
+	text "<PLAYER> legt den"
+	line "GS-BALL hinein."
 	done
 
 Text_KurtCaughtCelebi:
-	text "Whew, wasn't that"
-	line "something!"
+	text "Wow, das war doch"
+	line "schon etwas!"
 
-	para "<PLAYER>, that was"
-	line "fantastic. Thanks!"
+	para "<PLAYER>, das war"
+	line "klasse. Danke!"
 
-	para "The legends about"
-	line "that SHRINE were"
-	cont "real after all."
+	para "Die Legenden um"
+	line "diesen SCHREIN"
+	cont "waren doch wahr."
 
-	para "I feel inspired by"
-	line "what I just saw."
+	para "Ich fühle mich"
+	line "dadurch beflügelt."
 
-	para "It motivates me to"
-	line "make better BALLS!"
+	para "Es spornt mich an,"
+	line "bessere BÄLLE zu"
+	cont "fertigen!"
 
-	para "I'm going!"
+	para "Ich gehe!"
 	done
 
 BugCatcherWayneSeenText:
-	text "Don't sneak up on"
-	line "me like that!"
+	text "Schleich dich"
+	line "nicht an!"
 
-	para "You frightened a"
-	line "#MON away!"
+	para "Du hast ein"
+	line "#MON verjagt!"
 	done
 
 BugCatcherWayneBeatenText:
-	text "I hadn't seen that"
-	line "#MON before…"
+	text "Dieses #MON"
+	line "habe ich noch nie"
+	cont "zuvor gesehen…"
 	done
 
 BugCatcherWayneAfterBattleText:
-	text "A #MON I've"
-	line "never seen before"
+	text "Ein #MON, das"
+	line "ich noch nie zuvor"
 
-	para "fell out of the"
-	line "tree when I used"
-	cont "HEADBUTT."
+	para "sah, fiel aus dem"
+	line "Baum, als ich"
+	cont "KOPFNUSS"
+	cont "einsetzte."
 
-	para "I ought to use"
-	line "HEADBUTT in other"
-	cont "places too."
+	para "Ich sollte"
+	line "KOPFNUSS auch an"
+	cont "anderen Stellen"
+	cont "einsetzen."
 	done
 
 IlexForest_MapEvents:

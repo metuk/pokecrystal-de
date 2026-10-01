@@ -1010,47 +1010,47 @@ LC_Text1:
 	text_end
 
 LC_Text2:
-	text_far _LC_Text2
+	text_far _LC_Text1
 	text_end
 
 LC_Text3:
-	text_far _LC_Text3
+	text_far _LC_Text2
 	text_end
 
 LC_Text4:
-	text_far _LC_Text4
+	text_far _LC_Text3
 	text_end
 
 LC_Text5:
-	text_far _LC_Text5
+	text_far _LC_Text4
 	text_end
 
 LC_Text6:
-	text_far _LC_Text6
+	text_far _LC_Text5
 	text_end
 
 LC_Text7:
-	text_far _LC_Text7
+	text_far _LC_Text6
 	text_end
 
 LC_Text8:
-	text_far _LC_Text8
+	text_far _LC_Text7
 	text_end
 
 LC_Text9:
-	text_far _LC_Text9
+	text_far _LC_Text8
 	text_end
 
 LC_Text10:
-	text_far _LC_Text10
+	text_far _LC_Text8
 	text_end
 
 LC_Text11:
-	text_far _LC_Text11
+	text_far _LC_Text9
 	text_end
 
 LC_DragText1:
-	text_far _LC_DragText1
+	text_far _LC_Text10
 	text_end
 
 LC_DragText2:
@@ -1369,35 +1369,35 @@ RocketRadioText1:
 	text_end
 
 RocketRadioText2:
-	text_far _RocketRadioText2
+	text_far _RocketRadioText1
 	text_end
 
 RocketRadioText3:
-	text_far _RocketRadioText3
+	text_far _RocketRadioText2
 	text_end
 
 RocketRadioText4:
-	text_far _RocketRadioText4
+	text_far _RocketRadioText3
 	text_end
 
 RocketRadioText5:
-	text_far _RocketRadioText5
+	text_far _RocketRadioText4
 	text_end
 
 RocketRadioText6:
-	text_far _RocketRadioText6
+	text_far _RocketRadioText5
 	text_end
 
 RocketRadioText7:
-	text_far _RocketRadioText7
+	text_far _RocketRadioText6
 	text_end
 
 RocketRadioText8:
-	text_far _RocketRadioText8
+	text_far _RocketRadioText7
 	text_end
 
 RocketRadioText9:
-	text_far _RocketRadioText9
+	text_far _RocketRadioText8
 	text_end
 
 RocketRadioText10:

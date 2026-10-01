@@ -1,67 +1,68 @@
 TullyAnswerPhoneText:
-	text "Hello, this is"
+	text "Hallo, hier ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, Good morning,"
+	para "Oh, guten Morgen,"
 	line "<PLAY_G>."
 	done
 
 TullyAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Hallo, hier ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "That voice…"
-	line "<PLAY_G>, right?"
+	para "Diese Stimme…"
+	line "<PLAY_G>, richtig?"
 	done
 
 TullyAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Hallo, hier ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "This must be"
-	line "<PLAY_G>!"
+	para "Das muss"
+	line "<PLAY_G> sein!"
 	done
 
 TullyGreetText:
-	text "Hello!"
+	text "Hallo!"
 	line "@"
 	text_ram wStringBuffer3
-	text " here…"
+	text " hier…"
 
-	para "Good morning! The"
-	line "weather's great!"
+	para "Guten Morgen! Das"
+	line "Wetter ist toll!"
 	done
 
 TullyGreetDayText:
-	text "Hello!"
+	text "Hallo! Hier ist"
 	line "@"
 	text_ram wStringBuffer3
-	text " here…"
+	text "…"
 
-	para "What a perfect day"
-	line "for fishing!"
+	para "Ein perfekter Tag"
+	line "zum Angeln!"
 	done
 
 TullyGreetNiteText:
-	text "Hello!"
+	text "Hallo! Hier ist"
 	line "@"
 	text_ram wStringBuffer3
-	text " here…"
+	text "…"
 
-	para "It's a great night"
-	line "for fishing!"
+	para "Die perfekte Nacht"
+	line "zum Angeln!"
 	done
 
 TullyGenericText:
-	text "How's your trip"
-	line "coming along?"
+	text "Wie läuft es mit"
+	line "deinem Abenteuer?"
 
-	para "I can't complain"
-	line "about my fishing!"
+	para "Ich kann mich über"
+	line "das Angeln nicht"
+	cont "beschweren!"
 	done

@@ -206,81 +206,90 @@ FastShip1F_PlayerLeavesShipRightMovement:
 	step_end
 
 FastShip1FSailor1Text_ToVermilion:
-	text "FAST SHIP S.S.AQUA"
-	line "is en route to"
-	cont "VERMILION CITY."
+	text "Die M.S. AQUA ist"
+	line "auf dem Weg nach"
+	cont "ORANIA CITY."
 
-	para "We will make an"
-	line "announcement when"
-	cont "we arrive."
+	para "Wir machen eine"
+	line "Durchsage, wenn"
+	cont "wir dort ankommen."
 	done
 
 FastShip1FSailor1Text_ToOlivine:
-	text "FAST SHIP S.S.AQUA"
-	line "is en route to"
-	cont "OLIVINE CITY."
+	text "Die M.S. AQUA ist"
+	line "auf dem Weg nach"
+	cont "OLIVIANA CITY."
 
-	para "We will make an"
-	line "announcement when"
-	cont "we arrive."
+	para "Wir machen eine"
+	line "Durchsage, wenn"
+	cont "wir dort ankommen."
 	done
 
 FastShip1FSailor2Text_FirstTime:
-	text "Here's your cabin."
+	text "Das ist deine"
+	line "Kabine."
 
-	para "If your #MON"
-	line "are hurt, take a"
-	cont "nap in the bed."
+	para "Wenn deine #MON"
+	line "verletzt sind,"
 
-	para "That will heal"
-	line "them."
+	para "dann mach hier"
+	line "ein Nickerchen."
+
+	para "Dadurch werden"
+	line "sie geheilt."
 	done
 
 FastShip1FSailor2Text:
-	text "Here's your cabin."
+	text "Das ist deine"
+	line "Kabine."
 
-	para "You can heal your"
-	line "#MON by taking"
-	cont "a nap in the bed."
+	para "Du kannst deine"
+	line "#MON heilen,"
+	cont "indem du ein"
+	cont "Nickerchen machst."
 
-	para "The ship will"
-	line "arrive while"
-	cont "you're sleeping."
+	para "Das Schiff wird,"
+	line "während du"
+	cont "schläfst, im Ziel-"
+	cont "hafen einlaufen."
 	done
 
 FastShip1FSailor3Text:
-	text "The passengers are"
-	line "all trainers."
+	text "Alle Passagiere"
+	line "sind Trainer."
 
-	para "They're all itch-"
-	line "ing to battle in"
-	cont "their cabins."
+	para "Sie warten in"
+	line "ihren Kabinen auf"
+	cont "Herausforderer."
 	done
 
 FastShip1FGrandpaText:
-	text "Whoa! Excuse me."
-	line "I was in a hurry!"
+	text "Entschuldigung."
+	line "Ich war in Eile!"
 
-	para "My granddaughter"
-	line "is missing!"
+	para "Meine Enkelin ist"
+	line "verschwunden!"
 
-	para "She's just a wee"
-	line "girl. If you see"
+	para "Sie ist noch"
+	line "klein. Sag mir"
 
-	para "her, please let me"
-	line "know!"
+	para "bitte Bescheid,"
+	line "wenn du sie"
+	cont "siehst!"
 	done
 
 FastShip1FSailor1Text_InOlivine:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "OLIVINE CITY."
+	text "Die M.S. AQUA legt"
+	line "in"
+
+	para "OLIVIANA CITY an."
 	done
 
 FastShip1FSailor1Text_InVermilion:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "VERMILION CITY."
+	text "Die M.S. AQUA legt"
+	line "in"
+
+	para "ORANIA CITY an."
 	done
 
 FastShip1F_MapEvents:

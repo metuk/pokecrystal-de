@@ -247,169 +247,185 @@ DudeMovementData2b:
 	step_end
 
 CatchingTutorialBoxFullText:
-	text "#MON hide in"
-	line "the grass. Who"
+	text "#MON verstecken"
+	line "sich im Gras."
 
-	para "knows when they'll"
-	line "pop out…"
+	para "Niemand weiせ, wann"
+	line "sie auftauchen…"
 	done
 
 CatchingTutorialIntroText:
-	text "I've seen you a"
-	line "couple times. How"
+	text "Ich habe dich"
+	line "schon mehrmals ge-"
+	cont "sehen. Wie viele"
 
-	para "many #MON have"
-	line "you caught?"
+	para "#MON hast"
+	line "du gefangen?"
 
-	para "Would you like me"
-	line "to show you how to"
-	cont "catch #MON?"
+	para "Soll ich dir"
+	line "zeigen, wie man"
+	cont "#MON fängt?"
 	done
 
 CatchingTutorialDebriefText:
-	text "That's how you do"
-	line "it."
+	text "So geht das!"
 
-	para "If you weaken them"
-	line "first, #MON are"
-	cont "easier to catch."
+	para "Wenn du sie zuerst"
+	line "schwächst, kannst"
+	cont "du sie leichter"
+	cont "fangen."
 	done
 
 CatchingTutorialDeclinedText:
-	text "Oh. Fine, then."
+	text "Oh. In Ordnung."
 
-	para "Anyway, if you"
-	line "want to catch"
+	para "Egal, wenn du"
+	line "viele #MON"
 
-	para "#MON, you have"
-	line "to walk a lot."
+	para "fangen möchtest,"
+	line "musst du weite"
+	cont "Wege gehen."
 	done
 
 CatchingTutorialRepeatText:
-	text "Huh? You want me"
-	line "to show you how to"
-	cont "catch #MON?"
+	text "Häh? Ich soll dir"
+	line "zeigen, wie man"
+	cont "#MON fängt?"
 	done
 
 Route29YoungsterText:
-	text "Yo. How are your"
-	line "#MON?"
+	text "Yo. Wie geht es"
+	line "deinen #MON?"
 
-	para "If they're weak"
-	line "and not ready for"
+	para "Sind sie schwach"
+	line "und nicht bereit"
 
-	para "battle, keep out"
-	line "of the grass."
+	para "zu kämpfen, halte"
+	line "dich vom Gras"
+	cont "fern."
 	done
 
 Route29TeacherText:
-	text "See those ledges?"
-	line "It's scary to jump"
-	cont "off them."
+	text "Siehst du die"
+	line "Stufen hier?"
 
-	para "But you can go to"
-	line "NEW BARK without"
+	para "Du kannst nicht"
+	line "hinaufklettern,"
+	cont "dafür aber"
+	cont "herunterspringen!"
 
-	para "walking through"
-	line "the grass."
+	para "Du kannst nach"
+	line "NEUBORKIA gehen,"
+
+	para "ohne durch das"
+	line "Gras zu laufen."
 	done
 
 Route29FisherText:
-	text "I wanted to take a"
-	line "break, so I saved"
+	text "Ich wollte eine"
+	line "Pause einlegen,"
 
-	para "to record my"
-	line "progress."
+	para "darum habe ich"
+	line "meinen Spielstand"
+	cont "abgespeichert."
 	done
 
 Route29CooltrainerMText_WaitingForDay: ; unreferenced
-	text "I'm waiting for"
-	line "#MON that"
+	text "Ich warte auf"
+	line "#MON, die nur"
 
-	para "appear only in the"
-	line "daytime."
+	para "tagsüber"
+	line "auftauchen."
 	done
 
 Route29CooltrainerMText_WaitingForNight:
-	text "I'm waiting for"
-	line "#MON that"
+	text "Ich warte auf"
+	line "#MON, die"
 
-	para "appear only at"
-	line "night."
+	para "nur des NACHTs"
+	line "auftauchen."
 	done
 
 Route29CooltrainerMText_WaitingForMorning:
-	text "I'm waiting for"
-	line "#MON that"
+	text "Ich warte auf"
+	line "#MON, die"
 
-	para "appear only in the"
-	line "morning."
+	para "nur am VORMITTAG"
+	line "auftauchen."
 	done
 
 MeetTuscanyText:
-	text "TUSCANY: I do be-"
-	line "lieve that this is"
+	text "DIETLINDE: Ich"
+	line "glaube, wir"
 
-	para "the first time"
-	line "we've met?"
+	para "begegnen uns zum"
+	line "ersten Mal!"
 
-	para "Please allow me to"
-	line "introduce myself."
+	para "Darf ich mich"
+	line "vorstellen? Ich"
 
-	para "I am TUSCANY of"
-	line "Tuesday."
+	para "bin DIETLINDE"
+	line "von Dienstag."
 	done
 
 TuscanyGivesGiftText:
-	text "By way of intro-"
-	line "duction, please"
+	text "Da wir uns zum"
+	line "ersten Mal sehen,"
 
-	para "accept this gift,"
-	line "a PINK BOW."
+	para "schenke ich dir"
+	line "ein ROSA BAND."
 	done
 
 TuscanyGaveGiftText:
-	text "TUSCANY: Wouldn't"
-	line "you agree that it"
-	cont "is most adorable?"
+	text "DIETLINDE: Findest"
+	line "du nicht auch,"
+	cont "dass es sehr"
+	cont "schön ist?"
 
-	para "It strengthens"
-	line "normal-type moves."
+	para "Attacken der"
+	line "Elementklasse"
+	cont "Normal, werden"
+	cont "dadurch stärker."
 
-	para "I am certain it"
-	line "will be of use."
+	para "Ich bin sicher,"
+	line "du kannst es"
+	cont "gebrauchen."
 	done
 
 TuscanyTuesdayText:
-	text "TUSCANY: Have you"
-	line "met MONICA, my"
-	cont "older sister?"
+	text "DIETLINDE: Bist"
+	line "du MONJA meiner"
+	cont "älteren Schwester"
+	cont "schon begegnet?"
 
-	para "Or my younger"
-	line "brother, WESLEY?"
+	para "Oder meinem"
+	line "kleinen Bruder"
+	cont "MITKO?"
 
-	para "I am the second of"
-	line "seven children."
+	para "Ich bin das zweite"
+	line "von sieben"
+	cont "Kindern."
 	done
 
 TuscanyNotTuesdayText:
-	text "TUSCANY: Today is"
-	line "not Tuesday. That"
-	cont "is unfortunate…"
+	text "DIETLINDE: Heute"
+	line "ist nicht Diens-"
+	cont "tag. Das ist"
+	cont "schade…"
 	done
 
 Route29Sign1Text:
 	text "ROUTE 29"
 
-	para "CHERRYGROVE CITY -"
-	line "NEW BARK TOWN"
+	para "ROSALIA CITY -"
+	line "NEUBORKIA"
 	done
 
 Route29Sign2Text:
 	text "ROUTE 29"
 
-	para "CHERRYGROVE CITY -"
-	line "NEW BARK TOWN"
+	para "ROSALIA CITY -"
+	line "NEUBORKIA"
 	done
 
 Route29_MapEvents:

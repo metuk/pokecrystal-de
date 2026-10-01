@@ -1,307 +1,328 @@
 LizMonAlwaysWantsToNuzzleText:
-	text "Oh, you have to"
-	line "hear this."
+	text "Oh, das musst du"
+	line "hören."
 
-	para "My @"
+	para "Mein @"
 	text_ram wStringBuffer4
-	text " is"
-	line "so adorable!"
+	text_start
+	line "ist so bezaubernd!"
 
-	para "It always wants to"
-	line "nuzzle me!"
+	para "Es kuschelt sich"
+	line "ständig an mich!"
 	done
 
 LizDefeatedMonText:
-	text "And, and! Um…"
+	text "Und, und! Ähm…"
 
-	para "We beat a wild"
-	line "@"
+	para "Wir besiegten vor"
+	line "geraumer Zeit ein"
+
+	para "wildes @"
 	text_ram wStringBuffer4
-	text " with"
+	text_start
+	line "mit nur einem"
+	cont "Schlag."
 
-	para "just one hit a"
-	line "little while ago."
-
-	para "We felt sorry for"
-	line "it, though."
+	para "Aber, wir hatten"
+	line "Mitleid mit ihm."
 	done
 
 LizLostAMonText:
-	text "And, and! Uh…"
+	text "Und, und! Uh…"
 
-	para "We just saw a"
-	line "really gorgeous"
+	para "Wir haben ein"
+	line "wirklich tolles"
 	cont "@"
 	text_ram wStringBuffer4
-	text "."
+	text_start
+	cont "gesehen."
 
-	para "But I was on the"
-	line "phone, so it got"
+	para "Aber ich telefo-"
+	line "nierte und es ist"
 
-	para "away. It made us"
-	line "really angry!"
+	para "geflohen. Das"
+	line "machte uns wütend!"
 	done
 
 LizBattleRematchText:
-	text "Hi! Do you have"
-	line "some free time?"
+	text "Hi! Hast du etwas"
+	line "Zeit?"
 
-	para "I've got all sorts"
-	line "of time. If you're"
+	para "Ich habe sehr viel"
+	line "Zeit. Wenn auch du"
 
-	para "free, would you"
-	line "like to battle?"
+	para "Zeit hast, dann"
+	line "komme zum Kämpfen?"
 
-	para "I'll be waiting on"
+	para "Ich bin hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Let me know when"
-	line "you get here!"
+	para "Ruf an, wenn du"
+	line "vorbeikommst!"
 	done
 
 LizWrongNumberText:
-	text "Hi, TANIA. How are"
-	line "you? This is LIZ."
+	text "Hi, TANJA. Wie"
+	line "geht es dir? Hier"
 
-	para "I'm fine, but I'm"
-	line "bored silly!"
+	para "ist ANETTE. Mir"
+	line "geht es gut, aber"
 
-	para "Huh… Wrong number?"
-	line "Oops! Sorry!"
+	para "ich langweile mich"
+	line "zu Tode!"
+
+	para "Huch… Verwählt?"
+	line "Ups! Sorry!"
 	done
 
 LizHangUpText:
-	text "OK, I'll call you"
-	line "later!"
+	text "O.K., ich rufe"
+	line "später an!"
 	done
 
 LizRuinsOfAlphGossipText:
-	text "Listen, listen!"
+	text "Hör mal!"
 
-	para "I was listening to"
-	line "the radio in the"
+	para "Ich hörte in den"
+	line "ALPH-RUINEN Radio,"
 
-	para "RUINS OF ALPH when"
-	line "an odd broadcast"
+	para "als das Programm"
+	line "durch eine selt-"
+	cont "same Sendung un-"
+	cont "terbrochen wurde."
 
-	para "suddenly cut it on"
-	line "the regular show."
-
-	para "I wonder what it"
-	line "was. So strange!"
+	para "Ich frage mich,"
+	line "was das war? Sehr"
+	cont "merkwürdig!"
 	done
 
 LizFalknerGossipText:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "Don't you think"
-	line "FALKNER of VIOLET"
+	para "Denkst du nicht"
+	line "auch, dass FALK,"
 
-	para "GYM is cool and"
-	line "handsome?"
+	para "der ARENALEITER"
+	line "von VIOLA CITY,"
 
-	para "But they say his"
-	line "dad, who's out"
+	para "cool und schön"
+	line "ist?"
 
-	para "training on the"
-	line "road, is even more"
+	para "Aber, man sagt,"
+	line "dass sein Vater,"
 
-	para "cool and handsome"
-	line "than FALKNER."
+	para "der im Freien"
+	line "trainiert, noch"
 
-	para "I wish I could"
-	line "meet him!"
+	para "cooler und schöner"
+	line "als FALK ist."
+
+	para "Ich würde ihn ger-"
+	line "ne kennen lernen!"
 	done
 
 LizEarlGossipText:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "Do you know EARL,"
-	line "the teacher who"
+	para "Kennst du EARL,"
+	line "den Lehrer von der"
 
-	para "runs the #MON"
-	line "ACADEMY in VIOLET?"
+	para "#MON-AKADEMIE"
+	line "in VIOLA?"
 
-	para "I saw him doing"
-	line "pirouettes while"
+	para "Ich sah, wie er"
+	line "Pirouetten machte,"
 
-	para "he was running. It"
-	line "was wildly funny!"
+	para "als er rannte. Das"
+	line "war sehr komisch!"
 	done
 
 LizSurfPikachuGossipText:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "I collect #MON"
-	line "plush dolls."
+	para "Ich sammle"
+	line "#MON-Puppen"
+	cont "aus Plüsch."
 
-	para "But I can't seem"
-	line "to get a hold of a"
+	para "Aber ich habe"
+	line "keine SURFER-"
 
-	para "SURF PIKACHU DOLL."
-	line "None of my friends"
+	para "PIKACHU-PUPPE."
+	line "Auch keiner meiner"
 
-	para "have it. It must"
-	line "be totally rare!"
+	para "Freunde hat eine!"
+	line "Sie ist eine"
+	cont "Seltenheit!"
 
-	para "You could really"
-	line "brag about it if"
-	cont "you had one."
+	para "Du könntest wirk-"
+	line "lich damit ange-"
+	cont "ben, wenn du eine"
+	cont "hättest!"
 	done
 
 LizMooMooMilkGossipText:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "Do you know about"
-	line "MOOMOO MILK?"
+	para "Weiせt du Bescheid"
+	line "über die KUHMUH-"
+	cont "MILCH? Du kannst"
 
-	para "You can buy it at"
-	line "MOOMOO FARM."
+	para "sie auf der KUH-"
+	line "MUH-FARM kaufen."
 
-	para "It's supposed to"
-	line "be good for health"
+	para "Sie soll gut für"
+	line "die Gesundheit und"
 
-	para "and beauty."
-	line "I really want to"
+	para "Schönheit sein."
+	line "Ich möchte sie"
 
-	para "try some. I bet"
-	line "it's delicious!"
+	para "probieren. Ich"
+	line "wette, sie ist"
+	cont "köstlich!"
 	done
 
 LizSalonGossipText:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "There's a #MON"
-	line "SALON in GOLDENROD"
+	para "In DUKATIA gibt es"
+	line "einen #MON-"
+	cont "SALON, der von"
+	cont "zwei Brüdern"
+	cont "geleitet wird."
 
-	para "that's run by two"
-	line "brothers."
+	para "Der Ältere ist"
+	line "gut, der Jüngere"
 
-	para "The older brother"
-	line "is good, but the"
+	para "ist nicht ganz"
+	line "so gut."
 
-	para "younger one really"
-	line "isn't."
+	para "Aber manchmal er-"
+	line "ledigt der Jüngere"
 
-	para "But sometimes the"
-	line "younger one does a"
+	para "die Aufgabe bes-"
+	line "ser als sein"
+	cont "Bruder."
 
-	para "better job than"
-	line "his brother."
+	para "Bei jedem Besuch"
+	line "fällt es mir"
 
-	para "Every time I go, I"
-	line "have a hard time"
-
-	para "trying to decide"
-	line "whom I should use…"
+	para "schwer, einen"
+	line "auszuwählen…"
 	done
 
 LizWhitneyGossipText:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "GOLDENROD GYM's"
-	line "WHITNEY began"
+	para "BIANKA, die ARENA-"
+	line "LEITERIN von"
 
-	para "battling only a"
-	line "little while ago!"
+	para "DUKATIA CITY hat"
+	line "erst vor kurzem"
 
-	para "But the #MON"
-	line "LEAGUE chose her"
-	cont "as a GYM LEADER!"
+	para "mit dem Training"
+	line "begonnen!"
 
-	para "I bet she must be"
-	line "totally talented."
+	para "Aber die #MON"
+	line "LIGA hat sie zur"
+	cont "ARENALEITERIN"
+	cont "gewählt!"
+
+	para "Ich wette, sie hat"
+	line "sehr viel Talent."
 	done
 
 LizBugCatchingContestGossipText:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "Have you ever"
-	line "taken part in a"
+	para "Hast du je am"
+	line "Käferturnier im"
 
-	para "Bug-Catching"
-	line "Contest at the"
-	cont "NATIONAL PARK?"
+	para "NATIONALPARK teil-"
+	line "genommen?"
 
-	para "I did once, but"
-	line "all I could catch"
-	cont "was a CATERPIE."
+	para "Ich nahm ein Mal"
+	line "teil, aber ich"
+	cont "fing nur ein"
+	cont "RAUPY."
 
-	para "But guess what!"
+	para "Aber, tata!"
 
-	para "I won with that"
-	line "CATERPIE. Isn't"
-	cont "that great?"
+	para "Ich habe mit dem"
+	line "RAUPY gewonnen."
+	cont "Ist das nicht"
+	cont "groせartig?"
 	done
 
 LizBeautifulTrainerGossipText:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "I saw a beautiful"
-	line "@"
+	para "@"
 	text_ram wStringBuffer4
-	text "!"
+	text_start
+	line "begegnete mir!"
 
-	para "I wish I could"
-	line "become a beautiful"
+	para "Ich wünschte, ich"
+	line "wäre wie"
 	cont "@"
 	text_ram wStringBuffer4
-	text " too."
+	text "."
 	done
 
 LizForgotGossipText:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "Uh… Um… Whoops!"
+	para "Uh… Ähm… Ups!"
 
-	para "I forgot what I"
-	line "was going to say!"
+	para "Ich vergaせ, was"
+	line "ich sagen wollte!"
 	done
 
 LizFawningOverMonText:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "My @"
+	para "Mein @"
 	text_ram wStringBuffer4
 	text "…"
-	line "it… so pretty…"
+	line "es… ist so schön…"
 
-	para "and… giggle… so"
-	line "awesome… yes… but…"
+	para "und… kicher… so"
+	line "toll… ja… aber…"
 
-	para "very much… eeek!"
-	line "And… lovely…"
+	para "sehr… ieeek!"
+	line "Und… liebenswert…"
 
-	para "Just ravishing…"
-	line "Oh, too much!"
+	para "Einfach wunderbar…"
+	line "Oh, zu viel!"
 
-	para "…Hug it… sleeping…"
-	line "That's right…"
+	para "…Umarme es…"
+	line "wenn es schläft…"
+	cont "Jawohl…"
 
-	para "pretty… sigh… So"
-	line "nice… Cute…"
+	para "schön… seufz… so"
+	line "schön… niedlich…"
 
-	para "…Oops! Look at the"
-	line "time! I chatted"
-	cont "too long!"
+	para "…Ups! Sieh auf die"
+	line "Uhr! Ich plauderte"
+	cont "zu lang!"
 
-	para "I'm sorry I took"
-	line "so much of your"
+	para "Entschuldigung,"
+	line "dass ich so viel"
 
-	para "time!"
-	line "I love chatting!"
+	para "deiner Zeit in"
+	line "Anspruch nahm!"
+
+	para "Ich liebe es zu"
+	line "plaudern!"
 	done
 
 LizReminderText:
-	text "I've got too much"
-	line "time on my hands!"
+	text "Ich habe zu viel"
+	line "Zeit! Lass uns"
+	cont "sofort kämpfen!"
 
-	para "Let's battle right"
-	line "away!"
-
-	para "I'll be waiting on"
+	para "Hier warte ich:"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"

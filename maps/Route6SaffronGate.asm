@@ -27,32 +27,33 @@ Route6SaffronGuardScript:
 	end
 
 Route6SaffronGuardWelcomeText:
-	text "Welcome to SAFFRON"
-	line "CITY, home of the"
-	cont "MAGNET TRAIN!"
+	text "Willkommen in"
+	line "SAFFRONIA CITY,"
+	cont "der Heimat des"
+	cont "MAGNETZUGs!"
 
-	para "…That's what I'd"
-	line "normally say, but"
+	para "…Das sage ich"
+	line "sonst immer, aber"
 
-	para "the MAGNET TRAIN"
-	line "isn't running now."
+	para "der MAGNETZUG"
+	line "fährt momentan"
+	cont "nicht."
 
-	para "It's not getting"
-	line "any electricity"
+	para "Die Stromzufuhr"
+	line "ist unterbrochen,"
 
-	para "because there's"
-	line "something wrong"
+	para "weil es im"
+	line "KRAFTWERK ein"
 
-	para "with the POWER"
-	line "PLANT."
+	para "Problem gibt."
 	done
 
 Route6SaffronGuardMagnetTrainText:
-	text "The MAGNET TRAIN"
-	line "is the most famous"
+	text "Der MAGNETZUG ist"
+	line "das Aushängeschild"
 
-	para "thing about SAF-"
-	line "FRON."
+	para "von SAFFRONIA"
+	line "CITY."
 	done
 
 Route6SaffronGate_MapEvents:

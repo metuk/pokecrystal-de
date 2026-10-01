@@ -449,229 +449,253 @@ KurtsHouseKurtGoAroundPlayerThenExitHouseMovement:
 	step_end
 
 KurtsHouseKurtMakingBallsMustWaitText:
-	text "Hm? Who are you?"
+	text "Hm? Wer bist du?"
 
-	para "<PLAYER>, eh? You"
-	line "want me to make"
-	cont "some BALLS?"
+	para "<PLAYER>, was? Du"
+	line "willst, dass ich"
+	cont "ein paar BÄLLE"
+	cont "mache?"
 
-	para "Sorry, but that'll"
-	line "have to wait."
+	para "Verzeih, aber das"
+	line "muss warten."
 
-	para "Do you know TEAM"
-	line "ROCKET? Ah, don't"
+	para "Kennst du TEAM"
+	line "ROCKET? Egal, ich"
 
-	para "worry. I'll tell"
-	line "you anyhow."
+	para "erzähle dir ohne-"
+	line "hin darüber."
 
-	para "TEAM ROCKET's an"
-	line "evil gang that"
+	para "TEAM ROCKET ist"
+	line "eine üble Bande,"
 
-	para "uses #MON for"
-	line "their dirty work."
+	para "die #MON für"
+	line "ihre Zwecke ein-"
+	cont "setzt."
 
-	para "They're supposed"
-	line "to have disbanded"
-	cont "three years ago."
+	para "Man sagt, dass sie"
+	line "sich vor drei Jah-"
+	cont "ren aufgelöst"
+	cont "haben."
 
-	para "Anyway, they're at"
-	line "the WELL, cutting"
+	para "Aber jetzt sind"
+	line "sie am BRUNNEN"
 
-	para "off SLOWPOKETAILS"
-	line "for sale!"
+	para "und schneiden die"
+	line "RUTEN von FLEGMON"
 
-	para "So I'm going to"
-	line "go give them a"
-	cont "lesson in pain!"
+	para "ab, um sie zu ver-"
+	line "kaufen!"
 
-	para "Hang on, SLOWPOKE!"
-	line "Old KURT is on his"
-	cont "way!"
+	para "Also werde ich"
+	line "ihnen eine Lektion"
+	cont "erteilen!"
+
+	para "Haltet durch,"
+	line "FLEGMON! Der alte"
+	cont "KURT ist auf dem"
+	cont "Weg!"
 	done
 
 KurtsHouseKurtHonoredToMakeBallsText:
 	text "KURT: Hi, <PLAYER>!"
 
-	para "You handled your-"
-	line "self like a real"
-	cont "hero at the WELL."
+	para "Du hast dich am"
+	line "BRUNNEN wie"
+	cont "ein wahrer Held"
+	cont "benommen."
 
-	para "I like your style!"
+	para "Ich mag deinen"
+	line "Stil!"
 
-	para "I would be honored"
-	line "to make BALLS for"
+	para "Es wäre mir eine"
+	line "Ehre, für einen"
 
-	para "a trainer like"
-	line "you."
+	para "Trainer wie dich"
+	line "BÄLLE anzuferti-"
+	cont "gen."
 
-	para "This is all I have"
-	line "now, but take it."
+	para "Das ist alles, was"
+	line "ich habe. Aber"
+	cont "bitte nimm es!"
 	done
 
 KurtsHouseKurtBallsFromApricornsText:
-	text "KURT: I make BALLS"
-	line "from APRICORNS."
+	text "KURT: Ich mache"
+	line "BÄLLE aus APRIKO-"
+	cont "KOS."
 
-	para "Collect them from"
-	line "trees and bring"
-	cont "'em to me."
+	para "Pflücke sie von"
+	line "Bäumen und bring"
+	cont "sie zu mir."
 
-	para "I'll make BALLS"
-	line "out of them."
+	para "Ich fertige daraus"
+	line "BÄLLE an."
 	done
 
 KurtsHouseKurtAskYouHaveAnApricornText:
-	text "KURT: You have an"
-	line "APRICORN for me?"
+	text "KURT: Hast du eine"
+	line "APRIKOKO für mich?"
 
-	para "Fine! I'll turn it"
-	line "into a BALL."
+	para "Schön! Ich werde"
+	line "einen BALL daraus"
+	cont "machen."
 	done
 
 KurtsHouseKurtItWillTakeADayText:
-	text "KURT: It'll take a"
-	line "day to make you a"
+	text "KURT: Ich werde"
+	line "einen Tag brau-"
+	cont "chen, um einen"
+	cont "BALL zu machen."
 
-	para "BALL. Come back"
-	line "for it later."
+	para "Komm später wie-"
+	line "der!"
 	done
 
 KurtsHouseKurtThatsALetdownText:
 	text "KURT: Oh…"
-	line "That's a letdown."
+	line "Du lässt mich im"
+	cont "Stich?"
 	done
 
 KurtsHouseKurtDontBotherMeText:
-	text "KURT: I'm working!"
-	line "Don't bother me!"
+	text "KURT: Ich arbeite!"
+	line "Stör mich nicht!"
 	done
 
 KurtsHouseKurtJustFinishedYourBallText:
 	text "KURT: Ah, <PLAYER>!"
-	line "I just finished"
-	cont "your BALL. Here!"
+	line "Ich bin gerade"
+	cont "fertig geworden."
+	cont "Hier hast du den"
+	cont "BALL!"
 	done
 
 KurtsHouseKurtTurnedOutGreatText:
-	text "KURT: That turned"
-	line "out great."
+	text "KURT: Er ist groせ-"
+	line "artig geworden."
 
-	para "Try catching"
-	line "#MON with it."
+	para "Versuche, ein"
+	line "#MON damit"
+	cont "zu fangen."
 	done
 
 KurtsHouseKurtGranddaughterHelpingWorkFasterText:
-	text "KURT: Now that my"
-	line "granddaughter is"
+	text "KURT: Da mir meine"
+	line "Enkelin jetzt"
 
-	para "helping me, I can"
-	line "work much faster."
+	para "hilft, bin ich"
+	line "schneller."
 	done
 
 KurtsHouseKurtWhatIsThatText:
-	text "Wh-what is that?"
+	text "W-was ist das?"
 
-	para "I've never seen"
-	line "one before."
+	para "Das habe ich noch"
+	line "nie gesehen."
 
-	para "It looks a lot"
-	line "like a # BALL,"
+	para "Es sieht wie ein"
+	line "#BALL aus, es"
 
-	para "but it appears to"
-	line "be something else."
+	para "scheint, aber"
+	line "etwas anderes zu"
+	cont "sein."
 
-	para "Let me check it"
-	line "for you."
+	para "Ich überprüfe das"
+	line "für dich."
 	done
 
 KurtsHouseKurtImCheckingItNowText:
-	text "I'm checking it"
-	line "now."
+	text "Ich überprüfe es"
+	line "gerade."
 	done
 
 KurtsHouseKurtAhHaISeeText:
-	text "Ah-ha! I see!"
-	line "So…"
+	text "Ah-ha! Verstehe!"
+	line "So ist das…"
 	done
 
 KurtsHouseKurtThisBallStartedToShakeText:
 	text "<PLAYER>!"
 
-	para "This BALL started"
-	line "to shake while I"
-	cont "was checking it."
+	para "Dieser BALL hat"
+	line "sich bewegt, als"
+	cont "ich ihn"
+	cont "überprüfte."
 
-	para "There must be"
-	line "something to this!"
+	para "Da geht etwas vor"
+	line "sich!"
 	done
 
 KurtsGranddaughterSlowpokeGoneText:
-	text "The SLOWPOKE are"
-	line "gone… Were they"
-
-	para "taken away by bad"
-	line "people?"
+	text "Die FLEGMON sind"
+	line "verschwunden… Wur-"
+	cont "den sie von bösen"
+	cont "Leuten gestohlen?"
 	done
 
 KurtsGranddaughterLonelyText:
-	text "Grandpa's gone…"
-	line "I'm so lonely…"
+	text "Groせvater ist"
+	line "fort… Ich fühle"
+	cont "mich so einsam…"
 	done
 
 KurtsGranddaughterSlowpokeBackText:
-	text "The SLOWPOKE my"
-	line "dad gave me came"
+	text "Das FLEGMON, das"
+	line "mir mein Vater"
 
-	para "back! Its TAIL is"
-	line "growing back too!"
+	para "gab, ist wieder"
+	line "da. Auch seine"
+
+	para "RUTE wächst wieder"
+	line "nach!"
 	done
 
 KurtsGranddaughterDadText:
-	text "Dad works at SILPH"
-	line "where he studies"
-	cont "# BALLS."
+	text "Papa arbeitet für"
+	line "SILPH CO., wo er"
+	cont "#BÄLLE analy-"
+	cont "siert."
 
-	para "I have to stay"
-	line "home with Grandpa"
-	cont "and SLOWPOKE."
+	para "Ich muss mit Groせ-"
+	line "vater und FLEGMON"
+	cont "zu Hause bleiben."
 	done
 
 KurtsGranddaughterHelpText:
-	text "I get to help"
-	line "Grandpa now!"
+	text "Ich muss jetzt Opa"
+	line "helfen!"
 
-	para "We'll make good"
-	line "BALLS for you, so"
-	cont "please wait!"
+	para "Wir machen dir ei-"
+	line "nen hervorragenden"
+	cont "BALL, warte mal!"
 	done
 
 KurtsGranddaughterFunText:
-	text "It's fun to make"
-	line "BALLS!"
+	text "BÄLLE anfertigen"
+	line "macht Spaせ!"
 	done
 
 KurtsGranddaughterGSBallText:
-	text "Grandpa's checking"
-	line "a BALL right now."
+	text "Opa überprüft"
+	line "gerade einen BALL."
 
-	para "So I'm waiting"
-	line "till he's done."
+	para "Ich warte, bis er"
+	line "fertig ist."
 	done
 
 KurtsHouseSlowpokeText:
-	text "SLOWPOKE: …"
-	line "Yawn?"
+	text "FLEGMON: …"
+	line "Gähn?"
 	done
 
 KurtsHouseOakPhotoText:
-	text "…A young PROF."
-	line "OAK?"
+	text "…Ein junger PROF."
+	line "EICH?"
 	done
 
 KurtsHouseCelebiStatueText:
-	text "It's a statue of"
-	line "the forest's pro-"
-	cont "tector."
+	text "Eine Statue des"
+	line "Waldpatrons."
 	done
 
 KurtsHouse_MapEvents:

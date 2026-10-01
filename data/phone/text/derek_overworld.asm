@@ -1,61 +1,64 @@
 DerekAskNumber1Text:
 	text "Oh, wow! PIKACHU!"
-	line "It's so soft and"
-	cont "furry! How cute!"
+	line "Es ist so weich"
+	cont "und flauschig! Wie"
+	cont "niedlich!"
 
-	para "Let's be friends!"
-	line "PIKACHU-lovers are"
-	cont "never bad people!"
+	para "Lass uns Freunde"
+	line "sein! PIKACHU-Fans"
+	cont "sind gute"
+	cont "Menschen!"
 
-	para "Let's chat about"
-	line "PIKACHU!"
+	para "Lass uns über"
+	line "PIKACHU plaudern!"
 
-	para "Can I get your"
-	line "phone number?"
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 	done
 
 DerekAskNumber2Text:
-	text "Let's chat about"
-	line "PIKACHU!"
+	text "Lass uns über"
+	line "PIKACHU plaudern!"
 
-	para "Can I get your"
-	line "phone number?"
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 	done
 
 DerekNumberAcceptedText:
-	text "PIKACHU is the"
-	line "one! If anything"
+	text "PIKACHU ist mein"
+	line "Ein und Alles! Ich"
 
-	para "comes up, I'll"
-	line "give you a jingle."
+	para "rufe an, wenn es"
+	line "Neuigkeiten gibt."
 	done
 
 DerekNumberDeclinedText:
-	text "You…"
+	text "Du…"
 
-	para "I bet you don't"
-	line "even like PIKACHU…"
+	para "Ich könnte wetten,"
+	line "du magst PIKACHU"
+	cont "nicht einmal…"
 	done
 
 DerekPhoneFullText:
-	text "Wait a sec! Your"
-	line "phone list's full!"
+	text "Dein Nummern-"
+	line "speicher ist voll."
 	done
 
 DerekGiftText:
-	text "I've been looking"
-	line "for you! Here, see"
-	cont "this? This is it!"
+	text "Ich habe dich"
+	line "gesucht! Hier,"
+	cont "das ist für dich!"
 
-	para "I'm certain your"
-	line "PIKACHU will love"
-	cont "my gift too!"
+	para "Sicherlich mag"
+	line "dein PIKACHU das"
+	cont "Geschenk auch!"
 	done
 
 DerekPackFullText:
-	text "Uh-oh, too bad."
-	line "You don't have any"
+	text "Hmm, schade. Du"
+	line "hast keinen Platz."
 
-	para "room. Be sure to"
-	line "get it later."
+	para "Hol es dir später"
+	line "ab."
 	done

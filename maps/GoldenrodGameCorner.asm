@@ -320,47 +320,48 @@ GoldenrodGameCornerCardFlipMachineScript:
 	end
 
 GoldenrodGameCornerPrizeVendorIntroText:
-	text "Welcome!"
+	text "Willkommen!"
 
-	para "We exchange your"
-	line "game coins for"
-	cont "fabulous prizes!"
+	para "Wir tauschen deine"
+	line "Spielmünzen gegen"
+	cont "tolle Preise!"
 	done
 
 GoldenrodGameCornerPrizeVendorWhichPrizeText:
-	text "Which prize would"
-	line "you like?"
+	text "Welchen Preis"
+	line "möchtest du?"
 	done
 
 GoldenrodGameCornerPrizeVendorConfirmPrizeText:
 	text_ram wStringBuffer3
 	text "."
-	line "Is that right?"
+	line "Ist das O.K.?"
 	done
 
 GoldenrodGameCornerPrizeVendorHereYouGoText:
-	text "Here you go!"
+	text "Hier, bitte!"
 	done
 
 GoldenrodGameCornerPrizeVendorNeedMoreCoinsText:
-	text "Sorry! You need"
-	line "more coins."
+	text "Tut mir Leid, aber"
+	line "du brauchst mehr"
+	cont "Münzen."
 	done
 
 GoldenrodGameCornerPrizeVendorNoMoreRoomText:
-	text "Sorry. You can't"
-	line "carry any more."
+	text "Du kannst nichts"
+	line "mehr tragen."
 	done
 
 GoldenrodGameCornerPrizeVendorQuitText:
-	text "OK. Please save"
-	line "your coins and"
-	cont "come again!"
+	text "Sammle ein paar"
+	line "Münzen und komm"
+	cont "dann wieder!"
 	done
 
 GoldenrodGameCornerPrizeVendorNoCoinCaseText:
-	text "Oh? You don't have"
-	line "a COIN CASE."
+	text "Oh? Du hast keinen"
+	line "MÜNZKORB."
 	done
 
 GoldenrodGameCornerPharmacistText:
@@ -428,19 +429,21 @@ else
 endc
 
 GoldenrodGameCornerCooltrainerFText:
-	text "I won't quit until"
-	line "I win!"
+	text "Ich höre erst auf,"
+	line "wenn ich gewinne!"
 	done
 
 GoldenrodGameCornerGentlemanText:
-	text "I taught BLIZZARD"
-	line "to my #MON."
+	text "Ich habe meinen"
+	line "#MON BLIZZARD"
+	cont "beigebracht."
 
-	para "It was hard to get"
-	line "enough coins for"
+	para "Es hat zwar gedau-"
+	line "ert, bis ich genug"
 
-	para "it, but it was"
-	line "worth it."
+	para "Münzen hatte, aber"
+	line "es hat sich ge-"
+	cont "lohnt."
 	done
 
 GoldenrodGameCornerPokefanM2Text:
@@ -465,15 +468,16 @@ else
 endc
 
 MoveTutorInsideText:
-	text "Wahahah! The coins"
-	line "keep rolling in!"
+	text "Wahaha! Die Münzen"
+	line "fallen weiter!"
 	done
 
 GoldenrodGameCornerLeftTheirDrinkText:
-	text "Someone left their"
-	line "drink."
+	text "Jemand hat sein"
+	line "Getränk stehen"
 
-	para "It smells sweet."
+	para "lassen. Es riecht"
+	line "süせ!"
 	done
 
 GoldenrodGameCorner_MapEvents:

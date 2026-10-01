@@ -44,52 +44,61 @@ Route32Pokecenter1FCooltrainerFScript:
 	jumptextfaceplayer Route32Pokecenter1FCooltrainerFText
 
 Route32Pokecenter1FFishingGuruText_Question:
-	text "This is a great"
-	line "fishing spot."
+	text "Das ist ein"
+	line "hervorragender"
+	cont "Platz zum Angeln."
 
-	para "You saw people"
-	line "fishing? How"
-	cont "about you?"
+	para "Du hast Leute"
+	line "beim Angeln"
 
-	para "Would you like one"
-	line "of my RODS?"
+	para "gesehen? Wie"
+	line "steht es mit dir?"
+
+	para "Hättest du gerne"
+	line "eine ANGEL"
+	cont "von mir?"
 	done
 
 Route32Pokecenter1FFishingGuruText_Yes:
-	text "Heh, that's good"
-	line "to hear."
+	text "He! Das höre ich"
+	line "wirklich gerne!"
 
-	para "Now you're an"
-	line "angler too!"
+	para "Jetzt bist du"
+	line "auch ein Angler!"
 	done
 
 Route32Pokecenter1FFishingGuruText_GiveOldRod:
-	text "Fishing is great!"
+	text "Angeln ist toll!"
 
-	para "If there's water,"
-	line "be it the sea or a"
+	para "Probiere überall,"
+	line "wo Wasser ist,"
 
-	para "stream, try out"
-	line "your ROD."
+	para "deine ANGEL aus;"
+	line "sei es am Meer"
+
+	para "oder an einem"
+	line "Fluss."
 	done
 
 Route32Pokecenter1FFishingGuruText_No:
-	text "Oh. That's rather"
-	line "disappointing…"
+	text "Na, das ist aber"
+	line "ziemlich mager…"
 	done
 
 Route32Pokecenter1FFishingGuruText_After:
-	text "Yo, kid. How are"
-	line "they biting?"
+	text "Moin, lüttes Ding."
+	line "Und beiせen sie?"
 	done
 
 Route32Pokecenter1FCooltrainerFText:
-	text "What should I make"
-	line "my #MON hold?"
+	text "Was soll mein"
+	line "#MON tragen?"
 
-	para "Maybe an item that"
-	line "increases ATTACK"
-	cont "power…"
+	para "Vielleicht ein"
+	line "Item, das seinen"
+
+	para "ANGR-Wert"
+	line "verstärkt…"
 	done
 
 Route32Pokecenter1F_MapEvents:

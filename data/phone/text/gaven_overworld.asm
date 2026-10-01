@@ -1,63 +1,66 @@
 GavenAskNumber1Text:
-	text "Wow, you're tough."
-	line "I haven't battled"
+	text "Oh, du bist stark."
+	line "So einen harten"
 
-	para "that seriously in"
-	line "a long time."
+	para "Kampf hatte ich"
+	line "lange nicht."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 
-	para "I'd like to battle"
-	line "again when I heal"
+	para "Ich fordere dich"
+	line "erneut heraus,"
 
-	para "@"
+	para "wenn @"
 	text_ram wStringBuffer4
-	text " and the"
-	line "rest of my team."
+	text_start
+	line "und die anderen"
+	cont "wieder fit sind."
 	done
 
 GavenAskNumber2Text:
-	text "Could I get your"
-	line "phone number?"
+	text "Gibst du mir deine"
+	line "Telefonnummer?"
 
-	para "I'd like to battle"
-	line "again when I heal"
+	para "Ich fordere dich"
+	line "erneut heraus,"
 
-	para "@"
+	para "wenn @"
 	text_ram wStringBuffer4
-	text " and the"
-	line "rest of my team."
+	text_start
+	line "und die anderen"
+	cont "wieder fit sind."
 	done
 
 GavenNumberAcceptedText:
-	text "How should I beat"
-	line "you? I'm tormented"
+	text "Wie kann ich dich"
+	line "besiegen? Allein"
 
-	para "by those thoughts"
-	line "all the time…"
+	para "dieser Gedanke"
+	line "verfolgt mich…"
 	done
 
 GavenNumberDeclinedText:
-	text "OK… I understand…"
-	line "But if you change"
+	text "Aha… ich verstehe…"
+	line "Aber wenn du deine"
 
-	para "your mind, give me"
-	line "a shout anytime."
+	para "Meinung änderst,"
+	line "gib mir Bescheid."
 	done
 
 GavenPhoneFullText:
-	text "Your phone's"
-	line "memory is full."
+	text "Dein Nummern-"
+	line "speicher ist voll."
 
-	para "You can't register"
-	line "my number."
+	para "Du kannst meine"
+	line "Nummer nicht"
+	cont "speichern."
 	done
 
 GavenRematchText:
-	text "Hi! I've been"
-	line "waiting for you!"
+	text "Hallo! Ich habe"
+	line "dich erwartet!"
 
-	para "This time, I'm"
-	line "going to win!"
+	para "Dieses Mal ist"
+	line "der Sieg mein!"
 	done

@@ -317,250 +317,279 @@ RocketBaseRivalShovesPlayerMovement:
 	step_end
 
 LanceGetPasswordText:
-	text "LANCE: It takes"
-	line "two passwords to"
+	text "SIEGFRIED: Man"
+	line "benötigt zwei"
 
-	para "get into the"
-	line "boss's quarters."
+	para "Passwörter, um Zu-"
+	line "tritt zum Quartier"
+	cont "des Bosses zu"
+	cont "bekommen."
 
-	para "Those passwords"
-	line "are known only to"
-	cont "a few ROCKETS."
+	para "Nur ein paar Mit-"
+	line "glieder von TEAM"
+	cont "ROCKET kennen sie."
 
-	para "That ROCKET there"
-	line "very graciously"
-	cont "told me so."
+	para "Diese Auskunft hat"
+	line "mir dieser"
+	cont "ROCKET gegeben."
 
-	para "<PLAY_G>, let's go"
-	line "get the passwords."
+	para "<PLAY_G>, los!"
+	line "Holen wir uns"
+	cont "die Passwörter."
 	done
 
 TeamRocketBaseB3FRocketText:
-	text "Urrggh… The guy"
-	line "in the cape is"
-	cont "incredibly tough…"
+	text "Urrggh… Der Typ"
+	line "mit dem Umhang ist"
+	cont "furchtbar stark…"
 	done
 
 RocketBaseRivalText:
 	text "…"
 
-	para "Didn't I tell you"
-	line "that I was going"
+	para "Habe ich dir nicht"
+	line "gesagt, dass ich"
 
-	para "to destroy TEAM"
-	line "ROCKET?"
+	para "TEAM ROCKET"
+	line "zerschlage?"
 
-	para "…Tell me, who was"
-	line "the guy in the"
+	para "…Sag mir, wer war"
+	line "der Typ mit dem"
 
-	para "cape who used"
-	line "dragon #MON?"
+	para "Umhang, der die"
+	line "Drachen-#MON"
+	cont "einsetzte?"
 
-	para "My #MON were no"
-	line "match at all."
+	para "Meine #MON"
+	line "waren keine Gegner"
+	cont "für ihn."
 
-	para "I don't care that"
-	line "I lost. I can beat"
+	para "Die Niederlage"
+	line "macht mir nichts"
 
-	para "him by getting"
-	line "stronger #MON."
+	para "aus. Mit stärkeren"
+	line "#MON kann ich"
+	cont "ihn besiegen."
 
-	para "It's what he said"
-	line "that bothers me…"
+	para "Was mich wurmt"
+	line "ist, was er zu"
+	cont "mir gesagt hat…"
 
-	para "He told me that"
-	line "I don't love and"
+	para "Er sagte, dass ich"
+	line "meine #MON"
 
-	para "trust my #MON"
-	line "enough."
+	para "nicht ausreichend"
+	line "liebe und ihnen"
+	cont "nicht vertraue."
 
-	para "I'm furious that I"
-	line "lost to a bleeding"
-	cont "heart like him."
+	para "Ich bin wütend,"
+	line "dass ich gegen so"
+	cont "ein Groせmaul"
+	cont "verloren habe."
 
-	para "…Humph! I don't"
-	line "have the time for"
-	cont "the likes of you!"
+	para "…Humpf! Für Typen"
+	line "wie dich habe"
+	cont "ich keine Zeit!"
 	done
 
 ExecutiveM4BeforeText:
-	text "What? Who are you?"
-	line "This is the office"
+	text "Was? Wer bist du?"
+	line "Dies ist das Büro"
 
-	para "of our leader,"
+	para "unseres Anführers"
 	line "GIOVANNI."
 
-	para "Since disbanding"
-	line "TEAM ROCKET three"
+	para "Er trainiert, seit"
+	line "das TEAM ROCKET"
 
-	para "years ago, he has"
-	line "been in training."
+	para "vor drei Jahren"
+	line "zerschlagen wurde."
 
-	para "But we're certain"
-	line "he will be back"
+	para "Wir sind sicher,"
+	line "dass er eines"
 
-	para "some day to assume"
-	line "command again."
+	para "Tages zurückkehren"
+	line "wird, um das"
+	cont "Kommando wieder"
+	cont "zu übernehmen."
 
-	para "That's why we're"
-	line "standing guard."
+	para "Darum halten wir"
+	line "Wache."
 
-	para "I won't let any-"
-	line "one disturb this"
-	cont "place!"
+	para "Ich lasse nicht"
+	line "zu, dass es"
+	cont "hier laut wird!"
 	done
 
 ExecutiveM4BeatenText:
-	text "I… I couldn't do a"
-	line "thing…"
+	text "Ich… ich konnte"
+	line "nichts machen…"
 
-	para "GIOVANNI, please"
-	line "forgive me…"
+	para "Bitte vergib"
+	line "mir, GIOVANNI…"
 	done
 
 ExecutiveM4AfterText:
-	text "No, I can't let"
-	line "this affect me."
+	text "Das darf mich"
+	line "nicht belasten."
 
-	para "I have to inform"
-	line "the others…"
+	para "Ich muss es den"
+	line "anderen sagen…"
 	done
 
 RocketBaseMurkrowText:
-	text "MURKROW: The"
-	line "password is…"
+	text "KRAMURX: Das"
+	line "Passwort lautet…"
 
-	para "HAIL GIOVANNI."
+	para "PREISET GIOVANNI."
 	done
 
 GruntF5SeenText:
-	text "Do I know the"
-	line "password?"
+	text "Ob ich das"
+	line "Passwort weiせ?"
 
-	para "Maybe."
+	para "Vielleicht."
 
-	para "But no weakling's"
-	line "going to get it!"
+	para "Schwächlinge"
+	line "werden es nie"
+	cont "erfahren!"
 	done
 
 GruntF5BeatenText:
-	text "All right. Stop."
-	line "I'll tell you."
+	text "O.K. Genug."
+	line "Ich verrate es"
+	cont "dir."
 	done
 
 GruntF5AfterBattleText:
-	text "The password to"
-	line "the boss's room is"
+	text "Das Passwort zum"
+	line "Büro vom Boss"
+	cont "lautet"
 
-	para "SLOWPOKETAIL."
+	para "FLEGMONRUTE."
 
-	para "But it's useless"
-	line "unless you have"
-	cont "two passwords."
+	para "Es ist aber"
+	line "nutzlos, denn du"
+	cont "benötigst zwei"
+	cont "Passwörter."
 	done
 
 GruntM28SeenText:
-	text "Hyuck-hyuck-hyuck!"
+	text "Hiuck-hiuck-hiuck!"
 
-	para "You're challenging"
-	line "me to a battle?"
+	para "Du forderst mich"
+	line "zu einem Kampf"
 
-	para "Hah! You're nuts,"
-	line "but you have guts!"
+	para "heraus? Pah! Du"
+	line "bist dumm, aber du"
+	cont "hast Mumm!"
 
-	para "I like that!"
+	para "Das mag ich!"
 
-	para "If you can beat"
-	line "me, I'll tell you"
+	para "Falls du mich"
+	line "besiegst, verrate"
 
-	para "a password to the"
-	line "boss's room!"
+	para "ich dir ein"
+	line "Passwort für das"
+	cont "Büro vom Boss!"
 	done
 
 GruntM28BeatenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "You're good!"
+	text "Hiuck-hiuck-hiuck!"
+	line "Du bist gut!"
 	done
 
 GruntM28AfterBattleText:
-	text "Hyuck-hyuck-hyuck!"
+	text "Hiuck-hiuck-hiuck!"
 
-	para "The password to"
-	line "the boss's room…"
+	para "Das Passwort für"
+	line "das Büro vom Boss…"
 
-	para "Uh…, I think it is"
-	line "RATICATE TAIL."
+	para "Uh… ich glaube,"
+	line "es lautet"
+	cont "RATTIKARLRUTE."
 	done
 
 ScientistRossSeenText:
-	text "I used to work for"
-	line "SILPH, but now I"
+	text "Früher arbeitete"
+	line "ich für SILPH,"
 
-	para "run research for"
-	line "TEAM ROCKET."
+	para "aber jetzt leite"
+	line "ich TEAM ROCKETs"
+	cont "Forschungen."
 
-	para "A meddlesome child"
-	line "like you needs to"
-	cont "be punished."
+	para "Ein Kind wie du,"
+	line "das sich überall"
+	cont "einmischt, muss"
+	cont "bestraft werden."
 	done
 
 ScientistRossBeatenText:
-	text "A mere tactical"
-	line "error cost me…"
+	text "Nur wegen eines"
+	line "kleinen taktischen"
+	cont "Fehlers…"
 	done
 
 ScientistRossAfterBattleText:
-	text "A radio signal"
-	line "that drives #-"
-	cont "MON mad…"
+	text "Ein Radiosignal,"
+	line "das #MON um den"
+	cont "Verstand bringt…"
 
-	para "My experiment is a"
-	line "complete success."
+	para "Mein Experiment"
+	line "war ein voller"
+	cont "Erfolg."
 
-	para "My promotion is"
-	line "assured. This loss"
+	para "Meine Beförderung"
+	line "ist gewiss. Dieser"
 
-	para "means absolutely"
-	line "nothing."
+	para "Verlust bedeutet"
+	line "nichts."
 	done
 
 ScientistMitchSeenText:
-	text "I don't care that"
-	line "#MON are hurt"
-	cont "by our experiment."
+	text "Es ist mir egal,"
+	line "dass #MON bei"
+	cont "unserem Experiment"
+	cont "Schmerzen"
+	cont "zugefügt werden."
 	done
 
 ScientistMitchBeatenText:
-	text "Thinking is my"
-	line "strong suit, not"
-	cont "battling."
+	text "Meine Stärke ist"
+	line "das Denken, nicht"
+	cont "das Kämpfen."
 	done
 
 ScientistMitchAfterBattleText:
-	text "If we turn up the"
-	line "power of our radio"
+	text "Wenn wir das"
+	line "Radiosignal ver-"
+	cont "stärken, könnte"
 
-	para "signal for broad-"
-	line "cast nationwide…"
+	para "man es im ganzen"
+	line "Land empfangen…"
 
-	para "The very thought"
-	line "excites me!"
+	para "Allein der Gedanke"
+	line "entzückt mich!"
 	done
 
 TeamRocketBaseB3FLockedDoorNeedsPasswordText:
-	text "The door's closed…"
+	text "Die Tür ist"
+	line "verschlossen…"
 
-	para "It needs two"
-	line "passwords to open."
+	para "Zum Öffnen werden"
+	line "zwei Passwörter"
+	cont "benötigt."
 	done
 
 TeamRocketBaseB3FLockedDoorOpenSesameText:
-	text "The door's closed…"
+	text "Die Tür ist"
+	line "verschlossen…"
 
-	para "<PLAYER> entered"
-	line "the two passwords."
+	para "<PLAYER> gibt beide"
+	line "Passwörter ein."
 
-	para "The door opened!"
+	para "Die Tür wird"
+	line "entriegelt!"
 	done
 
 TeamRocketBaseB3F_MapEvents:

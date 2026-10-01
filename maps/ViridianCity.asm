@@ -86,131 +86,148 @@ ViridianCityMartSign:
 	jumpstd MartSignScript
 
 ViridianCityCoffeeGrampsQuestionText:
-	text "Hey, kid! I just"
-	line "had a double shot"
+	text "He, Kurzbein! Ich"
+	line "hatte gerade einen"
 
-	para "of espresso, and"
-	line "I am wired!"
+	para "doppelten Espresso"
+	line "und ich bin"
+	cont "total aufgedreht!"
 
-	para "I need to talk to"
-	line "someone, so you'll"
-	cont "have to do!"
+	para "Ich brauche jetzt"
+	line "jemanden zum"
+	cont "Reden und zwar"
+	cont "dich!"
 
-	para "I might not look"
-	line "like much now, but"
+	para "Man sieht es mir"
+	line "jetzt vielleicht"
 
-	para "I was an expert at"
-	line "catching #MON."
+	para "nicht mehr an,"
+	line "aber ich war ein"
+	cont "Experte im Fangen"
+	cont "von #MON."
 
-	para "Do you believe me?"
+	para "Glaubst du mir?"
 	done
 
 ViridianCityCoffeeGrampsBelievedText:
-	text "Good, good. Yes, I"
-	line "was something out"
+	text "Also gut. Ja, ich"
+	line "war wirklich etwas"
 
-	para "of the ordinary,"
-	line "let me tell you!"
+	para "Besonderes, das"
+	line "kann ich dir"
+	cont "sagen!"
 	done
 
 ViridianCityCoffeeGrampsDoubtedText:
-	text "What? You little"
-	line "whelp!"
+	text "Was? Du kleiner"
+	line "Frechdachs!"
 
-	para "If I were just a"
-	line "bit younger, I'd"
+	para "Wenn ich etwas"
+	line "jünger wäre, würde"
 
-	para "show you a thing"
-	line "or two. Humph!"
+	para "ich dir schon das"
+	line "eine oder andere"
+	cont "zeigen! Grummel."
 	done
 
 ViridianCityGrampsNearGymText:
-	text "This GYM didn't"
-	line "have a LEADER"
-	cont "until recently."
+	text "Bis vor kurzem"
+	line "gab es in dieser"
+	cont "PKMN-ARENA"
+	cont "keinen LEITER."
 
-	para "A young man from"
-	line "PALLET became the"
+	para "Ein junger Mann"
+	line "aus ALABASTIA ist"
 
-	para "LEADER, but he's"
-	line "often away."
+	para "hier der LEITER"
+	line "geworden, aber er"
+	cont "ist oft unterwegs."
 	done
 
 ViridianCityGrampsNearGymBlueReturnedText:
-	text "Are you going to"
-	line "battle the LEADER?"
+	text "Wirst du den"
+	line "ARENALEITER"
+	cont "herausfordern?"
 
-	para "Good luck to you."
-	line "You'll need it."
+	para "Viel Glück! Du"
+	line "wirst es brauchen."
 	done
 
 ViridianCityDreamEaterFisherText:
-	text "Yawn!"
+	text "Gähn!"
 
-	para "I must have dozed"
-	line "off in the sun."
+	para "Ich bin wohl in"
+	line "der Sonne"
+	cont "eingeschlafen."
 
-	para "…I had this dream"
-	line "about a DROWZEE"
+	para "…Ich hatte diesen"
+	line "Traum von einem"
 
-	para "eating my dream."
-	line "Weird, huh?"
+	para "TRAUMATO, das"
+	line "meinen Traum"
 
-	para "Huh?"
-	line "What's this?"
+	para "fressen wollte."
+	line "Das ist doch"
 
-	para "Where did this TM"
-	line "come from?"
+	para "merkwürdig,"
+	line "nicht wahr?"
 
-	para "This is spooky!"
-	line "Here, you can have"
-	cont "this TM."
+	para "Nanu!"
+	line "Was ist das?"
+
+	para "Wo ist diese TM"
+	line "hergekommen?"
+
+	para "Unheimlich!"
+	line "Hier, du kannst"
+	cont "die TM behalten."
 	done
 
 ViridianCityDreamEaterFisherGotDreamEaterText:
-	text "TM42 contains"
-	line "DREAM EATER…"
+	text "TM42 enthält"
+	line "TRAUMFRESSER…"
 
 	para "…Zzzzz…"
 	done
 
 ViridianCityYoungsterText:
-	text "I heard that there"
-	line "are many items on"
+	text "Ich habe gehört,"
+	line "dass man viele"
 
-	para "the ground in"
-	line "VIRIDIAN FOREST."
+	para "Items im VERTANIA-"
+	line "WALD findet."
 	done
 
 ViridianCitySignText:
-	text "VIRIDIAN CITY"
+	text "VERTANIA CITY"
 
-	para "The Eternally"
-	line "Green Paradise"
+	para "Das Immergrüne"
+	line "Paradies"
 	done
 
 ViridianGymSignText:
-	text "VIRIDIAN CITY"
-	line "#MON GYM"
-	cont "LEADER: …"
+	text "PKMN-ARENA von"
+	line "VERTANIA CITY"
+	cont "LEITUNG: …"
 
-	para "The rest of the"
-	line "text is illegible…"
+	para "Der Rest des Tex-"
+	line "tes ist unlesbar…"
 	done
 
 ViridianCityWelcomeSignText:
-	text "WELCOME TO"
-	line "VIRIDIAN CITY,"
+	text "Willkommen in"
+	line "VERTANIA CITY,"
 
-	para "THE GATEWAY TO"
+	para "dem Tor zum"
 	line "INDIGO PLATEAU"
 	done
 
 TrainerHouseSignText:
-	text "TRAINER HOUSE"
+	text "TRAINER-HAUS"
 
-	para "The Club for Top"
-	line "Trainer Battles"
+	para "Der Club, in dem"
+	line "Top-Trainer"
+	cont "kämpfen"
 	done
 
 ViridianCity_MapEvents:

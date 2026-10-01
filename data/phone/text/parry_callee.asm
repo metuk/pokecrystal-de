@@ -1,72 +1,72 @@
 ParryAnswerPhoneText:
-	text "Yup, yup!"
-	line "It's @"
+	text "Jepp!"
+	line "Ich, @"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Hah, and here's"
+	para "Hah, und da ist"
 	line "<PLAY_G>!"
 	done
 
 ParryAnswerPhoneDayText:
-	text "Yup, yup!"
-	line "It's @"
+	text "Jepp!"
+	line "@"
 	text_ram wStringBuffer3
-	text "!"
+	text " hier!"
 
-	para "Hah, and here's"
+	para "Hah, und da ist"
 	line "<PLAY_G>!"
 	done
 
 ParryAnswerPhoneNiteText:
-	text "Yup, yup!"
-	line "It's @"
+	text "Jepp!"
+	line "Ich, @"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Hah, and here's"
+	para "Hah, und da ist"
 	line "<PLAY_G>!"
 	done
 
 ParryGreetText:
-	text "<PLAY_G>, it's"
+	text "<PLAY_G>, ich,"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Have you had a"
-	line "proper breakfast?"
+	para "Hattest du ein"
+	line "groせes Frühstück?"
 	done
 
 ParryGreetDayText:
-	text "<PLAY_G>, it's"
+	text "<PLAY_G>, ich,"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Have you had a"
-	line "proper lunch?"
+	para "Hattest du ein"
+	line "gutes Mittagessen?"
 	done
 
 ParryGreetNiteText:
-	text "<PLAY_G>, it's"
+	text "<PLAY_G>, ich,"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Have you had a"
-	line "proper dinner?"
+	para "Hattest du ein"
+	line "groせes Abendessen?"
 	done
 
 ParryGenericText:
-	text "Are your #MON"
-	line "looking good?"
+	text "Sehen deine #-"
+	line "MON gut aus?"
 
-	para "My @"
+	para "Mein @"
 	text_ram wStringBuffer4
-	text " and"
-	line "me--we're looking"
+	text_start
+	line "und ich, wir sehen"
 
-	para "mighty dandy!"
-	line "Hahahah!"
+	para "hervorragend aus!"
+	line "Hahaha!"
 	done

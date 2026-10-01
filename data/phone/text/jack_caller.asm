@@ -1,192 +1,207 @@
 JackIntelligenceKeepsRisingText:
-	text "My @"
-	text_ram wStringBuffer4
-	text "'s"
-	line "intelligence keeps"
+	text "Die Intelligenz"
+	line "von meinem"
 
-	para "rising. It might"
-	line "be smarter than"
-	cont "yours!"
+	para "@"
+	text_ram wStringBuffer4
+	text " steigt"
+	line "und steigt. Es"
+
+	para "könnte intelligen-"
+	line "ter als deines"
+	cont "sein!"
 	done
 
 JackDefeatedMonText:
-	text "The other day, I"
-	line "easily defeated a"
-	cont "@"
+	text "Neulich habe ich"
+	line "mit Leichtigkeit"
+	cont "ein @"
 	text_ram wStringBuffer4
-	text "."
+	text_start
+	cont "besiegt."
 
-	para "I think swapping"
-	line "tips with you is"
-	cont "starting to help."
+	para "Ich denke, wenn"
+	line "wir uns gegensei-"
+	cont "tig Tipps geben,"
+	cont "hilft uns das."
 	done
 
 JackLostAMonText:
-	text "Oh, and listen."
-	line "I missed catching"
+	text "Oh, und hör zu."
+	line "Ich habe es nur"
 
-	para "a @"
+	para "knapp verpasst,"
+	line "ein @"
 	text_ram wStringBuffer4
-	text " by"
-	line "just a tiny bit."
+	text_start
+	cont "zu fangen."
 
-	para "If I'd been a bit"
-	line "more informed, I'm"
-
-	para "sure I would've"
-	line "caught it…"
+	para "Wäre ich besser"
+	line "informiert gewe-"
+	cont "sen, hätte ich es"
+	cont "bestimmt gefangen…"
 	done
 
 JackBattleRematchText:
-	text "Do you want to"
-	line "battle? I'll show"
+	text "Willst du kämpfen?"
+	line "Ich zeige dir, wie"
 
-	para "you how to battle"
-	line "logically."
+	para "man logisch"
+	line "kämpft."
 
-	para "I'll be in"
+	para "Ich warte hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Give me a shout if"
-	line "you're nearby."
+	para "Melde dich, wenn"
+	line "du in der Nähe"
+	cont "bist."
 	done
 
 JackHangUpText:
-	text "See you later!"
+	text "Bis später!"
 	done
 
 JackThunderTriviaText:
-	text "Did you know?"
+	text "Hast du gewusst?"
 
-	para "When it's raining,"
-	line "THUNDER is sure to"
-	cont "strike."
+	para "Wenn es regnet,"
+	line "gibt es bestimmt"
+	cont "auch DONNER."
 	done
 
 JackRolloutTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "If you use DEFENSE"
-	line "CURL, ROLLOUT's"
+	para "Wenn du EINIGLER"
+	line "einsetzt, steigt"
 
-	para "power goes way up"
-	line "past normal."
+	para "die Stärke von"
+	line "WALZER überdurch-"
+	cont "schnittlich an."
 	done
 
 JackSolarbeamTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "If the sunlight is"
-	line "harsh, SOLARBEAM"
+	para "Wenn das Sonnen-"
+	line "licht stark ist,"
 
-	para "doesn't need to be"
-	line "charged up."
+	para "muss SOLARSTRAHL"
+	line "nicht aufgeladen"
+	cont "werden."
 	done
 
 JackStompTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "If the opponent"
-	line "uses MINIMIZE,"
+	para "Setzt der Gegner"
+	line "KOMPRIMATOR ein,"
 
-	para "your STOMP becomes"
-	line "more powerful."
+	para "wird STAMPFER"
+	line "noch stärker."
 	done
 
 JackGustTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "If your opponent"
-	line "is FLYing, your"
+	para "Setzt dein Gegner"
+	line "FLIEGEN ein, wird"
 
-	para "GUST becomes much"
-	line "more powerful."
+	para "WINDSTOSS viel"
+	line "stärker."
 	done
 
 JackTwisterTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "If your opponent"
-	line "is FLYing, your"
+	para "Setzt dein Gegner"
+	line "FLIEGEN ein, wird"
 
-	para "TWISTER becomes"
-	line "more powerful."
+	para "WINDHOSE viel"
+	line "stärker."
 	done
 
 JackEarthquakeTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "If your opponent"
-	line "uses DIG, your"
+	para "Setzt dein Gegner"
+	line "SCHAUFLER ein,"
 
-	para "EARTHQUAKE becomes"
-	line "more powerful."
+	para "wird ERDBEBEN"
+	line "viel stärker."
 	done
 
 JackMagnitudeTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "If your opponent"
-	line "uses DIG, your"
+	para "Setzt dein Gegner"
+	line "SCHAUFLER ein,"
 
-	para "MAGNITUDE becomes"
-	line "more powerful."
+	para "wird INTENSITÄT"
+	line "viel stärker."
 	done
 
 JackSandstormTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "The rock, ground"
-	line "and steel types"
+	para "#MON der Ele-"
+	line "mentklassen Boden,"
 
-	para "can't be hurt by"
-	line "SANDSTORM."
+	para "Gestein und Stahl"
+	line "werden von"
+
+	para "SANDSTURM nicht"
+	line "verletzt."
 	done
 
 JackSunnyDayTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "If the sunlight is"
-	line "harsh, water-type"
+	para "Wenn das Sonnen-"
+	line "licht stark ist,"
 
-	para "moves become much"
-	line "weaker."
+	para "sind Wasser-"
+	line "Attacken viel"
+
+	para "schwächer."
 	done
 
 JackRainDanceTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "When it's raining,"
-	line "fire-type moves"
+	para "Bei Regen sind"
+	line "Feuer-Attacken"
 
-	para "become much weaker"
-	line "than usual."
+	para "viel schwächer"
+	line "als gewöhnlich."
 	done
 
 JackHeardSomeGreatTipsText:
-	text "My friend heard"
-	line "some great tips."
+	text "Mein Kamerad er-"
+	line "hielt einige"
+	cont "gute Tipps."
 
-	para "He's going to let"
-	line "me in on some."
+	para "Er verrät mir auch"
+	line "einige."
 
-	para "When he tells me,"
-	line "I'll call right"
-	cont "away and tell you."
+	para "Wenn er sie mir"
+	line "sagt, rufe ich"
+	cont "dich sofort an."
 	done
 
 JackReminderText:
-	text "Hey, <PLAY_G>!"
+	text "Heh, <PLAY_G>!"
 
-	para "Do you remember"
-	line "your promise?"
+	para "Erinnerst du dich"
+	line "an dein Ver-"
+	cont "sprechen? Wir"
 
-	para "We have to battle"
-	line "soon!"
+	para "müssen bald"
+	line "kämpfen!"
 
-	para "I'll be at"
+	para "Ich warte hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "."

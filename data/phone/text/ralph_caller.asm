@@ -1,133 +1,142 @@
 RalphNeglectingKidsText:
-	text "I've been spending"
-	line "more time with my"
+	text "Ich habe mehr Zeit"
+	line "mit meinem"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " than I"
-	line "have with my kids."
+	text " ver-"
+	line "bracht, als mit"
+	cont "meinen Kindern."
 
-	para "That's a bit sad,"
-	line "actually."
+	para "Das ist in der Tat"
+	line "schade."
 	done
 
 RalphDefeatedMonText:
-	text "I just beat a wild"
-	line "@"
+	text "Ich besiegte ein"
+	line "wildes @"
 	text_ram wStringBuffer4
 	text "."
 
-	para "I told my kid, but"
-	line "he scoffed that he"
+	para "Ich erzählte es"
+	line "meinem Sohn, aber"
 
-	para "could do the same"
-	line "thing easily."
+	para "er sagte, er könne"
+	line "das auch leicht"
+	cont "tun."
 
-	para "Boy, has he gotten"
-	line "cocky…"
+	para "Er ist sehr auf-"
+	line "sässig geworden…"
 	done
 
 RalphLostAMonText:
-	text "Yesterday a wild"
-	line "@"
+	text "Gestern ist mir"
+	line "ein wildes"
+
+	para "@"
 	text_ram wStringBuffer4
-	text " slipped"
+	text " direkt"
+	line "vor den Augen"
 
-	para "away from me, in"
-	line "front of my kid."
+	para "meines Sohnes"
+	line "entwischt."
 
-	para "I was feeling down"
-	line "about it until he"
+	para "Ich war darüber"
+	line "verärgert, bis er"
 
-	para "shared his #"
-	line "BALLS with me."
+	para "seine #BÄLLE"
+	line "mit mir geteilt"
+	cont "hat."
 
-	para "Hahah, that sure"
-	line "made my day!"
+	para "Haha, das hat mir"
+	line "den Tag gerettet!"
 	done
 
 RalphBattleRematchText:
-	text "What do you say to"
-	line "a battle with me?"
+	text "Würdest du gegen"
+	line "mich kämpfen?"
 
-	para "Good, you're going"
-	line "to do it!"
+	para "Gut, so soll es"
+	line "denn geschehen!"
 
-	para "For a kid, you're"
-	line "quite agreeable."
+	para "Du bist umgänglich"
+	line "für ein Kind."
 
 	para "@"
 	text_ram wStringBuffer5
-	text " is"
-	line "the spot!"
+	text ","
+	line "dort bin ich!"
 	done
 
 RalphHangUpText:
-	text "You call your mom"
-	line "sometimes too!"
+	text "Rufst du auch"
+	line "manchmal deine"
+	cont "Mama an?"
 	done
 
 RalphItemText:
-	text "Listen, I… Yowch!"
+	text "Hör mal, ich…Aua!"
 
-	para "Uh, sorry! See,"
+	para "Sorry! Pass auf,"
 	line "@"
 	text_ram wStringBuffer4
-	text " are"
+	text " beiせen,"
 
-	para "biting like there"
-	line "is no tomorrow"
+	para "als gäbe es kein"
+	line "Morgen und zwar"
 
-	para "over here on"
+	para "genau hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 
-	para "Aiyee! Ouch!"
-	line "One jabbed me!"
+	para "Autsch! Oje!"
+	line "Eines biss mich!"
 
-	para "Heh, they're some"
-	line "kind of feisty!"
+	para "Heh, sie sind sehr"
+	line "lebhaft!"
 
-	para "<PLAY_G>, you have"
-	line "to see this rare"
+	para "<PLAY_G>, das musst"
+	line "du dir ansehen!"
 
-	para "sight! Get ready"
-	line "to fish!"
+	para "Mach deine Angel"
+	line "fertig!"
 	done
 
 RalphNoItemText:
-	text "Yeah, I know."
+	text "Yo, ich weiせ."
 
-	para "You're looking for"
-	line "rare #MON."
+	para "Du suchst seltene"
+	line "#MON."
 
-	para "Recently, all I've"
-	line "been catching are"
-	cont "MAGIKARP, though…"
+	para "In letzter Zeit"
+	line "habe ich nur"
+	cont "KARPADOR gefangen…"
 	done
 
 RalphReminderText:
-	text "So where are you?"
-	line "I'm waiting for"
+	text "Wo bist du?"
+	line "Ich warte, dass du"
 
-	para "you to show up on"
+	para "hier auftauchst:"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "You shouldn't make"
-	line "your elders wait!"
+	para "Lass die Älteren"
+	line "nicht warten!"
 	done
 
 RalphHurryText:
-	text "Hey, what's the"
-	line "matter with you?"
+	text "Heh, was ist los"
+	line "mit dir?"
 
-	para "Aren't you coming"
-	line "over to fish for"
-	cont "QWILFISH?"
+	para "Bist du nicht ge-"
+	line "kommen, um"
+	cont "BALDORFISH zu"
+	cont "angeln?"
 
-	para "I'm on ROUTE 32,"
-	line "so hurry up!"
+	para "Ich warte auf"
+	line "ROUTE 32, also"
+	cont "beeil dich!"
 	done

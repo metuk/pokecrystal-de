@@ -654,6 +654,7 @@ MrChrono: ; unreferenced
 
 .NowOnDebug:
 	text_start
+
 	para "Now on DEBUG…"
 	prompt
 

@@ -161,178 +161,198 @@ Route40_StepUp4Movement: ; unreferenced
 	step_end
 
 SwimmermSimonSeenText:
-	text "You have to warm"
-	line "up before going"
-	cont "into the water."
+	text "Du musst dich erst"
+	line "aufwärmen, bevor"
+	cont "du schwimmen"
+	cont "gehst."
 
-	para "That's basic."
+	para "Das ist"
+	line "Grundwissen."
 	done
 
 SwimmermSimonBeatenText:
-	text "OK! Uncle! I give!"
+	text "O.K.! Onkel! Ich"
+	line "gebe auf!"
 	done
 
 SwimmermSimonAfterBattleText:
-	text "CIANWOOD CITY is"
-	line "a good distance"
-	cont "away from here."
+	text "ANEMONIA CITY ist"
+	line "ziemlich weit"
+	cont "weg von hier."
 	done
 
 SwimmermRandallSeenText:
-	text "Hey, you're young"
-	line "and fit!"
+	text "Heh, du bist jung"
+	line "und fit!"
 
-	para "Don't ride your"
-	line "#MON! Swim!"
+	para "Surfe nicht auf"
+	line "deinem #MON!"
+	cont "Schwimme!"
 	done
 
 SwimmermRandallBeatenText:
-	text "Uh-oh. I lost…"
+	text "Oh, oh. Ich habe"
+	line "verloren…"
 	done
 
 SwimmermRandallAfterBattleText:
-	text "Swimming exercises"
-	line "your entire body."
-	cont "It's healthy."
+	text "Schwimmen hält"
+	line "deinen ganzen"
+	cont "Körper fit und"
+	cont "gesund."
 	done
 
 SwimmerfElaineSeenText:
-	text "Are you going to"
-	line "CIANWOOD?"
+	text "Gehst du nach"
+	line "ANEMONIA CITY?"
 
-	para "How about a quick"
-	line "battle first?"
+	para "Wie wäre es erst"
+	line "mit einem kleinen"
+	cont "Kampftraining?"
 	done
 
 SwimmerfElaineBeatenText:
-	text "I lost that one!"
+	text "Diesmal habe ich"
+	line "verloren!"
 	done
 
 SwimmerfElaineAfterBattleText:
-	text "I'd say I'm a bet-"
-	line "ter swimmer than"
-	cont "you. Yeah!"
+	text "Ich behaupte,"
+	line "dass ich besser"
+	cont "schwimme als du!"
 	done
 
 SwimmerfPaulaSeenText:
-	text "No inner tube for"
-	line "me."
+	text "Ich habe keine"
+	line "Schwimmreifen."
 
-	para "I'm hanging on to"
-	line "a sea #MON!"
+	para "Ich halte mich an"
+	line "einem Wasser-"
+	cont "#MON fest!"
 	done
 
 SwimmerfPaulaBeatenText:
-	text "Ooh, I'm feeling"
-	line "dizzy!"
+	text "Oh, ich fühle mich"
+	line "so schwindelig!"
 	done
 
 SwimmerfPaulaAfterBattleText:
-	text "While I float like"
-	line "this, the waves"
-	cont "carry me along."
+	text "Ich lasse mich im"
+	line "Wasser treiben und"
+	cont "von den Wellen"
+	cont "davontragen."
 	done
 
 Route40Lass1Text:
-	text "Although you can't"
-	line "see it from here,"
+	text "Du kannst es zwar"
+	line "nicht von hier"
 
-	para "CIANWOOD is across"
-	line "the sea."
+	para "sehen, aber ANEMO-"
+	line "NIA CITY liegt"
+	cont "jenseits des"
+	cont "Meeres."
 	done
 
 Route40PokefanMText:
-	text "Hm! There's a big"
-	line "building up ahead!"
+	text "Hm! Das ist ein"
+	line "hohes Gebäude!"
 
-	para "What is it?"
+	para "Was ist das?"
 	done
 
 Route40PokefanMText_Mobile:
-	text "Hm! Look at all"
-	line "those serious-"
-	cont "looking trainers"
-	cont "streaming in."
+	text "Hm! Sieh die"
+	line "entschlossenen"
+	cont "Trainer, die"
+	cont "hineingehen."
 
-	para "What? What?"
+	para "Was? Was?"
 	done
 
 Route40Lass2Text:
-	text "I came to OLIVINE"
-	line "by ship to see the"
+	text "Ich reiste mit dem"
+	line "Schiff nach"
 
-	para "sights and soak up"
-	line "the atmosphere."
+	para "OLIVIANA, um die"
+	line "Sehenswürdigkeiten"
 
-	para "Being a port, it"
-	line "feels so different"
-	cont "from a big city."
+	para "und die Atmosphäre"
+	line "zu genieせen."
+
+	para "Da es eine Hafen-"
+	line "stadt ist, unter-"
+
+	para "scheidet sie sich"
+	line "von anderen"
+	cont "groせen Städten."
 	done
 
 Route40StandingYoungsterText:
-	text "Have you gone to"
-	line "the BATTLE TOWER?"
+	text "Warst du schon am"
+	line "DUELLTURM?"
 
-	para "I think a lot of"
-	line "tough trainers"
+	para "Ich denke, dass"
+	line "sich bereits viele"
 
-	para "have gathered"
-	line "there already."
+	para "starke Trainer"
+	line "dort versammeln."
 
-	para "But since you have"
-	line "so many BADGES,"
+	para "Da du so viele"
+	line "ORDEN besitzt,"
 
-	para "you shouldn't do"
-	line "badly at all."
+	para "wirst du dich dort"
+	line "wacker schlagen."
 	done
 
 MeetMonicaText:
-	text "MONICA: Glad to"
-	line "meet you. I'm"
+	text "MONJA: Es freut"
+	line "mich, dich kennen"
 
-	para "MONICA of Monday."
+	para "zu lernen. Ich bin"
+	line "MONJA von Montag."
 	done
 
 MonicaGivesGiftText:
-	text "As a token of our"
-	line "friendship, I have"
-	cont "a gift for you!"
+	text "Als Zeichen"
+	line "unserer Freund-"
+	cont "schaft schenke ich"
+	cont "dir dies!"
 	done
 
 MonicaGaveGiftText:
-	text "MONICA: It's an"
-	line "item that raises"
+	text "MONJA: Dieses"
+	line "Item verstärkt"
 
-	para "the power of fly-"
-	line "ing-type moves."
+	para "Flug-Attacken."
 
-	para "You should equip a"
-	line "bird #MON with"
-	cont "that item."
+	para "Damit solltest du"
+	line "ein Vogel-#MON"
+	cont "ausstatten."
 	done
 
 MonicaMondayText:
-	text "MONICA: My broth-"
-	line "ers and sisters"
+	text "MONJA: Meine"
+	line "Geschwister"
 
-	para "are all over the"
-	line "place."
+	para "findest du"
+	line "überall."
 
-	para "See if you could"
-	line "find them all!"
+	para "Du solltest sie"
+	line "alle finden!"
 	done
 
 MonicaNotMondayText:
-	text "MONICA: I don't"
-	line "think today is"
-	cont "Monday. How sad…"
+	text "MONJA: Ich"
+	line "fürchte, heute ist"
+	cont "nicht Montag. Wie"
+	cont "schade…"
 	done
 
 Route40SignText:
 	text "ROUTE 40"
 
-	para "CIANWOOD CITY -"
-	line "OLIVINE CITY"
+	para "ANEMONIA CITY -"
+	line "OLIVIANA CITY"
 	done
 
 Route40_MapEvents:

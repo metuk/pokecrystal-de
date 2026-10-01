@@ -143,179 +143,201 @@ KurtSlowpokeWellVictoryMovementData:
 	step_end
 
 SlowpokeWellB1FKurtText:
-	text "KURT: Hey there,"
+	text "KURT: Hallo!"
 	line "<PLAYER>!"
 
-	para "The guard up top"
-	line "took off when I"
-	cont "shouted at him."
+	para "Die Wache ganz"
+	line "oben ist"
+	cont "weggelaufen, als"
+	cont "ich sie anschrie."
 
-	para "But then I took a"
-	line "tumble down the"
-	cont "WELL."
+	para "Aber dann bin"
+	line "ich in den"
+	cont "BRUNNEN gefallen."
 
-	para "I slammed down"
-	line "hard on my back,"
-	cont "so I can't move."
+	para "Ich bin so hart "
+	line "auf meinem Rücken"
+	cont "gelandet, dass ich"
+	cont "mich nicht mehr"
+	cont "bewegen kann."
 
-	para "Rats! If I were"
-	line "fit, my #MON"
+	para "Mist! Wenn ich"
+	line "fit wäre, würden"
 
-	para "would've punished"
-	line "them…"
+	para "meine #MON"
+	line "sie bestrafen…"
 
-	para "Ah, it can't be"
-	line "helped."
+	para "Ah, mir ist nicht"
+	line "zu helfen."
 
-	para "<PLAYER>, show them"
-	line "how gutsy you are"
-	cont "in my place!"
+	para "<PLAYER>, zeig"
+	line "ihnen, wie mutig"
+	cont "du bist. Tu es für"
+	cont "mich!"
 	done
 
 KurtLeaveSlowpokeWellText:
-	text "KURT: Way to go,"
+	text "KURT: Weiter so,"
 	line "<PLAYER>!"
 
-	para "TEAM ROCKET has"
-	line "taken off."
+	para "TEAM ROCKET ist"
+	line "abgehauen."
 
-	para "My back's better"
-	line "too. Let's get out"
-	cont "of here."
+	para "Meinem Rücken geht"
+	line "es schon besser."
+	cont "Lass uns gehen."
 	done
 
 GruntM29SeenText:
-	text "Darn! I was stand-"
-	line "ing guard up top"
+	text "Mist! Ich stand"
+	line "da oben Wache, als"
 
-	para "when some old coot"
-	line "yelled at me."
+	para "ein Verrückter"
+	line "vorbeikam und"
+	cont "mich anschrie."
 
-	para "He startled me so"
-	line "much that I fell"
-	cont "down here."
+	para "Ich bin so"
+	line "erschrocken, dass"
+	cont "ich hier hinunter"
+	cont "gefallen bin."
 
-	para "I think I'll vent"
-	line "my anger by taking"
-	cont "it out on you!"
+	para "Ich glaube, ich"
+	line "lasse meine Wut"
+	cont "an dir aus!"
 	done
 
 GruntM29BeatenText:
-	text "Arrgh! This is NOT"
-	line "my day!"
+	text "Arrgh! Heute ist"
+	line "NICHT mein Tag!"
 	done
 
 GruntM29AfterBattleText:
-	text "Sure, we've been"
-	line "hacking the tails"
+	text "Klar haben wir den"
+	line "FLEGMON die"
 
-	para "off SLOWPOKE and"
-	line "selling them."
+	para "RUTEN abgetrennt"
+	line "und dann verkauft."
 
-	para "Everything we do"
-	line "is for profit."
+	para "Wir wollen nur"
+	line "Profit machen."
 
-	para "That's right!"
-	line "We're TEAM ROCKET,"
+	para "Genau! Wir sind"
+	line "TEAM ROCKET und"
 
-	para "and we'll do any-"
-	line "thing for money!"
+	para "für Geld machen"
+	line "wir alles!"
 	done
 
 GruntM1SeenText:
-	text "What do you want?"
+	text "Was willst du?"
+	line "Wenn du uns bei"
 
-	para "If you interrupt"
-	line "our work, don't"
-	cont "expect any mercy!"
+	para "der Arbeit störst,"
+	line "gibt es für dich"
+	cont "keine Gnade!"
 	done
 
 GruntM1BeatenText:
-	text "You did OK today,"
-	line "but wait till next"
-	cont "time!"
+	text "Für heute war es"
+	line "O.K., aber beim"
+	cont "nächsten Mal wird"
+	cont "alles anders!"
 	done
 
 TrainerGruntM1WhenTalkText:
 	text "Yeah, TEAM ROCKET"
-	line "was broken up"
-	cont "three years ago."
+	line "wurde vor drei"
+	cont "Jahren zer-"
+	cont "schlagen."
 
-	para "But we continued"
-	line "our activities"
-	cont "underground."
+	para "Aber wir haben"
+	line "unsere Arbeit im"
+	cont "Untergrund"
+	cont "fortgesetzt."
 
-	para "Now you can have"
-	line "fun watching us"
-	cont "stir up trouble!"
+	para "Nun kannst du"
+	line "zusehen, wie wir"
+	cont "für Unruhe sorgen!"
 	done
 
 GruntM2SeenText:
-	text "Quit taking SLOW-"
-	line "POKETAILS?"
+	text "Wir sollen auf-"
+	line "hören, den"
+	cont "FLEGMON ihre"
+	cont "RUTEN abzutrennen?"
 
-	para "If we obeyed you,"
-	line "TEAM ROCKET's rep"
-	cont "would be ruined!"
+	para "Wenn wir auf dich"
+	line "hören würden, wäre"
+	cont "der Ruf von TEAM"
+	cont "ROCKET ruiniert!"
 	done
 
 GruntM2BeatenText:
-	text "Just…"
-	line "Too strong…"
+	text "Du bist…"
+	line "zu stark…"
 	done
 
 GruntM2AfterBattleText:
-	text "We need the money,"
-	line "but selling SLOW-"
-	cont "POKETAILS?"
+	text "Wir brauchen das"
+	line "Geld, aber mit"
+	cont "FLEGMONRUTEN?"
 
-	para "It's tough being a"
-	line "ROCKET GRUNT!"
+	para "Manchmal ist es"
+	line "hart, ein ROCKET"
+	cont "RÜPEL zu sein!"
 	done
 
 GruntF1SeenText:
-	text "Stop taking TAILS?"
+	text "Wir sollen auf-"
+	line "hören, den"
+	cont "FLEGMON ihre"
+	cont "RUTEN abzutrennen?"
 
-	para "Yeah, just try to"
-	line "defeat all of us!"
+	para "Ja, versuche, uns"
+	line "alle zu besiegen!"
 	done
 
 GruntF1BeatenText:
-	text "You rotten brat!"
+	text "Du vorlautes Balg!"
 	done
 
 GruntF1AfterBattleText:
-	text "SLOWPOKETAILS"
-	line "grow back fast!"
+	text "FLEGMONRUTEN"
+	line "wachsen schnell"
+	cont "nach!"
 
-	para "What's wrong with"
-	line "selling them?"
+	para "Was ist falsch"
+	line "daran, sie"
+	cont "zu verkaufen?"
 	done
 
 SlowpokeWellB1FSlowpokeWithMailText:
-	text "A SLOWPOKE with"
-	line "its TAIL cut off…"
+	text "Ein FLEGMON mit"
+	line "abgetrennter"
+	cont "RUTE…"
 
-	para "Huh? It has MAIL."
-	line "Read it?"
+	para "Huh? Es trägt"
+	line "einen BRIEF."
+	cont "BRIEF lesen?"
 	done
 
 SlowpokeWellB1FSlowpokeMailText:
-	text "<PLAYER> read the"
-	line "MAIL."
+	text "<PLAYER> liest den"
+	line "BRIEF."
 
-	para "Be good and look"
-	line "after the house"
+	para "Sei so lieb und"
+	line "kümmere dich bitte"
 
-	para "with Grandpa and"
-	line "SLOWPOKE."
+	para "um Opa und das"
+	line "FLEGMON."
 
-	para "Love, Dad"
+	para "Danke, Papa"
 	done
 
 SlowpokeWellB1FTaillessSlowpokeText:
-	text "A SLOWPOKE with"
-	line "its TAIL cut off…"
+	text "Ein FLEGMON mit"
+	line "abgetrennter"
+	cont "RUTE…"
 	done
 
 SlowpokeWellB1F_MapEvents:

@@ -1,56 +1,64 @@
 BethAskNumber1Text:
-	text "It's been a while"
-	line "since I lost…"
+	text "Meine letzte Nie-"
+	line "derlage liegt"
+	cont "lange zurück…"
 
-	para "You're very good"
-	line "at battling."
+	para "Du kämpfst sehr"
+	line "gut."
 
-	para "We should battle"
-	line "again sometime."
+	para "Wir sollten wieder"
+	line "kämpfen."
 
-	para "By challenging a"
-	line "tough trainer like"
+	para "Ich glaube, dass"
+	line "ich stärker werde,"
 
-	para "you, I think I can"
-	line "get better too."
+	para "wenn ich einen"
+	line "starken Trainer"
 
-	para "So how about it?"
+	para "wie dich heraus-"
+	line "fordere."
 
-	para "Would you give me"
-	line "your phone number?"
+	para "Wie siehtわ aus?"
+
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 	done
 
 BethAskNumber2Text:
-	text "By challenging a"
-	line "tough trainer like"
+	text "Ich glaube, dass"
+	line "ich stärker werde,"
 
-	para "you, I think I can"
-	line "get better too."
+	para "wenn ich einen"
+	line "starken Trainer"
 
-	para "So how about it?"
+	para "wie dich heraus-"
+	line "fordere."
 
-	para "Would you give me"
-	line "your phone number?"
+	para "Wie siehtわ aus?"
+
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 	done
 
 BethNumberAcceptedText:
-	text "Let's battle again"
-	line "sometime!"
+	text "Lass uns wieder"
+	line "kämpfen!"
 	done
 
 BethNumberDeclinedText:
-	text "That's too bad…"
+	text "Wie schade…"
 
-	para "Let me know if you"
-	line "change your mind."
+	para "Gib mir Bescheid,"
+	line "wenn du deine"
+	cont "Meinung änderst."
 	done
 
 BethPhoneFullText:
-	text "Oh no. Your phone"
-	line "is out of memory."
+	text "Oh. Dein Nummern-"
+	line "speicher ist voll."
 	done
 
 BethRematchText:
-	text "You sure kept me"
-	line "waiting! Let's go!"
+	text "Du hast mich war-"
+	line "ten lassen! Los!"
 	done

@@ -76,147 +76,156 @@ LavRadioTower1FReferenceLibrary: ; unreferenced
 	jumptext LavRadioTower1FReferenceLibraryText
 
 LavRadioTower1FReceptionistText:
-	text "Welcome!"
-	line "Feel free to look"
+	text "Willkommen!"
+	line "Schau dich auf"
 
-	para "around anywhere on"
-	line "this floor."
+	para "dieser Etage"
+	line "ruhig um."
 	done
 
 LavRadioTower1FOfficerText:
-	text "Sorry, but you can"
-	line "only tour the"
-	cont "ground floor."
+	text "Du darfst leider"
+	line "nur das Erd-"
+	cont "geschoss erkunden."
 
-	para "Ever since JOHTO's"
-	line "RADIO TOWER was"
+	para "Seit der RADIOTURM"
+	line "in JOHTO von einer"
 
-	para "taken over by a"
-	line "criminal gang, we"
+	para "Verbrechergang"
+	line "besetzt wurde,"
 
-	para "have had to step"
-	line "up our security."
+	para "mussten wir unsere"
+	line "Sicherheitsmaせ-"
+	cont "nahmen erhöhen."
 	done
 
 LavRadioTower1FSuperNerd1Text:
-	text "Many people are"
-	line "hard at work here"
+	text "Viele Menschen"
+	line "arbeiten sehr hart"
+	cont "im RADIOTURM."
 
-	para "in the RADIO"
-	line "TOWER."
-
-	para "They must be doing"
-	line "their best to put"
-	cont "on good shows."
+	para "Sie müssen ihr"
+	line "Bestes geben für"
+	cont "eine gute Sendung."
 	done
 
 LavRadioTower1FGentlemanText:
-	text "Oh, no, no, no!"
+	text "Nein, nein, nein!"
 
-	para "We've been off the"
-	line "air ever since the"
+	para "Wir sind nicht"
+	line "mehr auf Sendung,"
 
-	para "POWER PLANT shut"
-	line "down."
+	para "seit das KRAFTWERK"
+	line "nicht mehr läuft."
 
-	para "All my efforts to"
-	line "start this station"
+	para "Alle Bemühungen,"
+	line "diese Station zum"
 
-	para "would be wasted if"
-	line "I can't broadcast."
+	para "Laufen zu bringen,"
+	line "sind vergebens,"
+	cont "wenn ich nichts"
+	cont "senden kann."
 
-	para "I'll be ruined!"
+	para "Ich bin ruiniert!"
 	done
 
 LavRadioTower1FGentlemanText_ReturnedMachinePart:
-	text "Ah! So you're the"
-	line "<PLAY_G> who solved"
+	text "Ah! Dann bist du"
+	line "<PLAY_G>. Du hast"
 
-	para "the POWER PLANT's"
-	line "problem?"
+	para "das Problem mit"
+	line "dem KRAFTWERK"
+	cont "gelöst?"
 
-	para "Thanks to you, I"
-	line "never lost my job."
+	para "Dir habe ich es zu"
+	line "verdanken, dass"
 
-	para "I tell you, you're"
-	line "a real lifesaver!"
+	para "ich nicht arbeits-"
+	line "los wurde! Du bist"
+	cont "mein Lebensretter!"
 
-	para "Please take this"
-	line "as my thanks."
+	para "Zum Dank gebe ich"
+	line "dir das hier."
 	done
 
 LavRadioTower1FGentlemanText_GotExpnCard:
-	text "With that thing,"
-	line "you can tune into"
+	text "Damit kannst du"
+	line "die Radioprogramme"
 
-	para "the radio programs"
-	line "here in KANTO."
+	para "in KANTO"
+	line "empfangen."
 
-	para "Gahahahaha!"
+	para "Hahahahaha!"
 	done
 
 LavRadioTower1FSuperNerd2Text:
-	text "Hey there!"
+	text "Hi!"
 
-	para "I am the super"
-	line "MUSIC DIRECTOR!"
+	para "Ich bin der"
+	line "tolle MUSIK-"
+	cont "REDAKTEUR!"
 
-	para "Huh? Your #GEAR"
-	line "can't tune into my"
+	para "Was? Dein #COM"
+	line "kann meine Musik-"
+	cont "sendungen nicht"
 
-	para "music programs."
-	line "How unfortunate!"
+	para "empfangen? Wie"
+	line "traurig!"
 
-	para "If you get an EXPN"
-	line "CARD upgrade, you"
+	para "Wenn du dir ein"
+	line "ZUSATZSET be-"
+	cont "sorgst, empfängst"
 
-	para "can tune in. You'd"
-	line "better get one!"
+	para "du meine Send-"
+	line "ungen. Hol es dir"
+	cont "bald!"
 	done
 
 LavRadioTower1FSuperNerd2Text_GotExpnCard:
-	text "Hey there!"
+	text "Hi, mein Freund!"
 
-	para "I am the super"
-	line "MUSIC DIRECTOR!"
+	para "Ich bin der"
+	line "tolle MUSIK-"
+	cont "REDAKTEUR!"
 
-	para "I'm responsible"
-	line "for the gorgeous"
+	para "Ich bin derjenige,"
+	line "der diese wunder-"
+	cont "vollen Melodien"
 
-	para "melodies that go"
-	line "out over the air."
+	para "auf Sendung"
+	line "bringt."
 
-	para "Don't be square."
-	line "Grab your music"
-	cont "off the air!"
+	para "Sei so frei"
+	line "und lausche der"
+	cont "schönen Melodei!"
 	done
 
 LavRadioTower1FDirectoryText:
-	text "1F RECEPTION"
-	line "2F SALES"
-
-	para "3F PERSONNEL"
-	line "4F PRODUCTION"
-
-	para "5F DIRECTOR'S"
-	line "   OFFICE"
+	text "EG REZEPTION"
+	line "1S VERKAUF"
+	cont "2S PERSONAL"
+	cont "3S PRODUKTION"
+	cont "4S BÜRO DES"
+	cont "   INTENDANTEN"
 	done
 
 LavRadioTower1FPokeFluteSignText:
-	text "Perk Up #MON"
-	line "with Mellow Sounds"
+	text "Mach deine #MON"
+	line "mit den Fröhlichen"
 
-	para "of the # FLUTE"
-	line "on CHANNEL 20"
+	para "Melodien der #-"
+	line "FLÖTE auf PROGRAMM"
+	cont "20 wieder munter."
 	done
 
 LavRadioTower1FReferenceLibraryText:
-	text "Wow! A full rack"
-	line "of #MON CDs and"
-	cont "videos."
+	text "Wow! Ein ganzes"
+	line "Regal voller #-"
+	cont "MON CDs und"
+	cont "Videos."
 
-	para "This must be the"
-	line "reference library."
+	para "Das muss die"
+	line "Bibliothek sein."
 	done
 
 LavRadioTower1F_MapEvents:

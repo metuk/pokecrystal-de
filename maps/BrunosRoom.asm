@@ -79,47 +79,55 @@ BrunosRoom_EnterMovement:
 	step_end
 
 BrunoScript_BrunoBeforeText:
-	text "I am BRUNO of the"
-	line "ELITE FOUR."
+	text "Ich bin BRUNO."
+	line "Ein weiteres"
+	cont "Mitglied der"
+	cont "TOP VIER."
 
-	para "I always train to"
-	line "the extreme be-"
-	cont "cause I believe in"
-	cont "our potential."
+	para "Ich trainiere, bis"
+	line "ich erschöpft bin,"
+	cont "da ich an mein"
+	cont "Potential glaube."
 
-	para "That is how we"
-	line "became strong."
+	para "Auf diese Art bin"
+	line "ich so stark"
+	cont "geworden."
 
-	para "Can you withstand"
-	line "our power?"
+	para "Kannst du unserer"
+	line "Kraft widerstehen?"
 
-	para "Hm? I see no fear"
-	line "in you. You look"
+	para "Hm? Ich sehe, du"
+	line "fürchtest dich"
 
-	para "determined. Per-"
-	line "fect for battle!"
+	para "nicht und siehst"
+	line "entschlossen aus."
+	cont "Genau richtig für"
+	cont "einen Kampf!"
 
-	para "Ready, <PLAYER>?"
-	line "You will bow down"
+	para "Bereit, <PLAYER>?"
+	line "Du wirst dich"
 
-	para "to our overwhelm-"
-	line "ing power!"
+	para "unserer unbändigen"
+	line "Kraft beugen"
+	cont "müssen!"
 
-	para "Hoo hah!"
+	para "Uh Ah!"
 	done
 
 BrunoScript_BrunoBeatenText:
-	text "Why? How could we"
-	line "lose?"
+	text "Warum? Wie konnte"
+	line "ich nur verlieren?"
 	done
 
 BrunoScript_BrunoDefeatText:
-	text "Having lost, I"
-	line "have no right to"
-	cont "say anything…"
+	text "Da ich verloren"
+	line "habe, muss ich"
+	cont "jetzt still sein…"
 
-	para "Go face your next"
-	line "challenge!"
+	para "Bereite dich auf"
+	line "die nächste"
+	cont "Herausforderung"
+	cont "vor!"
 	done
 
 BrunosRoom_MapEvents:

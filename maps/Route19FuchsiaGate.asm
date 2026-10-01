@@ -23,24 +23,28 @@ Route19FuchsiaGateOfficerScript:
 	end
 
 Route19FuchsiaGateOfficerText:
-	text "CINNABAR's volcano"
-	line "erupted."
+	text "Der Vulkan auf"
+	line "der ZINNOBERINSEL"
+	cont "ist ausgebrochen."
 
-	para "It hurled boulders"
-	line "that cut off ROUTE"
-	cont "19 indefinitely."
+	para "Durch die Eruption"
+	line "wurde die ROUTE 19"
+	cont "durch Felsbrocken"
+	cont "zugeschüttet."
 
-	para "I wonder if the"
-	line "people of CINNABAR"
-	cont "are safe…"
+	para "Ich frage mich,"
+	line "ob die Einwohner"
+	cont "der ZINNOBERINSEL"
+	cont "in Sicherheit"
+	cont "sind…"
 	done
 
 Route19FuchsiaGateOfficerText_RocksCleared:
-	text "No CINNABAR citi-"
-	line "zens were injured"
+	text "Auf der ZINNOBER-"
+	line "INSEL wurde"
 
-	para "by the eruption."
-	line "That's great!"
+	para "niemand verletzt."
+	line "Das ist groせartig!"
 	done
 
 Route19FuchsiaGate_MapEvents:

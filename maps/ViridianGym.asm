@@ -62,109 +62,124 @@ ViridianGymStatue:
 	jumpstd GymStatue2Script
 
 LeaderBlueBeforeText:
-	text "BLUE: Yo! Finally"
-	line "got here, huh?"
+	text "BLAU: He! Hast du"
+	line "es endlich hierher"
+	cont "geschafft?"
 
-	para "I wasn't in the"
-	line "mood at CINNABAR,"
+	para "Auf den ZINNOBER-"
+	line "INSELN war mir"
 
-	para "but now I'm ready"
-	line "to battle you."
+	para "nicht danach, aber"
+	line "jetzt können wir"
+	cont "kämpfen."
 
 	para "…"
 
-	para "You're telling me"
-	line "you conquered all"
-	cont "the GYMS in JOHTO?"
+	para "Willst du etwa"
+	line "behaupten, du"
 
-	para "Heh! JOHTO's GYMS"
-	line "must be pretty"
-	cont "pathetic then."
+	para "hättest alle"
+	line "ARENALEITER in"
+	cont "JOHTO besiegt?"
 
-	para "Hey, don't worry"
-	line "about it."
+	para "He! Dann müssen"
+	line "die ARENALEITER in"
+	cont "JOHTO ziemliche"
+	cont "Jammerlappen sein."
 
-	para "I'll know if you"
-	line "are good or not by"
+	para "Aber - nur"
+	line "keine Bange."
 
-	para "battling you right"
-	line "now."
+	para "Ich werde dir"
+	line "sofort sagen, ob"
 
-	para "Ready, JOHTO"
+	para "du ein guter"
+	line "Kämpfer bist."
+
+	para "Fertig, JOHTO-"
 	line "CHAMP?"
 	done
 
 LeaderBlueWinText:
-	text "BLUE: What?"
+	text "BLAU: Was?"
 
-	para "How the heck did I"
-	line "lose to you?"
+	para "Wie zum Teufel"
+	line "konnte ich gegen"
+	cont "dich verlieren?"
 
 	para "…"
 
-	para "Tch, all right…"
-	line "Here, take this--"
-	cont "it's EARTHBADGE."
+	para "Also gut…"
+	line "Hier, nimm das -"
+	cont "es ist der"
+	cont "ERDORDEN."
 	done
 
 Text_ReceivedEarthBadge:
-	text "<PLAYER> received"
-	line "EARTHBADGE."
+	text "<PLAYER> erhält"
+	line "ERDORDEN."
 	done
 
 LeaderBlueAfterText:
-	text "BLUE: …"
+	text "BLAU: …"
 
-	para "All right, I was"
-	line "wrong. You're the"
+	para "In Ordnung. Ich"
+	line "hatte Unrecht. Du"
 
-	para "real deal. You are"
-	line "a good trainer."
+	para "bist nicht aus"
+	line "Watte, sondern ein"
+	cont "guter Trainer."
 
-	para "But I'm going to"
-	line "beat you someday."
+	para "Aber eines Tages"
+	line "werde ich dich"
 
-	para "Don't you forget"
-	line "it!"
+	para "besiegen. Ich"
+	line "vergesse dich"
+	cont "nicht!"
 	done
 
 LeaderBlueEpilogueText:
-	text "BLUE: Listen, you."
+	text "BLAU: Hör gut zu."
 
-	para "You'd better not"
-	line "lose until I beat"
-	cont "you. Got it?"
+	para "Es bekommt dir"
+	line "besser, nicht zu"
+	cont "verlieren, bis ich"
+	cont "dich besiegt habe!"
+	cont "Klar?"
 	done
 
 ViridianGymGuideText:
-	text "Yo, CHAMP in"
-	line "making!"
+	text "He! Ein CHAMP"
+	line "in spe!"
 
-	para "How's it going?"
-	line "Looks like you're"
-	cont "on a roll."
+	para "Wie läuft es so?"
+	line "Du hast wohl"
+	cont "gerade eine"
+	cont "Glückssträhne."
 
-	para "The GYM LEADER is"
-	line "a guy who battled"
+	para "Der ARENALEITER"
+	line "hat den CHAMP"
 
-	para "the CHAMPION three"
-	line "years ago."
+	para "vor drei Jahren"
+	line "besiegt."
 
-	para "He's no pushover."
+	para "Das wird kein"
+	line "Kinderspiel!"
 
-	para "Give it everything"
-	line "you've got!"
+	para "Gib alles, was"
+	line "du hast!"
 	done
 
 ViridianGymGuideWinText:
-	text "Man, you are truly"
-	line "tough…"
+	text "Junge, Junge! Du"
+	line "bist sehr stark…"
 
-	para "That was a heck of"
-	line "an inspirational"
+	para "Das war vielleicht"
+	line "ein erfrischender"
 
-	para "battle. It brought"
-	line "tears to my eyes."
+	para "Kampf. Er hat mir"
+	line "Tränen in die"
+	cont "Augen getrieben."
 	done
 
 ViridianGym_MapEvents:

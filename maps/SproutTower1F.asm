@@ -41,63 +41,65 @@ SproutTower1FStatue:
 	jumptext SproutTower1FStatueText
 
 SageChowSeenText:
-	text "We stand guard in"
-	line "this tower."
+	text "Wir bewachen"
+	line "diesen Turm."
 
-	para "Here, we express"
-	line "our gratitude to"
-	cont "honor all #MON."
+	para "In tiefster Dank-"
+	line "barkeit ehren wir"
+	cont "hier alle #MON."
 	done
 
 SageChowBeatenText:
-	text "Th-Thank you!"
+	text "Da-Danke!"
 	done
 
 SageChowAfterBattleText:
-	text "All living beings"
-	line "coexist through"
-	cont "cooperation."
+	text "Die Basis jeder"
+	line "Koexistenz ist"
+	cont "Zusammenarbeit."
 
-	para "We must always be"
-	line "thankful for this."
+	para "Lasst uns dies"
+	line "nie vergessen!"
 	done
 
 SproutTower1FSage1Text:
-	text "Only if you reach"
-	line "the top will you"
-	cont "obtain an HM."
+	text "Nur wenn du es bis"
+	line "ganz nach oben"
+	cont "schaffst, erhältst"
+	cont "du eine VM."
 	done
 
 SproutTower1FSage2Text:
-	text "SPROUT TOWER was"
-	line "built long ago"
+	text "Der KNOFENSA-TURM"
+	line "wurde vor langer"
 
-	para "as a place for"
-	line "#MON training."
+	para "Zeit als #MON-"
+	line "Trainingsstätte"
+	cont "errichtet."
 	done
 
 SproutTower1FGrannyText:
-	text "A BELLSPROUT over"
-	line "100 feet tall…"
+	text "Ein über 30 m"
+	line "grosses KNOFENSA…"
 
-	para "People say that it"
-	line "became the center"
-	cont "pillar here."
+	para "Man sagt, es wurde"
+	line "die Trägersäule"
+	cont "des Turmes."
 	done
 
 SproutTower1FTeacherText:
-	text "See the pillar"
-	line "shaking?"
+	text "Siehst du, wie sie"
+	line "sich bewegt?"
 
-	para "People are train-"
-	line "ing upstairs."
+	para "Die Trainer fin-"
+	line "dest du oben."
 	done
 
 SproutTower1FStatueText:
-	text "A #MON statue…"
+	text "Eine PKMN-Statue…"
 
-	para "It looks very"
-	line "distinguished."
+	para "Sie sieht sehr"
+	line "erhaben aus."
 	done
 
 SproutTower1F_MapEvents:

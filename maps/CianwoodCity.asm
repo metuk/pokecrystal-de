@@ -180,201 +180,226 @@ CianwoodCityEusineDepartMovement:
 	step_end
 
 ChucksWifeEasierToFlyText:
-	text "You crossed the"
-	line "sea to get here?"
+	text "Du hast das Meer"
+	line "überquert, um"
 
-	para "That must have"
-	line "been hard."
+	para "hierher zu kommen?"
+	line "Das war sicher"
+	cont "nicht einfach."
 
-	para "It would be much"
-	line "easier if your"
+	para "Es wäre viel ein-"
+	line "facher, wenn deine"
 
-	para "#MON knew how"
-	line "to FLY…"
+	para "#MON FLIEGEN"
+	line "einsetzen könnten…"
 	done
 
 ChucksWifeBeatChuckText:
-	text "But you can't use"
-	line "FLY without this"
-	cont "city's GYM BADGE."
+	text "Ohne den ORDEN"
+	line "dieser Stadt ist"
+	cont "FLIEGEN nutzlos."
 
-	para "If you beat the"
-	line "GYM LEADER here,"
-	cont "come see me."
+	para "Wenn du den ARENA-"
+	line "LEITER geschlagen"
+	cont "hast, besuche mich"
+	cont "wieder."
 
-	para "I'll have a nice"
-	line "gift for you."
+	para "Ich werde dir dann"
+	line "ein Geschenk über-"
+	cont "reichen."
 	done
 
 ChucksWifeGiveHMText:
-	text "That's CIANWOOD's"
-	line "GYM BADGE!"
+	text "Das ist der ORDEN"
+	line "der PKMN-ARENA von"
+	cont "ANEMONIA CITY!"
 
-	para "Then you should"
-	line "take this HM."
+	para "Dann soll dir"
+	line "diese VM gehören."
 	done
 
 ChucksWifeFlySpeechText:
-	text "Teach FLY to your"
-	line "#MON."
+	text "Bring deinen #-"
+	line "MON FLIEGEN bei."
 
-	para "You will be able"
-	line "to FLY instantly"
+	para "Du kannst dann so-"
+	line "fort in jede Stadt"
 
-	para "to anywhere you "
-	line "have visited."
+	para "FLIEGEN, die du"
+	line "bereits besucht"
+	cont "hast."
 	done
 
 ChucksWifeChubbyText:
-	text "My husband lost to"
-	line "you, so he needs"
-	cont "to train harder."
+	text "Mein Mann hat ge-"
+	line "gen dich verloren."
+	cont "Also muss er här-"
+	cont "ter trainieren."
 
-	para "That's good, since"
-	line "he was getting a"
-	cont "little chubby."
+	para "Das ist auch gut"
+	line "so. Er hat in"
+	cont "letzter Zeit etwas"
+	cont "Speck angesetzt."
 	done
 
 CianwoodCityYoungsterText:
-	text "If you use FLY,"
-	line "you can get back"
-
-	para "to OLIVINE in-"
-	line "stantly."
+	text "Setzt du FLIEGEN"
+	line "ein, kannst du di-"
+	cont "rekt von hier aus"
+	cont "nach OLIVIANA CITY"
+	cont "reisen."
 	done
 
 CianwoodCityPokefanMText:
-	text "Boulders to the"
-	line "north of town can"
-	cont "be crushed."
+	text "Die Felsen nörd-"
+	line "lich der Stadt"
+	cont "können zerschmet-"
+	cont "tert werden."
 
-	para "They may be hiding"
-	line "something."
+	para "Vielleicht findest"
+	line "du etwas unter"
+	cont "ihnen."
 
-	para "Your #MON could"
-	line "use ROCK SMASH to"
-	cont "break them."
+	para "Deine #MON"
+	line "können ZERTRÜMME-"
+	cont "RER einsetzen, um"
+	cont "sie aus dem Weg zu"
+	cont "räumen."
 	done
 
 CianwoodCityLassText:
-	text "CHUCK, the GYM"
-	line "LEADER, spars with"
+	text "HARTWIG, der ARE-"
+	line "NALEITER steigt"
 
-	para "his fighting #-"
-	line "MON."
+	para "gerne mit seinen"
+	line "#MON in den"
+	cont "Ring."
 	done
 
 CianwoodCityUnusedText:
-	text "There are several"
-	line "islands between"
-	cont "here and OLIVINE."
+	text "Es gibt mehrere"
+	line "Inseln zwischen"
+	cont "hier und OLIVIANA"
+	cont "CITY."
 
-	para "A mythical sea"
-	line "creature supposed-"
-	cont "ly lives there."
+	para "Man sagt, dass"
+	line "dort ein my-"
+	cont "thisches Wesen"
+	cont "leben soll."
 	done
 
 EusineSuicuneText:
-	text "EUSINE: Yo,"
+	text "EUSIN: Yo,"
 	line "<PLAYER>."
 
-	para "Wasn't that"
-	line "SUICUNE just now?"
+	para "War das eben nicht"
+	line "SUICUNE?"
 
-	para "I only caught a"
-	line "quick glimpse, but"
+	para "Ich habe nur einen"
+	line "Blick riskiert,"
 
-	para "I thought I saw"
-	line "SUICUNE running on"
-	cont "the waves."
+	para "aber ich dachte,"
+	line "ich hätte SUICUNE"
 
-	para "SUICUNE is beau-"
-	line "tiful and grand."
+	para "auf den Wellen"
+	line "rennen sehen."
 
-	para "And it races"
-	line "through towns and"
+	para "SUICUNE ist schön"
+	line "und fabelhaft."
 
-	para "roads at simply"
-	line "awesome speeds."
+	para "Und es rennt durch"
+	line "Städte und Straせen"
 
-	para "It's wonderful…"
+	para "mit wahnsinniger"
+	line "Geschwindigkeit."
 
-	para "I want to see"
-	line "SUICUNE up close…"
+	para "Es ist wundervoll…"
 
-	para "I've decided."
+	para "Ich möchte SUICUNE"
+	line "von nahem sehen…"
 
-	para "I'll battle you as"
-	line "a trainer to earn"
-	cont "SUICUNE's respect!"
+	para "Ich habe mich"
+	line "entschieden."
 
-	para "Come on, <PLAYER>."
-	line "Let's battle now!"
+	para "Ich kämpfe wie ein"
+	line "Trainer, um mir"
+
+	para "SUICUNEs Respekt"
+	line "zu verdienen!"
+
+	para "Auf, <PLAYER>."
+	line "Lass uns kämpfen!"
 	done
 
 EusineBeatenText:
-	text "I hate to admit"
-	line "it, but you win."
+	text "Ich hasse es, das"
+	line "zuzugeben, aber du"
+	cont "hast gewonnen."
 	done
 
 EusineAfterText:
-	text "You're amazing,"
+	text "Du bist Wahnsinn,"
 	line "<PLAYER>!"
 
-	para "No wonder #MON"
-	line "gravitate to you."
+	para "Darum sind dir"
+	line "#MON so"
+	cont "zugetan."
 
-	para "I get it now."
+	para "Jetzt weiせ ichわ."
 
-	para "I'm going to keep"
-	line "searching for"
-	cont "SUICUNE."
+	para "Ich werde weiter"
+	line "nach SUICUNE"
+	cont "suchen."
 
-	para "I'm sure we'll see"
-	line "each other again."
+	para "Ich bin sicher,"
+	line "dass ich ihm eines"
+	cont "Tages begegne."
 
-	para "See you around!"
+	para "Man sieht sich!"
 	done
 
 CianwoodCitySignText:
-	text "CIANWOOD CITY"
+	text "ANEMONIA CITY"
 
-	para "A Port Surrounded"
-	line "by Rough Seas"
+	para "Eine Hafenstadt"
+	line "Umgeben von Stür-"
+	cont "mischer See"
 	done
 
 CianwoodGymSignText:
-	text "CIANWOOD CITY"
-	line "#MON GYM"
+	text "PKMN-ARENA von"
+	line "ANEMONIA CITY"
 
-	para "LEADER: CHUCK"
+	para "LEITUNG: HARTWIG"
+	line "Er spricht durch"
 
-	para "His Roaring Fists"
-	line "Do the Talking"
+	para "seine Fäuste"
 	done
 
 CianwoodPharmacySignText:
-	text "500 Years of"
-	line "Tradition"
+	text "500 Jahre voller"
+	line "Tradition."
 
-	para "CIANWOOD CITY"
-	line "PHARMACY"
+	para "APOTHEKE von"
+	line "ANEMONIA CITY"
 
-	para "We Await Your"
-	line "Medicinal Queries"
+	para "Gerne erwarten wir"
+	line "Ihre medizinischen"
+	cont "Fragen"
 	done
 
 CianwoodPhotoStudioSignText:
-	text "CIANWOOD CITY"
-	line "PHOTO STUDIO"
+	text "FOTOSTUDIO von"
+	line "ANEMONIA CITY"
 
-	para "Take a Snapshot as"
-	line "a Keepsake!"
+	para "Machen Sie einen"
+	line "Schnappschuss zur"
+	cont "Erinnerung!"
 	done
 
 CianwoodPokeSeerSignText:
-	text "THE # SEER"
-	line "AHEAD"
+	text "#-ORAKEL"
+	line "VORAUS"
 	done
 
 CianwoodCity_MapEvents:

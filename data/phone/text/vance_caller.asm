@@ -1,64 +1,67 @@
 VanceMonHasBecomeTougherText:
-	text "My @"
+	text "Mein @"
 	text_ram wStringBuffer4
-	text "'s"
-	line "become tougher."
+	text_start
+	line "wurde stärker."
 
-	para "We've achieved"
-	line "liftoff!"
+	para "Wir sind"
+	line "abgehoben!"
 	done
 
 VanceDefeatedMonText:
-	text "We can easily beat"
+	text "Wir können"
 	line "@"
 	text_ram wStringBuffer4
-	text "!"
+	text_start
+	cont "leicht besiegen!"
 
-	para "…Huh? You too?"
-	line "Isn't that great?"
+	para "…Huh? Du auch?"
+	line "Das ist doch toll?"
 	done
 
 VanceLostAMonText:
-	text "But get this, a"
-	line "wild @"
-	text_ram wStringBuffer4
-	text_start
-	para "just barely eluded"
-	line "us."
+	text "Aber, stell dir"
+	line "vor, ein wildes"
 
-	para "I wanted to FLY"
-	line "after it…"
+	para "@"
+	text_ram wStringBuffer4
+	text " entkam"
+	line "uns nur knapp."
+
+	para "Ich wollte ihm"
+	line "nachFLIEGEN…"
 	done
 
 VanceBattleRematchText:
-	text "Right now, I'm on"
+	text "Ich bin hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "You know, where I"
-	line "first met you?"
+	para "Du weiせt, wo wir"
+	line "uns zum ersten Mal"
+	cont "sahen?"
 
-	para "Want to battle?"
-	line "I'll wait here."
+	para "Willst du kämpfen?"
+	line "Ich warte dort."
 	done
 
 VanceHangUpText:
-	text "OK, bye for now!"
+	text "O.K., machわ gut!"
 	done
 
 VanceLookingForwardText:
-	text "I'll be looking"
-	line "forward to our"
-	cont "next battle!"
+	text "Ich freue mich auf"
+	line "unseren nächsten"
+	cont "Kampf!"
 	done
 
 VanceHurryHurryText:
 	text "Oh, <PLAY_G>!"
-	line "Hurry, hurry!"
+	line "Beeilung!"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "!"
-	line "FLY over now!"
+	line "FLIEGE zu mir!"
 	done

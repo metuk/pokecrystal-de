@@ -139,80 +139,83 @@ GoldenrodDeptStore5FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore5FReceptionistOhYourMonDotDotDotText:
-	text "Hello. Oh, your"
+	text "Hallo! Oh, dein"
 	line "#MON…"
 	done
 
 GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText:
-	text "It's very attached"
-	line "to you."
+	text "Es hängt sehr an"
+	line "dir."
 
-	para "This move should"
-	line "be perfect for a"
-	cont "pair like you."
+	para "Diese Attacke"
+	line "passt genau zu"
+	cont "euch beiden."
 	done
 
 GoldenrodDeptStore5FReceptionistItsAdorableText:
-	text "It's adorable!"
+	text "Oh, wie süせ!"
 
-	para "You should teach"
-	line "it good TM moves."
+	para "Du solltest ihm"
+	line "gute TM-Attacken"
+	cont "beibringen."
 	done
 
 GoldenrodDeptStore5FReceptionistItLooksEvilHowAboutThisTMText:
-	text "It looks evil. How"
-	line "about this TM for"
-	cont "it?"
+	text "Es sieht böse aus."
+	line "Wie wärわ mit die-"
+	cont "ser TM?"
 	done
 
 GoldenrodDeptStore5FReceptionistThereAreTMsPerfectForMonText:
-	text "There are sure to"
-	line "be TMs that are"
-
-	para "just perfect for"
-	line "your #MON."
+	text "Es gibt für jedes"
+	line "#MON passen-"
+	cont "de TMs."
 	done
 
 GoldenrodDeptStore5FCarrieMysteryGiftExplanationText:
-	text "MYSTERY GIFT."
+	text "GEHEIMGABE."
 
-	para "With just a"
-	line "little beep, you"
-	cont "get a gift."
+	para "Mit nur einem"
+	line "kleinen Biep er-"
+	cont "hältst du ein Ge-"
+	cont "schenk."
 	done
 
 GoldenrodDeptStore5FCarrieMysteryGiftRequiresGBCText:
-	text "The MYSTERY GIFT"
-	line "option requires a"
+	text "Die GEHEIMGABE"
+	line "erfordert einen"
 	cont "Game Boy Color."
 	done
 
 GoldenrodDeptStore5FLassText:
-	text "On Sundays, a lady"
-	line "comes to check out"
-	cont "#MON."
+	text "Sonntags kommt"
+	line "eine Dame, um nach"
+	cont "den #MON zu"
+	cont "sehen."
 
-	para "She even gives"
-	line "away TMs!"
+	para "Sie verteilt sogar"
+	line "TMs!"
 	done
 
 GoldenrodDeptStore5FPokefanMText:
-	text "You can't rename a"
-	line "#MON you get in"
-	cont "a trade."
+	text "Ein #MON, das"
+	line "du durch Tausch"
+	cont "erhalten hast,"
+	cont "kannst du nicht"
+	cont "umbenennen."
 
-	para "The name is a re-"
-	line "flection of the"
+	para "Der Name spiegelt"
+	line "die Gefühle des"
 
-	para "original trainer's"
-	line "feelings for it."
+	para "Original-Trainers"
+	line "wieder."
 	done
 
 GoldenrodDeptStore5FDirectoryText:
-	text "Customize Your"
-	line "#MON"
+	text "Rüste deine #-"
+	line "MON auf."
 
-	para "5F TM CORNER"
+	para "4S TM-ECKE"
 	done
 
 GoldenrodDeptStore5F_MapEvents:

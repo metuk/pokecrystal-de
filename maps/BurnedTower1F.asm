@@ -160,119 +160,128 @@ BurnedTower1FEusineMovement:
 BurnedTowerRival_BeforeText:
 	text "<……> <……> <……>"
 
-	para "…Oh, it's you."
+	para "…Oh, du bist es."
 
-	para "I came looking for"
-	line "some legendary"
+	para "Ich suchte nach"
+	line "legendären #-"
+	cont "MON, die angeblich"
+	cont "hier leben."
 
-	para "#MON that they"
-	line "say roosts here."
+	para "Aber hier ist"
+	line "nichts!"
 
-	para "But there's"
-	line "nothing here!"
+	para "Nichts, das den"
+	line "Aufwand hierher zu"
 
-	para "Nothing after all"
-	line "the trouble of"
+	para "kommen, recht-"
+	line "fertigt! Absolut"
+	cont "nichts."
 
-	para "coming to this"
-	line "dump? No way!"
-
-	para "It's all your"
-	line "fault!"
+	para "Das ist alles"
+	line "deine Schuld!"
 	done
 
 BurnedTowerRival_WinText:
-	text "…Humph!"
+	text "…Humpf!"
 
-	para "This is why I hate"
-	line "battling wimps."
+	para "Darum hasse ich"
+	line "es, gegen Schwäch-"
+	cont "linge anzutreten."
 
-	para "There's no"
-	line "challenge in it."
+	para "Es ist keine"
+	line "Herausforderung."
 	done
 
 BurnedTowerRival_AfterText1:
-	text "…Aw, whatever."
+	text "…Ach, egal!"
 
-	para "You would never be"
-	line "able to catch a"
+	para "Du wärst sowieso"
+	line "nicht fähig, ein"
 
-	para "legendary #MON"
-	line "anyway."
+	para "legendäres #MON"
+	line "zu fangen."
 	done
 
 BurnedTowerRival_LossText:
-	text "…Humph!"
+	text "…Humpf!"
 
-	para "This is why I hate"
-	line "battling wimps."
+	para "Ich hasse es, ge-"
+	line "gen Schwächlinge"
 
-	para "It's just a waste"
-	line "of my time."
+	para "anzutreten. Es ist"
+	line "Zeitverschwendung."
 	done
 
 BurnedTowerRival_AfterText2:
-	text "Humph!"
+	text "Humpf!"
 
-	para "What are you doing"
-	line "falling into a"
+	para "Was hast du dir"
+	line "dabei gedacht,"
 
-	para "hole? Some genius"
-	line "you are!"
+	para "einfach in ein"
+	line "Loch zu fallen?"
+	cont "Du Genie!"
 
-	para "Serves you right!"
+	para "Das geschieht dir"
+	line "recht!"
 	done
 
 BurnedTower1FEusineIntroText:
-	text "EUSINE: My name's"
-	line "EUSINE."
+	text "EUSIN: Ich heiせe"
+	line "EUSIN."
 
-	para "I'm on the trail"
-	line "of a #MON named"
+	para "Ich bin auf der"
+	line "Suche nach einem"
+	cont "#MON namens"
 	cont "SUICUNE."
 
-	para "And you are…?"
+	para "Und wer bist du…?"
 
-	para "<PLAYER>? Glad to"
-	line "meet you!"
+	para "<PLAYER>? Schön,"
+	line "dich kennen"
+	cont "zu lernen!"
 
-	para "I heard rumors"
-	line "that SUICUNE is in"
+	para "Ich hörte, dass"
+	line "SUICUNE hier in"
 
-	para "this BURNED TOWER,"
-	line "so I came to look."
+	para "der TURMRUINE ist,"
+	line "also wollte ich es"
+	cont "sehen."
 
-	para "But where exactly"
-	line "could it be?"
+	para "Aber wo genau ist"
+	line "es?"
 	done
 
 BurnedTower1FEusineText:
-	text "EUSINE: I heard"
-	line "that SUICUNE is in"
+	text "Ich hörte, dass"
+	line "SUICUNE hier in"
 
-	para "this BURNED TOWER,"
-	line "so I came to look."
+	para "der TURMRUINE ist,"
+	line "also wollte ich es"
+	cont "sehen."
 
-	para "But where exactly"
-	line "could it be?"
+	para "Aber wo genau ist"
+	line "es?"
 	done
 
 BurnedTower1FMortyText:
-	text "MORTY: ECRUTEAK's"
-	line "GYM LEADER has to"
+	text "JENS: Der ARENA-"
+	line "LEITER von TEAK"
 
-	para "study what are"
-	line "said to be the"
+	para "CITY, muss die"
+	line "sogenannten"
 
-	para "legendary #MON"
-	line "--SUICUNE, ENTEI"
-	cont "and RAIKOU."
+	para "legendären #MON"
+	line "- SUICUNE, ENTEI"
+	cont "und RAIKOU -"
+	cont "studieren."
 
-	para "EUSINE is here, so"
-	line "I've decided to"
+	para "EUSIN ist ge-"
+	line "kommen, also habe"
 
-	para "investigate the"
-	line "TOWER with him."
+	para "ich beschlossen,"
+	line "den TURM mit ihm"
+	cont "zu untersuchen."
 	done
 
 BurnedTower1F_MapEvents:

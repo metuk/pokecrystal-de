@@ -52,27 +52,25 @@ GoldenrodDeptStore4FBugCatcherText:
 	done
 
 GoldenrodDeptStore4FGameboyKidText:
-	text "Some #MON"
-	line "evolve only by"
+	text "Manche #MON"
+	line "entwickeln sich"
+	cont "nur durch Tausch."
 
-	para "being traded via a"
-	line "Game Link cable."
+	para "Ich kenne vier:"
+	line "MASCHOCK, KADABRA,"
 
-	para "I know of four:"
-	line "MACHOKE, KADABRA,"
+	para "ALPOLLO und"
+	line "GEOROK."
 
-	para "HAUNTER and, um,"
-	line "GRAVELER."
-
-	para "I heard there are"
-	line "others too."
+	para "Ich hörte, es gibt"
+	line "noch weitere."
 	done
 
 GoldenrodDeptStore4FDirectoryText:
-	text "Let Us Pump Up"
-	line "Your #MON!"
+	text "Wir kümmern uns um"
+	line "Ihre #MON!"
 
-	para "4F MEDICINE BOX"
+	para "3S ARZNEI"
 	done
 
 GoldenrodDeptStore4F_MapEvents:

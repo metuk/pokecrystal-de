@@ -49,13 +49,12 @@ Route16GateOfficerText:
 	done
 
 Route16GateCannotPassText:
-	text "Hey! Whoa! Stop!"
+	text "Hey! Boah! Stopp!"
 
-	para "You can't go out"
-	line "on the CYCLING"
+	para "Du darfst nicht"
+	line "ohne FAHRRAD"
 
-	para "ROAD without a"
-	line "BICYCLE."
+	para "auf den RADWEG."
 	done
 
 Route16Gate_MapEvents:

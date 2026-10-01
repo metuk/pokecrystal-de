@@ -191,46 +191,52 @@ BurnedTowerB1FEusineMovement1:
 	step_end
 
 BurnedTowerB1FEusineText:
-	text "EUSINE: I dug a"
-	line "hole here, too…"
+	text "EUSIN: Ich habe"
+	line "hier auch ein Loch"
+	cont "gegraben…"
 
-	para "I was shocked!"
+	para "Ich war geschockt!"
 
-	para "SUICUNE raced by"
-	line "like a blur, right"
+	para "SUICUNE rannte an"
+	line "mir vorbei wie ein"
 
-	para "in front of my"
-	line "eyes!"
+	para "Blitz, direkt vor"
+	line "meinen Augen!"
 
-	para "For ten years I"
-	line "chased SUICUNE,"
+	para "Zehn Jahre habe"
+	line "ich SUICUNE ver-"
+	cont "folgt und endlich"
 
-	para "and I finally got"
-	line "to see it."
+	para "habe ich es ge-"
+	line "sehen!"
 
-	para "I'm all choked up!"
+	para "Ich bin"
+	line "überwältigt!"
 
-	para "<PLAYER>, I owe"
-	line "this all to you!"
+	para "<PLAYER>, all das"
+	line "verdanke ich dir!"
 
-	para "Thank you!"
+	para "Vielen Dank!"
 
-	para "I heard that the"
-	line "legendary #MON"
+	para "Ich hörte, dass"
+	line "die legendären"
 
-	para "of ECRUTEAK test"
-	line "chosen humans by"
+	para "#MON von TEAK"
+	line "CITY Auserwählte"
 
-	para "allowing them to"
-	line "get close."
+	para "testen, indem sie"
+	line "zulassen, dass sie"
+	cont "ihnen nahe kommen."
 
-	para "I'm going to track"
-	line "SUICUNE."
+	para "Ich begebe mich"
+	line "auf die Suche nach"
+	cont "SUICUNE."
 
-	para "<PLAYER>, let's"
-	line "meet again!"
+	para "<PLAYER>, wir"
+	line "müssen uns wieder"
+	cont "treffen!"
 
-	para "Farewell!"
+	para "Leb wohl!"
 	done
 
 BurnedTowerB1F_MapEvents:

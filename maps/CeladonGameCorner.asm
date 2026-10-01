@@ -147,19 +147,20 @@ CeladonGameCornerUnusedMovementData: ; unreferenced
 	step_end
 
 CeladonGameCornerReceptionistText:
-	text "Welcome!"
+	text "Willkommen!"
 
-	para "You may exchange"
-	line "your coins for"
+	para "Du kannst deine"
+	line "Münzen nebenan"
 
-	para "fabulous prizes"
-	line "next door."
+	para "gegen fabelhafte"
+	line "Preise ein-"
+	cont "tauschen."
 	done
 
 CeladonGameCornerPokefanMText:
-	text "The slot machines"
-	line "are all state of"
-	cont "the art."
+	text "Die Spielautomaten"
+	line "sind alle"
+	cont "hochmodern."
 	done
 
 CeladonGameCornerTeacherText:
@@ -221,22 +222,22 @@ else
 endc
 
 CeladonGameCornerFisherText2:
-	text "Gahahaha!"
+	text "Hahahaha!"
 
-	para "It makes me feel"
-	line "good to do nice"
+	para "Ich fühle mich"
+	line "wohl, wenn ich"
 
-	para "things for other"
-	line "people!"
+	para "anderen etwas"
+	line "Gutes tue!"
 	done
 
 CeladonGameCornerFisherNoCoinCaseText:
-	text "Hey, you don't"
-	line "have a COIN CASE."
+	text "Eh, du hast keinen"
+	line "MÜNZKORB."
 
-	para "How am I supposed"
-	line "to give you any"
-	cont "coins, kid?"
+	para "Wie soll ich dir"
+	line "denn so Münzen"
+	cont "geben, Zwerg?"
 	done
 
 CeladonGameCornerFisherFullCoinCaseText:
@@ -289,35 +290,37 @@ else
 endc
 
 CeladonGameCornerPoster1Text:
-	text "Hey!"
+	text "He!"
 
-	para "Underneath this"
-	line "poster…"
+	para "Hinter diesem"
+	line "Poster…"
 
-	para "There's nothing!"
+	para "Da ist nichts!"
 	done
 
 CeladonGameCornerPoster2Text:
-	text "Hey!"
+	text "He!"
 
-	para "Underneath this"
-	line "poster…"
+	para "Hinter diesem"
+	line "Poster…"
 
-	para "There's nothing!"
+	para "Da ist nichts!"
 	done
 
 CeladonGameCornerLighterText:
-	text "There's a lighter"
-	line "here."
+	text "Da ist ein"
+	line "Feuerzeug."
 	done
 
 CeladonGameCornerSodaCanText:
-	text "A can of soda…"
+	text "Eine Wasser-"
+	line "flasche…"
 
-	para "Someone must be"
-	line "coming back…"
+	para "Die muss jemandem"
+	line "gehören, der sie"
+	cont "holen wird…"
 
-	para "Huh? It's empty!"
+	para "Was? Sie ist leer!"
 	done
 
 CeladonGameCorner_MapEvents:

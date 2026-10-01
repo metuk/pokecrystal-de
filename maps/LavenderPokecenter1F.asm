@@ -35,47 +35,56 @@ LavenderPokecenter1FYoungsterScript:
 	end
 
 LavenderPokecenter1FGentlemanText:
-	text "To the north of"
-	line "LAVENDER is ROCK"
+	text "Im Norden von"
+	line "LAVANDIA ist der"
 
-	para "TUNNEL. Go through"
-	line "it to get to the"
-	cont "POWER PLANT."
+	para "FELSTUNNEL. Er"
+	line "führt zum"
+	cont "KRAFTWERK."
 	done
 
 LavenderPokecenter1FTeacherText:
-	text "There's a radio"
-	line "program that plays"
-	cont "# FLUTE music."
+	text "Es gibt eine"
+	line "Musiksendung im"
+	cont "Radio, die Melo-"
+	cont "dien auf der #-"
+	cont "FLÖTE sendet."
 
-	para "Oh? Ah, your radio"
-	line "needs an EXPN CARD"
-	cont "to tune into it."
+	para "Ach ja? Ah, dein"
+	line "Radio braucht ein"
+	cont "ZUSATZSET, damit"
+	cont "du das empfangen"
+	cont "kannst."
 	done
 
 LavenderPokecenter1FYoungsterText:
-	text "If the POWER PLANT"
-	line "isn't running, the"
+	text "Wenn das KRAFTWERK"
+	line "nicht funktio-"
+	cont "niert, läuft der"
 
-	para "MAGNET TRAIN won't"
-	line "run either…"
+	para "MAGNETZUG auch"
+	line "nicht…"
 
-	para "It also means the"
-	line "RADIO STATION"
-	cont "can't broadcast…"
+	para "Das bedeutet, dass"
+	line "auch die RADIO-"
+	cont "STATION nicht"
+
+	para "auf Sendung"
+	line "gehen kann…"
 	done
 
 LavenderPokecenter1FYoungsterText_ReturnedMachinePart:
-	text "The DIRECTOR of"
-	line "the RADIO STATION"
-	cont "sure was happy."
+	text "Der INTENDANT der"
+	line "RADIOSTATION war"
+	cont "hoch erfreut."
 
-	para "He said they're"
-	line "back on the air"
+	para "Er sagte, sie"
+	line "seien wieder auf"
 
-	para "because the POWER"
-	line "PLANT is running"
-	cont "smoothly again."
+	para "Sendung, weil das"
+	line "KRAFTWERK wieder"
+	cont "einwandfrei"
+	cont "arbeite."
 	done
 
 LavenderPokecenter1F_MapEvents:

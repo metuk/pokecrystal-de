@@ -37,49 +37,51 @@ SproutTower2FXAccuracy:
 	itemball X_ACCURACY
 
 SageNicoSeenText:
-	text "However hard we"
-	line "battle, the TOWER"
-	cont "will stand strong."
+	text "Wie hart wir auch"
+	line "kämpfen, der TURM"
+	cont "bleibt stehen."
 	done
 
 SageNicoBeatenText:
-	text "I fought hard but"
-	line "I'm too weak."
+	text "Ich kämpfte hart,"
+	line "aber ich bin ein-"
+	cont "fach zu schwach."
 	done
 
 SageNicoAfterBattleText:
-	text "The flexible pil-"
-	line "lar protects the"
+	text "Aufgrund der"
+	line "flexiblen Säule"
 
-	para "TOWER, even from"
-	line "earthquakes."
+	para "ist der TURM"
+	line "erdbebensicher."
 	done
 
 SageEdmondSeenText:
-	text "…Sway like leaves"
-	line "in the wind…"
+	text "…Wirble wie"
+	line "Laub im Wind…"
 	done
 
 SageEdmondBeatenText:
-	text "Oh, I'm weak!"
+	text "Ich bin schwach!"
 	done
 
 SageEdmondAfterBattleText:
-	text "I tried to copy"
-	line "BELLSPROUT's"
+	text "Ich habe versucht,"
+	line "KNOFENSAs elegante"
 
-	para "gentle movements"
-	line "for battle…"
+	para "Bewegungen im"
+	line "Kampf nachzuahmen…"
 
-	para "But I didn't train"
-	line "well enough."
+	para "Aber ich habe"
+	line "nicht intensiv"
+	cont "genug trainiert."
 	done
 
 SproutTower2FStatueText:
-	text "A #MON statue…"
+	text "Eine PKMN-Statue…"
 
-	para "It looks very"
-	line "distinguished."
+	para "Sie sieht sehr"
+	line "erhaben aus."
 	done
 
 SproutTower2F_MapEvents:

@@ -38,11 +38,14 @@ class Reader:
 
 
 class Symbol:
-	def __init__(self, name, type, section=-1, value=0):
+	def __init__(self, name, type, section=-1, value=0, node=-1, line=0):
 		self.name = name
 		self.type = type
 		self.section = section
 		self.value = value
+		self.node = node
+		self.line = line
+		self.file = None  # innermost source file, filled in by ObjectFile
 
 
 class Patch:
@@ -74,6 +77,14 @@ class Section:
 
 
 class ObjectFile:
+	def node_file(self, node):
+		while 0 <= node < len(self.nodes):
+			parent, t, name = self.nodes[node]
+			if t == 1:
+				return name
+			node = parent
+		return None
+
 	def __init__(self, path):
 		self.path = path
 		r = Reader(open(path, 'rb').read())
@@ -84,25 +95,32 @@ class ObjectFile:
 		nsyms = r.long()
 		nsects = r.long()
 
+		nodes = []
 		for _ in range(r.long()):
-			r.long()  # parent id
+			parent = r.long()
 			r.long()  # parent line
 			t = r.byte()
+			name = None
 			if t & 0x7f:
-				r.string()
+				name = r.string()
 			else:
 				r.bytes(4 * r.long())
+			nodes.append((parent, t & 0x7f, name))
+		nodes.reverse()  # node ID 0 is the last one in the file
+		self.nodes = nodes
 
 		self.symbols = []
 		for _ in range(nsyms):
 			name = r.string()
 			t = r.byte()
 			if t != 1:
-				r.long()  # node
-				r.long()  # line
+				node = r.long()
+				line = r.long()
 				sect = r.long()
 				value = r.long()
-				self.symbols.append(Symbol(name, t, sect, value))
+				sym = Symbol(name, t, sect, value, node, line)
+				sym.file = self.node_file(node)
+				self.symbols.append(sym)
 			else:
 				self.symbols.append(Symbol(name, t))
 

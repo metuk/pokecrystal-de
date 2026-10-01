@@ -1,44 +1,47 @@
 KenjiAnswerPhoneText:
+	text "Ich, @"
 	text_ram wStringBuffer3
-	text " here…"
+	text "…"
 
-	para "<PLAYER>! Beautiful"
-	line "morning, hey?"
+	para "<PLAYER>! Schöner"
+	line "Morgen, oder?"
 	done
 
 KenjiAnswerPhoneDayText:
+	text "Ich, @"
 	text_ram wStringBuffer3
-	text " here…"
+	text "…"
 
-	para "<PLAYER>! Beautiful"
-	line "weather, hey?"
+	para "<PLAYER>! Schönes"
+	line "Wetter, oder?"
 	done
 
 KenjiAnswerPhoneNiteText:
+	text "Ich, @"
 	text_ram wStringBuffer3
-	text " here…"
+	text "…"
 
-	para "<PLAYER>! Beautiful"
-	line "moonlight, hey?"
+	para "<PLAYER>! Schöner"
+	line "Mondschein, oder?"
 	done
 
 KenjiGreetText:
-	text "Hey, <PLAYER>!"
-	line "This is @"
+	text "Heh, <PLAYER>!"
+	line "@"
 	text_ram wStringBuffer3
-	text "!"
+	text ", hallo!"
 	done
 
 KenjiGreetDayText:
-	text "Hey, <PLAYER>!"
-	line "This is @"
+	text "Heh, <PLAYER>!"
+	line "@"
 	text_ram wStringBuffer3
-	text "!"
+	text ", hallo!"
 	done
 
 KenjiGreetNiteText:
-	text "Hey, <PLAYER>!"
-	line "This is @"
+	text "Heh, <PLAYER>!"
+	line "@"
 	text_ram wStringBuffer3
-	text "!"
+	text ", hallo!"
 	done

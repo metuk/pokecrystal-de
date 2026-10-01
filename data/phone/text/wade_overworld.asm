@@ -1,70 +1,71 @@
 WadeAskNumber1Text:
-	text "You're awesome!"
-	line "I like you!"
+	text "Eh, du bist gut!"
+	line "Das mag ich!"
 
-	para "I look for #MON"
-	line "here every day."
+	para "Ich such hier täg-"
+	line "lich nach #MON."
 
-	para "When I'm in the"
-	line "grass, I find all"
-	cont "kinds of BERRIES."
+	para "Im Gras finde ich"
+	line "alle Arten von"
+	cont "BEEREN."
 
-	para "If you'd like,"
-	line "I'll share some."
+	para "Wenn du möchtest,"
+	line "teile ich mit dir."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 	done
 
 WadeAskNumber2Text:
-	text "When I'm in the"
-	line "grass, I find all"
-	cont "kinds of BERRIES."
+	text "Im Gras finde ich"
+	line "alle Arten von"
+	cont "BEEREN."
 
-	para "If you'd like,"
-	line "I'll share some."
+	para "Wenn du möchtest,"
+	line "teile ich mit dir."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 	done
 
 WadeNumberAcceptedText:
-	text "You'll hear from"
-	line "me as soon as I"
+	text "Ich melde mich,"
+	line "sobald ich etwas"
 
-	para "find anything that"
-	line "you might like."
+	para "finde, das dir ge-"
+	line "fallen könnte."
 	done
 
 WadeNumberDeclinedText:
-	text "Oh well. Don't be"
-	line "shy if you want to"
-	cont "get my number."
+	text "Du kannst mich"
+	line "gerne nach meiner"
+	cont "Nummer fragen."
 	done
 
 WadePhoneFullText:
-	text "Your phone list"
-	line "has no room for my"
-	cont "number."
+	text "In deinem Nummern-"
+	line "speicher ist kein"
+	cont "Platz mehr."
 	done
 
 WadeRematchText:
-	text "I was waiting for"
-	line "you. Let's battle!"
+	text "Ich habe schon auf"
+	line "dich gewartet."
+	cont "Los gehtわ!"
 	done
 
 WadeGiftText:
-	text "Good to see you!"
-	line "See? This is what"
+	text "Schön dich zu se-"
+	line "hen! Hier, das"
 
-	para "I found."
-	line "It's for you!"
+	para "habe ich gefunden."
+	line "Nimm es bitte!"
 	done
 
 WadePackFullText:
-	text "Oops, your PACK's"
-	line "full. Too bad."
+	text "Dein BEUTEL ist"
+	line "voll. Schade!"
 
-	para "You should come"
-	line "back for it later."
+	para "Hole es dir"
+	line "später ab."
 	done

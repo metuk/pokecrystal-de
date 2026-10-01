@@ -108,136 +108,140 @@ BillsHouseRadio:
 
 BillTakeThisEeveeText:
 	text "BILL: Hi, <PLAYER>!"
-	line "Do us a favor and"
-	cont "take this EEVEE."
+	line "Tu uns einen Ge-"
+	cont "fallen und nimm"
+	cont "dieses EVOLI."
 
-	para "It came over when"
-	line "I was adjusting"
-	cont "the TIME CAPSULE."
+	para "Es kam hierher,"
+	line "als ich an der"
+	cont "ZEITKAPSEL gear-"
+	cont "beitet habe."
 
-	para "Someone has to"
-	line "take care of it,"
+	para "Jemand sollte sich"
+	line "darum kümmern,"
 
-	para "but I don't like"
-	line "being outside."
+	para "aber ich gehe"
+	line "nicht gerne raus."
 
-	para "Can I count on you"
-	line "to play with it,"
+	para "Wirst du für mich"
+	line "mit ihm spielen,"
 	cont "<PLAYER>?"
 	done
 
 BillImCountingOnYouText:
-	text "BILL: I knew you'd"
-	line "come through!"
+	text "BILL: Ich wusste,"
+	line "dass du es"
 
-	para "Way to go! You're"
-	line "the real deal!"
+	para "schaffst! Noch ein"
+	line "kleines Stück! Du"
+	cont "bist einzigartig!"
 
-	para "OK, I'm counting"
-	line "on you."
+	para "O.K., ich zähle"
+	line "auf dich."
 
-	para "Take good care of"
-	line "it!"
+	para "Pass auf dich auf!"
 	done
 
 ReceivedEeveeText:
-	text "<PLAYER> received"
-	line "EEVEE!"
+	text "<PLAYER> erhält"
+	line "EVOLI!"
 	done
 
 BillEeveeMayEvolveText:
-	text "BILL: PROF.ELM"
-	line "claims EEVEE may"
+	text "BILL: PROF. LIND"
+	line "sagt, EVOLI kann"
 
-	para "evolve in new and"
-	line "unknown ways."
+	para "sich in neue, un-"
+	line "bekannte Arten"
+	cont "entwickeln."
 	done
 
 BillPartyFullText:
-	text "Whoa, wait. You"
-	line "can't carry any"
-	cont "more #MON."
+	text "Moment! Du hast"
+	line "keinen Platz mehr"
+	cont "in deinem Team."
 	done
 
 BillNoEeveeText:
-	text "Oh… Now what to"
-	line "do?"
+	text "Oh… Was soll ich"
+	line "tun?"
 	done
 
 BillPopWontWorkText:
-	text "BILL: My pop, he"
-	line "won't work. All he"
+	text "BILL: Mein Paps"
+	line "arbeitet nicht. Er"
 
-	para "does is goof off"
-	line "all day long."
+	para "geht den ganzen"
+	line "Tag müせig."
 
-	para "He's getting to be"
-	line "a real headache…"
+	para "Er fängt an, zu"
+	line "nerven…"
 	done
 
 BillsMomText_BeforeEcruteak:
-	text "Oh, you collect"
-	line "#MON? My son"
-	cont "BILL is an expert."
+	text "Oh, du sammelst"
+	line "#MON? Mein Sohn"
+	cont "BILL ist ein"
+	cont "Experte."
 
-	para "He just got called"
-	line "to the #MON"
+	para "Er wurde gerade in"
+	line "das #MON-CENTER"
 
-	para "CENTER in ECRUTEAK"
-	line "CITY."
+	para "von TEAK CITY"
+	line "gerufen."
 
-	para "My husband went"
-	line "off to the GAME"
+	para "Mein Mann ging in"
+	line "die SPIELHALLE,"
 
-	para "CORNER without"
-	line "being called…"
+	para "ohne angerufen"
+	line "zu werden…"
 	done
 
 BillsMomText_AfterEcruteak:
-	text "My husband was"
-	line "once known as a"
+	text "Mein Mann war als"
+	line "#MANIAC "
 
-	para "#MANIAC."
-	line "BILL must have"
-
-	para "taken after his"
-	line "father."
+	para "bekannt. BILL"
+	line "muss nach seinem"
+	cont "Vater kommen."
 	done
 
 BillsYoungerSisterUsefulNumberText:
-	text "Are you a trainer?"
+	text "Bist du ein"
+	line "Trainer?"
 
-	para "I've got a useful"
-	line "phone number for"
-	cont "you."
+	para "Ich habe eine"
+	line "nützliche Telefon-"
+	cont "nummer für dich."
 	done
 
 RecordedBillsNumberText:
-	text "<PLAYER> recorded"
-	line "BILL's number."
+	text "<PLAYER> speichert"
+	line "BILLs Nummer."
 	done
 
 BillsYoungerSisterRefusedNumberText:
-	text "My brother made"
-	line "the PC #MON"
-	cont "storage system."
+	text "Mein Bruder hat"
+	line "das PC-#MON-"
+	cont "LAGERUNGS-SYSTEM"
+	cont "erfunden."
 
-	para "I was going to"
-	line "give you BILL's"
-	cont "number…"
+	para "Ich wollte dir ge-"
+	line "rade BILLs Nummer"
+	cont "geben…"
 	done
 
 BillsYoungerSisterPhoneFullText:
-	text "You can't record"
-	line "any more numbers."
+	text "Du kannst keine"
+	line "Nummern mehr spei-"
+	cont "chern."
 	done
 
 BillsYoungerSisterStorageSystemText:
-	text "My big brother"
-	line "BILL made the PC"
-
-	para "#MON storage"
-	line "system."
+	text "Mein groせer Bruder"
+	line "BILL hat das PC-"
+	cont "#MON-LAGERUNGS-"
+	cont "SYSTEM erfunden."
 	done
 
 BillsFamilysHouse_MapEvents:

@@ -74,136 +74,150 @@ PewterGymStatue:
 	jumpstd GymStatue2Script
 
 BrockIntroText:
-	text "BROCK: Wow, it's"
-	line "not often that we"
+	text "ROCKO: Wow, es"
+	line "kommt nicht oft"
 
-	para "get a challenger"
-	line "from JOHTO."
+	para "vor, dass wir von"
+	line "einem Heraus-"
+	cont "forderer aus JOHTO"
+	cont "besucht werden."
 
-	para "I'm BROCK, the"
-	line "PEWTER GYM LEADER."
+	para "Ich bin ROCKO, der"
+	line "ARENALEITER von"
 
-	para "I'm an expert on"
-	line "rock-type #MON."
+	para "MARMORIA. Ich habe"
+	line "mich auf Gestein-"
+	cont "#MON"
+	cont "spezialisiert."
 
-	para "My #MON are im-"
-	line "pervious to most"
+	para "Meine #MON sind"
+	line "gegen die meisten"
 
-	para "physical attacks."
-	line "You'll have a hard"
+	para "physischen Atta-"
+	line "cken immun. Es"
+	cont "wird dir schwer"
 
-	para "time inflicting"
-	line "any damage."
-
-	para "Come on!"
+	para "fallen, ihnen"
+	line "Schaden zuzufügen."
+	cont "Na los!"
 	done
 
 BrockWinLossText:
-	text "BROCK: Your #-"
-	line "MON's powerful at-"
-	cont "tacks overcame my"
-	cont "rock-hard defense…"
+	text "ROCKO: Die mäch-"
+	line "tigen Attacken"
+	cont "deiner #MON"
+	cont "haben meine"
+	cont "felsenfeste"
+	cont "Verteidigung"
+	cont "überwunden…"
 
-	para "You're stronger"
-	line "than I expected…"
+	para "Du bist stärker,"
+	line "als ich dachte…"
 
-	para "Go ahead--take"
-	line "this BADGE."
+	para "Komm - Nimm dir"
+	line "diesen ORDEN."
 	done
 
 ReceivedBoulderBadgeText:
-	text "<PLAYER> received"
-	line "BOULDERBADGE."
+	text "<PLAYER> erhält"
+	line "FELSORDEN."
 	done
 
 BrockBoulderBadgeText:
-	text "BROCK: <PLAY_G>,"
-	line "thanks. I enjoyed"
+	text "ROCKO: Danke,"
+	line "<PLAY_G>. Es war"
 
-	para "battling you, even"
-	line "though I am a bit"
-	cont "upset."
+	para "eine Freude, gegen"
+	line "dich zu kämpfen."
 
-	para "That BOULDERBADGE"
-	line "will make your"
+	para "Auch wenn ich ein"
+	line "bisschen beleidigt"
+	cont "bin."
 
-	para "#MON even more"
-	line "powerful."
+	para "Dieser FELSORDEN"
+	line "wird deine #-"
+	cont "MON noch stärker"
+	cont "machen."
 	done
 
 BrockFightDoneText:
-	text "BROCK: The world"
-	line "is huge. There are"
+	text "ROCKO: Die Welt"
+	line "ist groせ. Es gibt"
 
-	para "still many strong"
-	line "trainers like you."
+	para "immer noch viele"
+	line "starke Trainer wie"
+	cont "dich."
 
-	para "Just wait and see."
-	line "I'm going to be-"
-	cont "come a lot strong-"
-	cont "er too."
+	para "Warte nur ab. Ich"
+	line "werde auch noch"
+	cont "viel stärker."
 	done
 
 CamperJerrySeenText:
-	text "The trainers of"
-	line "this GYM use rock-"
-	cont "type #MON."
+	text "Die Trainer dieser"
+	line "PKMN-ARENA setzen"
+	cont "Gestein-#MON"
+	cont "ein."
 
-	para "The rock-type has"
-	line "high DEFENSE."
+	para "Gestein-#MON"
+	line "haben hohe"
+	cont "VERT-Werte."
 
-	para "Battles could end"
-	line "up going a long"
+	para "Die Kämpfe können"
+	line "sehr lange"
 
-	para "time. Are you"
-	line "ready for this?"
+	para "dauern. Bist du"
+	line "bereit dafür?"
 	done
 
 CamperJerryBeatenText:
-	text "I have to win"
-	line "these battles…"
+	text "Ich muss diese"
+	line "Kämpfe gewinnen…"
 	done
 
 CamperJerryAfterBattleText:
-	text "Hey, you! Trainer"
-	line "from JOHTO! BROCK"
+	text "He, du da! Trainer"
+	line "aus JOHTO! ROCKO"
 
-	para "is tough. He'll"
-	line "punish you if you"
+	para "ist stark. Es wird"
+	line "dir übel bekommen,"
 
-	para "don't take him"
-	line "seriously."
+	para "wenn du ihn nicht"
+	line "ernst nimmst."
 	done
 
 PewterGymGuideText:
-	text "Yo! CHAMP in"
-	line "making! You're"
+	text "He! Ein CHAMP"
+	line "in spe!"
 
-	para "really rocking."
-	line "Are you battling"
+	para "Das ist cool!"
+	line "Kämpfst du gegen"
 
-	para "the GYM LEADERS of"
+	para "die ARENALEITER in"
 	line "KANTO?"
 
-	para "They're strong and"
-	line "dedicated people,"
+	para "Sie sind stark und"
+	line "ambitioniert, wie"
 
-	para "just like JOHTO's"
-	line "GYM LEADERS."
+	para "die ARENALEITER in"
+	line "JOHTO."
 	done
 
 PewterGymGuideWinText:
-	text "Yo! CHAMP in"
-	line "making! That GYM"
+	text "He! Ein CHAMP"
+	line "in spe!"
 
-	para "didn't give you"
-	line "much trouble."
+	para "Diese PKMN-ARENA"
+	line "stellte kein"
 
-	para "The way you took"
-	line "charge was really"
+	para "Problem für dich"
+	line "dar."
 
-	para "inspiring. I mean"
-	line "that seriously."
+	para "Dein Einsatz"
+	line "ist wirklich"
+
+	para "beeindruckend. Das"
+	line "meine ich ehrlich."
 	done
 
 PewterGym_MapEvents:

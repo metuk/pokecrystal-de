@@ -45,88 +45,88 @@ CianwoodPokecenter1FLassText:
 	done
 
 CianwoodGymGuideText:
-	text "The #MON GYM"
-	line "trainers here are"
-	cont "macho bullies."
+	text "Die Trainer in"
+	line "der PKMN-ARENA"
 
-	para "If I stick around,"
-	line "they might come"
-	cont "after me."
+	para "sind richtige"
+	line "Schlägertypen."
 
-	para "Here's some ad-"
-	line "vice: the GYM"
+	para "Wenn ich dort rum-"
+	line "stehe, schnappen"
+	cont "sie mich."
 
-	para "LEADER uses the"
-	line "fighting-type."
+	para "Ein Tipp: Der LEI-"
+	line "TER setzt gerne"
 
-	para "So you should"
-	line "confound him with"
-	cont "psychic #MON."
+	para "Kampf-#MON"
+	line "ein."
 
-	para "Wipe out his #-"
-	line "MON before they"
+	para "Du solltest ihn"
+	line "mit Psycho-#-"
+	cont "MON überraschen."
 
-	para "can use their"
-	line "physical strength."
+	para "Besiege seine"
+	line "#MON, bevor sie"
 
-	para "And those boulders"
-	line "in the middle of"
-	cont "the GYM?"
+	para "ihre Kraft ein-"
+	line "setzen können."
 
-	para "If you don't move"
-	line "them correctly,"
+	para "Und die Felsen"
+	line "in der Mitte der"
+	cont "PKMN-ARENA?"
 
-	para "you won't reach"
-	line "the GYM LEADER."
+	para "Räume sie aus dem"
+	line "Weg, denn sonst"
 
-	para "If you get stuck,"
-	line "go outside."
+	para "wirst du den"
+	line "ARENALEITER nie"
+	cont "erreichen."
+
+	para "Hast du dich ver-"
+	line "schoben, verlasse"
+	cont "die PKMN-ARENA."
 	done
 
 CianwoodGymGuideWinText:
-	text "<PLAYER>! You won!"
-	line "I could tell by"
-	cont "looking at you!"
+	text "<PLAYER>! Du hast"
+	line "gewonnen! Das habe"
+	cont "ich dir gleich an-"
+	cont "gesehen!"
 	done
 
 CianwoodPokecenter1FUnusedText1: ; unreferenced
-	text "Don't you get the"
-	line "urge to show off"
+	text "Überkommt dich"
+	line "manchmal auch das"
 
-	para "your #MON to"
-	line "friends?"
+	para "Verlangen, deine"
+	line "#MON deinen"
 
-	para "I wish I could"
-	line "show the #MON I"
+	para "Freunden zeigen zu"
+	line "müssen?"
 
-	para "raised to my pal"
-	line "in VIOLET."
+	para "Ich wünschte, ich"
+	line "könnte meine #-"
+	cont "MON meinem Kame-"
+	cont "raden in VIOLA"
+	cont "CITY zeigen."
 	done
 
 CianwoodPokecenter1FUnusedText2: ; unreferenced
-	text "I've been battling"
-	line "my pal in VIOLET"
-
-	para "using a MOBILE"
-	line "ADAPTER link."
-
-	para "I'm down 5-7"
-	line "against him. I've"
-	cont "gotta crank it up!"
+	text_start
 	done
 
 CianwoodPokecenter1FSuperNerdText:
-	text "I love showing off"
-	line "the #MON that"
+	text "Ich liebe es, mit"
+	line "meinen trainierten"
 
-	para "I've raised."
-	line "Don't you?"
+	para "#MON anzugeben."
+	line "Du etwa nicht?"
 
-	para "I'm going to get"
-	line "into a bunch of"
+	para "Ich werde einige"
+	line "Kämpfe bestreiten,"
 
-	para "battles, and show"
-	line "off my #MON!"
+	para "um mit meinen"
+	line "#MON anzugeben!"
 	done
 
 CianwoodPokecenter1F_MapEvents:

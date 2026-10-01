@@ -1,81 +1,83 @@
 VanceAnswerPhoneText:
-	text "Yes, hello?"
-	line "@"
+	text "Ja, hallo? Hier"
+	line "ist @"
 	text_ram wStringBuffer3
-	text " here!"
+	text "!"
 
-	para "Morning, <PLAY_G>!"
+	para "Moin, <PLAY_G>!"
 
-	para "Are you using bird"
-	line "#MON?"
+	para "Setzt du Vogel-"
+	line "#MON ein?"
 	done
 
 VanceAnswerPhoneDayText:
-	text "Yes, hello?"
-	line "@"
+	text "Ja, hallo? Hier"
+	line "ist @"
 	text_ram wStringBuffer3
-	text " here!"
+	text "!"
 
-	para "Hi, <PLAY_G>!"
+	para "Moin, <PLAY_G>!"
 
-	para "Are your bird"
-	line "#MON flying?"
+	para "Fliegen deine"
+	line "Vogel-#MON?"
 	done
 
 VanceAnswerPhoneNiteText:
-	text "Yes, hello?"
-	line "@"
+	text "Ja, hallo? Hier"
+	line "ist @"
 	text_ram wStringBuffer3
-	text " here!"
+	text "!"
 
-	para "Evening, <PLAY_G>!"
-	line "Are you letting"
+	para "N'Abend, <PLAY_G>!"
+	line "Dürfen sich deine"
 
-	para "your bird #MON"
-	line "see some action?"
+	para "Vogel-#MON wil-"
+	line "de Sachen ansehen?"
 	done
 
 VanceGreetText:
-	text "Good morning,"
+	text "Guten Morgen,"
 	line "<PLAY_G>!"
 
-	para "It's @"
+	para "@"
 	text_ram wStringBuffer3
-	text "!"
-	line "Good morning!"
+	text " hier!"
+	line "Guten Morgen!"
 	done
 
 VanceGreetDayText:
 	text "Hi, <PLAY_G>!"
 
-	para "It's @"
+	para "@"
 	text_ram wStringBuffer3
-	text "!"
-	line "Remember me?"
+	text " hier!"
+	line "Erinnerst du dich?"
 	done
 
 VanceGreetNiteText:
-	text "Good evening,"
+	text "Guten Abend,"
 	line "<PLAY_G>!"
 
-	para "It's @"
+	para "@"
 	text_ram wStringBuffer3
-	text "!"
-	line "Are you free now?"
+	text " hier!"
+	line "Hast du Zeit?"
 	done
 
 VanceGenericText:
-	text "Are you and your"
-	line "#MON fine?"
+	text "Geht es dir und"
+	line "deinen #MON"
+	cont "gut?"
 
-	para "My @"
+	para "Mein @"
 	text_ram wStringBuffer4
 	text_start
-	line "looks like it will"
+	line "scheint so stark"
 
-	para "get tough enough"
-	line "to face and beat"
+	para "werden zu wollen,"
+	line "dass es das legen-"
+	cont "däre VOGEL-#MON"
 
-	para "the legendary bird"
-	line "#MON!"
+	para "herausfordern und"
+	line "besiegen möchte!"
 	done

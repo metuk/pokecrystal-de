@@ -84,32 +84,36 @@ Route9HiddenEther:
 	hiddenitem ETHER, EVENT_ROUTE_9_HIDDEN_ETHER
 
 CamperDeanSeenText:
-	text "I came to explore"
-	line "ROCK TUNNEL."
+	text "Ich möchte den"
+	line "FELSTUNNEL"
+	cont "erforschen."
 	done
 
 CamperDeanBeatenText:
-	text "Whoa! Danger, man."
+	text "Boah! Vorsicht!"
 	done
 
 CamperDeanAfterBattleText:
-	text "My #MON were"
-	line "hurt before even"
+	text "Meine #MON"
+	line "wurden verletzt,"
 
-	para "entering ROCK"
-	line "TUNNEL."
+	para "obwohl ich den"
+	line "FELSTUNNEL noch"
+	cont "nicht betreten"
+	cont "hatte."
 
-	para "I'd better take"
-	line "them to a #MON"
-	cont "CENTER right away."
+	para "Ich bringe sie"
+	line "besser sofort in"
+	cont "ein #MON-"
+	cont "CENTER."
 	done
 
 PicnickerHeidiSeenText:
-	text "Have you ever been"
-	line "to a picnic?"
+	text "Warst du schon"
+	line "beim Picknicken?"
 
-	para "They're so much"
-	line "fun!"
+	para "Das macht groせen"
+	line "Spaせ!"
 	done
 
 PicnickerHeidiBeatenText:
@@ -117,90 +121,98 @@ PicnickerHeidiBeatenText:
 	done
 
 PicnickerHeidiAfterBattleText:
-	text "We bake lots of"
-	line "goodies and share"
+	text "Wir backen viele"
+	line "gute Sachen, die"
 
-	para "them all around."
-	line "They're delicious!"
+	para "wir mit allen"
+	line "teilen. Sie"
+	cont "schmecken lecker!"
 	done
 
 CamperSidSeenText:
-	text "Hey, you!"
-	line "Don't litter!"
+	text "Hey, du Lump!"
+	line "Wirf deinen Müll"
+	cont "nicht hier hin!"
 	done
 
 CamperSidBeatenText:
-	text "I was just point-"
-	line "ing out…"
+	text "Ich wollte nur"
+	line "klarstellen, dass…"
 	done
 
 CamperSidAfterBattleText:
-	text "Sorry. You weren't"
-	line "littering. It was"
-	cont "my mistake."
+	text "Entschuldige!"
+	line "Ich habe mich"
+	cont "geirrt."
 	done
 
 PicnickerEdnaSeenText:
-	text "People shouldn't"
-	line "leave any litter"
-	cont "behind."
+	text "Die Leute sollten"
+	line "ihren Müll nicht"
+	cont "hier liegen"
+	cont "lassen."
 	done
 
 PicnickerEdnaBeatenText:
-	text "Ohh… I lost…"
+	text "Ohh… Ich habe"
+	line "verloren…"
 	done
 
 PicnickerEdnaAfterBattleText:
-	text "Conserving energy"
-	line "is important, but"
+	text "Energiesparen ist"
+	line "wichtig, aber die"
 
-	para "the environment is"
-	line "even more vital."
+	para "Natur ist noch"
+	line "viel wichtiger."
 	done
 
 HikerTimSeenText:
-	text "She'll be coming"
-	line "'round MT.SILVER"
-	cont "when she comes…"
+	text "Wenn sie kommt,"
+	line "kommt sie vom"
+	cont "SILBERBERG…"
 
-	para "MT.SILVER is in"
-	line "JOHTO, right?"
+	para "Der SILBERBERG ist"
+	line "in JOHTO, oder?"
 	done
 
 HikerTimBeatenText:
-	text "I was too busy"
-	line "singing…"
+	text "Ich war zu sehr"
+	line "mit Singen"
+	cont "beschäftigt…"
 	done
 
 HikerTimAfterBattleText:
-	text "Battles are about"
-	line "concentration."
+	text "Bei Kämpfen spielt"
+	line "Konzentration eine"
+	cont "wichtige Rolle."
 	done
 
 HikerSidneySeenText:
-	text "I'll tell you a"
-	line "secret."
+	text "Ich verrate dir"
+	line "ein Geheimnis."
 
-	para "But first, we"
-	line "battle!"
+	para "Aber zuerst müssen"
+	line "wir kämpfen!"
 	done
 
 HikerSidneyBeatenText:
-	text "Oh, dang!"
-	line "I lost that…"
+	text "Oh, Mist!"
+	line "Ich habe verloren…"
 	done
 
 HikerSidneyAfterBattleText:
-	text "The POWER PLANT is"
-	line "across a small"
-	cont "river."
+	text "Du musst einen"
+	line "kleinen Fluss"
+	cont "durchqueren, um"
+	cont "zum KRAFTWERK"
+	cont "zu gelangen."
 	done
 
 Route9SignText:
 	text "ROUTE 9"
 
-	para "CERULEAN CITY -"
-	line "ROCK TUNNEL"
+	para "AZURIA CITY -"
+	line "FELSTUNNEL"
 	done
 
 Route9_MapEvents:

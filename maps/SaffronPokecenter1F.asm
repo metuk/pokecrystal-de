@@ -74,39 +74,40 @@ SaffronPokecenter1FTeacherMobileText:
 	done
 
 SaffronPokecenter1FFisherText:
-	text "I just happened to"
-	line "come through ROCK"
+	text "Ich bin gerade"
+	line "durch den FELS-"
+	cont "TUNNEL gekommen."
 
-	para "TUNNEL. There was"
-	line "some commotion at"
-	cont "the POWER PLANT."
+	para "Da war irgendetwas"
+	line "im Gange beim"
+	cont "KRAFTWERK."
 	done
 
 SaffronPokecenter1FFisherReturnedMachinePartText:
-	text "Caves collapse"
-	line "easily."
+	text "Die Höhlen stürzen"
+	line "leicht ein."
 
-	para "Several caves have"
-	line "disappeared in the"
+	para "In letzter Zeit"
+	line "sind einige Höhlen"
 
-	para "past few years,"
-	line "like the one out-"
-	cont "side CERULEAN."
+	para "verschwunden. Wie"
+	line "die Höhle vor"
+	cont "AZURIA CITY."
 
-	para "As a pro HIKER,"
-	line "that's common"
-	cont "knowledge."
+	para "Für einen Profi-"
+	line "WANDERER ist das"
+	cont "Grundwissen."
 	done
 
 SaffronPokecenter1FYoungsterText:
-	text "SILPH CO.'s HEAD"
-	line "OFFICE and the"
+	text "Die ZENTRALE von"
+	line "SILPH CO. und der"
 
-	para "MAGNET TRAIN STA-"
-	line "TION--they're the"
+	para "MAGNETZUG-BAHNHOF"
+	line "sind sehenswürdige"
 
-	para "places to see in"
-	line "SAFFRON."
+	para "Orte in SAFFRONIA"
+	line "CITY."
 	done
 
 SaffronPokecenter1F_MapEvents:

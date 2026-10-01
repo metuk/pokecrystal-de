@@ -52,41 +52,43 @@ Route6UndergroundPathSignText:
 	done
 
 PokefanmRexSeenText:
-	text "My PHANPY is the"
-	line "cutest in the"
-	cont "world."
+	text "Mein PHANPY ist"
+	line "das niedlichste"
+	cont "der ganzen Welt."
 	done
 
 PokefanmRexBeatenText:
-	text "My PHANPY!"
+	text "Mein PHANPY!"
 	done
 
 PokefanmRexAfterBattleText:
-	text "Look how adorable"
-	line "my PHANPY acts!"
+	text "Sieh, wie grazil"
+	line "sich mein PHANPY"
+	cont "bewegt!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para "Es ist so süせ,"
+	line "dass dein Herz"
+	cont "dahinschmilzt."
 	done
 
 PokefanmAllanSeenText:
-	text "My TEDDIURSA is"
-	line "the cutest in the"
-	cont "world."
+	text "Mein TEDDIURSA ist"
+	line "das niedlichste"
+	cont "der ganzen Welt."
 	done
 
 PokefanmAllanBeatenText:
-	text "My TEDDIURSA!"
+	text "Mein TEDDIURSA!"
 	done
 
 PokefanmAllanAfterBattleText:
-	text "Look how adorable"
-	line "my TEDDIURSA acts!"
+	text "Sieh, wie grazil"
+	line "sich mein"
+	cont "TEDDIURSA bewegt!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para "Es ist so süせ,"
+	line "dass dein Herz"
+	cont "dahinschmilzt."
 	done
 
 Route6_MapEvents:

@@ -419,232 +419,249 @@ GoldenrodUndergroundHiddenAntidote:
 	hiddenitem ANTIDOTE, EVENT_GOLDENROD_UNDERGROUND_HIDDEN_ANTIDOTE
 
 SupernerdEricSeenText:
-	text "I got booted out"
-	line "of the GAME COR-"
-	cont "NER."
+	text "Ich wurde aus"
+	line "der SPIELHALLE"
+	cont "hinausgeworfen."
 
-	para "I was trying to"
-	line "cheat using my"
-	cont "#MON…"
+	para "Ich habe versucht,"
+	line "mit Hilfe meines"
+	cont "#MON zu mogeln…"
 	done
 
 SupernerdEricBeatenText:
-	text "…Grumble…"
+	text "…Grummel…"
 	done
 
 SupernerdEricAfterBattleText:
-	text "I guess I have to"
-	line "do things fair and"
-	cont "square…"
+	text "Ich glaube, dass"
+	line "ich lieber fair"
+	cont "spielen sollte…"
 	done
 
 SupernerdTeruSeenText:
-	text "Do you consider"
-	line "type alignments in"
-	cont "battle?"
+	text "Beschränkst du"
+	line "dich beim Kämpfen"
+	cont "nur auf einen Typ?"
 
-	para "If you know your"
-	line "type advantages,"
+	para "Wenn du die Stär-"
+	line "ken deiner Typen"
 
-	para "you'll do better"
-	line "in battle."
+	para "kennst, hast du im"
+	line "Kampf Vorteile."
 	done
 
 SupernerdTeruBeatenText:
-	text "Ow, ow, ow!"
+	text "Oh, oh, oh!"
 	done
 
 SupernerdTeruAfterBattleText:
-	text "I know my #MON"
-	line "type alignments."
+	text "Ich kenne die"
+	line "Stärken und"
+	cont "Schwächen meiner"
+	cont "#MON."
 
-	para "But I only use one"
-	line "type of #MON."
+	para "Aber ich setze nur"
+	line "einen #MON-Typ"
+	cont "ein."
 	done
 
 PokemaniacIssacSeenText:
-	text "My #MON just"
-	line "got a haircut!"
+	text "Meine #MON"
+	line "kommen gerade vom"
+	cont "Coiffeur!"
 
-	para "I'll show you how"
-	line "strong it is!"
+	para "Ich zeige dir, wie"
+	line "stark sie sind!"
 	done
 
 PokemaniacIssacBeatenText:
-	text "Aiyeeee!"
+	text "Arghhh!"
 	done
 
 PokemaniacIssacAfterBattleText:
-	text "Your #MON will"
-	line "like you more if"
+	text "Deine #MON"
+	line "mögen dich mehr,"
 
-	para "you give them"
-	line "haircuts."
+	para "wenn du sie zum"
+	line "Coiffeur bringst."
 	done
 
 PokemaniacDonaldSeenText:
-	text "I think you have"
-	line "some rare #MON"
-	cont "with you."
+	text "Ich glaube, du"
+	line "besitzt seltene"
+	cont "#MON."
 
-	para "Let me see them!"
+	para "Zeig sie mir!"
 	done
 
 PokemaniacDonaldBeatenText:
-	text "Gaah! I lost!"
-	line "That makes me mad!"
+	text "Guah! Ich habe"
+	line "verloren! Ich"
+	cont "dreh durch!"
 	done
 
 PokemaniacDonaldAfterBattleText:
-	text "Are you making a"
-	line "#DEX? Here's a"
-	cont "hot tip."
+	text "Erstellst du einen"
+	line "#DEX? Ich habe"
+	cont "einen heiせen"
+	cont "Tipp für dich."
 
-	para "The HIKER on ROUTE"
-	line "33, ANTHONY, is a"
-	cont "good guy."
+	para "WANDERER TOM auf"
+	line "ROUTE 33 ist sehr"
+	cont "freundlich."
 
-	para "He'll phone you if"
-	line "he sees any rare"
-	cont "#MON."
+	para "Er ruft dich an,"
+	line "wenn er seltene"
+	cont "#MON sieht."
 	done
 
 GoldenrodUndergroundTheDoorsLockedText:
-	text "The door's locked…"
+	text "Die Tür ist"
+	line "verschlossen…"
 	done
 
 GoldenrodUndergroundTheDoorIsOpenText:
-	text "The door is open."
+	text "Die Tür ist"
+	line "entriegelt."
 	done
 
 GoldenrodUndergroundBasementKeyOpenedDoorText:
-	text "The BASEMENT KEY"
-	line "opened the door."
+	text "Mit dem KELLER-"
+	line "ÖFFNER wird die"
+	cont "Tür entriegelt."
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
-	text "Welcome!"
+	text "Willkommen!"
 
-	para "I run the #MON"
-	line "SALON!"
+	para "Ich leite den"
+	line "#MON-SALON!"
 
-	para "I'm the older and"
-	line "better of the two"
-	cont "HAIRCUT BROTHERS."
+	para "Ich bin der ältere"
+	line "und bessere der"
+	cont "beiden COIFFEUR-"
+	cont "BRÜDER."
 
-	para "I can make your"
-	line "#MON beautiful"
-	cont "for just ¥{d:GOLDENRODUNDERGROUND_OLDER_HAIRCUT_PRICE}."
+	para "Ich verleihe"
+	line "deinen #MON ein"
+	cont "schöneres Äuせeres"
+	cont "für nur ¥500."
 
-	para "Would you like me"
-	line "to do that?"
+	para "Soll ich damit"
+	line "anfangen?"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherAskWhichMonText:
-	text "Which #MON"
-	line "should I work on?"
+	text "Bei welchem"
+	line "#MON soll ich"
+	cont "Hand anlegen?"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherWatchItBecomeBeautifulText:
-	text "OK! Watch it"
-	line "become beautiful!"
+	text "O.K.! Sieh her,"
+	line "wie schön es wird!"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherAllDoneText:
-	text "There! All done!"
+	text "Hier! Fertig!"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherThatsAShameText:
-	text "Is that right?"
-	line "That's a shame!"
+	text "Ist das wahr? Das"
+	line "ist eine Schande!"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherYoullNeedMoreMoneyText:
-	text "You'll need more"
-	line "money than that."
+	text "Du hast nicht"
+	line "genügend Geld."
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherOneHaircutADayText:
-	text "I do only one"
-	line "haircut a day. I'm"
-	cont "done for today."
+	text "Ich mache nur"
+	line "einen Haarschnitt"
+	cont "pro Tag; und für"
+	cont "heute bin ich"
+	cont "fertig."
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText:
-	text "Welcome to the"
-	line "#MON SALON!"
+	text "Willkommen im"
+	line "#MON-SALON!"
 
-	para "I'm the younger"
-	line "and less expen-"
-	cont "sive of the two"
-	cont "HAIRCUT BROTHERS."
+	para "Ich bin der"
+	line "jüngere und"
+	cont "preiswertere der"
+	cont "beiden COIFFEUR-"
+	cont "BRÜDER."
 
-	para "I'll spiff up your"
-	line "#MON for just"
-	cont "¥{d:GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_PRICE}."
+	para "Ich verschönere"
+	line "deine #MON"
+	cont "für nur ¥300."
 
-	para "So? How about it?"
+	para "Also? Wie wärわ?"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherAskWhichMonText:
-	text "OK, which #MON"
-	line "should I do?"
+	text "Welches #MON"
+	line "soll ich be-"
+	cont "arbeiten?"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherIllMakeItLookCoolText:
-	text "OK! I'll make it"
-	line "look cool!"
+	text "O.K.! Es wird"
+	line "cool aussehen!"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherAllDoneText:
-	text "There we go!"
-	line "All done!"
+	text "Bitte schön!"
+	line "Fertig!"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherHowDisappointingText:
-	text "No? "
-	line "How disappointing!"
+	text "Nein? "
+	line "Schade!"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherShortOnFundsText:
-	text "You're a little"
-	line "short on funds."
+	text "Du hast nicht"
+	line "genügend Geld."
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherOneHaircutADayText:
-	text "I can do only one"
-	line "haircut a day."
+	text "Ich mache nur"
+	line "einen Haarschnitt"
 
-	para "Sorry, but I'm all"
-	line "done for today."
+	para "pro Tag; und für"
+	line "heute bin ich"
+	cont "fertig."
 	done
 
 HaircutBrosText_SlightlyHappier:
 	text_ram wStringBuffer3
-	text " looks a"
-	line "little happier."
+	text " sieht"
+	line "fröhlicher aus."
 	done
 
 HaircutBrosText_Happier:
 	text_ram wStringBuffer3
-	text " looks"
-	line "happy."
+	text " sieht"
+	line "glücklich aus."
 	done
 
 HaircutBrosText_MuchHappier:
 	text_ram wStringBuffer3
-	text " looks"
-	line "delighted!"
+	text_start
+	line "ist entzückt!"
 	done
 
 GoldenrodUndergroundWeAreNotOpenTodayText:
-	text "We're not open"
-	line "today."
+	text "Wir haben heute"
+	line "geschlossen."
 	done
 
 GoldenrodUndergroundNoEntryText:
-	text "NO ENTRY BEYOND"
-	line "THIS POINT"
+	text "BIS HIERHER"
+	line "UND NICHT WEITER"
 	done
 
 GoldenrodUnderground_MapEvents:

@@ -202,98 +202,102 @@ PlateauRivalLeavesMovement:
 	step_end
 
 IndigoPlateauPokecenter1FCooltrainerMText:
-	text "At the #MON"
-	line "LEAGUE, you'll get"
+	text "In der #MON"
+	line "LIGA stellen dich"
 
-	para "tested by the"
-	line "ELITE FOUR."
+	para "die TOP VIER auf"
+	line "eine harte Probe."
 
-	para "You have to beat"
-	line "them all. If you"
+	para "Du musst sie alle"
+	line "schlagen. Wenn du"
 
-	para "lose, you have to"
-	line "start all over!"
+	para "verlierst, musst"
+	line "du ganz von vorne"
+	cont "anfangen!"
 	done
 
 PlateauRivalText1:
-	text "Hold it."
+	text "Moment noch!"
 
-	para "You're going to"
-	line "take the #MON"
+	para "Akzeptierst du die"
+	line "Herausforderung"
 
-	para "LEAGUE challenge"
-	line "now?"
+	para "der #MON LIGA?"
+	line "Das wird nicht"
+	cont "passieren."
 
-	para "That's not going"
-	line "to happen."
-
-	para "My super-well-"
-	line "trained #MON"
-
-	para "are going to pound"
-	line "you."
+	para "Meine perfekt"
+	line "trainierten #-"
+	cont "MON werden dich"
+	cont "zermalmen."
 
 	para "<PLAYER>!"
-	line "I challenge you!"
+
+	para "Ich fordere dich"
+	line "heraus!"
 	done
 
 PlateauRivalWinText:
 	text "…"
+	line "O.K. - Ich habe"
 
-	para "OK--I lost…"
+	para "verloren…"
 	done
 
 PlateauRivalText2:
-	text "…Darn… I still"
-	line "can't win…"
+	text "…Mist… Ich"
+	line "kann nicht"
+	cont "gewinnen…"
 
-	para "I… I have to think"
-	line "more about my"
-	cont "#MON…"
+	para "Ich… ich muss mich"
+	line "mehr um meine"
+	cont "#MON kümmern…"
 
-	para "Humph! Try not to"
-	line "lose!"
+	para "Versuche, nicht"
+	line "zu verlieren!"
 	done
 
 PlateauRivalLoseText:
 	text "…"
 
-	para "Whew…"
-	line "With my partners,"
+	para "Wow…"
+	line "Mit meinen"
 
-	para "I'm going to be"
-	line "the CHAMPION!"
+	para "Partnern werde"
+	line "ich der CHAMP"
+	cont "sein!"
 	done
 
 TeleportGuyText1:
-	text "Ah! You're chal-"
-	line "lenging the ELITE"
+	text "Ah! Du forderst"
+	line "also die TOP VIER"
 
-	para "FOUR? Are you sure"
-	line "you're ready?"
+	para "heraus? Bist du"
+	line "wirklich bereit?"
 
-	para "If you need to"
-	line "train some more,"
+	para "Wenn du mehr"
+	line "trainieren willst,"
 
-	para "my ABRA can help"
-	line "you."
+	para "kann dir mein"
+	line "ABRA helfen."
 
-	para "It can TELEPORT"
-	line "you home."
+	para "Es kann dich"
+	line "nach Hause"
+	cont "TELEPORTIEREN."
 
-	para "Would you like to"
-	line "go home now?"
+	para "Möchtest du jetzt"
+	line "nach Hause?"
 	done
 
 TeleportGuyYesText:
-	text "OK, OK. Picture"
-	line "your house in your"
-	cont "mind…"
+	text "O.K. Stell"
+	line "dir dein Haus"
+	cont "vor…"
 	done
 
 TeleportGuyNoText:
-	text "OK, OK. The best"
-	line "of luck to you!"
+	text "O.K. Alles"
+	line "Gute!"
 	done
 
 AbraText:

@@ -119,179 +119,200 @@ PokemonFanClubBraggingSign:
 	jumptext PokemonFanClubBraggingSignText
 
 PokemonFanClubChairmanDidYouVisitToHearAboutMyMonText:
-	text "I'm the CHAIRMAN"
-	line "of the #MON FAN"
-	cont "CLUB."
+	text "Ich bin der"
+	line "VORSITZENDE des"
+	cont "#MON-FANCLUB."
 
-	para "I've raised over"
-	line "150 #MON."
+	para "Ich habe über"
+	line "150 #MON"
+	cont "aufgezogen."
 
-	para "I'm very fussy"
-	line "when it comes to"
-	cont "#MON."
+	para "Ich bin sehr "
+	line "kleinlich, was"
+	cont "#MON betrifft."
 
-	para "Did you visit just"
-	line "to hear about my"
-	cont "#MON?"
+	para "Bist du extra"
+	line "hierher gekommen,"
+	cont "um etwas über"
+	cont "meine #MON zu"
+	cont "erfahren?"
 	done
 
 PokemonFanClubChairmanRapidashText:
-	text "Good!"
-	line "Then listen up!"
+	text "Sehr schön!"
+	line "Dann hör gut zu!"
 
-	para "So… my favorite"
-	line "RAPIDASH…"
+	para "Also… am liebsten"
+	line "habe ich GALLOPA…"
 
-	para "It… cute… lovely…"
-	line "smart… unbearably…"
-	cont "plus… amazing… oh…"
-	cont "you think so?…"
-	cont "Too much… wild…"
-	cont "beautiful… kindly…"
-	cont "love it!"
+	para "Es ist… süせ… lieb…"
+	line "klug… anmutig…"
+	cont "und… wunderbar…"
+	cont "nicht wahr?…"
+	cont "Zu sehr… wild…"
+	cont "schön… liebenswert"
+	cont "…Ich verehre es!"
 
-	para "Hug it… when…"
-	line "sleeping… warm and"
-	cont "cuddly… Oh, and…"
-	cont "spectacular…"
-	cont "ravishing… simply"
-	cont "divine…"
-	cont "Oops! Look at the"
-	cont "time! I've kept"
-	cont "you too long!"
+	para "Knuddle es… wenn…"
+	line "es schläft… warm"
+	cont "und weich… Oh, und"
+	cont "sensationell…"
+	cont "groせartig… einfach"
+	cont "göttlich…"
+	cont "Ups! Wie die Zeit"
+	cont "vergeht! Ich habe"
+	cont "dich zu lange"
+	cont "aufgehalten!"
 	done
 
 PokemonFanClubChairmanIWantYouToHaveThisText:
-	text "Thanks for hearing"
-	line "me out. I want you"
-	cont "to have this!"
+	text "Danke, dass du mir"
+	line "so lange zugehört"
+	cont "hast. Das möchte"
+	cont "ich dir geben!"
 	done
 
 PokemonFanClubChairmanItsARareCandyText:
-	text "It's a RARE CANDY"
-	line "that makes #MON"
-	cont "stronger."
+	text "Das SONDERBONBON"
+	line "macht #MON"
+	cont "stärker."
 
-	para "I prefer making my"
-	line "#MON stronger"
+	para "Meine #MON"
+	line "sollen lieber"
 
-	para "by battling, so"
-	line "you can have it."
+	para "durch ihre Kämpfe"
+	line "stärker werden. Du"
+	cont "kannst es haben."
 	done
 
 PokemonFanClubChairmanMoreTalesToTellText:
-	text "Hello, <PLAY_G>!"
+	text "Hallo, <PLAY_G>!"
 
-	para "Did you come see"
-	line "me about my #-"
-	cont "MON again?"
+	para "Besuchst du mich"
+	line "wieder wegen"
+	cont "meiner #MON?"
 
-	para "No? Oh… I had more"
-	line "tales to tell…"
+	para "Nein? Oh… Ich"
+	line "hätte noch so"
+	cont "viele Geschichten…"
 	done
 
 PokemonFanClubChairmanHowDisappointingText:
-	text "How disappointing…"
+	text "Schade…"
 
-	para "Come back if you"
-	line "want to listen."
+	para "Komm wieder, wenn"
+	line "du mehr"
+
+	para "Geschichten hören"
+	line "möchtest."
 	done
 
 PokemonFanClubReceptionistText:
-	text "Our CHAIRMAN is"
-	line "very vocal when it"
-	cont "comes to #MON…"
+	text "Unser VORSITZENDER"
+	line "ist sehr redselig"
+	cont "in Bezug auf #-"
+	cont "MON…"
 	done
 
 PokemonFanClubClefairyGuyClefairyIsSoAdorableText:
-	text "I love the way"
-	line "CLEFAIRY waggles"
+	text "Ich liebe es, wie"
+	line "PIEPI mit seinem"
 
-	para "its finger when"
-	line "it's trying to use"
+	para "Finger wackelt,"
+	line "wenn es METRONOM"
 
-	para "METRONOME."
-	line "It's so adorable!"
+	para "anwendet."
+	line "Entzückend!"
 	done
 
 PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
-	text "I love CLEFAIRY,"
-	line "but I could never"
+	text "Ich mag PIEPI,"
+	line "aber ich könnte"
 
-	para "catch one. So I'm"
-	line "making do with a"
+	para "nie eines fangen."
+	line "Die #PUPPE,"
 
-	para "# DOLL that I"
-	line "found."
+	para "die ich fand, muss"
+	line "mir genügen."
 	done
 
 PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
-	text "Oh, I see now. The"
-	line "girl who lost this"
+	text "Ah, jetzt verstehe"
+	line "ich. Das Mädchen,"
 
-	para "# DOLL is sad…"
+	para "das diese #-"
+	line "PUPPE verloren"
+	cont "hat, ist traurig…"
 
-	para "OK. Could you take"
-	line "this # DOLL"
+	para "Könntest du dann"
+	line "die #PUPPE"
 
-	para "back to that poor"
-	line "little girl?"
+	para "zu diesem armen,"
+	line "kleinen Mädchen"
+	cont "zurückbringen?"
 
-	para "I'll befriend a"
-	line "real CLEFAIRY on"
+	para "Eines Tages werde"
+	line "ich mich mit einem"
 
-	para "my own one day."
-	line "No worries!"
+	para "echten PIEPI an-"
+	line "freunden. Keine"
+	cont "Bange!"
 	done
 
 PokemonFanClubPlayerReceivedDollText:
-	text "<PLAYER> received"
-	line "# DOLL."
+	text "<PLAYER> erhält"
+	line "#PUPPE."
 	done
 
 PokemonFanClubClefairyGuyGoingToGetARealClefairyText:
-	text "You watch. I'm"
-	line "going to get a"
+	text "Du wirst schon"
+	line "sehen. Ich freunde"
 
-	para "real CLEFAIRY as"
-	line "my friend."
+	para "mich noch mit"
+	line "einem echten"
+	cont "PIEPI an."
 	done
 
 PokemonFanClubClefairyGuyPackIsJammedFullText:
-	text "Your PACK is"
-	line "jammed full."
+	text "Dein BEUTEL ist"
+	line "voll."
 	done
 
 PokemonFanClubTeacherText:
-	text "Look at my darling"
-	line "BAYLEEF!"
+	text "Schau dir mein"
+	line "süせes LORBLATT an!"
 
-	para "The leaf on its"
-	line "head is so cute!"
+	para "Das Blatt auf"
+	line "seinem Kopf ist so"
+	cont "goldig!"
 	done
 
 PokemonFanClubClefairyDollText:
-	text "It's a CLEFAIRY!"
-	line "Huh?"
+	text "Das ist ein"
+	line "PIEPI! Was?"
 
-	para "Oh, right. It's a"
-	line "CLEFAIRY #"
-	cont "DOLL."
+	para "Ach so! Das ist"
+	line "eine #PUPPE"
+	cont "von PIEPI."
 	done
 
 PokemonFanClubBayleefText:
-	text "BAYLEEF: Li liif!"
+	text "LORBLATT: Bla,"
+	line "blatt!"
 	done
 
 PokemonFanClubListenSignText:
-	text "Let's all listen"
-	line "politely to other"
-	cont "trainers."
+	text "Anderen Trainern"
+	line "hören wir höflich"
+	cont "zu."
 	done
 
 PokemonFanClubBraggingSignText:
-	text "If someone brags,"
-	line "brag right back!"
+	text "Wenn jemand"
+	line "prahlt, wird"
+
+	para "sofort zurück-"
+	line "geprahlt!"
 	done
 
 PokemonFanClub_MapEvents:

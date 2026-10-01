@@ -45,17 +45,18 @@ MahoganyRedGyaradosSpeechHouseBlackBeltText:
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText:
-	text "My favorite radio"
-	line "program? I'd say"
-	cont "#MON MUSIC."
+	text "Mein Lieblingspro-"
+	line "gramm im Radio?"
+	cont "Ich würde sagen"
+	cont "#MON-MUSIK."
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower:
-	text "I've been hearing"
-	line "laughter on the"
+	text "Ich habe Gelächter"
+	line "im Radio gehört…"
 
-	para "radio…"
-	line "It's creepy."
+	para "Das war unheim-"
+	line "lich."
 	done
 
 MahoganyRedGyaradosSpeechHouse_MapEvents:

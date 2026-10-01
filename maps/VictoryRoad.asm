@@ -162,78 +162,87 @@ VictoryRoadRivalBattleExitMovement2:
 	step_end
 
 VictoryRoadRivalBeforeText:
-	text "Hold it."
+	text "Moment."
 
-	para "…Are you going to"
-	line "take the #MON"
-	cont "LEAGUE challenge?"
+	para "…Wirst du das"
+	line "#MON LIGA-"
+	cont "Abenteuer"
+	cont "bestreiten?"
 
-	para "…Don't make me"
-	line "laugh."
+	para "…Bring mich nicht"
+	line "zum Lachen."
 
-	para "You're so much"
-	line "weaker than I am."
+	para "Du bist viel"
+	line "schwächer als ich."
 
-	para "I'm not like I was"
-	line "before."
+	para "Ich bin nicht mehr"
+	line "so wie früher."
 
-	para "I now have the"
-	line "best and strongest"
+	para "Nun habe ich die"
+	line "besten und"
 
-	para "#MON with me."
-	line "I'm invincible!"
+	para "stärksten #MON."
+	line "Ich bin"
+	cont "unschlagbar!"
 
-	para "<PLAYER>!"
-	line "I challenge you!"
+	para "<PLAYER>! Ich for-"
+	line "dere dich heraus!"
 	done
 
 VictoryRoadRivalDefeatText:
-	text "…I couldn't win…"
+	text "…Ich konnte nicht"
+	line "gewinnen…"
 
-	para "I gave it every-"
-	line "thing I had…"
+	para "Ich habe"
+	line "alles gegeben…"
 
-	para "What you possess,"
-	line "and what I lack…"
+	para "Was du besitzt"
+	line "und was mir fehlt…"
 
-	para "I'm beginning to"
-	line "understand what"
+	para "Langsam begreife"
+	line "ich, was der"
 
-	para "that dragon master"
-	line "said to me…"
+	para "Drachenmeister zu"
+	line "mir sagte…"
 	done
 
 VictoryRoadRivalAfterText:
-	text "…I haven't given up"
-	line "on becoming the"
-	cont "greatest trainer…"
+	text "…Ich habe nicht"
+	line "aufgegeben, der"
+	cont "weltbeste Trainer"
+	cont "zu werden…"
 
-	para "I'm going to find"
-	line "out why I can't"
+	para "Ich werde"
+	line "herausfinden,"
 
-	para "win and become"
-	line "stronger…"
+	para "warum ich nicht"
+	line "gewinnen kann und"
+	cont "dann werde ich"
+	cont "stärker…"
 
-	para "When I do, I will"
-	line "challenge you."
+	para "Wenn ich soweit"
+	line "bin, fordere ich"
+	cont "dich heraus."
 
-	para "And I'll beat you"
-	line "down with all my"
-	cont "power."
+	para "Dann werde ich"
+	line "dir die Leviten"
+	cont "lesen."
 
-	para "…Humph! You keep"
-	line "at it until then."
+	para "…Humpf! Bleib"
+	line "bis dahin dabei."
 	done
 
 VictoryRoadRivalVictoryText:
-	text "…Humph!"
+	text "…Humpf!"
 
-	para "When it comes down"
-	line "to it, nothing can"
-	cont "beat power."
+	para "Wenn es darauf"
+	line "ankommt, gibt es"
+	cont "nichts, was Stärke"
+	cont "Paroli bieten"
+	cont "kann."
 
-	para "I don't need any-"
-	line "thing else."
+	para "Mehr brauche ich"
+	line "nicht."
 	done
 
 VictoryRoad_MapEvents:

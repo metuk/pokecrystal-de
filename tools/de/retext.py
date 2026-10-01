@@ -100,7 +100,7 @@ def main():
 	ap.add_argument('--rom', default='pokecrystal-de')
 	args = ap.parse_args()
 
-	files = args.files or sorted(set(glob.glob('**/*.asm', recursive=True)) - set(glob.glob('tools/**', recursive=True)))
+	files = args.files or sorted(set(glob.glob('**/*.asm', recursive=True)) - set(glob.glob('tools/**', recursive=True)) - set(glob.glob('audio/**', recursive=True)))
 	base = open('baserom.gbc', 'rb').read()
 	decode, _ = load_charmap()
 	de = json.load(open(args.syms))

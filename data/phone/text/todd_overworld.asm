@@ -1,67 +1,77 @@
 ToddAskNumber1Text:
-	text "From here, I can"
-	line "see GOLDENROD's"
+	text "Von hier kann ich"
+	line "das KAUFHAUS von"
 
-	para "DEPT.STORE. They"
-	line "have bargain sales"
+	para "DUKATIA CITY"
+	line "sehen. Sie ver-"
 
-	para "up on the rooftop"
-	line "every so often."
+	para "kaufen hin und"
+	line "wieder Sonderan-"
+	cont "gebote auf dem"
+	cont "Dach."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 
-	para "I'll call you when"
-	line "they have a sale."
+	para "Ich melde mich,"
+	line "wenn sie wieder"
+	cont "Angebote haben."
 	done
 
 ToddAskNumber2Text:
-	text "If you give me"
-	line "your number, I'll"
+	text "Wenn du mir deine"
+	line "Nummer gibst, rufe"
 
-	para "call you when they"
-	line "have a sale."
+	para "ich an, wenn sie"
+	line "Angebote haben."
 	done
 
 ToddNumberAcceptedText:
-	text "I check GOLDENROD"
-	line "DEPT.STORE every"
+	text "Ich gehe täglich"
+	line "in das KAUFHAUS"
 
-	para "day, so I know"
-	line "when there's a"
-	cont "sale."
+	para "von DUKATIA CITY."
+	line "Daher weiせ ich,"
+
+	para "wann sie Angebote"
+	line "haben."
 	done
 
 ToddNumberDeclinedText:
-	text "Anyway…"
+	text "Egal…"
 
-	para "If you're short on"
-	line "money, take down"
-	cont "my number."
+	para "Bist du knapp bei"
+	line "Kasse, notiere"
+	cont "meine Nummer."
 
-	para "I'll call you when"
-	line "there's a sale."
+	para "Ich rufe dich an,"
+	line "wenn sie Angebote"
+	cont "haben."
 	done
 
 ToddPhoneFullText:
-	text "Your phone doesn't"
-	line "have enough memory"
-	cont "for more numbers."
+	text "Dein Telefon hat"
+	line "keinen freien"
+	cont "Speicherplatz"
+	cont "mehr."
 	done
 
 ToddRematchText:
-	text "I waited for you!"
-	line "I even cut back my"
+	text "Ich erwartete"
+	line "dich! Ich war"
 
-	para "shopping to raise"
-	line "my #MON better!"
+	para "nicht mehr so"
+	line "oft Einkaufen, um"
+
+	para "mein #MON bes-"
+	line "ser zu trainieren!"
 	done
 
 ToddSaleText: ; unreferenced
 ; This is a duplicate of CamperToddSaleText in maps/Route34.asm.
-	text "Shopping under the"
-	line "sky!"
+	text "Einkaufen unter"
+	line "freiem Himmel!"
 
-	para "It feels so nice"
-	line "up on a rooftop."
+	para "Es ist wunderschön"
+	line "hier auf dem Dach."
 	done

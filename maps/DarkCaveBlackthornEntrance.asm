@@ -32,31 +32,35 @@ DarkCaveBlackthornEntranceTMSnore:
 	itemball TM_SNORE
 
 DarkCaveBlackthornEntrancePharmacistText1:
-	text "Whoa! You startled"
-	line "me there!"
+	text "Wow! Du hast"
+	line "mich verwirrt!"
 
-	para "I had my BLACK-"
-	line "GLASSES on, so I"
+	para "Da ich mein"
+	line "SCHATTENGLAS trug,"
 
-	para "didn't notice you"
-	line "at all."
+	para "habe ich dich"
+	line "nicht bemerkt."
 
-	para "What am I doing"
-	line "here?"
+	para "Was ich hier"
+	line "mache?"
 
-	para "Hey, don't you"
-	line "worry about it."
+	para "Hey, mach dir"
+	line "darüber keine"
+	cont "Gedanken."
 
-	para "I'll give you a"
-	line "pair of BLACK-"
-	cont "GLASSES, so forget"
-	cont "you saw me, OK?"
+	para "Ich gebe dir ein"
+	line "SCHATTENGLAS"
+	cont "und du vergisst,"
+	cont "dass du mich"
+	cont "gesehen hast,"
+	cont "in Ordnung?"
 	done
 
 DarkCaveBlackthornEntrancePharmacistText2:
-	text "BLACKGLASSES ups"
-	line "the power of dark-"
-	cont "type moves."
+	text "SCHATTENGLAS ver-"
+	line "stärkt die Kraft"
+	cont "von Unlicht-"
+	cont "Attacken."
 	done
 
 DarkCaveBlackthornEntrance_MapEvents:

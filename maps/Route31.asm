@@ -274,9 +274,9 @@ Route31CooltrainerMText:
 	done
 
 BugCatcherWade1SeenText:
-	text "I caught a bunch"
-	line "of #MON. Let me"
-	cont "battle with you!"
+	text "Ich habe einige"
+	line "#MON gefangen."
+	cont "Lass uns kämpfen!"
 	done
 
 BugCatcherWade1BeatenText:
@@ -284,135 +284,151 @@ BugCatcherWade1BeatenText:
 	done
 
 BugCatcherWade1AfterText:
-	text "You can catch"
-	line "#MON even if"
+	text "Du kannst #MON"
+	line "fangen, auch wenn"
 
-	para "you have six with"
-	line "you."
+	para "du bereits sechs"
+	line "bei dir trägst."
 
-	para "If you catch one,"
-	line "it'll go to your"
-	cont "BOX automatically."
+	para "Fängst du eines,"
+	line "wird es automa-"
+	cont "tisch auf die BOX"
+	cont "im PC übertragen."
 	done
 
 Text_Route31SleepyMan:
-	text "… Hnuurg… Huh?"
+	text "…Uargh… Hä?"
 
-	para "I walked too far"
-	line "today looking for"
-	cont "#MON."
+	para "Heute bin ich auf"
+	line "der Suche nach"
+	cont "#MON zu viel"
+	cont "gelaufen."
 
-	para "My feet hurt and"
-	line "I'm sleepy…"
+	para "Meine Füせe schmer-"
+	line "zen und ich bin"
+	cont "müde…"
 
-	para "If I were a wild"
-	line "#MON, I'd be"
-	cont "easy to catch…"
+	para "Wenn ich ein wil-"
+	line "des #MON wäre,"
+	cont "würde ich mich"
+	cont "leicht fangen"
+	cont "lassen…"
 
 	para "…Zzzz…"
 	done
 
 Text_Route31SleepyManGotMail:
-	text "…Zzzz… Huh?"
+	text "…Zzzz… Häh?"
 
-	para "What's that? You"
-	line "have MAIL for me?"
+	para "Was ist? Du"
+	line "hast einen BRIEF"
+	cont "für mich?"
 	done
 
 Text_Route31HandOverMailMon:
-	text "<PLAYER> handed"
-	line "over the #MON"
-	cont "holding the MAIL."
+	text "<PLAYER> übergibt"
+	line "das #MON, das"
+	cont "den BRIEF trägt."
 	done
 
 Text_Route31ReadingMail:
-	text "Let's see…"
+	text "Mal sehen…"
 
-	para "…DARK CAVE leads"
-	line "to another road…"
+	para "…die DUNKELHÖHLE"
+	line "führt zu einem"
+	cont "anderen Weg…"
 
-	para "That's good to"
-	line "know."
+	para "Gut zu wissen."
 
-	para "Thanks for bring-"
-	line "ing this to me."
+	para "Danke, dass du mir"
+	line "den BRIEF"
+	cont "brachtest."
 
-	para "My friend's a good"
-	line "guy, and you're"
-	cont "swell too!"
+	para "Mein Freund ist"
+	line "ein netter Mensch,"
+	cont "genau wie du!"
 
-	para "I'd like to do"
-	line "something good in"
-	cont "return too!"
+	para "Ich möchte mich"
+	line "bei dir dafür"
+	cont "revanchieren!"
 
-	para "I know! I want you"
-	line "to have this!"
+	para "Ich habわ! Ich"
+	line "möchte dir das"
+	cont "hier geben!"
 	done
 
 Text_Route31DescribeNightmare:
-	text "TM50 is NIGHTMARE."
+	text "TM50 enthält"
+	line "NACHTMAHR."
 
-	para "It's a wicked move"
-	line "that steadily cuts"
+	para "Dies ist eine"
+	line "gemeine Attacke,"
 
-	para "the HP of a sleep-"
-	line "ing enemy."
+	para "die einem schlaf-"
+	line "enden Gegner"
+	cont "kontinuierlich"
+	cont "KP abzieht."
 
-	para "Ooooh…"
-	line "That's scary…"
+	para "Uuuuuuh…"
+	line "Das ist fies…"
 
-	para "I don't want to"
-	line "have bad dreams."
+	para "Ich möchte nicht"
+	line "schlecht träumen."
 	done
 
 Text_Route31WrongMail:
-	text "This MAIL isn't"
-	line "for me."
+	text "Der BRIEF ist"
+	line "nicht für mich."
 	done
 
 Text_Route31MissingMail:
-	text "Why is this #-"
-	line "MON so special?"
+	text "Was ist so beson-"
+	line "ders an diesem"
+	cont "#MON?"
 
-	para "It doesn't have"
-	line "any MAIL."
+	para "Es trägt keinen"
+	line "BRIEF."
 	done
 
 Text_Route31DeclinedToHandOverMail:
-	text "What? You don't"
-	line "want anything?"
+	text "Was? Du möchtest"
+	line "nichts?"
 	done
 
 Text_Route31CantTakeLastMon:
-	text "If I take that"
-	line "#MON from you,"
+	text "Wenn ich dir die-"
+	line "ses #MON weg-"
 
-	para "what are you going"
-	line "to use in battle?"
+	para "nehme, womit"
+	line "willst du dann"
+
+	para "kämpfen?"
 	done
 
 Route31YoungsterText:
-	text "I found a good"
-	line "#MON in DARK"
-	cont "CAVE."
+	text "Ich habe ein gutes"
+	line "#MON in der"
+	cont "DUNKELHÖHLE"
+	cont "gefunden."
 
-	para "I'm going to raise"
-	line "it to take on"
-	cont "FALKNER."
+	para "Ich ziehe es groせ,"
+	line "um später gegen"
+	cont "FALK anzutreten."
 
-	para "He's the leader of"
-	line "VIOLET CITY's GYM."
+	para "Er ist der ARENA-"
+	line "LEITER von VIOLA"
+	cont "CITY."
 	done
 
 Route31SignText:
 	text "ROUTE 31"
 
-	para "VIOLET CITY -"
-	line "CHERRYGROVE CITY"
+	para "VIOLA CITY -"
+	line "ROSALIA CITY"
 	done
 
 DarkCaveSignText:
-	text "DARK CAVE"
+	text "DUNKELHÖHLE"
 	done
 
 Route31_MapEvents:

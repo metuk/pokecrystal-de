@@ -88,74 +88,78 @@ MountMoonRivalMovementAfter:
 MountMoonRivalTextBefore:
 	text "<……> <……> <……>"
 
-	para "It's been a while,"
-	line "<PLAYER>."
+	para "Es ist schon lange"
+	line "her, <PLAYER>."
 
-	para "…Since I lost to"
-	line "you, I thought"
+	para "…Seit ich gegen"
+	line "dich verlor, mache"
 
-	para "about what I was"
-	line "lacking with my"
-	cont "#MON…"
+	para "ich mir Gedanken,"
+	line "was meinen #MON"
+	cont "noch fehlt…"
 
-	para "And we came up"
-	line "with an answer."
+	para "Nun, wir haben"
+	line "eine Antwort"
+	cont "gefunden."
 
-	para "<PLAYER>, now we'll"
-	line "show you!"
+	para "<PLAYER>, wir"
+	line "beweisen es dir!"
 	done
 
 MountMoonRivalTextWin:
 	text "<……> <……> <……>"
 
-	para "I thought I raised"
-	line "my #MON to be"
+	para "Ich glaubte immer,"
+	line "meine #MON so"
 
-	para "the best they"
-	line "could be…"
+	para "aufgezogen zu ha-"
+	line "ben, dass sie un-"
+	cont "schlagbar seien.…"
 
-	para "…But it still "
-	line "wasn't enough…"
+	para "…Aber ich"
+	line "habe versagt…"
 	done
 
 MountMoonRivalTextAfter:
 	text "<……> <……> <……>"
 
-	para "…You won, fair"
-	line "and square."
+	para "…Du hast mich"
+	line "fair besiegt."
 
-	para "I admit it. But"
-	line "this isn't the"
-	cont "end."
+	para "Das muss ich dir"
+	line "lassen. Wir werden"
+	cont "uns wiedersehen."
 
-	para "I'm going to be"
-	line "the greatest #-"
-	cont "MON trainer ever."
+	para "Ich werde der"
+	line "beste #MON-"
+	cont "Trainer aller"
+	cont "Zeiten sein."
 
-	para "Because these guys"
-	line "are behind me."
+	para "Und sie werden"
+	line "mir dabei helfen."
 
-	para "…Listen, <PLAYER>."
+	para "…Hör mal, <PLAYER>."
 
-	para "One of these days"
-	line "I'm going to prove"
+	para "Eines Tages werde"
+	line "ich es dir bewei-"
 
-	para "how good I am by"
-	line "beating you."
+	para "sen. Dann besiege"
+	line "ich dich."
 	done
 
 MountMoonRivalTextLoss:
 	text "<……> <……> <……>"
 
-	para "I've repaid my"
-	line "debt to you."
+	para "Ich habe meine"
+	line "Schuld bei dir"
+	cont "abgegolten."
 
-	para "With my #MON,"
-	line "I'm going to beat"
+	para "Mit meinen #MON"
+	line "werde ich den"
 
-	para "the CHAMPION and"
-	line "become the world's"
-	cont "greatest trainer."
+	para "CHAMP besiegen"
+	line "und weltbester"
+	cont "Trainer werden."
 	done
 
 MountMoon_MapEvents:

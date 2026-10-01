@@ -1,136 +1,139 @@
 WadeAreYourMonGrowingText:
-	text "Are your #MON"
-	line "growing?"
+	text "Wachsen deine"
+	line "#MON?"
 
-	para "My #MON are"
-	line "growing a bit too"
+	para "Meine #MON"
+	line "wachsen mir zu"
 
-	para "quickly for me."
-	line "It's overwhelming!"
+	para "schnell. Es ist"
+	line "überwältigend!"
 
 	para "@"
 	text_ram wStringBuffer4
-	text "'s grow-"
-	line "ing especially"
+	text " wächst"
+	line "besonders schnell."
 
-	para "quickly. I think"
-	line "it'll get tough."
+	para "Ich denke, es wird"
+	line "stark."
 	done
 
 WadeDefeatedMonText:
-	text "Oh yeah, we KO'd a"
-	line "wild @"
+	text "Yo, wir haben ein"
+	line "wildes @"
 	text_ram wStringBuffer4
 	text_start
-	para "with one hit a"
-	line "while back."
 
-	para "It went down so"
-	line "easily, I felt a"
+	para "mit nur einem"
+	line "Schlag besiegt."
 
-	para "little sorry for"
-	line "the poor thing."
+	para "Es ging so hart"
+	line "zu Boden, dass"
+
+	para "ich fast schon"
+	line "Mitleid hatte."
 	done
 
 WadeLostAMonText:
-	text "Oh yeah, a wild"
+	text "Yo, ein wildes"
 	line "@"
 	text_ram wStringBuffer4
-	text " got"
+	text_start
 
-	para "away from me at"
-	line "the last second."
+	para "entkam mir nur"
+	line "ganz knapp."
 
-	para "I know it's a"
-	line "common #MON…"
+	para "Ich weiせ, dass es"
+	line "kein seltenes"
+	cont "#MON ist…"
 
-	para "But it does annoy"
-	line "me that it got"
-
-	para "away when I almost"
-	line "had it."
+	para "Aber es ärgert"
+	line "mich, dass es ent-"
+	cont "kam, obwohl ich es"
+	cont "schon fast hatte."
 	done
 
 WadeBattleRematchText:
-	text "Do you feel like a"
-	line "#MON battle?"
+	text "Lust auf einen"
+	line "#MON-Kampf? Es"
 
-	para "It won't be like"
-	line "last time!"
+	para "wird nicht so wie"
+	line "das letzte Mal!"
 
-	para "@"
+	para "Ich bin hier:"
+	line "@"
 	text_ram wStringBuffer5
-	text "'s"
-	line "where I'll be."
+	text "."
 
-	para "Let me know when"
-	line "you get there."
+	para "Ruf an, wenn du"
+	line "da bist."
 	done
 
 WadeHangUpText:
-	text "See you later!"
+	text "Bis später!"
 	done
 
 WadeBugCatchingContestText:
-	text "The Bug-Catching"
-	line "Contest is at the"
+	text "Das Käferturnier"
+	line "findet heute im"
 
-	para "NATIONAL PARK"
-	line "today."
+	para "NATIONALPARK"
+	line "statt."
 
-	para "Are you going,"
+	para "Gehst du hin,"
 	line "<PLAY_G>?"
 
-	para "I'm trying to make"
-	line "up my mind."
+	para "Ich weiせ es noch"
+	line "nicht sicher."
 	done
 
 WadeFoundItemText:
-	text "I found all kinds"
-	line "of BERRIES. If you"
+	text "Ich habe alle mög-"
+	line "lichen BEEREN ge-"
+	cont "funden. Wenn du"
 
-	para "want, I'll share"
-	line "some with you."
+	para "willst, teile"
+	line "ich mit dir."
 
-	para "I'll be waiting on"
+	para "Ich warte hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 WadeNoBerriesText:
-	text "Huh? BERRIES?"
+	text "Huch? BEEREN?"
 
-	para "Sorry, I haven't"
-	line "found any yet."
+	para "Sorry, ich habe"
+	line "noch keine ge-"
+	cont "funden."
 
-	para "I'll call you if I"
-	line "find any. Will you"
-	cont "please wait?"
+	para "Ich rufe an, wenn"
+	line "ich welche finde."
+	cont "Bitte warte!"
 	done
 
 WadeQuickBattleText:
-	text "Let's battle"
-	line "already!"
+	text "Lass uns endlich"
+	line "kämpfen!"
 
-	para "@"
+	para "Ich warte hier:"
+	line "@"
 	text_ram wStringBuffer5
-	text " is"
-	line "where I am."
+	text "."
 
-	para "Please get here as"
-	line "soon as you can!"
+	para "Komm bitte schnell"
+	line "hierher!"
 	done
 
 WadeComeQuickText:
-	text "How come you're"
-	line "not here yet?"
+	text "Wieso bist du noch"
+	line "nicht hier?"
 
-	para "@"
+	para "Ich bin hier:"
+	line "@"
 	text_ram wStringBuffer5
-	text " is"
-	line "where I am."
+	text "."
 
-	para "Please get here as"
-	line "soon as you can!"
+	para "Komm bitte schnell"
+	line "hierher!"
 	done

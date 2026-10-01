@@ -1,245 +1,258 @@
 ChadObservingWildText:
-	text "I recently began"
-	line "observing wild"
+	text "Seit kurzem beo-"
+	line "bachte ich wilde"
 	cont "@"
 	text_ram wStringBuffer4
 	text "."
 
-	para "I've been learning"
-	line "all sorts of new"
+	para "Ich lerne jede"
+	line "Menge neue Dinge"
 
-	para "things through my"
-	line "observations."
+	para "durch meine"
+	line "Beobachtungen."
 
-	para "I wish I could"
-	line "become a #MON"
-
-	para "researcher like"
-	line "PROF.OAK soon."
+	para "Ich wünschte, ich"
+	line "könnte ein #-"
+	cont "MON-Forscher wie"
+	cont "PROF. EICH werden."
 	done
 
 ChadDefeatedMonText:
-	text "Oh yes, I managed"
-	line "to knock out a"
+	text "Oh ja, ich habe es"
+	line "vollbracht, ein"
 
-	para "wild @"
+	para "wildes @"
 	text_ram wStringBuffer4
-	text " a"
-	line "while back."
+	text_start
+	line "zu besiegen."
 
-	para "Well, considering"
-	line "all the studying I"
+	para "Nun, wenn man all"
+	line "meine Studien in"
 
-	para "do every day, it"
-	line "was inevitable."
+	para "Betracht zieht,"
+	line "war das unver-"
+	cont "meidbar."
 	done
 
 ChadLostAMonText:
-	text "Oh yes, I came"
-	line "close to catching"
+	text "Oh ja, ich habe"
+	line "fast ein wildes"
 
-	para "a wild @"
+	para "@"
 	text_ram wStringBuffer4
-	text ","
-	line "but it got away."
+	text_start
+	line "gefangen, aber es"
+	cont "ist entkommen."
 
-	para "For the longest"
-	line "time, I've been"
+	para "Seit langer Zeit"
+	line "möchte ich ein"
 
-	para "wanting to observe"
-	line "@"
+	para "@"
 	text_ram wStringBuffer4
-	text ". Rats…"
+	text_start
+	line "beobachten. Mist…"
 	done
 
 ChadBattleRematchText:
-	text "Want to battle?"
-	line "I have to battle"
+	text "Willst du kämpfen?"
+	line "Ich muss hin und"
 
-	para "every so often to"
-	line "avoid rusting out."
+	para "wieder kämpfen,"
+	line "sonst roste ich"
+	cont "ein."
 
-	para "I'll be on"
+	para "Ich warte hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 ChadHangUpText:
-	text "See you later!"
+	text "Bis später!"
 	done
 
 ChadBlueGossipText:
-	text "Do you know BLUE?"
+	text "Kennst du BLAU?"
 
-	para "He's PROF.OAK's"
-	line "grandson and a"
+	para "Er ist der Enkel"
+	line "von PROF. EICH und"
 
-	para "former #MON"
-	line "LEAGUE CHAMPION!"
+	para "ein ehemaliger"
+	line "#MON LIGA-"
+	cont "CHAMPION!"
 
-	para "He's one super"
-	line "#MON trainer!"
+	para "Er ist ein super"
+	line "#MON-Trainer!"
 	done
 
 ChadDaisyGossipText:
-	text "PROF.OAK has a"
-	line "granddaughter"
-	cont "named DAISY."
+	text "PROF. EICH hat"
+	line "eine Enkelin"
+	cont "namens SARAH."
 
-	para "When she's around,"
-	line "even the most"
+	para "Ist sie in der"
+	line "Nähe, werden"
 
-	para "ferocious #MON"
-	line "calm right down."
+	para "selbst die wil-"
+	line "desten #MON"
+	cont "zahm."
 	done
 
 ChadProfElmGossipText:
-	text "Everyone's talking"
-	line "about PROF.ELM."
+	text "Jeder spricht"
+	line "über PROF. LIND."
 
-	para "He used to be an"
-	line "assistant to the"
-	cont "great PROF.OAK!"
+	para "Er war früher ein"
+	line "Assistent des"
+	cont "groせartigen"
+	cont "PROF. EICH!"
 
-	para "That is so cool!"
-	line "I envy him!"
+	para "Das ist cool!"
+	line "Ich beneide ihn!"
 	done
 
 ChadProfOaksDreamGossipText:
-	text "PROF.OAK's dream"
-	line "is to compile a"
+	text "Der Traum von"
+	line "PROF. EICH ist"
 
-	para "comprehensive"
-	line "#DEX."
+	para "die Erstellung"
+	line "eines verständ-"
+	cont "lichen #DEX."
 
-	para "I envy you for"
-	line "taking part in"
-	cont "that project…"
+	para "Ich beneide dich,"
+	line "weil du an diesem"
+	cont "Projekt teil-"
+	cont "nimmst…"
 	done
 
 ChadKurtGossipText:
-	text "Do you know KURT,"
-	line "the BALL creator?"
+	text "Kennst du KURT,"
+	line "den BALL-Schmied?"
 
-	para "He and PROF.OAK go"
-	line "back a long way."
+	para "Er und PROF. EICH"
+	line "kennen sich schon"
+	cont "eine Ewigkeit."
 
-	para "I guess great"
-	line "people attract one"
-	cont "another!"
+	para "Ich denke, groせ-"
+	line "artige Menschen"
+	cont "ziehen einander"
+	cont "an!"
 	done
 
 ChadLeagueGossipText:
-	text "#MON LEAGUE is"
-	line "the great gather-"
-	cont "ing place for all"
+	text "Die #MON LIGA"
+	line "ist der Ort, wo"
+	cont "sich alle Trainer,"
 
-	para "trainers who wish"
-	line "to become CHAMP."
+	para "die CHAMP werden"
+	line "wollen, treffen."
 
-	para "PROF.OAK acts as"
-	line "an advisor to the"
+	para "PROF. EICH ist ein"
+	line "Berater des"
 
-	para "#MON LEAGUE's"
-	line "headquarters."
+	para "#MON LIGA-"
+	line "Hauptquartiers."
 
-	para "He really is a"
-	line "great man."
+	para "Er ist wirklich"
+	line "groせartig."
 	done
 
 ChadPokemonTalkGossipText:
-	text "PROF.OAK'S #MON"
-	line "TALK is a popular"
-	cont "radio show, right?"
+	text "PROF. EICHs #-"
+	line "MON-TALK ist eine"
+	cont "beliebte Radio-"
+	cont "Show, richtig?"
 
-	para "Did you know that"
-	line "he was going to"
+	para "Wusstest du, dass"
+	line "er anfangs die"
 
-	para "turn down the show"
-	line "at first?"
+	para "Show nicht"
+	line "moderieren wollte?"
 
-	para "But MARY's energy"
-	line "and persistence"
-	cont "wore him down."
+	para "Aber MARIAs ener-"
+	line "gische Hartnäckig-"
+	cont "keit stimmte ihn"
+	cont "um."
 
-	para "So we have MARY to"
-	line "thank for it!"
+	para "Also müssen wir"
+	line "MARIA danken!"
 	done
 
 ChadProfOakTrainerGossipText:
-	text "PROF.OAK used to"
-	line "be a trainer a"
-	cont "long time ago."
+	text "PROF. EICH war"
+	line "vor langer Zeit"
+	cont "ein Trainer."
 
-	para "But rather than"
-	line "battling, he found"
+	para "Aber anstatt zu"
+	line "kämpfen, fand er"
 
-	para "#MON themselves"
-	line "to be interesting."
+	para "#MON an sich"
+	line "sehr interessant."
 
-	para "So he abandoned"
-	line "his training to"
+	para "Also gab er das"
+	line "Training auf und"
 
-	para "focus on becoming"
-	line "a researcher."
+	para "konzentrierte sich"
+	line "auf die Forschung."
 	done
 
 ChadDaisyTeaGossipText:
-	text "PROF.OAK has a"
-	line "granddaughter"
-	cont "named DAISY."
+	text "PROF. EICH hat"
+	line "eine Enkelin"
+	cont "namens SARAH."
 
-	para "She has tea every"
-	line "day for an hour"
+	para "Sie trinkt jeden"
+	line "Tag ab 15 Uhr für"
 
-	para "from three in the"
-	line "afternoon."
+	para "eine Stunde lang"
+	line "Tee."
 
-	para "I wish I could"
-	line "join her for tea"
+	para "Ich wünschte, ich"
+	line "könnte bei ihr"
 
-	para "and chat about"
-	line "PROF.OAK."
+	para "sein und mit ihr"
+	line "über PROF. EICH"
+	cont "plaudern."
 	done
 
 ChadProfOakTravelingGossipText:
-	text "Did you know?"
-	line "PROF.OAK traveled"
+	text "Wusstest du? PROF."
+	line "EICH bereiste die"
 
-	para "all over the world"
-	line "when he was young."
+	para "ganze Welt, als er"
+	line "noch jung war."
 
-	para "While traveling,"
-	line "he must've learned"
+	para "Auf seinen Reisen"
+	line "muss er sehr viel"
 
-	para "about #MON"
-	line "naturally."
+	para "über #MON"
+	line "gelernt haben."
 
-	para "I envy him…"
-	line "I'd like to travel"
+	para "Ich beneide ihn…"
+	line "Auch ich möchte"
 
-	para "and learn about"
-	line "things too…"
+	para "reisen und viele"
+	line "Dinge lernen…"
 	done
 
 ChadGoingToStudyHardText:
-	text "I'm going to study"
-	line "hard so PROF.OAK"
+	text "Ich werde hart"
+	line "arbeiten, um"
 
-	para "will make me his"
-	line "assistant!"
+	para "ein Assistent von"
+	line "PROF. EICH zu"
+	cont "werden!"
 	done
 
 ChadReminderText:
-	text "Do you remember"
-	line "about our battle?"
+	text "Erinnerst du dich"
+	line "an unseren Kampf?"
 
-	para "The place is"
+	para "Hier bin ich:"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Hurry over--I'm"
-	line "waiting."
+	para "Beeilung - ich"
+	line "warte."
 	done

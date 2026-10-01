@@ -223,216 +223,242 @@ Route35NationalParkGatePlayerEnterParkMovement:
 	step_end
 
 Route35NationalParkGateOfficer1AskToParticipateText:
-	text "Today's @"
+	text "Heute ist"
+	line "@"
 	text_ram wStringBuffer3
 	text "."
-	line "That means the"
+	cont "Das heiせt, heute"
 
-	para "Bug-Catching Con-"
-	line "test is on today."
+	para "findet das Käfer-"
+	line "turnier statt."
 
-	para "The rules are sim-"
-	line "ple."
+	para "Die Regeln sind"
+	line "einfach."
 
-	para "Using one of your"
-	line "#MON, catch a"
+	para "Fange ein Käfer-"
+	line "#MON mit einem"
+	cont "deiner eigenen"
+	cont "#MON."
 
-	para "bug #MON to be"
-	line "judged."
+	para "Das Käfer-#MON"
+	line "wird dann von der"
+	cont "Jury bewertet."
 
-	para "Would you like to"
-	line "give it a try?"
+	para "Möchtest du es"
+	line "versuchen?"
 	done
 
 Route35NationalParkGateOfficer1GiveParkBallsText:
-	text "Here are the PARK"
-	line "BALLS for the"
-	cont "Contest."
+	text "Hier sind die"
+	line "PARKBÄLLE für das"
+	cont "Turnier."
 	done
 
 Route35NationalParkGatePlayerReceivedParkBallsText:
-	text "<PLAYER> received"
-	line "{d:BUG_CONTEST_BALLS} PARK BALLS."
+	text "<PLAYER> erhält"
+	line "20 PARKBÄLLE."
 	done
 
 Route35NationalParkGateOfficer1ExplainsRulesText:
-	text "The person who"
-	line "gets the strong-"
-	cont "est bug #MON"
-	cont "is the winner."
+	text "Wer das stärkste"
+	line "Käfer-#MON"
+	cont "fängt, hat "
+	cont "gewonnen."
 
-	para "You have {d:BUG_CONTEST_MINUTES}"
-	line "minutes."
+	para "Du hast 20"
+	line "Minuten Zeit."
 
-	para "If you run out of"
-	line "PARK BALLS, you're"
-	cont "done."
+	para "Wenn du keine"
+	line "PARKBÄLLE mehr"
+	cont "hast, ist das"
+	cont "Turnier beendet."
 
-	para "You can keep the"
-	line "last #MON you"
-	cont "catch as your own."
+	para "Du darfst das"
+	line "letzte #MON,"
+	cont "das du gefangen"
+	cont "hast, behalten."
 
-	para "Go out and catch"
-	line "the strongest bug"
-
-	para "#MON you can"
-	line "find!"
+	para "Los! Fang das"
+	line "stärkste Käfer-"
+	cont "#MON, das du"
+	cont "finden kannst!"
 	done
 
 Route35NationalParkGateOfficer1AskToUseFirstMonText:
-	text "Uh-oh…"
+	text "Oh, oh…"
 
-	para "You have more than"
-	line "one #MON."
+	para "Du hast mehr als"
+	line "ein #MON."
 
-	para "You'll have to use"
+	para "Du musst"
 	line "@"
 	text_ram wStringBuffer3
-	text ", the"
+	text_start
 
-	para "first #MON in"
-	line "your party."
+	para "auswählen - dein"
+	line "erstes #MON."
 
-	para "Is that OK with"
-	line "you?"
+	para "Bist du damit"
+	line "einverstanden?"
 	done
 
 Route35NationalParkGateOfficer1WellHoldYourMonText:
-	text "Fine, we'll hold"
-	line "your other #MON"
-	cont "while you compete."
+	text "Gut. Wir passen"
+	line "währenddessen auf"
+	cont "deine anderen"
+	cont "#MON auf."
 	done
 
 Route35NationalParkGatePlayersMonLeftWithHelperText:
-	text "<PLAYER>'s #MON"
-	line "were left with the"
-	cont "CONTEST HELPER."
+	text "Die #MON von"
+	line "<PLAYER> wurden dem"
+	cont "TURNIERHELFER"
+	cont "übergeben."
 	done
 
 Route35NationalParkGateOfficer1ChooseMonAndComeBackText:
-	text "Please choose the"
-	line "#MON to be used"
+	text "Wähle bitte das"
+	line "#MON, mit dem"
 
-	para "in the Contest,"
-	line "then come see me."
+	para "du im Turnier"
+	line "antreten möchtest,"
+	cont "aus und komm dann"
+	cont "wieder."
 	done
 
 Route35NationalParkGateOfficer1TakePartInFutureText:
-	text "OK. We hope you'll"
-	line "take part in the"
-	cont "future."
+	text "Na gut. Wir"
+	line "hoffen, dass du"
+	cont "später einmal"
+	cont "am Turnier teil-"
+	cont "nimmst."
 	done
 
 Route35NationalParkGateOfficer1FirstMonCantBattleText:
-	text "Uh-oh…"
-	line "The first #MON"
+	text "Oh, oh…"
+	line "Das erste #MON"
 
-	para "in your party"
-	line "can't battle."
+	para "deines Teams kann"
+	line "nicht am Turnier"
+	cont "teilnehmen."
 
-	para "Please switch it"
-	line "with the #MON"
+	para "Tausche es bitte"
+	line "mit dem #MON"
 
-	para "you want to use,"
-	line "then come see me."
+	para "aus, das am"
+	line "Turnier teilnehmen"
+
+	para "soll und komm dann"
+	line "wieder."
 	done
 
 Route35NationalParkGateOfficer1MakeRoomText:
-	text "Uh-oh…"
-	line "Both your party"
+	text "Oh, oh…"
+	line "Dein Team und"
 
-	para "and your PC BOX"
-	line "are full."
+	para "deine PC-BOX sind"
+	line "voll besetzt."
 
-	para "You have no room"
-	line "to put the bug"
-	cont "#MON you catch."
+	para "Du hast keinen"
+	line "Platz für ein"
+	cont "Käfer-#MON,"
+	cont "das du fängst."
 
-	para "Please make room"
-	line "in your party or"
+	para "Schaffe Platz in"
+	line "deinem Team oder"
 
-	para "your PC BOX, then"
-	line "come see me."
+	para "in deiner PC-BOX"
+	line "und komm dann"
+	cont "wieder."
 	done
 
 Route35NationalParkGateOfficer1EggAsFirstMonText:
-	text "Uh-oh…"
-	line "You have an EGG as"
+	text "Oh, oh…"
+	line "Ein EI ist an"
 
-	para "the first #MON"
-	line "in your party."
+	para "erster Stelle in"
+	line "deinem Team."
 
-	para "Please switch it"
-	line "with the #MON"
+	para "Tausche es bitte"
+	line "mit dem #MON,"
 
-	para "you want to use,"
-	line "then come see me."
+	para "das du im Turnier"
+	line "einsetzen möchtest"
+
+	para "und komm dann"
+	line "wieder."
 	done
 
 Route35NationalParkGateOfficer1WantToFinishText:
-	text "You still have @"
+	text "Du hast noch @"
 	text_ram wStringBuffer3
 	text_start
-	line "minute(s) left."
+	line "Minute(n)."
 
-	para "Do you want to"
-	line "finish now?"
+	para "Möchtest du jetzt"
+	line "aufhören?"
 	done
 
 Route35NationalParkGateOfficer1WaitAtNorthGateText:
-	text "OK. Please wait at"
-	line "the North Gate for"
+	text "Gut. Warte bitte"
+	line "am Nordtor auf"
 
-	para "the announcement"
-	line "of the winners."
+	para "die Bekanntgabe"
+	line "der Sieger."
 	done
 
 Route35NationalParkGateOfficer1OkGoFinishText:
-	text "OK. Please get"
-	line "back outside and"
-	cont "finish up."
+	text "Gut. Geh bitte"
+	line "wieder zurück nach"
+	cont "drauせen und komm"
+	cont "zum Ende."
 	done
 
 Route35NationalParkGateOfficer1ContestIsOverText:
-	text "Today's Contest is"
-	line "over. We hope you"
+	text "Das heutige"
+	line "Turnier ist be-"
+	cont "endet. Wir hoffen,"
 
-	para "will participate"
-	line "in the future."
+	para "dass du wieder"
+	line "daran teilnehmen"
+	cont "wirst."
 	done
 
 Route35NationalParkGateOfficer1WeHoldContestsText:
-	text "We hold Contests"
-	line "regularly in the"
+	text "Die Turniere"
+	line "werden regelmäせig"
 
-	para "PARK. You should"
-	line "give it a shot."
+	para "hier im PARK"
+	line "abgehalten. Nimm"
+	cont "doch auch daran"
+	cont "teil!"
 	done
 
 Route35NationalParkGateYoungsterText:
-	text "When is the next"
-	line "Bug-Catching Con-"
-	cont "test going to be?"
+	text "Wann findet das"
+	line "nächste Käfer-"
+	cont "turnier"
+	cont "statt?"
 	done
 
 BugCatchingContestExplanationText:
-	text "The Bug-Catching"
-	line "Contest is held on"
+	text "Das Käferturnier"
+	line "findet jeden"
 
-	para "Tuesday, Thursday"
-	line "and Saturday."
+	para "Dienstag,"
+	line "Donnerstag und"
+	cont "Samstag statt."
 
-	para "Not only do you"
-	line "earn a prize just"
+	para "Du erhältst nicht"
+	line "nur einen Preis"
 
-	para "for participating,"
-	line "you also get to"
+	para "allein für die"
+	line "Teilnahme, sondern"
 
-	para "keep the bug"
-	line "#MON you may"
+	para "auch ein Käfer-"
+	line "#MON, das du"
 
-	para "have at the end of"
-	line "the contest."
+	para "dort fängst."
 	done
 
 Route35NationalParkGate_MapEvents:

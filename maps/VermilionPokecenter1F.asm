@@ -35,43 +35,51 @@ VermilionPokecenter1FBugCatcherScript:
 	jumptextfaceplayer VermilionPokecenter1FBugCatcherText
 
 VermilionPokecenter1FFishingGuruText:
-	text "A sleeping #MON"
-	line "is lying in front"
-	cont "of DIGLETT'S CAVE."
+	text "Vor DIGDAs"
+	line "HÖHLE liegt ein"
+	cont "schlafendes #-"
+	cont "MON."
 
-	para "It's a fantastic"
-	line "opportunity to get"
+	para "Das wäre eine"
+	line "fantastische Gele-"
+	cont "genheit, es zu"
 
-	para "it, but how do you"
-	line "wake it up?"
+	para "fangen! Aber wie"
+	line "weckt man es auf?"
 	done
 
 VermilionPokecenter1FFishingGuruText_FoughtSnorlax:
-	text "There used to be a"
-	line "sleeping #MON"
+	text "Vor DIGDAs"
+	line "HÖHLE lag ein"
 
-	para "lying in front of"
-	line "DIGLETT'S CAVE."
+	para "schlafendes #-"
+	line "MON."
 
-	para "But it seems to"
-	line "have disappeared."
+	para "Aber jetzt scheint"
+	line "es verschwunden"
+	cont "zu sein."
 	done
 
 VermilionPokecenter1FSailorText:
-	text "The FAST SHIP is a"
-	line "great place to"
+	text "Auf dem SCHNELL-"
+	line "BOOT findet man"
 
-	para "meet and battle"
-	line "trainers."
+	para "viele Trainer,"
+	line "gegen die man"
+	cont "kämpfen kann."
 	done
 
 VermilionPokecenter1FBugCatcherText:
-	text "Oh? You have some"
-	line "BADGES I've never"
-	cont "seen before."
+	text "Ach? Du hast da"
+	line "einige ORDEN, die"
+	cont "ich noch nie"
+	cont "gesehen habe."
 
-	para "Oh, I get it. You"
-	line "got them in JOHTO."
+	para "Ah, jetzt begreife"
+	line "ich es. Du hast"
+
+	para "sie in JOHTO"
+	line "erhalten."
 	done
 
 VermilionPokecenter1F_MapEvents:

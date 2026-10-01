@@ -104,113 +104,124 @@ MovementData_AideFinishesLeavingPokecenter:
 	step_end
 
 VioletPokecenterElmsAideFavorText:
-	text "<PLAY_G>, long"
-	line "time, no see."
+	text "<PLAY_G>, lange"
+	line "nicht gesehen."
 
-	para "PROF.ELM asked me"
-	line "to find you."
+	para "PROF. LIND hat"
+	line "mich gebeten, nach"
+	cont "dir zu suchen."
 
-	para "He has another"
-	line "favor to ask."
+	para "Er hat noch eine"
+	line "Bitte an dich."
 
-	para "Would you take the"
-	line "#MON EGG?"
+	para "Nimm bitte das"
+	line "#MON-EI!"
 	done
 
 VioletPokecenterElmsAideGiveEggText:
-	text "We discovered that"
-	line "a #MON will not"
+	text "Wir haben ent-"
+	line "deckt, dass ein"
 
-	para "hatch until it"
-	line "grows in the EGG."
+	para "#MON erst"
+	line "schlüpft, nachdem"
 
-	para "It also has to be"
-	line "with other active"
-	cont "#MON to hatch."
+	para "es im EI gewachsen"
+	line "ist."
 
-	para "<PLAY_G>, you're"
-	line "the only person"
-	cont "we can rely on."
+	para "Auせerdem muss es"
+	line "sich in der Nähe"
 
-	para "Please call PROF."
-	line "ELM when that EGG"
-	cont "hatches!"
+	para "anderer #MON"
+	line "befinden, um zu"
+	cont "schlüpfen."
+
+	para "<PLAY_G>, du bist"
+	line "die einzige Per-"
+	cont "son, auf die wir"
+
+	para "uns verlassen"
+	line "können."
+
+	para "Bitte ruf PROF."
+	line "LIND an, wenn das"
+	cont "EI so weit ist!"
 	done
 
 VioletCityElmsAideFullPartyText:
-	text "Oh, no. You can't"
-	line "carry any more"
-	cont "#MON with you."
+	text "Oh, du hast keinen"
+	line "Platz mehr für ein"
+	cont "weiteres #MON."
 
-	para "I'll wait here"
-	line "while you make"
-	cont "room for the EGG."
+	para "Ich warte hier,"
+	line "bis du Platz für"
+	cont "das EI geschaffen"
+	cont "hast."
 	done
 
 VioletPokecenterElmsAideRefuseText:
-	text "B-but… PROF.ELM"
-	line "asked for you…"
+	text "A-Aber… PROF."
+	line "LIND hat nach dir"
+	cont "gefragt…"
 	done
 
 VioletPokecenterElmsAideAskEggText:
-	text "<PLAY_G>, will you"
-	line "take the EGG?"
+	text "<PLAY_G>, nimmst du"
+	line "das EI?"
 	done
 
 VioletPokecenterFarawayLinkText: ; unreferenced
-	text "I've been thinking"
-	line "it'd be great to"
+	text "Ich denke, es wäre"
+	line "wunderbar, wenn"
 
-	para "be able to link up"
-	line "and battle with my"
+	para "ich mit meinen"
+	line "Freunden, die weit"
 
-	para "friends who live"
-	line "far away."
+	para "entfernt wohnen,"
+	line "via Link-Kabel"
+	cont "kämpfen könnte."
 	done
 
 VioletPokecenterMobileAdapterText: ; unreferenced
-	text "I just battled a"
-	line "friend in CIANWOOD"
-	cont "over a link."
-
-	para "If you connect a"
-	line "MOBILE ADAPTER,"
-
-	para "you can link with"
-	line "a friend far away."
+	text_start
 	done
 
 VioletPokecenter1FGameboyKidText:
-	text "A guy named BILL"
-	line "made the #MON"
-	cont "PC storage system."
+	text "Ein Kerl namens"
+	line "BILL hat das"
+
+	para "#MON-PC-LAGE-"
+	line "RUNGS-SYSTEM"
+
+	para "erfunden."
 	done
 
 VioletPokecenter1FGentlemanText:
-	text "It was around"
-	line "three years ago."
+	text "Es war vor etwa"
+	line "drei Jahren."
 
-	para "TEAM ROCKET was up"
-	line "to no good with"
-	cont "#MON."
+	para "TEAM ROCKET hatte"
+	line "etwas Übles mit"
+	cont "den #MON vor."
 
-	para "But justice pre-"
-	line "vailed--a young"
-	cont "kid broke 'em up."
+	para "Aber die Gerech-"
+	line "tigkeit hat ge-"
+	cont "siegt! Ein junger"
+	cont "Trainer hat sie"
+	cont "zerschlagen."
 	done
 
 VioletPokecenter1FYoungsterText:
-	text "#MON are smart."
-	line "They won't obey a"
+	text "#MON sind"
+	line "schlau. Sie gehor-"
+	cont "chen nur Trainern,"
+	cont "vor denen sie auch"
+	cont "Respekt haben."
 
-	para "trainer they don't"
-	line "respect."
+	para "Hat der Trainer"
+	line "nicht genug ORDEN,"
 
-	para "Without the right"
-	line "GYM BADGES, they"
-
-	para "will just do as"
-	line "they please."
+	para "machen sie, was"
+	line "sie wollen."
 	done
 
 VioletPokecenter1F_MapEvents:

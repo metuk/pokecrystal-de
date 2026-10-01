@@ -1,90 +1,96 @@
 JoeyMonLookingSharperText:
-	text "My @"
+	text "Mein @"
 	text_ram wStringBuffer4
-	text "'s"
-	line "looking sharper"
-	cont "than before!"
+	text_start
+	line "sieht entschlos-"
+	cont "sener aus!"
 
-	para "I doubt there's a"
-	line "#MON as cool as"
+	para "Ich bezweifle,"
+	line "dass du auch so"
 
-	para "this guy in your"
-	line "party!"
+	para "ein cooles #MON"
+	line "in deinem Team"
+	cont "hast!"
 	done
 
 JoeyDefeatedMonText:
-	text "Oh yeah, I took"
-	line "down a @"
+	text "Hossa, neulich"
+	line "besiegte ich ein"
+
+	para "@"
 	text_ram wStringBuffer4
 	text_start
-	para "in the wild the"
-	line "other day."
+	line "in der Wildnis."
 
-	para "It was a cakewalk."
-	line "Well, I guess it"
+	para "Es war ein Kinder-"
+	line "spiel. Nun, wir"
 
-	para "can't be helped,"
-	line "us being so tough."
+	para "sind eben so"
+	line "stark."
 	done
 
 JoeyLostAMonText:
-	text "Oh yeah, I saw a"
-	line "wild @"
+	text "Oh, ich sah ein"
+	line "wildes @"
 	text_ram wStringBuffer4
 	text "!"
 
-	para "I thought about"
-	line "going for it, but"
+	para "Ich wollte es zu-"
+	line "erst fangen, aber"
 
-	para "I decided to work"
-	line "with my one-and-"
+	para "ich besann mich"
+	line "eines Besseren und"
 
-	para "only right to the"
-	line "extreme end."
+	para "beschloss, mit"
+	line "meinem Ein und"
+	cont "Alles zu arbeiten."
 	done
 
 JoeyBattleRematchText:
-	text "Let's get together"
-	line "and battle!"
+	text "Treffen wir uns"
+	line "für einen Kampf!"
 
-	para "I promise things"
-	line "will be different!"
+	para "Ich verspreche, es"
+	line "wird anders!"
 
-	para "@"
+	para "Ich bin hier:"
+	line "@"
 	text_ram wStringBuffer5
-	text "'s"
-	line "where I'll be."
+	text "."
 
-	para "Give me a shout"
-	line "when you come."
+	para "Ruf an, wenn du in"
+	line "der Nähe bist."
 	done
 
 JoeyHangUpText:
-	text "All right. Later!"
+	text "Gut, bis später!"
 	done
 
 JoeyDevisingStrategiesText:
-	text "I'm checking out"
+	text "Ich experimentiere"
+	line "gerade mit den"
+
+	para "Attacken von"
 	line "@"
 	text_ram wStringBuffer4
-	text "'s moves"
+	text ", um"
 
-	para "and devising some"
-	line "strategies."
+	para "eine Strategie"
+	line "zu finden."
 
-	para "When I come up"
-	line "with a good one,"
-	cont "let's battle!"
+	para "Finde ich eine"
+	line "gute, dann müssen"
+	cont "wir kämpfen!"
 	done
 
 JoeyReminderText:
-	text "What's keeping"
-	line "you, <PLAYER>!"
+	text "Was hält dich auf,"
+	line "<PLAYER>!"
 
-	para "Let's get down and"
-	line "battle already!"
+	para "Lass uns endlich"
+	line "anfangen!"
 
-	para "I'm waiting on"
+	para "Ich warte hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"

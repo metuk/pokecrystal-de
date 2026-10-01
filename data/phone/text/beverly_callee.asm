@@ -1,68 +1,69 @@
 BeverlyAnswerPhoneText:
-	text "Hello, this is"
+	text "Hallo, hier ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh! Good morning,"
+	para "Oh! Guten Morgen,"
 	line "<PLAYER>."
 	done
 
 BeverlyAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Hallo, hier ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh! Good day,"
+	para "Oh! Guten Tag,"
 	line "<PLAYER>."
 	done
 
 BeverlyAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Hallo, hier ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh! Good evening,"
+	para "Oh! Guten Abend,"
 	line "<PLAYER>."
 	done
 
 BeverlyGreetText:
-	text "Hello, <PLAYER>."
-	line "Good morning."
+	text "Hallo, <PLAYER>."
+	line "Guten Morgen."
 
-	para "This is @"
+	para "@"
 	text_ram wStringBuffer3
-	text "."
-	line "Were you asleep?"
+	text ", hallo."
+	line "Hast du"
+	cont "geschlafen?"
 	done
 
 BeverlyGreetDayText:
 	text "Hi, <PLAYER>."
-	line "This is @"
+	line "@"
 	text_ram wStringBuffer3
-	text "."
+	text ", hallo."
 
-	para "How are you doing?"
+	para "Wie geht es dir?"
 	done
 
 BeverlyGreetNiteText:
 	text "Hi, <PLAYER>."
-	line "This is @"
+	line "@"
 	text_ram wStringBuffer3
-	text "."
+	text ", hallo!"
 
-	para "Were you awake?"
+	para "Bist du wach?"
 	done
 
 BeverlyGenericText:
-	text "Keeping your"
-	line "#MON happy?"
+	text "Sorgst du gut für"
+	line "deine #MON?"
 
-	para "My @"
+	para "Meinem @"
 	text_ram wStringBuffer4
-	text " is"
-	line "healthy. It eats a"
-	cont "lot every day."
+	text_start
+	line "geht es gut. Es"
+	cont "frisst viel."
 	done

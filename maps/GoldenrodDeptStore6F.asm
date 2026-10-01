@@ -97,56 +97,59 @@ GoldenrodDeptStore6FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodVendingText:
-	text "A vending machine!"
-	line "Here's the menu."
+	text "Ein Automat!"
+	line "Hier ist das Ange-"
+	cont "bot."
 	done
 
 GoldenrodClangText:
-	text "Clang! A can of"
+	text "Ding! Eine Dose"
 	line "@"
 	text_ram wStringBuffer3
 	text_start
-	cont "popped out!"
+	cont "fällt heraus!"
 	done
 
 GoldenrodVendingNoMoneyText:
-	text "Oops, not enough"
-	line "money."
+	text "Ups, nicht genug"
+	line "Geld."
 	done
 
 GoldenrodVendingNoSpaceText:
-	text "There's no more"
-	line "room for stuff."
+	text "Du hast keinen"
+	line "Platz mehr."
 	done
 
 GoldenrodDeptStore6FLassText:
-	text "Do you listen to"
-	line "LUCKY CHANNEL?"
+	text "Hörst du den"
+	line "GLÜCKSKANAL?"
 
-	para "If you want to"
-	line "win, trade #MON"
+	para "Möchtest du gewin-"
+	line "nen, tausche #-"
+	cont "MON mit so vielen"
 
-	para "with as many peo-"
-	line "ple as possible to"
-
-	para "get different ID"
-	line "numbers."
+	para "Leuten wie mög-"
+	line "lich, um verschie-"
+	cont "dene ID-Nummern zu"
+	cont "erhalten."
 	done
 
 GoldenrodDeptStore6FSuperNerdText:
-	text "If you're tired,"
-	line "try the vending"
-	cont "machine's drinks."
+	text "Wenn du müde bist,"
+	line "dann hol dir ein"
+	cont "Getränk aus dem"
+	cont "Automaten."
 
-	para "Your #MON will"
-	line "love them too."
+	para "Auch deine #MON"
+	line "werden sie mögen."
 	done
 
 GoldenrodDeptStore6FDirectoryText:
-	text "Take a Break from"
-	line "Shopping!"
+	text "Mach eine"
+	line "Einkaufspause!"
 
-	para "6F TRANQUIL SQUARE"
+	para "5S PLATZ DER"
+	line "   EWIGEN STILLE"
 	done
 
 GoldenrodDeptStore6F_MapEvents:

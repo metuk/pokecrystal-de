@@ -80,68 +80,72 @@ Route2HiddenRevive:
 	hiddenitem REVIVE, EVENT_ROUTE_2_HIDDEN_REVIVE
 
 BugCatcherRobSeenText:
-	text "My bug #MON are"
-	line "tough. Prepare to"
-	cont "lose!"
+	text "Meine Käfer-#-"
+	line "MON sind zäh. Du"
+	cont "wirst verlieren!"
 	done
 
 BugCatcherRobBeatenText:
-	text "I was whipped…"
+	text "Ich wurde"
+	line "vermöbelt…"
 	done
 
 BugCatcherRobAfterBattleText:
-	text "I'm going to look"
-	line "for stronger bug"
-	cont "#MON."
+	text "Ich werde mir"
+	line "stärkere Käfer-"
+	cont "#MON suchen."
 	done
 
 BugCatcherEdSeenText:
-	text "If you walk in"
-	line "tall grass wearing"
+	text "Wenn du mit Shorts"
+	line "in hohem Gras"
 
-	para "shorts, do you get"
-	line "nicks and cuts?"
+	para "läufst, bekommst"
+	line "du dann Schrammen"
+	cont "an deinen Beinen?"
 	done
 
 BugCatcherEdBeatenText:
-	text "Ouch, ouch, ouch!"
+	text "Au, Aua, Aua!"
 	done
 
 BugCatcherEdAfterBattleText:
-	text "They'll really"
-	line "sting when you"
-	cont "take a bath."
+	text "Sie stechen,"
+	line "wenn du ein Bad"
+	cont "nimmst."
 	done
 
 BugCatcherDougSeenText:
-	text "Why don't girls"
-	line "like bug #MON?"
+	text "Warum mögen"
+	line "Mädchen keine"
+	cont "Käfer-#MON?"
 	done
 
 BugCatcherDougBeatenText:
-	text "No good!"
+	text "Sinnlos!"
 	done
 
 BugCatcherDougAfterBattleText:
-	text "Bug #MON squish"
-	line "like plush toys"
+	text "Käfer-#MON"
+	line "zischen wie"
 
-	para "when you squeeze"
-	line "their bellies."
+	para "Plüschtiere, wenn"
+	line "du sie auf den"
+	cont "Bauch drückst."
 
-	para "I love how they"
-	line "feel!"
+	para "Ich mag das"
+	line "Gefühl!"
 	done
 
 Route2SignText:
 	text "ROUTE 2"
 
-	para "VIRIDIAN CITY -"
-	line "PEWTER CITY"
+	para "VERTANIA CITY -"
+	line "MARMORIA CITY"
 	done
 
 Route2DiglettsCaveSignText:
-	text "DIGLETT'S CAVE"
+	text "DIGDAs HÖHLE"
 	done
 
 Route2_MapEvents:

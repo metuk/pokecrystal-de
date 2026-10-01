@@ -334,214 +334,237 @@ CherrygroveCity_RivalExitsStageLeft:
 	step_end
 
 GuideGentIntroText:
-	text "You're a rookie"
-	line "trainer, aren't"
-	cont "you? I can tell!"
+	text "Du bist doch ein"
+	line "Anfänger, oder?"
 
-	para "That's OK! Every-"
-	line "one is a rookie"
-	cont "at some point!"
+	para "Das ist O.K.! Es"
+	line "ist noch kein"
+	cont "Meister vom Himmel"
+	cont "gefallen!"
 
-	para "If you'd like, I"
-	line "can teach you a"
-	cont "few things."
+	para "Wenn du willst,"
+	line "bringe ich dir ein"
+	cont "paar Tricks bei."
 	done
 
 GuideGentTourText1:
-	text "OK, then!"
-	line "Follow me!"
+	text "Also gut!"
+	line "Folge mir!"
 	done
 
 GuideGentPokecenterText:
-	text "This is a #MON"
-	line "CENTER. They heal"
+	text "Das ist ein #-"
+	line "MON-CENTER. Hier"
 
-	para "your #MON in no"
-	line "time at all."
+	para "kannst du deine"
+	line "#MON heilen."
 
-	para "You'll be relying"
-	line "on them a lot, so"
+	para "Du wirst diese"
+	line "Dienste sehr oft"
 
-	para "you better learn"
-	line "about them."
+	para "in Anspruch nehmen"
+	line "müssen."
 	done
 
 GuideGentMartText:
-	text "This is a #MON"
-	line "MART."
+	text "Das ist ein PKMN-"
+	line "SUPERMARKT."
 
-	para "They sell BALLS"
-	line "for catching wild"
+	para "Hier werden BÄLLE"
+	line "verkauft, mit de-"
+	cont "nen du #MON"
+	cont "fangen kannst."
 
-	para "#MON and other"
-	line "useful items."
+	para "Auせerdem findest"
+	line "du hier viele"
+	cont "nützliche Items."
 	done
 
 GuideGentRoute30Text:
-	text "ROUTE 30 is out"
-	line "this way."
+	text "Zur ROUTE 30 geht"
+	line "es hier entlang."
 
-	para "Trainers will be"
-	line "battling their"
+	para "Du wirst dort auf"
+	line "viele Trainer und"
 
-	para "prized #MON"
-	line "there."
+	para "ihre #MON"
+	line "treffen."
 	done
 
 GuideGentSeaText:
-	text "This is the sea,"
-	line "as you can see."
+	text "Wie du sehen"
+	line "kannst, befinden"
 
-	para "Some #MON are"
-	line "found only in"
-	cont "water."
+	para "wir uns hier am"
+	line "Meer."
+
+	para "Manche #MON"
+	line "findet man nur im"
+	cont "Wasser."
 	done
 
 GuideGentGiftText:
-	text "Here…"
+	text "Hier…"
 
-	para "It's my house!"
-	line "Thanks for your"
-	cont "company."
+	para "Das ist mein Haus!"
+	line "Danke, dass du mir"
+	cont "Gesellschaft"
+	cont "geleistet hast."
 
-	para "Let me give you a"
-	line "small gift."
+	para "Lass mich dir ein"
+	line "kleines Präsent"
+	cont "geben!"
 	done
 
 GotMapCardText:
-	text "<PLAYER>'s #GEAR"
-	line "now has a MAP!"
+	text "Der #COM von"
+	line "<PLAYER> verfügt"
+	cont "nun über eine"
+	cont "KARTE!"
 	done
 
 GuideGentPokegearText:
-	text "#GEAR becomes"
-	line "more useful as you"
-	cont "add CARDS."
+	text "Der #COM wird"
+	line "vielseitiger, wenn"
+	cont "du ihn mit MODULEN"
+	cont "erweiterst."
 
-	para "I wish you luck on"
-	line "your journey!"
+	para "Ich wünsche dir"
+	line "viel Glück für"
+	cont "deine Reise!"
 	done
 
 GuideGentNoText:
-	text "Oh… It's something"
-	line "I enjoy doing…"
+	text "Oh… Ich mache so"
+	line "etwas gerne…"
 
-	para "Fine. Come see me"
-	line "when you like."
+	para "Du kannst mich"
+	line "immer besuchen."
 	done
 
 CherrygroveRivalText_Seen:
 	text "<……> <……> <……>"
 
-	para "You got a #MON"
-	line "at the LAB."
+	para "Du hast ein #-"
+	line "MON aus dem LABOR."
 
-	para "What a waste."
-	line "A wimp like you."
+	para "Welch eine Ver-"
+	line "schwendung für ei-"
+	cont "nen Schwächling"
+	cont "wie dich."
 
 	para "<……> <……> <……>"
 
-	para "Don't you get what"
-	line "I'm saying?"
+	para "Hast du kapiert,"
+	line "wovon ich spreche?"
 
-	para "Well, I too, have"
-	line "a good #MON."
+	para "Auch ich habe ein"
+	line "gutes #MON."
 
-	para "I'll show you"
-	line "what I mean!"
+	para "Ich zeige dir, was"
+	line "ich meine!"
 	done
 
 RivalCherrygroveWinText:
-	text "Humph. Are you"
-	line "happy you won?"
+	text "Hmpf. Bist du we-"
+	line "nigstens froh über"
+	cont "deinen Sieg?"
 	done
 
 CherrygroveRivalText_YouLost:
 	text "<……> <……> <……>"
 
-	para "My name's ???."
+	para "Mein Name ist ???."
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
-	cont "trainer."
+	para "Ich werde der"
+	line "weltbeste #-"
+	cont "MON-Trainer sein!"
 	done
 
 RivalCherrygroveLossText:
-	text "Humph. That was a"
-	line "waste of time."
+	text "Hmpf. Das war pure"
+	line "Zeitverschwendung."
 	done
 
 CherrygroveRivalText_YouWon:
 	text "<……> <……> <……>"
 
-	para "My name's ???."
+	para "Mein Name ist ???."
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
-	cont "trainer."
+	para "Ich werde der"
+	line "weltbeste #-"
+	cont "MON-Trainer sein!"
 	done
 
 CherrygroveTeacherText_NoMapCard:
-	text "Did you talk to"
-	line "the old man by the"
-	cont "#MON CENTER?"
+	text "Hast du mit dem"
+	line "alten Mann am"
+	cont "#MON-CENTER"
+	cont "gesprochen?"
 
-	para "He'll put a MAP of"
-	line "JOHTO on your"
-	cont "#GEAR."
+	para "Er wird dir eine"
+	line "KARTE von JOHTO"
+	cont "für deinen #-"
+	cont "COM geben."
 	done
 
 CherrygroveTeacherText_HaveMapCard:
-	text "When you're with"
-	line "#MON, going"
-	cont "anywhere is fun."
+	text "Du kannst gehen,"
+	line "wohin du willst -"
+	cont "solange du mit"
+	cont "#MON unterwegs"
+	cont "bist, wird es"
+	cont "immer lustig sein."
 	done
 
 CherrygroveYoungsterText_NoPokedex:
-	text "MR.#MON's house"
-	line "is still farther"
-	cont "up ahead."
+	text "Zu MR. #MONs"
+	line "Haus ist es noch"
+	cont "ein ganzes Stück."
 	done
 
 CherrygroveYoungsterText_HavePokedex:
-	text "I battled the"
-	line "trainers on the"
-	cont "road."
+	text "Ich habe gegen die"
+	line "Trainer auf der"
+	cont "Straせe gekämpft."
 
-	para "My #MON lost."
-	line "They're a mess! I"
+	para "Meine #MON"
+	line "haben verloren!"
 
-	para "must take them to"
-	line "a #MON CENTER."
+	para "Ich muss sie rasch"
+	line "in ein #MON-"
+	cont "CENTER bringen."
 	done
 
 MysticWaterGuyTextBefore:
-	text "A #MON I caught"
-	line "had an item."
+	text "Ich habe ein"
+	line "#MON gefan-"
+	cont "gen, das ein Item"
 
-	para "I think it's"
-	line "MYSTIC WATER."
+	para "bei sich hatte."
+	line "Ich glaube, es war"
+	cont "ZAUBERWASSER."
 
-	para "I don't need it,"
-	line "so do you want it?"
+	para "Ich brauche es"
+	line "nicht. Möchtest du"
+	cont "es haben?"
 	done
 
 MysticWaterGuyTextAfter:
-	text "Back to fishing"
-	line "for me, then."
+	text "Ich gehe wieder"
+	line "zum Fischen."
 	done
 
 CherrygroveCitySignText:
-	text "CHERRYGROVE CITY"
+	text "ROSALIA CITY"
 
-	para "The City of Cute,"
-	line "Fragrant Flowers"
+	para "Die Stadt der"
+	line "Duftenden Blumen"
 	done
 
 GuideGentsHouseSignText:
-	text "GUIDE GENT'S HOUSE"
+	text "HAUS DES"
+	line "FREMDENFÜHRERs"
 	done
 
 CherrygroveCity_MapEvents:

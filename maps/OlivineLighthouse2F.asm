@@ -152,53 +152,55 @@ TrainerSailorHuey:
 	end
 
 SailorHueySeenText:
-	text "Men of the sea are"
-	line "always spoiling"
-	cont "for a good fight!"
+	text "Seefahrer scheuen"
+	line "keine harten"
+	cont "Kämpfe!"
 	done
 
 SailorHueyBeatenText:
-	text "Urf!"
-	line "I lose!"
+	text "Uff!"
+	line "Ich habe verloren!"
 	done
 
 SailorHueyUnusedText: ; unreferenced
-	text "What power!"
-	line "How would you like"
+	text "Du hast Power!"
+	line "Möchtest du"
 
-	para "to sail the seas"
-	line "with me?"
+	para "mit mir die Meere"
+	line "unsicher machen?"
 	done
 
 GentlemanAlfredSeenText:
-	text "Hm? This is no"
-	line "place for playing."
+	text "Hm? Dies ist kein"
+	line "Ort für Spielchen."
 	done
 
 GentlemanAlfredBeatenText:
-	text "Ah! I can see that"
-	line "you're serious."
+	text "Ah! Ich sehe, du"
+	line "meinst es ernst."
 	done
 
 GentlemanAlfredAfterBattleText:
-	text "Up top is a #-"
-	line "MON that keeps the"
-	cont "LIGHTHOUSE lit."
+	text "Ganz oben ist ein"
+	line "#MON, das den"
+	cont "LEUCHTTURM"
+	cont "betreibt."
 
-	para "But I hear that"
-	line "it's sick now and"
+	para "Ich habe gehört,"
+	line "dass es krank ist"
 
-	para "can't be cured by"
-	line "ordinary medicine."
+	para "und dass normale"
+	line "Medizin nicht"
+
+	para "hilft."
 	done
 
 SailorHueyGiveProteinText:
-	text "Man! You're as"
-	line "tough as ever!"
+	text "Wow! Du bist"
+	line "stark, wie immer!"
 
-	para "Anyway, here's"
-	line "that medicine from"
-	cont "before."
+	para "Egal, hier hast"
+	line "du die Medizin."
 	done
 
 OlivineLighthouse2F_MapEvents:

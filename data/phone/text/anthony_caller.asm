@@ -1,139 +1,146 @@
 AnthonyMonAteSomeBerriesText:
-	text "The other day, I"
-	line "was watching my"
+	text "Neulich sah ich,"
+	line "wie mein"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " eat"
-	line "some BERRIES."
+	text " einige"
+	line "BEEREN fraせ."
 
-	para "It looked like it"
-	line "was enjoying its"
+	para "Es schien das Mahl"
+	line "zu genieせen. Also"
 
-	para "meal, so I decided"
-	line "to try some."
+	para "aせ ich auch"
+	line "welche."
 
-	para "I'm not sure if"
-	line "people should eat"
-
-	para "that stuff, but it"
-	line "was delicious!"
+	para "Ich weiせ nicht, ob"
+	line "die Leute sie es-"
+	cont "sen sollten, aber"
+	cont "sie schmecken gut!"
 	done
 
 AnthonyDefeatedMonText:
-	text "Lately, I've been"
-	line "running across"
+	text "In letzter Zeit"
+	line "sind mir viele"
 
-	para "wild @"
+	para "wilde @"
 	text_ram wStringBuffer4
 	text_start
-	line "quite often."
+	line "begegnet."
 
-	para "They're easily"
-	line "taken care of."
+	para "Sie sind kein"
+	line "groせes Problem."
 	done
 
 AnthonyLostAMonText:
-	text "Oh yeah, I was"
-	line "battling this"
-
-	para "@"
+	text "Oh yo, ich kämpfte"
+	line "neulich gegen"
+	cont "dieses @"
 	text_ram wStringBuffer4
-	text " the"
-	line "other day…"
+	text "…"
 
-	para "It took off when I"
-	line "got distracted by"
-	cont "a passing BEAUTY."
+	para "Es ist mir ent-"
+	line "wischt, als ich"
 
-	para "Learn from my"
-	line "mistake--always"
+	para "einer vorbeilau-"
+	line "fenden SCHÖNHEIT"
+	cont "nachsah."
 
-	para "stay focused on"
-	line "the job at hand!"
+	para "Lerne von meinem"
+	line "Fehler - konzen-"
+	cont "triere dich immer"
+	cont "auf die Aufgabe"
+	cont "vor dir!"
 	done
 
 AnthonyBattleRematchText:
-	text "Come on--let's"
-	line "battle right now!"
+	text "Komm schon, lass"
+	line "uns jetzt kämpfen!"
 
-	para "@"
+	para "Ich warte hier:"
+	line "@"
 	text_ram wStringBuffer5
-	text " is"
-	line "where I am."
+	text "."
 
-	para "Come on down if"
-	line "you feel up to it!"
+	para "Schau vorbei, wenn"
+	line "du Lust hast!"
 	done
 
 AnthonyHangUpText:
-	text "All right then!"
-	line "Be good!"
+	text "In Ordnung!"
+	line "Bleib sauber!"
 	done
 
 AnthonySwarmText:
-	text "<PLAYER>! It's"
-	line "mind-blowing!"
+	text "<PLAYER>! Es ist"
+	line "nicht zu fassen!"
 
-	para "I took a hike in"
-	line "@"
+	para "Gestern wanderte"
+	line "ich hier:"
+	cont "@"
 	text_ram wStringBuffer5
-	text_start
-	cont "yesterday, see?"
+	text "."
 
-	para "Well, there were"
-	line "tons of @"
+	para "Nun, da waren"
+	line "viele @"
+	text_ram wStringBuffer4
+	text "!"
+
+	para "Das musst du"
+	line "sehen!"
+
+	para "Ich habe das Ge-"
+	line "fühl, dass"
+
+	para "@"
 	text_ram wStringBuffer4
 	text_start
-	para "around! You have"
-	line "to see it!"
+	line "schüchtern sind."
 
-	para "I get this feeling"
-	line "that @"
-	text_ram wStringBuffer4
-	text_start
-	para "may be timid."
-	line "I didn't see any"
+	para "Ich habe sie nie"
+	line "in der Nähe von"
 
-	para "where there are"
-	line "strong #MON."
+	para "starken #MON"
+	line "gesehen."
 	done
 
 AnthonyWasntPayingAttentionText:
-	text "Rare #MON?"
+	text "Seltene #MON?"
 
-	para "Hey, sorry! I was"
-	line "too focused on my"
+	para "Entschuldige! Ich"
+	line "war zu sehr mit"
 
-	para "hike, so I wasn't"
-	line "paying attention."
+	para "Wandern beschäf-"
+	line "tigt, um darauf"
+	cont "zu achten."
 	done
 
 AnthonyReminderText:
-	text "Hello! You haven't"
-	line "forgotten about"
+	text "Hallo! Du hast un-"
+	line "seren Kampf nicht"
 
-	para "our battle, have"
-	line "you?"
+	para "vergessen, oder"
+	line "etwa doch?"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "!"
-	line "I'm waiting!"
+	line "Ich warte!"
 	done
 
 AnthonyHurryText:
-	text "Hello? What? Where"
-	line "is DUNSPARCE?"
+	text "Hallo? Was? Wo"
+	line "DUMMISEL sind?"
 
-	para "DARK CAVE! Hurry!"
+	para "DUNKELHÖHLE! Auf!"
 
-	para "I know I've said"
-	line "it before, but"
+	para "Ich weiせ, ich habe"
+	line "es schon erwähnt,"
 
-	para "DUNSPARCE don't"
-	line "appear when there"
+	para "aber DUMMISEL"
+	line "tauchen nicht auf,"
 
-	para "are strong #MON"
-	line "around."
+	para "wenn starke #-"
+	line "MON in der Nähe"
+	cont "sind."
 	done

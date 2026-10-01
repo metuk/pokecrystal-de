@@ -23,22 +23,26 @@ CeruleanDiglett:
 	end
 
 CeruleanPoliceStationFishingGuruText:
-	text "I heard that some"
-	line "shady character is"
-	cont "skulking about."
+	text "Ich habe gehört,"
+	line "dass ein zwielich-"
+	cont "tiger Typ herum-"
+	cont "schleichen soll."
 
-	para "I won't stand for"
-	line "it if he turns out"
-	cont "to be a thief."
+	para "Ich werde nicht"
+	line "still halten, wenn"
+	cont "sich herausstellt,"
+	cont "dass er ein"
+	cont "Dieb ist."
 	done
 
 CeruleanPoliceStationPokefanFText:
-	text "We were held up by"
-	line "robbers before."
+	text "Wir wurden von"
+	line "Räubern"
+	cont "aufgehalten."
 	done
 
 CeruleanDiglettText:
-	text "DIGLETT: Dug dug."
+	text "DIGDA: Dig, Dig."
 	done
 
 CeruleanPoliceStation_MapEvents:

@@ -61,98 +61,112 @@ SeafoamGymGuideScript:
 	end
 
 BlaineIntroText:
-	text "BLAINE: Waaah!"
+	text "PYRO: Wuah!"
 
-	para "My GYM in CINNABAR"
-	line "burned down."
+	para "Meine PKMN-ARENA"
+	line "auf der ZINNOBER-"
+	cont "INSEL ist abge-"
+	cont "brannt. Meine"
 
-	para "My fire-breathing"
-	line "#MON and I are"
+	para "Feuer-#MON und"
+	line "ich sind wegen des"
 
-	para "homeless because"
-	line "of the volcano."
+	para "Vulkanausbruchs"
+	line "obdachlos."
 
-	para "Waaah!"
+	para "Buah!"
 
-	para "But I'm back in"
-	line "business as a GYM"
+	para "Aber ich führe"
+	line "meine Tätigkeit"
 
-	para "LEADER here in"
-	line "this cave."
+	para "als ARENALEITER in"
+	line "dieser Höhle"
+	cont "weiter aus."
 
-	para "If you can beat"
-	line "me, I'll give you"
-	cont "a BADGE."
+	para "Wenn du mich"
+	line "besiegst, bekommst"
+	cont "du einen ORDEN."
 
-	para "Ha! You'd better"
-	line "have BURN HEAL!"
+	para "Es wäre besser,"
+	line "du hast"
+	cont "FEUERHEILER!"
 	done
 
 BlaineWinLossText:
-	text "BLAINE: Awesome."
-	line "I've burned out…"
+	text "PYRO: Gut gemacht."
+	line "Ich bin"
+	cont "ausgebrannt…"
 
-	para "You've earned"
-	line "VOLCANOBADGE!"
+	para "Hier nimm den"
+	line "VULKANORDEN!"
 	done
 
 ReceivedVolcanoBadgeText:
-	text "<PLAYER> received"
-	line "VOLCANOBADGE."
+	text "<PLAYER> erhält"
+	line "VULKANORDEN."
 	done
 
 BlaineAfterBattleText:
-	text "BLAINE: I did lose"
-	line "this time, but I'm"
+	text "PYRO: Diesmal habe"
+	line "ich verloren, aber"
 
-	para "going to win the"
-	line "next time."
+	para "beim nächsten Mal"
+	line "werde ich"
+	cont "gewinnen."
 
-	para "When I rebuild my"
-	line "CINNABAR GYM,"
+	para "Ich werde meine"
+	line "PKMN-ARENA auf der"
 
-	para "we'll have to have"
-	line "a rematch."
+	para "ZINNOBERINSEL"
+	line "wieder aufbauen"
+	cont "und dann wirst du"
+	cont "erneut gegen mich"
+	cont "antreten."
 	done
 
 BlaineFightDoneText:
-	text "BLAINE: My fire"
-	line "#MON will be"
+	text "PYRO: Meine Feuer-"
+	line "#MON werden"
 
-	para "even stronger."
-	line "Just you watch!"
+	para "noch stärker sein."
+	line "Du wirst schon"
+	cont "sehen!"
 	done
 
 SeafoamGymGuideWinText:
-	text "Yo!"
+	text "Jawohl!"
 
-	para "… Huh? It's over"
-	line "already?"
+	para "…Huh? Es ist"
+	line "schon vorüber?"
 
-	para "Sorry, sorry!"
+	para "Sorry, Kumpel!"
 
-	para "CINNABAR GYM was"
-	line "gone, so I didn't"
+	para "Die PKMN-ARENA auf"
+	line "der ZINNOBERINSEL"
 
-	para "know where to find"
-	line "you."
+	para "existiert nicht"
+	line "mehr und ich"
+	cont "wusste nicht, wo"
+	cont "du steckst."
 
-	para "But, hey, you're"
-	line "plenty strong even"
+	para "Aber egal! Du"
+	line "bist auch ohne"
 
-	para "without my advice."
-	line "I knew you'd win!"
+	para "meinen Ratschlag"
+	line "zurechtgekommen."
+	cont "Ich wusste, du"
+	cont "würdest gewinnen."
 	done
 
 SeafoamGymGuideWinText2:
-	text "A #MON GYM can"
-	line "be anywhere as"
+	text "Eine PKMN-ARENA"
+	line "kann überall sein,"
 
-	para "long as the GYM"
-	line "LEADER is there."
+	para "solange der ARENA-"
+	line "LEITER dort ist."
 
-	para "There's no need"
-	line "for a building."
+	para "Man braucht dafür"
+	line "kein Gebäude."
 	done
 
 SeafoamGym_MapEvents:

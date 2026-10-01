@@ -113,179 +113,203 @@ SaffronGymStatue:
 	jumpstd GymStatue2Script
 
 SabrinaIntroText:
-	text "SABRINA: I knew"
-	line "you were coming…"
+	text "SABRINA: Ich"
+	line "wusste, dass du"
+	cont "kommen würdest…"
 
-	para "Three years ago I"
-	line "had a vision of"
-	cont "your arrival."
+	para "Vor drei Jahren"
+	line "sah ich dich in"
+	cont "einer Vision."
 
-	para "You're after my"
-	line "BADGE."
+	para "Du willst meinen"
+	line "ORDEN haben."
 
-	para "I don't enjoy bat-"
-	line "tling, but it's my"
+	para "Ich habe keine"
+	line "Freude am Kämpfen,"
 
-	para "duty as a LEADER"
-	line "to confer BADGES"
+	para "aber als LEITERIN"
+	line "ist es meine"
 
-	para "on anyone who has"
-	line "proven him- or"
-	cont "herself worthy."
+	para "Pflicht, all denen"
+	line "einen ORDEN zu"
 
-	para "Since you wish it,"
-	line "I will show you my"
-	cont "psychic powers!"
+	para "geben, die sich"
+	line "als würdig"
+	cont "erwiesen haben."
+
+	para "Da du es wünschst,"
+	line "werde ich dir"
+	cont "meine psychischen"
+	cont "Kräfte zeigen!"
 	done
 
 SabrinaWinLossText:
-	text "SABRINA: Your"
-	line "power…"
+	text "SABRINA: Deine"
+	line "Stärke…"
 
-	para "It far exceeds"
-	line "what I foresaw…"
+	para "übertrifft meine"
+	line "Vorahnungen bei"
+	cont "weitem…"
 
-	para "Maybe it isn't"
-	line "possible to fully"
+	para "Vielleicht ist es"
+	line "nicht möglich,"
 
-	para "predict what the"
-	line "future holds…"
+	para "alles vorherzu-"
+	line "sagen, was die"
+	cont "Zukunft bringt…"
 
-	para "OK, you win. You"
-	line "earned yourself"
-	cont "MARSHBADGE."
+	para "Gut, du hast"
+	line "dir den SUMPFORDEN"
+	cont "verdient."
 	done
 
 ReceivedMarshBadgeText:
-	text "<PLAYER> received"
-	line "MARSHBADGE."
+	text "<PLAYER> erhält"
+	line "SUMPFORDEN."
 	done
 
 SabrinaMarshBadgeText:
-	text "SABRINA: MARSH-"
-	line "BADGE draws out"
+	text "SABRINA: Der"
+	line "SUMPFORDEN"
 
-	para "your subliminal"
-	line "powers…"
+	para "aktiviert deine"
+	line "unterbewussten"
+	cont "Kräfte…"
 
-	para "Although I failed"
-	line "to accurately pre-"
-	cont "dict your power,"
-	cont "this much I know"
-	cont "to be true."
+	para "Obwohl ich nicht"
+	line "in der Lage war,"
+	cont "deine Stärke"
+	cont "vorauszusehen,"
+	cont "weiせ ich das ganz"
+	cont "sicher."
 
-	para "You will become a"
-	line "celebrated and"
-	cont "beloved CHAMPION!"
+	para "Du wirst ein"
+	line "gefeierter und"
+	cont "beliebter CHAMP"
+	cont "werden!"
 	done
 
 SabrinaFightDoneText:
-	text "SABRINA: Your love"
-	line "for your #MON"
+	text "SABRINA: Deine Zu-"
+	line "neigung zu deinen"
 
-	para "overwhelmed my"
-	line "psychic power…"
+	para "#MON hat meine"
+	line "Psychostärke"
+	cont "übertroffen…"
 
-	para "The power of love,"
-	line "I think, is also a"
+	para "Die Kraft der"
+	line "Liebe ist meiner"
 
-	para "kind of psychic"
-	line "power…"
+	para "Ansicht nach auch"
+	line "eine Art von"
+	cont "Psychostärke…"
 	done
 
 MediumRebeccaSeenText:
-	text "The power of all"
-	line "those you defeated"
-	cont "comes to me!"
+	text "Die Kraft all"
+	line "derer, die du"
+	cont "besiegt hast,"
+	cont "offenbart sich"
+	cont "mir!"
 	done
 
 MediumRebeccaBeatenText:
-	text "Strong…"
-	line "Far too strong…"
+	text "Stark…"
+	line "Viel zu stark…"
 	done
 
 MediumRebeccaAfterBattleText:
-	text "What is the source"
-	line "of your power?"
+	text "Woher kommt deine"
+	line "Kraft?"
 	done
 
 PsychicFranklinSeenText:
-	text "Psychic power is"
-	line "the power of your"
-	cont "soul."
+	text "Psychische Stärke"
+	line "ist die Kraft"
+	cont "deiner Seele."
 	done
 
 PsychicFranklinBeatenText:
-	text "Your soul has more"
-	line "power than mine!"
+	text "Deine Seele ist"
+	line "stärker als meine!"
 	done
 
 PsychicFranklinAfterBattleText:
-	text "You made your soul"
-	line "stronger, not just"
-	cont "your abilities."
+	text "Du hast auch deine"
+	line "Seele gestärkt,"
+	cont "nicht nur deine"
+	cont "Fähigkeiten."
 	done
 
 MediumDorisSeenText:
-	text "Fufufufu…"
-	line "I see it clearly."
+	text "Hehehehe…"
+	line "Ich habe es"
+	cont "deutlich vor mir."
 
-	para "I can see into"
-	line "your soul!"
+	para "Ich kann in deine"
+	line "Seele blicken!"
 	done
 
 MediumDorisBeatenText:
-	text "Though I read you,"
-	line "I still lost…"
+	text "Obwohl ich in dir"
+	line "lesen kann, habe"
+	cont "ich verloren…"
 	done
 
 MediumDorisAfterBattleText:
-	text "Darn! I forgot"
-	line "that I predicted I"
-	cont "would lose to you."
+	text "Mist! Ich habe"
+	line "vergessen, dass"
+	cont "ich meine Nieder-"
+	cont "lage gegen dich"
+	cont "voraussah."
 	done
 
 PsychicJaredSeenText:
-	text "The FIGHTING DOJO"
-	line "next door was once"
-	cont "this city's GYM."
+	text "Das KARATE DOJO"
+	line "nebenan war früher"
+	cont "die PKMN-ARENA der"
+	cont "Stadt."
 	done
 
 PsychicJaredBeatenText:
-	text "I was no match…"
+	text "Ich war leicht"
+	line "zu besiegen…"
 	done
 
 PsychicJaredAfterBattleText:
-	text "KARATE KING, the"
-	line "master of the"
+	text "Der KARATE-"
+	line "MEISTER, Leiter"
 
-	para "FIGHTING DOJO, was"
-	line "just destroyed by"
-	cont "SABRINA."
+	para "des KARATE DOJO,"
+	line "ist gerade von"
+	cont "SABRINA besiegt"
+	cont "worden."
 	done
 
 SaffronGymGuideText:
-	text "Yo, CHAMP in"
-	line "making!"
+	text "He! Ein CHAMP"
+	line "in spe!"
 
-	para "A trainer as"
-	line "skilled as you"
+	para "Ein Trainer"
+	line "deines Kalibers"
 
-	para "doesn't need to be"
-	line "told how to deal"
+	para "braucht sicher"
+	line "keine Anweisung,"
 
-	para "with psychic-type"
-	line "#MON, right?"
+	para "wie mit Psycho-"
+	line "#MON umzugehen"
+	cont "ist, nicht wahr?"
 
-	para "I expect great"
-	line "things from you!"
+	para "Ich erwarte"
+	line "Groせes von dir!"
 
-	para "Good luck!"
+	para "Viel Glück!"
 	done
 
 SaffronGymGuideWinText:
-	text "That was another"
-	line "fantastic battle!"
+	text "Das war wieder ein"
+	line "fantastischer"
+	cont "Kampf!"
 	done
 
 SaffronGym_MapEvents:

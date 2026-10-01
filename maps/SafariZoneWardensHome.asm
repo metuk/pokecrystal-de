@@ -32,46 +32,50 @@ WardensHomeBookshelf:
 	jumpstd PictureBookshelfScript
 
 WardensGranddaughterText1:
-	text "My grandpa is the"
-	line "SAFARI ZONE WAR-"
-	cont "DEN."
+	text "Mein Groせvater ist"
+	line "der WÄRTER in der"
+	cont "SAFARI-ZONE."
 
-	para "At least he was…"
+	para "Zumindest war er"
+	line "das…"
 
-	para "He decided to go"
-	line "on a vacation and"
+	para "Er hat sich ent-"
+	line "schieden, Urlaub"
 
-	para "took off overseas"
-	line "all by himself."
+	para "zu machen und ist"
+	line "verreist, ganz"
+	cont "allein."
 
-	para "He quit running"
-	line "SAFARI ZONE just"
-	cont "like that."
+	para "Er hat einfach"
+	line "so die SAFARI-"
+	cont "ZONE verlassen."
 	done
 
 WardensGranddaughterText2:
-	text "Many people were"
-	line "disappointed that"
+	text "Viele Leute waren"
+	line "traurig, dass die"
 
-	para "SAFARI ZONE closed"
-	line "down, but Grandpa"
-	cont "is so stubborn…"
+	para "SAFARI-ZONE ge-"
+	line "schlossen wurde."
+	cont "Aber Groせvater ist"
+	cont "so stur…"
 	done
 
 WardenPhotoText:
-	text "It's a photo of a"
-	line "grinning old man"
+	text "Das Foto zeigt"
+	line "einen lächelnden,"
 
-	para "who's surrounded"
-	line "by #MON."
+	para "alten Mann umgeben"
+	line "von #MON."
 	done
 
 SafariZonePhotoText:
-	text "It's a photo of a"
-	line "huge grassy plain"
+	text "Das Foto zeigt"
+	line "eine groせe Wiese,"
 
-	para "with rare #MON"
-	line "frolicking in it."
+	para "auf der seltene"
+	line "#MON"
+	cont "herumtollen."
 	done
 
 SafariZoneWardensHome_MapEvents:

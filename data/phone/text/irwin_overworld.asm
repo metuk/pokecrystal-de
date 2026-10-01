@@ -1,53 +1,53 @@
 IrwinAskNumber1Text:
-	text "You're the best"
-	line "I've ever battled!"
+	text "Du warst mein"
+	line "stärkster Gegner!"
 
-	para "Huh? You're the"
-	line "one who saved all"
-	cont "the SLOWPOKE?"
+	para "Du hast also die"
+	line "FLEGMON gerettet?"
 
-	para "Well, no wonder I"
-	line "couldn't beat you!"
+	para "Darum konnte ich"
+	line "nicht siegen!"
 
-	para "Would it be OK to"
-	line "get your number?"
+	para "Könnte ich deine"
+	line "Nummer bekommen?"
 
-	para "I don't want to"
-	line "miss anything you"
-	cont "do from now on!"
+	para "Ich möchte über"
+	line "alles, was dir"
+	cont "widerfährt,"
+	cont "informiert sein!"
 	done
 
 IrwinAskNumber2Text:
-	text "You will tell me"
-	line "your phone number?"
+	text "Verrätst du mir"
+	line "deine Nummer?"
 	done
 
 IrwinNumberAcceptedText:
-	text "Wow! Gee, thanks!"
-	line "Now I can call you"
+	text "Wow! Yo! Danke!"
+	line "Jetzt kann ich"
 
-	para "anytime, whether"
-	line "anything's up or"
+	para "dich jederzeit an-"
+	line "rufen, egal, ob es"
 
-	para "not. You know,"
-	line "just to chat!"
+	para "wichtig ist oder"
+	line "nur zum Plaudern!"
 	done
 
 IrwinNumberDeclinedText:
-	text "Oh, but…"
-	line "I'm not dangerous!"
+	text "Oh… ich bin"
+	line "nicht gefährlich!"
 
-	para "I just want to"
-	line "call and chat"
+	para "Ich möchte nur mit"
+	line "dir am Telefon"
 
-	para "about everything"
-	line "and nothing!"
+	para "über dies und"
+	line "jenes schwatzen!"
 	done
 
 IrwinPhoneFullText:
-	text "Your phone list is"
-	line "already full…"
+	text "Dein Nummern-"
+	line "speicher ist voll…"
 
-	para "You must be really"
-	line "popular…"
+	para "Du musst sehr"
+	line "beliebt sein…"
 	done
