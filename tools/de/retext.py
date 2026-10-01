@@ -50,19 +50,28 @@ def parse_blocks(path):
 	scope = None
 	i = 0
 	order = []  # sequence of (kind, name) in file order, for adjacency
+	anon = 0
 	while i < len(src):
 		m = LABEL.match(src[i])
 		if not m:
-			if src[i].strip() and not src[i].strip().startswith(';'):
-				order.append(('other', None))
-			i += 1
-			continue
-		name = m[1]
-		if name.startswith('.'):
-			name = f'{scope}{name}'
+			# an unlabeled text block right after another text block (e.g. "; unused" text)
+			if TEXT_MACROS.match(src[i]) and src[i].split()[0] in ('text', 'text_start', 'text_far', 'text_ram') \
+					and order and order[-1][0] == 'text':
+				anon += 1
+				name = f'{order[-1][1].name}@unlabeled{anon}'
+				j = i
+			else:
+				if src[i].strip() and not src[i].strip().startswith(';'):
+					order.append(('other', None))
+				i += 1
+				continue
 		else:
-			scope = name
-		j = i + 1
+			name = m[1]
+			if name.startswith('.'):
+				name = f'{scope}{name}'
+			else:
+				scope = name
+			j = i + 1
 		first = last = None
 		macros = []
 		while j < len(src):
@@ -89,6 +98,10 @@ def parse_blocks(path):
 			order.append(('label', name))
 		i = j if macros else i + 1
 	return src, blocks, order
+
+
+def is_anon(name):
+	return '@unlabeled' in name
 
 
 def main():
@@ -132,7 +145,7 @@ def main():
 				continue
 			b = item
 			stats['blocks'] += 1
-			e = de.get(b.name)
+			e = None if is_anon(b.name) else de.get(b.name)
 			if e:
 				off = rom_offset(e['bank'], e['addr'])
 				if next_guess is not None and next_guess != off:

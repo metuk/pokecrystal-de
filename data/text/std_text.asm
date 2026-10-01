@@ -73,8 +73,8 @@ NurseGoodbyeText:
 	done
 
 ; not used
-	text "We hope to see you"
-	line "again."
+	text "Komm jederzeit"
+	line "wieder vorbei!"
 	done
 
 NursePokerusText:
@@ -185,10 +185,10 @@ HomepageText:
 	done
 
 ; not used
-	text "#MON RADIO!"
+	text "#MON-RADIO!"
 
-	para "Call in with your"
-	line "requests now!"
+	para "Ruft an und äußert"
+	line "eure Wünsche!"
 	done
 
 TrashCanText:
@@ -197,13 +197,16 @@ TrashCanText:
 	done
 
 ; not used
-	text "A #MON may be"
-	line "able to move this."
+	text "Ein #MON könnte"
+	line "das vielleicht"
+
+	para "bewegen."
 	done
 
 ; not used
-	text "Maybe a #MON"
-	line "can break this."
+	text "Ein #MON könnte"
+	line "das vielleicht"
+	cont "zertrümmern."
 	done
 
 PokecenterSignText:
