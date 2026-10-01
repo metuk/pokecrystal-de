@@ -195,25 +195,27 @@ CreditsScript:
 	db CREDITS_WAIT, 9
 
 	db      US_COORDINATION, 1
-	db          GAIL_TILDEN, 2
-	db        HIRO_NAKAMURA, 3
+	db              KAI_ZEH, 2
+	db      HIROYUKI_UESUGI, 3
 
 	db CREDITS_WAIT, 12
 
 	db      US_COORDINATION, 1
 	db       JUNICHI_MASUDA, 2
-	db        SETH_MCMAHILL, 3
+	db        KOHJI_NISHINO, 3
+	db      KUNIMI_KAWAMURA, 4
 
 	db CREDITS_WAIT, 12
 
 	db      US_COORDINATION, 1
-	db     HIROTO_ALEXANDER, 2
-	db     TERESA_LILLYGREN, 3
+	db           TANJA_BAAR, 2
+	db          KAI_NEUMANN, 3
 
 	db CREDITS_WAIT, 12
 
 	db     TEXT_TRANSLATION, 1
-	db        NOB_OGASAWARA, 2
+	db     DANIEL_SCHAEFERS, 2
+	db       MARTINA_DEIMEL, 3
 
 	db CREDITS_WAIT, 12
 
@@ -223,9 +225,11 @@ CreditsScript:
 
 	db CREDITS_WAIT, 12
 
-	db         PAAD_TESTING, 1
-	db       THOMAS_HERTZOG, 2
-	db         ERIK_JOHNSON, 3
+	db         PAAD_TESTING, 0
+	db      MAURICE_TISDALE, 1
+	db      PATRICK_THIERET, 2
+	db          JENS_PEPPEL, 3
+	db  GERMAN_TESTING_TEAM, 4
 
 	db CREDITS_WAIT, 12
 
@@ -250,16 +254,17 @@ CreditsScript:
 
 	db CREDITS_WAIT, 12
 
-	db       SPECIAL_THANKS, 0
+	db           TEXT_CHECK, 0
 	db     KIMIKO_NAKAMICHI, 1
-	db           AKITO_MORI, 2
+	db           EMI_BESSHO, 2
+	db      TAKASHI_INAMOTO, 3
 
 	db CREDITS_WAIT, 12
 
 	db       SPECIAL_THANKS, 0
-	db        GAKUZI_NOMOTO, 1
-	db           AI_MASHIMA, 2
-	db      KUNIMI_KAWAMURA, 3
+	db           AKITO_MORI, 1
+	db        GAKUZI_NOMOTO, 2
+	db           AI_MASHIMA, 3
 
 	db CREDITS_WAIT, 12
 
@@ -269,7 +274,7 @@ CreditsScript:
 
 	db CREDITS_WAIT, 12
 
-	db   EXECUTIVE_PRODUCER, 1
+	db   EXECUTIVE_PRODUCER, 0
 	db     HIROSHI_YAMAUCHI, 2
 
 	db CREDITS_WAIT, 12
