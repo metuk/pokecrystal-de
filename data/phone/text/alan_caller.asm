@@ -61,6 +61,8 @@ AlanFoundItemText:
 	text_ram wStringBuffer5
 	text_end
 
+	text_end ; unreferenced
+
 AlanHaventPickedUpAnythingText:
 	text "Ich habe noch"
 	line "nichts gefunden."

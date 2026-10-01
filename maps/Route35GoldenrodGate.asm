@@ -73,6 +73,8 @@ GiftSpearowName:
 GiftSpearowOTName:
 	db "HARALD@"
 
+	db 0, "EG@", 0 ; filler
+
 	db 0 ; unused
 
 Route35GoldenrodGatePokefanFScript:
