@@ -63,14 +63,15 @@ python3 tools/de/layout.py       # Section-Startadressen Build vs. DE
   nicht reproduzierbaren Verfahren komprimiert und als `gfx/intro/*.de.lz` eingecheckt.
   Struktur 99,2 % gefunden, positionsgenau 86,8 %. Rest: ~14 KB in ~360 Stücken (`tools/de/todo.py`).
 
-## Nächste Schritte
+- 2026-10-02 (abends): **bit-genau** (`make compare` OK, auch nach `make clean`).
+  Wichtige Erkenntnisse: deutsche LZ-Grafiken brauchen meist `--literal-only --align 1`;
+  `tools/stadium --european`; Radio hat zusätzlichen Zustand OAKS_POKEMON_TALK_INTRO_4;
+  Credits mit europäischem Team; Pokédex-Größe 1 Byte (dm), Magikarp-Länge in mm;
+  Zeichen `<SHY>` ($1e), `<-LF>` ($1d), `ß` ($be).
 
-1. Restliche Stücke mit `tools/de/todo.py` + `tools/de/show.py FILE` abarbeiten (echte EU-Codeänderungen).
-   Bekannte Muster: andere Bildschirmkoordinaten (`lb de`, `hlcoord`), Magikarp-Länge (InitializeMagikarpHouse: $4/$1d),
-   Credits mit anderen String-Indizes (constants für COPYRIGHT/STAFF; data/credits_strings.asm, credits_script.asm),
-   Radio (Oak's PKMN Talk mit zusätzlichem Text "wurde gesehen auf"), Landmark-Namen, Bills PC, Game-Corner-Menüs.
-   Der spanische Diff (`cd ../referenz/pokecrystal-es && git diff 8ae7686 HEAD -- DATEI`) zeigt, wo EU-Änderungen liegen.
-2. Offene Grafiken: PokegearGFX (`--trim-end 2`, DE-Größe abweichend), TheEndGFX und FontInversed (DE-Adresse unbekannt,
-   referenzierender Code noch nicht gefunden), Pokégear-Radio-Tilemap (RLE).
-3. `GameFreakText` (home/text.asm, unbenutzt) fehlt in DE -> entfernen.
-4. Danach Layout: `tools/de/layout.py` + `tools/romdiff.py` bis zur 100 % Übereinstimmung.
+## Mögliche nächste Schritte
+
+1. Aufräumen für eine Einreichung bei pret: `tools/de/` auslagern oder entfernen, englische Kommentare prüfen
+   (z. B. „English“-Hinweise, `; unreferenced`-Markierungen), Labelnamen von englischen Texten passend umbenennen
+   (z. B. US_VERSION_STAFF -> GERMAN_VERSION_STAFF).
+2. CI (`.github/workflows/main.yml`) auf `make compare` umstellen ist nicht möglich ohne baserom; `make` genügt.

@@ -62,7 +62,7 @@ crystal: pokecrystal-de.gbc
 clean: tidy
 	find gfx \
 	     \( -name "*.[12]bpp" \
-	        -o -name "*.lz" \
+	        -o \( -name "*.lz" ! -name "*.de.lz" \) \
 	        -o -name "*.gbcpal" \
 	        -o -name "*.sgb.tilemap" \) \
 	     -delete

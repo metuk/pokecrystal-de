@@ -6,7 +6,7 @@ It builds the following ROM:
 
 - Pokemon - Kristall-Edition (Germany).gbc `sha1: accb584293ba056152f1fd908439b019017ff2fe`
 
-**Work in progress:** the source is currently based on the English [pokecrystal][pokecrystal] and does not match yet.
+It is based on the English [pokecrystal][pokecrystal] disassembly (Crystal 1.1 code), with the German text, graphics and EU code changes.
 
 To set up the repository, see [INSTALL.md](INSTALL.md).
 
