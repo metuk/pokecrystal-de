@@ -587,12 +587,12 @@ _OPT_WigglySlicklyText::
 
 _OPT_AptlyNamedText::
 	text_start
-	line "Wie smart."
+	line "Wie reizend."
 	done
 
 _OPT_UndeniablyKindOfText::
 	text_start
-	line "Wie reizend."
+	line "Wie freundlich."
 	done
 
 _OPT_UnbearablyText::

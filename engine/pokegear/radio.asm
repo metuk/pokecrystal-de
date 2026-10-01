@@ -383,11 +383,11 @@ OaksPKMNTalk8:
 	text_end
 
 .OPT_WigglySlicklyText:
-	text_far _OPT_AptlyNamedText
+	text_far _OPT_WigglySlicklyText
 	text_end
 
 .OPT_AptlyNamedText:
-	text_far _OPT_UndeniablyKindOfText
+	text_far _OPT_AptlyNamedText
 	text_end
 
 .OPT_UndeniablyKindOfText:

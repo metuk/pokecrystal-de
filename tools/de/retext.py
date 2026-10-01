@@ -172,6 +172,14 @@ def main():
 			def name_far(bank, addr):
 				i = far_index[0]
 				far_index[0] += 1
+				# keep the English name at the same position unless it's known to be elsewhere
+				if i < len(en_fars):
+					n = en_fars[i]
+					e = de.get(n)
+					if e is None or (e['bank'], e['addr']) == (bank, addr):
+						if e is None:
+							learned[n] = {'bank': bank, 'addr': addr, 'src': 'far'}
+						return n
 				names = de_rev.get((bank, addr), [])
 				for n in names:
 					if n in en_words:
