@@ -436,13 +436,13 @@ _YesNoBox::
 	ld a, b
 	cp SCREEN_WIDTH - 1 - 5
 	jr nz, .okay ; should this be "jr nc"?
-	ld a, SCREEN_WIDTH - 1 - 5
+	ld a, SCREEN_WIDTH - 1 - 6
 	ld b, a
 
 .okay
 	ld a, b
 	ld [wMenuBorderLeftCoord], a
-	add 5
+	add 6
 	ld [wMenuBorderRightCoord], a
 	ld a, c
 	ld [wMenuBorderTopCoord], a
@@ -472,15 +472,15 @@ InterpretTwoOptionMenu::
 
 YesNoMenuHeader::
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 10, 5, 15, 9
+	menu_coords 10, 5, 16, 9
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2
-	db "YES@"
-	db "NO@"
+	db "JA@"
+	db "NEIN@"
 
 OffsetMenuHeader::
 	call _OffsetMenuHeader

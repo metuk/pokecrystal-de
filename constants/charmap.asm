@@ -6,6 +6,8 @@
 	charmap "<PLAY_G>",  $14 ; "<PLAYER>くん" or "<PLAYER>ちゃん"; same as "<PLAYER>" in English
 	charmap "<MOBILE>",  $15
 	charmap "<CR>",      $16
+	charmap "<-LF>",     $1d ; hyphen and line break, same as "-<LF>"
+	charmap "<SHY>",     $1e ; soft hyphen (skipped)
 	charmap "<BSP>",     $1f ; breakable space (usually " ", or "<LF>" on the Town Map)
 	charmap "<LF>",      $22
 	charmap "<POKE>",    $24 ; "<PO><KE>"

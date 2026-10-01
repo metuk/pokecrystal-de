@@ -128,10 +128,6 @@ SpeechTextbox::
 	ld c, TEXTBOX_INNERW
 	jp Textbox
 
-GameFreakText:: ; unreferenced
-	text "ゲームフりーク！" ; "GAMEFREAK!"
-	done
-
 RadioTerminator::
 	ld hl, .stop
 	ret
@@ -196,6 +192,7 @@ MACRO dict
 		; Replace a character with another one
 		jr nz, .not\@
 		ld a, \2
+		jr .place
 	.not\@:
 	elif STRFIND("\2", ".") == 0
 		; Locals can use a short jump
@@ -236,52 +233,15 @@ ENDM
 	dict '<POKE>',    PlacePOKE
 	dict '<WBR>',     NextChar
 	dict '<BSP>',     ' '
+	dict '<SHY>',     NextChar
+	dict '<-LF>',     PlaceHyphenSplit
 	dict '<DEXEND>',  PlaceDexEnd
 	dict '<TARGET>',  PlaceMoveTargetsName
 	dict '<USER>',    PlaceMoveUsersName
 	dict '<ENEMY>',   PlaceEnemysName
 	dict '<PLAY_G>',  PlaceGenderedPlayerName
 	dict 'ﾟ',         .place ; should be .diacritic
-	dict 'ﾞ',         .place ; should be .diacritic
-	jr .not_diacritic
-
-.diacritic ; unreferenced
-	ld b, a
-	call Diacritic
-	jp NextChar
-
-.not_diacritic
-	cp FIRST_REGULAR_TEXT_CHAR
-	jr nc, .place
-; dakuten or handakuten
-	cp 'パ'
-	jr nc, .handakuten
-; dakuten
-	cp FIRST_HIRAGANA_DAKUTEN_CHAR
-	jr nc, .hiragana_dakuten
-; katakana dakuten
-	add 'カ' - 'ガ'
-	jr .place_dakuten
-
-.hiragana_dakuten
-	add 'か' - 'が'
-.place_dakuten
-	ld b, 'ﾞ' ; dakuten
-	call Diacritic
 	jr .place
-
-.handakuten
-	cp 'ぱ'
-	jr nc, .hiragana_handakuten
-; katakana handakuten
-	add 'ハ' - 'パ'
-	jr .place_handakuten
-
-.hiragana_handakuten
-	add 'は' - 'ぱ'
-.place_handakuten
-	ld b, 'ﾟ' ; handakuten
-	call Diacritic
 
 .place
 	ld [hli], a
@@ -315,6 +275,11 @@ PlaceKougeki: print_name KougekiText
 SixDotsChar:  print_name SixDotsCharText
 PlacePKMN:    print_name PlacePKMNText
 PlacePOKE:    print_name PlacePOKEText
+
+PlaceHyphenSplit:
+	ld [hl], '-'
+	jp LineFeedChar
+
 PlaceJPRoute: print_name PlaceJPRouteText
 PlaceWatashi: print_name PlaceWatashiText
 PlaceKokoWa:  print_name PlaceKokoWaText
