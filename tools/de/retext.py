@@ -27,7 +27,7 @@ from rgbobj import load_sym_addresses, rom_offset
 
 TEXT_MACROS = re.compile(r'\t(text|line|para|cont|next|done|prompt|text_\w+|sound_\w+)\b')
 TERMINATORS = ('done', 'prompt', 'text_end', 'text_asm')
-LABEL = re.compile(r'^(\.?[A-Za-z_][\w.]*)(::?)\s*(;.*)?$')
+LABEL = re.compile(r'^(\.[A-Za-z_]\w*|[A-Za-z_][\w.]*(?=:))(:{0,2})\s*(;.*)?$')
 
 
 class Block:

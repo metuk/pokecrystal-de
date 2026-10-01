@@ -90,7 +90,7 @@ CherrygroveCityGuideGent:
 	end
 
 .mapcardname
-	db "MAP CARD@"
+	db "KARTEN-MODUL@"
 
 .No:
 	writetext GuideGentNoText

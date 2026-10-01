@@ -6215,7 +6215,7 @@ LoadEnemyMon:
 ; Try again if length < 1024 mm (i.e. if HIGH(length) < 3 feet)
 	ld a, [wMagikarpLength]
 	cp HIGH(1024)
-	jr c, .GenerateDVs ; try again
+	jp c, .GenerateDVs ; try again
 
 ; Finally done with DVs
 
@@ -8438,16 +8438,10 @@ DisplayLinkBattleResult:
 	db "UNENTSCHIEDEN @"
 
 .Mobile_InvalidBattle:
-	hlcoord 6, 8
-	ld de, .InvalidBattle
-	call PlaceString
-	ld c, 200
-	call DelayFrames
-	call ClearTilemap
 	ret
 
-.InvalidBattle:
-	db "INVALID BATTLE@"
+.InvalidBattle: ; unreferenced
+	db "Ungültiger Kampf@"
 
 IsMobileBattle2:
 	ld a, [wLinkMode]

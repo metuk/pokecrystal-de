@@ -27,7 +27,8 @@ sys.path.insert(0, os.path.dirname(__file__))
 from textlib import load_charmap, quote_chars
 from rgbobj import load_sym_addresses, rom_offset
 
-LABEL = re.compile(r'^(\.?[A-Za-z_][\w.]*)(::?)\s*(.*)$')
+# labels; local ones may omit the colon
+LABEL = re.compile(r'^(\.[A-Za-z_]\w*|[A-Za-z_][\w.]*(?=:))(:{0,2})(?:\s+(.*)|$)')
 STRING_MACROS = {'db', 'next', 'line', 'para', 'cont', 'page'}
 SPLITS = {0x4e: 'next', 0x4f: 'line', 0x51: 'para', 0x55: 'cont'}
 ZERO_SIZE = {'table_width', 'list_start', 'assert_table_length', 'assert_list_length', 'assert'}
@@ -360,7 +361,7 @@ def main():
 				continue
 			if m[3] and not m[3].startswith(';'):
 				# inline label: `.Label: db "..."`
-				starts.append((i, rom_offset(e['bank'], e['addr']), name, l[:len(l) - len(m[3])]))
+				starts.append((i, rom_offset(e['bank'], e['addr']), name, l[:len(l) - len(m[3] or '')]))
 			else:
 				starts.append((i + 1, rom_offset(e['bank'], e['addr']), name, None))
 		for start, pos, name, prefix in starts:

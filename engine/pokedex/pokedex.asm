@@ -1127,9 +1127,9 @@ Pokedex_DrawMainScreenBG:
 	ret
 
 String_SEEN:
-	db "SEEN", -1
+	db "GES", -1
 String_OWN:
-	db "OWN", -1
+	db "BES", -1
 String_SELECT_OPTION:
 	db $3b, $48, $49, $4a, $44, $45, $46, $47 ; SELECT > OPTION
 	; fallthrough
@@ -1171,11 +1171,11 @@ Pokedex_DrawDexEntryScreenBG:
 .Number: ; unreferenced
 	db $5c, $5d, -1 ; No.
 .Height:
-	db "HT  ?", $5e, "??", $5f, -1 ; HT  ?'??"
+	db "GR.  ???m", -1
 .Weight:
-	db "WT   ???lb", -1
+	db "GEW  ???kg", -1
 .MenuItems:
-	db $3b, " PAGE AREA CRY PRNT", -1
+	db $3b, " S.   GEB. RUF DRCK", -1
 
 Pokedex_DrawOptionScreenBG:
 	call Pokedex_FillBackgroundColor2
@@ -1200,7 +1200,7 @@ Pokedex_DrawOptionScreenBG:
 	ret
 
 .Title:
-	db $3b, " OPTION ", $3c, -1
+	db $3b, " OPTIONEN ", $3c, -1
 
 .Modes:
 	db   "NEUER #DEX"
@@ -1233,7 +1233,7 @@ Pokedex_DrawSearchScreenBG:
 	ret
 
 .Title:
-	db $3b, " SEARCH ", $3c, -1
+	db $3b, " SUCHE ", $3c, -1
 
 .TypeLeftRightArrows:
 	db $3d, "        ", $3e, -1

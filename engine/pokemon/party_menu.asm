@@ -341,10 +341,10 @@ PlacePartyMonTMHMCompatibility:
 	ret
 
 .string_able
-	db "ABLE@"
+	db "OK@"
 
 .string_not_able
-	db "NOT ABLE@"
+	db "NEIN@"
 
 PlacePartyMonEvoStoneCompatibility:
 	ld a, [wPartyCount]
@@ -423,9 +423,9 @@ PlacePartyMonEvoStoneCompatibility:
 	ret
 
 .string_able
-	db "ABLE@"
+	db "OK@"
 .string_not_able
-	db "NOT ABLE@"
+	db "NEIN@"
 
 PlacePartyMonGender:
 	ld a, [wPartyCount]
@@ -467,13 +467,13 @@ PlacePartyMonGender:
 	ret
 
 .male
-	db "♂…MALE@"
+	db "♂…MÄNNL.@"
 
 .female
-	db "♀…FEMALE@"
+	db "♀…WEIBL.@"
 
 .unknown
-	db "…UNKNOWN@"
+	db "…NEUTRUM@"
 
 PlacePartyMonMobileBattleSelection:
 	ld a, [wPartyCount]
