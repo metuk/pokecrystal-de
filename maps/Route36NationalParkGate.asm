@@ -463,9 +463,10 @@ BugCatchingContestant10BScript:
 	closetext
 	end
 
-UnusedBugCatchingContestExplanationSign: ; unreferenced
-; duplicate of BugCatchingContestExplanationSign in Route35NationalParkGate.asm
-	jumptext UnusedBugCatchingContestExplanationText
+Route36NationalParkGateExplanationSign:
+; duplicate of BugCatchingContestExplanationSign in Route35NationalParkGate.asm,
+; which is in another bank in the German version
+	jumptext Route36NationalParkGateExplanationText
 
 Route36NationalParkGatePlayerWaitWithContestantsMovement:
 	big_step DOWN
@@ -859,7 +860,7 @@ UnusedSilphScope2Text: ; unreferenced
 	cont "erkennen."
 	done
 
-UnusedBugCatchingContestExplanationText:
+Route36NationalParkGateExplanationText:
 ; duplicate of BugCatchingContestExplanationText in Route35NationalParkGate.asm
 	text "Das Käferturnier"
 	line "findet jeden"
@@ -913,7 +914,7 @@ Route36NationalParkGate_MapEvents:
 	def_coord_events
 
 	def_bg_events
-	bg_event  6,  0, BGEVENT_READ, BugCatchingContestExplanationSign
+	bg_event  6,  0, BGEVENT_READ, Route36NationalParkGateExplanationSign
 
 	def_object_events
 	object_event  0,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route36OfficerScriptContest, EVENT_ROUTE_36_NATIONAL_PARK_GATE_OFFICER_CONTEST_DAY

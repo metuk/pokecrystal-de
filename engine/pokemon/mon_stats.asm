@@ -245,7 +245,7 @@ ListMovePP:
 	ld e, a
 	ld d, 0
 	ld a, $3e ; P
-	call .load_loop
+	call .load_ap_loop
 	ld a, b
 	and a
 	jr z, .skip
@@ -322,9 +322,8 @@ ListMovePP:
 	jr nz, .load_loop
 	ret
 
-; "AP" is german for "PP"
-; The german translation uses this instead of the loop above
-.load_ap_loop ; unreferenced
+; "AP" is German for "PP"
+.load_ap_loop
 	ld [hl], $32 ; A
 	inc hl
 	ld [hl], $3e ; P
