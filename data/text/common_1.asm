@@ -542,18 +542,23 @@ _OPT_IntroText3::
 	line "#MON-TALK!"
 	done
 
-_OPT_OakText1::
+_OPT_IntroText4::
 	text_start
 	line "Mit MARGIT!"
 	done
+
+_OPT_OakText1::
+	text_start
+	line "EICH: @"
+	text_ram wMonOrItemNameBuffer
+	text_end
 
 	text_end ; unreferenced
 
 _OPT_OakText2::
 	text_start
-	line "EICH: @"
-	text_ram wMonOrItemNameBuffer
-	text_end
+	line "wurde gesehen auf"
+	done
 
 _OPT_OakText3::
 	text_start
@@ -568,12 +573,16 @@ _OPT_MaryText1::
 	text_ram wStringBuffer1
 	text_end
 
+	text_end ; unreferenced
+
 _OPT_SweetAdorablyText::
-	text_end
+	text_start
+	line "Wie bezaubernd."
+	done
 
 _OPT_WigglySlicklyText::
 	text_start
-	line "Wie bezaubernd."
+	line "Wie smart."
 	done
 
 _OPT_AptlyNamedText::

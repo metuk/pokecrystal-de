@@ -36,88 +36,89 @@ RadioJumptable:
 ; OaksPKMNTalk
 	dw OaksPKMNTalk2     ; $0b
 	dw OaksPKMNTalk3     ; $0c
-	dw OaksPKMNTalk4     ; $0d
-	dw OaksPKMNTalk5     ; $0e
-	dw OaksPKMNTalk6     ; $0f
-	dw OaksPKMNTalk7     ; $10
-	dw OaksPKMNTalk8     ; $11
-	dw OaksPKMNTalk9     ; $12
-	dw PokedexShow2      ; $13
-	dw PokedexShow3      ; $14
-	dw PokedexShow4      ; $15
-	dw PokedexShow5      ; $16
+	dw OaksPKMNTalkIntro4 ; $0d
+	dw OaksPKMNTalk4     ; $0e
+	dw OaksPKMNTalk5     ; $0f
+	dw OaksPKMNTalk6     ; $10
+	dw OaksPKMNTalk7     ; $11
+	dw OaksPKMNTalk8     ; $12
+	dw OaksPKMNTalk9     ; $13
+	dw PokedexShow2      ; $14
+	dw PokedexShow3      ; $15
+	dw PokedexShow4      ; $16
+	dw PokedexShow5      ; $17
 ; Ben Music
-	dw BenMonMusic2      ; $17
-	dw BenMonMusic3      ; $18
-	dw BenFernMusic4     ; $19
-	dw BenFernMusic5     ; $1a
-	dw BenFernMusic6     ; $1b
-	dw BenFernMusic7     ; $1c
-	dw FernMonMusic2     ; $1d
+	dw BenMonMusic2      ; $18
+	dw BenMonMusic3      ; $19
+	dw BenFernMusic4     ; $1a
+	dw BenFernMusic5     ; $1b
+	dw BenFernMusic6     ; $1c
+	dw BenFernMusic7     ; $1d
+	dw FernMonMusic2     ; $1e
 ; Lucky Number Show
-	dw LuckyNumberShow2  ; $1e
-	dw LuckyNumberShow3  ; $1f
-	dw LuckyNumberShow4  ; $20
-	dw LuckyNumberShow5  ; $21
-	dw LuckyNumberShow6  ; $22
-	dw LuckyNumberShow7  ; $23
-	dw LuckyNumberShow8  ; $24
-	dw LuckyNumberShow9  ; $25
-	dw LuckyNumberShow10 ; $26
-	dw LuckyNumberShow11 ; $27
-	dw LuckyNumberShow12 ; $28
-	dw LuckyNumberShow13 ; $29
-	dw LuckyNumberShow14 ; $2a
-	dw LuckyNumberShow15 ; $2b
+	dw LuckyNumberShow2  ; $1f
+	dw LuckyNumberShow3  ; $20
+	dw LuckyNumberShow4  ; $21
+	dw LuckyNumberShow5  ; $22
+	dw LuckyNumberShow6  ; $23
+	dw LuckyNumberShow7  ; $24
+	dw LuckyNumberShow8  ; $25
+	dw LuckyNumberShow9  ; $26
+	dw LuckyNumberShow10 ; $27
+	dw LuckyNumberShow11 ; $28
+	dw LuckyNumberShow12 ; $29
+	dw LuckyNumberShow13 ; $2a
+	dw LuckyNumberShow14 ; $2b
+	dw LuckyNumberShow15 ; $2c
 ; People & Places
-	dw PeoplePlaces2     ; $2c
-	dw PeoplePlaces3     ; $2d
-	dw PeoplePlaces4     ; $2e
-	dw PeoplePlaces5     ; $2f
-	dw PeoplePlaces6     ; $30
-	dw PeoplePlaces7     ; $31
+	dw PeoplePlaces2     ; $2d
+	dw PeoplePlaces3     ; $2e
+	dw PeoplePlaces4     ; $2f
+	dw PeoplePlaces5     ; $30
+	dw PeoplePlaces6     ; $31
+	dw PeoplePlaces7     ; $32
 ; Rocket Radio
-	dw RocketRadio2      ; $32
-	dw RocketRadio3      ; $33
-	dw RocketRadio4      ; $34
-	dw RocketRadio5      ; $35
-	dw RocketRadio6      ; $36
-	dw RocketRadio7      ; $37
-	dw RocketRadio8      ; $38
-	dw RocketRadio9      ; $39
-	dw RocketRadio10     ; $3a
+	dw RocketRadio2      ; $33
+	dw RocketRadio3      ; $34
+	dw RocketRadio4      ; $35
+	dw RocketRadio5      ; $36
+	dw RocketRadio6      ; $37
+	dw RocketRadio7      ; $38
+	dw RocketRadio8      ; $39
+	dw RocketRadio9      ; $3a
+	dw RocketRadio10     ; $3b
 ; More Pokemon Channel stuff
-	dw OaksPKMNTalk10    ; $3b
-	dw OaksPKMNTalk11    ; $3c
-	dw OaksPKMNTalk12    ; $3d
-	dw OaksPKMNTalk13    ; $3e
-	dw OaksPKMNTalk14    ; $3f
+	dw OaksPKMNTalk10    ; $3c
+	dw OaksPKMNTalk11    ; $3d
+	dw OaksPKMNTalk12    ; $3e
+	dw OaksPKMNTalk13    ; $3f
+	dw OaksPKMNTalk14    ; $40
 ; Buenas Password
-	dw BuenasPassword2   ; $40
-	dw BuenasPassword3   ; $41
-	dw BuenasPassword4   ; $42
-	dw BuenasPassword5   ; $43
-	dw BuenasPassword6   ; $44
-	dw BuenasPassword7   ; $45
-	dw BuenasPassword8   ; $46
-	dw BuenasPassword9   ; $47
-	dw BuenasPassword10  ; $48
-	dw BuenasPassword11  ; $49
-	dw BuenasPassword12  ; $4a
-	dw BuenasPassword13  ; $4b
-	dw BuenasPassword14  ; $4c
-	dw BuenasPassword15  ; $4d
-	dw BuenasPassword16  ; $4e
-	dw BuenasPassword17  ; $4f
-	dw BuenasPassword18  ; $50
-	dw BuenasPassword19  ; $51
-	dw BuenasPassword20  ; $52
-	dw BuenasPassword21  ; $53
-	dw RadioScroll       ; $54
+	dw BuenasPassword2   ; $41
+	dw BuenasPassword3   ; $42
+	dw BuenasPassword4   ; $43
+	dw BuenasPassword5   ; $44
+	dw BuenasPassword6   ; $45
+	dw BuenasPassword7   ; $46
+	dw BuenasPassword8   ; $47
+	dw BuenasPassword9   ; $48
+	dw BuenasPassword10  ; $49
+	dw BuenasPassword11  ; $4a
+	dw BuenasPassword12  ; $4b
+	dw BuenasPassword13  ; $4c
+	dw BuenasPassword14  ; $4d
+	dw BuenasPassword15  ; $4e
+	dw BuenasPassword16  ; $4f
+	dw BuenasPassword17  ; $50
+	dw BuenasPassword18  ; $51
+	dw BuenasPassword19  ; $52
+	dw BuenasPassword20  ; $53
+	dw BuenasPassword21  ; $54
+	dw RadioScroll       ; $55
 ; More Pokemon Channel stuff
-	dw PokedexShow6      ; $55
-	dw PokedexShow7      ; $56
-	dw PokedexShow8      ; $57
+	dw PokedexShow6      ; $56
+	dw PokedexShow7      ; $57
+	dw PokedexShow8      ; $58
 	assert_table_length NUM_RADIO_SEGMENTS
 
 PrintRadioLine:
@@ -189,6 +190,11 @@ OaksPKMNTalk2:
 
 OaksPKMNTalk3:
 	ld hl, OPT_IntroText3
+	ld a, OAKS_POKEMON_TALK_INTRO_4
+	jp NextRadioLine
+
+OaksPKMNTalkIntro4:
+	ld hl, OPT_IntroText4
 	ld a, OAKS_POKEMON_TALK_4
 	jp NextRadioLine
 
@@ -307,6 +313,10 @@ OPT_IntroText3:
 	text_far _OPT_IntroText3
 	text_end
 
+OPT_IntroText4:
+	text_far _OPT_IntroText4
+	text_end
+
 OPT_OakText1:
 	text_far _OPT_OakText1
 	text_end
@@ -373,63 +383,63 @@ OaksPKMNTalk8:
 	text_end
 
 .OPT_WigglySlicklyText:
-	text_far _OPT_WigglySlicklyText
-	text_end
-
-.OPT_AptlyNamedText:
 	text_far _OPT_AptlyNamedText
 	text_end
 
-.OPT_UndeniablyKindOfText:
+.OPT_AptlyNamedText:
 	text_far _OPT_UndeniablyKindOfText
 	text_end
 
-.OPT_UnbearablyText:
+.OPT_UndeniablyKindOfText:
 	text_far _OPT_UnbearablyText
 	text_end
 
-.OPT_WowImpressivelyText:
+.OPT_UnbearablyText:
 	text_far _OPT_WowImpressivelyText
 	text_end
 
-.OPT_AlmostPoisonouslyText:
+.OPT_WowImpressivelyText:
 	text_far _OPT_AlmostPoisonouslyText
 	text_end
 
-.OPT_SensuallyText:
+.OPT_AlmostPoisonouslyText:
 	text_far _OPT_SensuallyText
 	text_end
 
-.OPT_MischievouslyText:
+.OPT_SensuallyText:
 	text_far _OPT_MischievouslyText
 	text_end
 
-.OPT_TopicallyText:
+.OPT_MischievouslyText:
 	text_far _OPT_TopicallyText
 	text_end
 
-.OPT_AddictivelyText:
+.OPT_TopicallyText:
 	text_far _OPT_AddictivelyText
 	text_end
 
-.OPT_LooksInWaterText:
+.OPT_AddictivelyText:
 	text_far _OPT_LooksInWaterText
 	text_end
 
-.OPT_EvolutionMustBeText:
+.OPT_LooksInWaterText:
 	text_far _OPT_EvolutionMustBeText
 	text_end
 
-.OPT_ProvocativelyText:
+.OPT_EvolutionMustBeText:
 	text_far _OPT_ProvocativelyText
 	text_end
 
-.OPT_FlippedOutText:
+.OPT_ProvocativelyText:
 	text_far _OPT_FlippedOutText
 	text_end
 
-.OPT_HeartMeltinglyText:
+.OPT_FlippedOutText:
 	text_far _OPT_HeartMeltinglyText
+	text_end
+
+.OPT_HeartMeltinglyText:
+	text_far _OPT_CuteText
 	text_end
 
 OaksPKMNTalk9:
@@ -478,63 +488,63 @@ OaksPKMNTalk9:
 	assert_table_length NUM_OAKS_POKEMON_TALK_ADJECTIVES
 
 .OPT_CuteText:
-	text_far _OPT_CuteText
-	text_end
-
-.OPT_WeirdText:
 	text_far _OPT_WeirdText
 	text_end
 
-.OPT_PleasantText:
+.OPT_WeirdText:
 	text_far _OPT_PleasantText
 	text_end
 
-.OPT_BoldSortOfText:
+.OPT_PleasantText:
 	text_far _OPT_BoldSortOfText
 	text_end
 
-.OPT_FrighteningText:
+.OPT_BoldSortOfText:
 	text_far _OPT_FrighteningText
 	text_end
 
-.OPT_SuaveDebonairText:
+.OPT_FrighteningText:
 	text_far _OPT_SuaveDebonairText
 	text_end
 
-.OPT_PowerfulText:
+.OPT_SuaveDebonairText:
 	text_far _OPT_PowerfulText
 	text_end
 
-.OPT_ExcitingText:
+.OPT_PowerfulText:
 	text_far _OPT_ExcitingText
 	text_end
 
-.OPT_GroovyText:
+.OPT_ExcitingText:
 	text_far _OPT_GroovyText
 	text_end
 
-.OPT_InspiringText:
+.OPT_GroovyText:
 	text_far _OPT_InspiringText
 	text_end
 
-.OPT_FriendlyText:
+.OPT_InspiringText:
 	text_far _OPT_FriendlyText
 	text_end
 
-.OPT_HotHotHotText:
+.OPT_FriendlyText:
 	text_far _OPT_HotHotHotText
 	text_end
 
-.OPT_StimulatingText:
+.OPT_HotHotHotText:
 	text_far _OPT_StimulatingText
 	text_end
 
-.OPT_GuardedText:
+.OPT_StimulatingText:
 	text_far _OPT_GuardedText
 	text_end
 
-.OPT_LovelyText:
+.OPT_GuardedText:
 	text_far _OPT_LovelyText
+	text_end
+
+.OPT_LovelyText:
+	text_far _OPT_SpeedyText
 	text_end
 
 .OPT_SpeedyText:
@@ -705,7 +715,7 @@ PokedexShow2:
 	pop hl
 	pop af
 	call CopyDexEntryPart2
-rept 4
+rept 3
 	inc hl
 endr
 	ld a, l
@@ -1010,35 +1020,35 @@ LC_Text1:
 	text_end
 
 LC_Text2:
-	text_far _LC_Text1
-	text_end
-
-LC_Text3:
 	text_far _LC_Text2
 	text_end
 
-LC_Text4:
+LC_Text3:
 	text_far _LC_Text3
 	text_end
 
-LC_Text5:
+LC_Text4:
 	text_far _LC_Text4
 	text_end
 
-LC_Text6:
+LC_Text5:
 	text_far _LC_Text5
 	text_end
 
-LC_Text7:
+LC_Text6:
 	text_far _LC_Text6
 	text_end
 
-LC_Text8:
+LC_Text7:
 	text_far _LC_Text7
 	text_end
 
-LC_Text9:
+LC_Text8:
 	text_far _LC_Text8
+	text_end
+
+LC_Text9:
+	text_far _LC_Text9
 	text_end
 
 LC_Text10:
@@ -1369,35 +1379,35 @@ RocketRadioText1:
 	text_end
 
 RocketRadioText2:
-	text_far _RocketRadioText1
-	text_end
-
-RocketRadioText3:
 	text_far _RocketRadioText2
 	text_end
 
-RocketRadioText4:
+RocketRadioText3:
 	text_far _RocketRadioText3
 	text_end
 
-RocketRadioText5:
+RocketRadioText4:
 	text_far _RocketRadioText4
 	text_end
 
-RocketRadioText6:
+RocketRadioText5:
 	text_far _RocketRadioText5
 	text_end
 
-RocketRadioText7:
+RocketRadioText6:
 	text_far _RocketRadioText6
 	text_end
 
-RocketRadioText8:
+RocketRadioText7:
 	text_far _RocketRadioText7
 	text_end
 
-RocketRadioText9:
+RocketRadioText8:
 	text_far _RocketRadioText8
+	text_end
+
+RocketRadioText9:
+	text_far _RocketRadioText9
 	text_end
 
 RocketRadioText10:
