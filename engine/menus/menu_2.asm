@@ -145,7 +145,7 @@ StartMenu_PrintSafariGameStatus: ; unreferenced
 StartMenu_DrawBugContestStatusBox:
 	hlcoord 0, 0
 	ld b, 5
-	ld c, 17
+	ld c, 18
 	call Textbox
 	ret
 

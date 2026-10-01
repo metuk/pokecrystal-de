@@ -29,8 +29,6 @@ PlayersHouse2FSetUpTileDecorationsCallback:
 	special ToggleMaptileDecorations
 	endcallback
 
-	db 0, 0, 0 ; unused
-
 PlayersHouseDoll1Script::
 	describedecoration DECODESC_LEFT_DOLL
 
