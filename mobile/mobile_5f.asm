@@ -483,7 +483,7 @@ MenuData_17d272:
 
 MenuHeader_ChallengeExplanationCancel:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 14, 7
+	menu_coords 0, 0, 18, 7
 	dw MenuData_ChallengeExplanationCancel
 	db 1 ; default option
 

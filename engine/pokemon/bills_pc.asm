@@ -227,7 +227,7 @@ BillsPCDepositFuncCancel:
 
 BillsPCDepositMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 9, 4, SCREEN_WIDTH - 1, 13
+	menu_coords 7, 4, 19, 13
 	dw .MenuData
 	db 1 ; default option
 
@@ -480,7 +480,7 @@ BillsPC_Withdraw:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 9, 4, SCREEN_WIDTH - 1, 13
+	menu_coords 7, 4, 19, 13
 	dw .MenuData
 	db 1 ; default option
 
@@ -690,7 +690,7 @@ _MovePKMNWithoutMail:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 9, 4, SCREEN_WIDTH - 1, 13
+	menu_coords 7, 4, 19, 13
 	dw .MenuData
 	db 1 ; default option
 
@@ -2214,7 +2214,7 @@ PCString_NoMoreUsablePKMN: db "Nicht einsetzbar.@"
 PCString_RemoveMail: db "Entferne BRIEF.@"
 PCString_ReleasedPKMN: db "<PK><MN> freigelassen.@"
 PCString_Bye: db "Ade, @"
-PCString_Stored: db "Stored @"
+PCString_Stored: db " abgel.!@"
 PCString_Got: db "Got @"
 PCString_Non: db "Non.@" ; unreferenced
 PCString_BoxFull: db "The BOX is full.@"

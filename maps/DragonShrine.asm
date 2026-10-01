@@ -278,7 +278,7 @@ DragonShrineQuestion1_MenuHeader:
 
 DragonShrineQuestion2_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 9, 4, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 6, 4, 19, 11
 	dw .MenuData
 	db 1 ; default option
 
@@ -291,7 +291,7 @@ DragonShrineQuestion2_MenuHeader:
 
 DragonShrineQuestion3_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 5, 4, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 6, 4, 19, 11
 	dw .MenuData
 	db 1 ; default option
 
@@ -304,7 +304,7 @@ DragonShrineQuestion3_MenuHeader:
 
 DragonShrineQuestion4_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 8, 4, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 11, 4, 19, 11
 	dw .MenuData
 	db 1 ; default option
 
@@ -317,7 +317,7 @@ DragonShrineQuestion4_MenuHeader:
 
 DragonShrineQuestion5_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 12, 4, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 10, 4, 19, 11
 	dw .MenuData
 	db 1 ; default option
 

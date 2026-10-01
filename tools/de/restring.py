@@ -262,6 +262,21 @@ class Walker:
 				i += 1
 				continue
 
+			if macro == 'menu_coords' and len(args) == 4:
+				y1, x1, y2, x2 = self.rom[pos:pos + 4]
+				if self.rom[pos:pos + 4] != self.built[bpos:bpos + 4]:
+					out[i] = f'{indent}menu_coords {x1}, {y1}, {x2}, {y2}' + (f' {comment}' if comment else '')
+				pos += 4
+				bpos += 4
+				i += 1
+				continue
+
+			if macro in ('dbw', 'dwb') and len(args) == 2:
+				pos += 3
+				bpos += 3
+				i += 1
+				continue
+
 			if macro == 'INCLUDE':
 				return out, 'include'
 			return out, f'line {i + 1}: unknown line "{s[:40]}"'
