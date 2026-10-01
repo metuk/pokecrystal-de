@@ -164,62 +164,41 @@ CeladonGameCornerPokefanMText:
 	done
 
 CeladonGameCornerTeacherText:
-if DEF(_CRYSTAL_AU)
-	text "The weather"
-	line "outside is very"
-	cont "nice."
-	done
-else
-	text "It's this machine"
-	line "I want."
+	text "An diesem Automa-"
+	line "ten will ich"
+	cont "spielen."
 
-	para "It cleaned me out"
-	line "yesterday, so it"
+	para "An dem habe ich"
+	line "gestern haushoch"
 
-	para "should pay out"
-	line "today."
+	para "verloren. Das will"
+	line "ich heute wieder-"
+	cont "haben."
 	done
-endc
 
 CeladonGameCornerFishingGuruText:
-if DEF(_CRYSTAL_AU)
-	text "This machine looks"
-	line "the same as the"
-	cont "others."
-	done
-else
-	text "I think this slot"
-	line "machine will pay"
-	cont "out…"
+	text "Ich glaube, an"
+	line "diesem Automaten"
+	cont "werde ich"
+	cont "gewinnen…"
 
-	para "The odds vary"
-	line "among machines."
+	para "Die Gewinnchancen"
+	line "sind bei jedem"
+	cont "Automaten anders."
 	done
-endc
 
 CeladonGameCornerFisherText1:
-if DEF(_CRYSTAL_AU)
-	text "Whoa!"
+	text "Guahahaha!"
 
-	para "What? You want to"
-	line "play this machine?"
+	para "Die Münzen kommen"
+	line "mir entgegen!"
 
-	para "Here, take my"
-	line "coins."
+	para "Hm? Was, Zwerg?"
+	line "Du willst spielen?"
+
+	para "Ich teile mein"
+	line "Glück mit dir!"
 	done
-else
-	text "Gahahaha!"
-
-	para "The coins just"
-	line "keep popping out!"
-
-	para "Hm? What, kid? You"
-	line "want to play?"
-
-	para "I'll share my luck"
-	line "with you!"
-	done
-endc
 
 CeladonGameCornerFisherText2:
 	text "Hahahaha!"
@@ -241,53 +220,39 @@ CeladonGameCornerFisherNoCoinCaseText:
 	done
 
 CeladonGameCornerFisherFullCoinCaseText:
-if DEF(_CRYSTAL_AU)
-	text "Your COIN CASE is"
-	line "full."
-	done
-else
-	text "Hey, your COIN"
-	line "CASE is full, kid."
+	text "Heh, dein MÜNZKORB"
+	line "ist voll, Wicht."
 
-	para "You must be riding"
-	line "a winning streak"
-	cont "too."
+	para "Du hast wohl auch"
+	line "eine Glücks-"
+	cont "strähne."
 	done
-endc
 
 CeladonGymGuideText:
-	text "Hey! CHAMP in"
-	line "making!"
+	text "He! Ein CHAMP"
+	line "in spe!"
 
-	para "Are you playing"
-if DEF(_CRYSTAL_AU)
-	line "too?"
-else
-	line "the slots too?"
-endc
+	para "Spielst du auch an"
+	line "den Automaten?"
 
-	para "I'm trying to get"
-	line "enough coins for a"
-	cont "prize #MON."
+	para "Ich möchte genug"
+	line "Münzen sammeln für"
+	cont "ein prämiertes"
+	cont "#MON."
 
-	para "But I don't have"
-	line "enough coins yet…"
+	para "Aber ich habe noch"
+	line "nicht genug"
+	cont "Münzen…"
 	done
 
 CeladonGameCornerGrampsText:
-if DEF(_CRYSTAL_AU)
-	text "Is there any"
-	line "difference between"
-	cont "these lines?"
-	done
-else
-	text "Hmmm… The odds are"
-	line "surely better for"
+	text "Hm… Die Chancen,"
+	line "eine PIKACHU-Reihe"
 
-	para "PIKACHU's line,"
-	line "but… What to do?"
+	para "zu bekommen,"
+	line "stehen gut, aber…"
+	cont "Was nun?"
 	done
-endc
 
 CeladonGameCornerPoster1Text:
 	text "He!"

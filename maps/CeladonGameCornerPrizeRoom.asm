@@ -215,21 +215,16 @@ CeladonGameCornerPrizeRoomGentlemanText:
 	done
 
 CeladonGameCornerPrizeRoomPharmacistText:
-if DEF(_CRYSTAL_AU)
-	text "I don't want to"
-	line "lose my coins."
-	done
-else
-	text "Whew…"
+	text "Puh…"
 
-	para "I've got to stay"
-	line "calm and cool…"
+	para "Ich muss ruhig"
+	line "Blut bewahren…"
 
-	para "I can't lose my"
-	line "cool, or I'll lose"
-	cont "all my money…"
+	para "Wenn ich nervös"
+	line "werde, könnte ich"
+	cont "mein ganzes Geld"
+	cont "verlieren…"
 	done
-endc
 
 CeladonPrizeRoom_PrizeVendorIntroText:
 	text "Willkommen!"

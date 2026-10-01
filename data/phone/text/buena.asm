@@ -491,30 +491,28 @@ BuenaPhoneGoingShoppingText:
 	done
 
 BuenaPhoneFavoriteSlotMachineAnswerText:
-	text "I'm thinking of"
-	line "going to the GAME"
+	text "Ich denke darüber"
+	line "nach, morgen in"
 
-	para "CORNER tomorrow."
-	line "It's been a while."
+	para "die SPIELHALLE zu"
+	line "gehen. Ich war"
+	cont "lange nicht dort."
 
-if DEF(_CRYSTAL_AU)
-	para "Some machines pays"
-	line "out a lot."
-else
-	para "You see, I have my"
-	line "favorite machine…"
+	para "Weißt du, ich"
+	line "habe meinen Lieb-"
+	cont "lingsautomaten…"
 
-	para "It pays out a lot,"
-	line "I kid you not!"
-endc
+	para "Es lohnt sich,"
+	line "ohne Witz!"
 
-	para "Huh? Nuh-uh, it's"
-	line "my secret!"
+	para "Hu? Nanu, es ist"
+	line "mein Geheimnis!"
 
-	para "You have to find"
-	line "it yourself!"
+	para "Das musst du"
+	line "selbst"
+	cont "herausfinden!"
 
-	para "Catch you later!"
+	para "Bis später!"
 	done
 
 BuenaPhonePokegearAnswerText:

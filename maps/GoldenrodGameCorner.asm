@@ -365,68 +365,46 @@ GoldenrodGameCornerPrizeVendorNoCoinCaseText:
 	done
 
 GoldenrodGameCornerPharmacistText:
-if DEF(_CRYSTAL_AU)
-	text "This machine looks"
-	line "the same as the"
-	cont "others."
-	done
-else
-	text "I always play this"
-	line "slot machine. It"
+	text "Ich spiele nur an"
+	line "diesem Automaten."
 
-	para "pays out more than"
-	line "others, I think."
+	para "Ich glaube, er"
+	line "spuckt mehr aus"
+
+	para "als die anderen."
 	done
-endc
 
 GoldenrodGameCornerPokefanM1Text:
-if DEF(_CRYSTAL_AU)
-	text "These machines"
-	line "seem different"
+	text "Ich liebe diesen"
+	line "neuen Automaten."
 
-	para "from the ones at"
-	line "CELADON CITY!"
+	para "Er stellt eine"
+	line "größere Herausfor-"
+	cont "derung dar als"
+	cont "jene in PRISMANIA"
+	cont "CITY."
 	done
-else
-	text "I just love this"
-	line "new slot machine."
-
-	para "It's more of a"
-	line "challenge than the"
-	cont "ones in CELADON."
-	done
-endc
 
 GoldenrodGameCornerCooltrainerMText:
-if DEF(_CRYSTAL_AU)
-	text "Nothing is certain"
-	line "in this area."
+	text "Das Leben ist ein"
+	line "Spiel. Ich werde"
+	cont "Karten spielen,"
+	cont "bis ich umfalle!"
 	done
-else
-	text "Life is a gamble."
-	line "I'm going to flip"
-	cont "cards till I drop!"
-	done
-endc
 
 GoldenrodGameCornerPokefanFText:
-	text "Card flip…"
+	text "Karten…"
 
-if DEF(_CRYSTAL_AU)
-	para "Different from the"
-	line "other machines."
+	para "Ich ziehe sie den"
+	line "Automaten vor,"
+
+	para "weil man seine"
+	line "Chancen besser ab-"
+	cont "schätzen kann."
+
+	para "Aber der Gewinn"
+	line "ist viel geringer."
 	done
-else
-	para "I prefer it over"
-	line "the slots because"
-
-	para "it's easier to"
-	line "figure the odds."
-
-	para "But the payout is"
-	line "much lower."
-	done
-endc
 
 GoldenrodGameCornerCooltrainerFText:
 	text "Ich höre erst auf,"
@@ -447,25 +425,22 @@ GoldenrodGameCornerGentlemanText:
 	done
 
 GoldenrodGameCornerPokefanM2Text:
-if DEF(_CRYSTAL_AU)
-	text "COIN CASE? I threw"
-	line "it away in the"
-	cont "UNDERGROUND."
+	text "Ich hatte an den"
+	line "Automaten kein"
+
+	para "Glück. Bei den"
+	line "Karten sieht es"
+
+	para "auch nicht anders"
+	line "aus…"
+
+	para "Ich war so zornig,"
+	line "dass ich meinen"
+
+	para "MÜNZKORB in den"
+	line "UNTERGRUND gewor-"
+	cont "fen habe."
 	done
-else
-	text "I couldn't win at"
-	line "the slots, and I"
-
-	para "blew it on card"
-	line "flipping…"
-
-	para "I got so furious,"
-	line "I tossed out my"
-
-	para "COIN CASE in the"
-	line "UNDERGROUND."
-	done
-endc
 
 MoveTutorInsideText:
 	text "Wahaha! Die Münzen"

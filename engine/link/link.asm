@@ -68,11 +68,7 @@ Gen2ToGen1LinkComms:
 	ld de, MUSIC_NONE
 	call PlayMusic
 	vc_patch Wireless_net_delay_5
-if DEF(_CRYSTAL11_VC)
-	ld c, 26
-else
 	ld c, 3
-endc
 	vc_patch_end
 	call DelayFrames
 	xor a
@@ -235,11 +231,7 @@ Gen2ToGen2LinkComms:
 	ld de, MUSIC_NONE
 	call PlayMusic
 	vc_patch Wireless_net_delay_8
-if DEF(_CRYSTAL11_VC)
-	ld c, 26
-else
 	ld c, 3
-endc
 	vc_patch_end
 	call DelayFrames
 	xor a
@@ -2208,11 +2200,7 @@ GetIncompatibleMonName:
 
 EnterTimeCapsule:
 	vc_patch Wireless_net_delay_6
-if DEF(_CRYSTAL11_VC)
-	ld c, 26
-else
 	ld c, 10
-endc
 	vc_patch_end
 	call DelayFrames
 	ld a, $4
@@ -2438,11 +2426,7 @@ CheckLinkTimeout_Gen2:
 	ld [wPlayerLinkAction], a
 	ld hl, wLinkTimeoutFrames
 	vc_patch Wireless_net_delay_9
-if DEF(_CRYSTAL11_VC)
-	ld a, $3
-else
 	ld a, 1
-endc
 	vc_patch_end
 	ld [hli], a
 	ld [hl], 50
@@ -2505,11 +2489,7 @@ Link_CheckCommunicationError:
 
 .AcknowledgeSerial:
 	vc_patch Wireless_net_delay_7
-if DEF(_CRYSTAL11_VC)
-	ld b, 26
-else
 	ld b, 10
-endc
 	vc_patch_end
 .loop
 	call DelayFrame

@@ -90,21 +90,19 @@ CeladonCityPoliwrathText:
 	done
 
 CeladonCityTeacher1Text:
-if DEF(_CRYSTAL_AU)
-	text "I lost at the"
-	line "machines."
-	done
-else
-	text "I lost at the slot"
-	line "machines again…"
+	text "Ich habe schon"
+	line "wieder bei dem"
 
-	para "We girls also play"
-	line "the slots now."
+	para "Spielautomaten"
+	line "verloren…"
 
-	para "You should check"
-	line "them out too."
+	para "Wir Mädchen"
+	line "spielen auch an"
+
+	para "den Automaten."
+	line "Versuche es doch"
+	cont "selbst mal."
 	done
-endc
 
 CeladonCityGramps1Text:
 	text "Hier sind vor"
@@ -227,17 +225,12 @@ CeladonCityMansionSignText:
 	done
 
 CeladonCityGameCornerSignText:
-if DEF(_CRYSTAL_AU)
-	text "The Game Area for"
-	line "Grown-ups--CELADON"
-	cont "GAME CORNER"
+	text "Der Spielplatz"
+	line "Für Jedermann --"
+
+	para "SPIELHALLE von"
+	line "PRISMANIA"
 	done
-else
-	text "The Playground for"
-	line "Everybody--CELADON"
-	cont "GAME CORNER"
-	done
-endc
 
 CeladonCityTrainerTipsText:
 	text "TIPPS für TRAINER"
