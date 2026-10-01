@@ -138,7 +138,7 @@ Options_TextSpeed:
 	ld e, [hl]
 	inc hl
 	ld d, [hl]
-	hlcoord 11, 3
+	hlcoord 8, 3
 	call PlaceString
 	and a
 	ret
@@ -208,7 +208,7 @@ Options_BattleScene:
 	ld de, .Off
 
 .Display:
-	hlcoord 11, 5
+	hlcoord 8, 5
 	call PlaceString
 	and a
 	ret
@@ -246,7 +246,7 @@ Options_BattleStyle:
 	ld de, .Set
 
 .Display:
-	hlcoord 11, 7
+	hlcoord 8, 7
 	call PlaceString
 	and a
 	ret
@@ -291,7 +291,7 @@ Options_Sound:
 	ld de, .Stereo
 
 .Display:
-	hlcoord 11, 9
+	hlcoord 8, 9
 	call PlaceString
 	and a
 	ret
@@ -345,7 +345,7 @@ Options_Print:
 	ld e, [hl]
 	inc hl
 	ld d, [hl]
-	hlcoord 11, 11
+	hlcoord 8, 11
 	call PlaceString
 	and a
 	ret
@@ -431,7 +431,7 @@ Options_MenuAccount:
 	ld de, .On
 
 .Display:
-	hlcoord 11, 13
+	hlcoord 8, 13
 	call PlaceString
 	and a
 	ret
@@ -463,7 +463,7 @@ Options_Frame:
 	ld [hl], a
 UpdateFrame:
 	ld a, [wTextboxFrame]
-	hlcoord 16, 15 ; where on the screen the number is drawn
+	hlcoord 13, 15 ; where on the screen the number is drawn
 	add '1'
 	ld [hl], a
 	call LoadFontsExtra

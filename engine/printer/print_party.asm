@@ -199,7 +199,7 @@ PrintPartyMonPage1:
 	ld de, wTempMonID
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 5
 	call PrintNum
-	hlcoord 1, 14
+	hlcoord 1, 13
 	ld de, PrintParty_MoveString
 	call PlaceString
 	hlcoord 7, 14

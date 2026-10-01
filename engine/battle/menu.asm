@@ -93,7 +93,7 @@ ContestBattleMenuHeader:
 	db "FLUCHT@"
 
 .PrintParkBallsRemaining:
-	hlcoord 13, 16
+	hlcoord 10, 16
 	ld de, wParkBallsRemaining
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
 	call PrintNum

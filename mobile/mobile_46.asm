@@ -4519,13 +4519,13 @@ BattleTowerRoomMenu2_PlaceYesNoMenu:
 	call MenuBox
 	call MenuBoxCoord2Tile
 	call ApplyTilemap
-	hlcoord 16, 8
+	hlcoord 15, 8
 	ld de, String_11a2cf
 	call PlaceString
-	hlcoord 16, 10
+	hlcoord 15, 10
 	ld de, String_11a2d3
 	call PlaceString
-	hlcoord 15, 8
+	hlcoord 14, 8
 	ld a, $ed
 	ld [hl], a
 	xor a
@@ -4560,10 +4560,10 @@ BattleTowerRoomMenu2_UpdateYesNoMenu:
 	jr z, .asm_11a24c
 	xor a
 	ld [wMobileInactivityTimerMinutes], a
-	hlcoord 15, 8
+	hlcoord 14, 8
 	ld a, $ed
 	ld [hl], a
-	hlcoord 15, 10
+	hlcoord 14, 10
 	ld a, $7f
 	ld [hl], a
 	jr .asm_11a24c
@@ -4577,10 +4577,10 @@ BattleTowerRoomMenu2_UpdateYesNoMenu:
 	jr nz, .asm_11a24c
 	inc a
 	ld [wMobileInactivityTimerMinutes], a
-	hlcoord 15, 8
+	hlcoord 14, 8
 	ld a, $7f
 	ld [hl], a
-	hlcoord 15, 10
+	hlcoord 14, 10
 	ld a, $ed
 	ld [hl], a
 	jr .asm_11a24c

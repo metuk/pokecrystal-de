@@ -1216,7 +1216,7 @@ PlaceMoveData:
 	hlcoord 0, 11
 	ld de, String_MoveType_Bottom
 	call PlaceString
-	hlcoord 12, 12
+	hlcoord 11, 12
 	ld de, String_MoveAtk
 	call PlaceString
 	ld a, [wCurSpecies]
