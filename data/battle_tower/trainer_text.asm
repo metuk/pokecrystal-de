@@ -1,623 +1,676 @@
 _BTGreetingM1Text:
-	text "Hello, glad to"
-	line "meet you!"
+	text "Hallo, schön dich"
+	line "zu treffen!"
 
-	para "I do hope we have"
-	line "a good battle."
+	para "Ich hoffe, unser"
+	line "Kampf wird gut."
 	done
 
 _BTLossM1Text:
-	text "Thank you! A most"
-	line "enjoyable battle!"
+	text "Danke! Ein"
+	line "toller Kampf!"
 	done
 
 _BTWinM1Text:
-	text "Thank you. You are"
-	line "formidable."
+	text "Danke! Du bist"
+	line "wunderbar."
 	done
 
 _BTGreetingM2Text:
-	text "Work, work, work…"
-	line "I'm always busy!"
+	text "Arbeit, Arbeit…"
+	line "Ich bin immer"
+	cont "beschäftigt!"
 	done
 
 _BTLossM2Text:
-	text "But, I work hard"
-	line "in battle too!"
+	text "Aber ich arbeite"
+	line "auch in Kämpfen"
+	cont "hart!"
 	done
 
 _BTWinM2Text:
-	text "I'm too busy to be"
-	line "battling!"
+	text "Ich bin zu "
+	line "beschäftigt zum"
+	cont "Kämpfen!"
 	done
 
 _BTGreetingM3Text:
-	text "Brace yourself for"
-	line "my all-out attack!"
+	text "Mach dich bereit"
+	line "für meinen"
+	cont "Rundumschlag!"
 	done
 
 _BTLossM3Text:
-	text "What a cakewalk!"
-	line "You're too easy!"
+	text "Welch Kinderspiel!"
+	line "Das war ja kinder-"
+	cont "leicht!"
 	done
 
 _BTWinM3Text:
-	text "I won't lose next"
-	line "time, all right?"
+	text "Das nächste Mal,"
+	line "verliere ich"
+	cont "nicht, oder?"
 	done
 
 _BTGreetingM4Text:
-	text "Heh, your #MON"
-	line "look pretty cool."
+	text "He, deine #MON"
+	line "sehen cool aus."
 	done
 
 _BTLossM4Text:
-	text "Hey, hey, no way!"
-	line "You won't win!"
+	text "Heh, unmöglich!"
+	line "Du wirst nicht"
+	cont "gewinnen!"
 	done
 
 _BTWinM4Text:
-	text "You serious?"
-	line "This is brutal!"
+	text "Bist du sicher?"
+	line "Wie brutal!"
 	done
 
 _BTGreetingM5Text:
-	text "#MON every day!"
-	line "I love battling!"
+	text "Täglich #MON!"
+	line "Ich liebe Kämpfen!"
 	done
 
 _BTLossM5Text:
-	text "I'm on top of my"
-	line "game, but not you!"
+	text "Ich bin ganz oben"
+	line "und du nicht!"
 	done
 
 _BTWinM5Text:
-	text "I don't care that"
-	line "I lost, really!"
+	text "Mir doch egal! Ich"
+	line "habe verloren, was"
+	cont "du nicht sagst!"
 	done
 
 _BTGreetingM6Text:
-	text "Hi, there! Let's"
-	line "keep this clean!"
+	text "Tach auch! Bleib"
+	line "sauber!"
 	done
 
 _BTLossM6Text:
-	text "Whoops, sorry for"
-	line "that wipeout!"
+	text "Ups, sorry, dass"
+	line "ich dich"
+	cont "vernichtet habe!"
 	done
 
 _BTWinM6Text:
-	text "Whoops! Come on,"
-	line "let me win one!"
+	text "Ups! Komm schon,"
+	line "lass mich doch"
+	cont "ein Mal gewinnen!"
 	done
 
 _BTGreetingM7Text:
-	text "Do you want to see"
-	line "my battle level?"
+	text "Möchtest du mein"
+	line "Kampfgeschick"
+	cont "kennenlernen?"
 	done
 
 _BTLossM7Text:
-	text "Hehehe, I know"
-	line "your level now!"
+	text "Hehehe, ich weiせ"
+	line "jetzt, wie"
+	cont "geschickt du bist!"
 	done
 
 _BTWinM7Text:
-	text "Ouch… I'm just too"
-	line "weak…"
+	text "Aua… Ich bin zu"
+	line "schwach…"
 	done
 
 _BTGreetingM8Text:
-	text "Hey, let's battle."
-	line "I'm your opponent."
+	text "Auf in den Kampf!"
+	line "Ich bin dein"
+	cont "Gegner."
 	done
 
 _BTLossM8Text:
-	text "Wow, you're not"
-	line "serious about it!"
+	text "Wow, du nimmst die"
+	line "Sache nicht ernst!"
 	done
 
 _BTWinM8Text:
-	text "…Urgh… Nothing"
-	line "positive here…"
+	text "…Argh… Nichts"
+	line "Gutes hier…"
 	done
 
 _BTGreetingM9Text:
-	text "I'm your"
-	line "opponent."
+	text "Ich bin dein"
+	line "Gegner."
 
-	para "Get ready to be"
-	line "hammered."
+	para "Jetzt wirst du"
+	line "vernichtet."
 	done
 
 _BTLossM9Text:
-	text "Hahah! That was a"
-	line "pushover!"
+	text "Haha! Das war"
+	line "kinderleicht!"
 	done
 
 _BTWinM9Text:
-	text "No way! There has"
-	line "to be a mistake!"
+	text "Unmöglich! Da muss"
+	line "ein Fehler"
+	cont "vorliegen!"
 	done
 
 _BTGreetingM10Text:
 	text "Hah!"
-	line "Let's get rolling!"
+	line "Lass uns kämpfen!"
 	done
 
 _BTLossM10Text:
-	text "Wahahaha! Didn't"
-	line "break a sweat!"
+	text "Wahahaha! Ich habe"
+	line "nicht einmal"
+	cont "geschwitzt!"
 	done
 
 _BTWinM10Text:
-	text "Tough! I'm no"
-	line "match for you!"
+	text "Ich bin kein"
+	line "Gegner für dich!"
 	done
 
 _BTGreetingM11Text:
 	text "<……><……><……>"
-	line "<……><……>Battle?"
+	line "<……><……>Kampf?"
 	done
 
 _BTLossM11Text:
 	text "<……><……><……>"
-	line "<……><……>I won?"
+	line "<……><……>Sieg?"
 	done
 
 _BTWinM11Text:
 	text "<……><……><……>"
-	line "<……><……>I lost?"
+	line "<……><……>Niederlage?"
 	done
 
 _BTGreetingM12Text:
-	text "You want to be a"
-	line "leader?"
+	text "Du willst also"
+	line "eine PKMN-ARENA"
 
-	para "Let me battle you,"
-	line "then!"
+	para "leiten? Dann lass"
+	line "uns kämpfen!"
 	done
 
 _BTLossM12Text:
-	text "You need another"
-	line "ten years of"
+	text "Du musst noch"
+	line "weitere 10 Jahre"
 
-	para "training to get"
-	line "better, I'd say."
+	para "trainieren, um"
+	line "besser zu werden."
 	done
 
 _BTWinM12Text:
-	text "You're incredibly"
-	line "talented."
+	text "Du bist wahrlich"
+	line "talentiert. Dir"
 
-	para "No one can touch"
-	line "you now!"
+	para "kann jetzt niemand"
+	line "etwas anhaben!"
 	done
 
 _BTGreetingM13Text:
-	text "Today, I'm going"
-	line "to whomp you."
+	text "Heute mache ich"
+	line "dich platt."
 	done
 
 _BTLossM13Text:
-	text "I knew I'd win."
-	line "I'm so great!"
+	text "Ich wusste, ich"
+	line "würde gewinnen!"
+	cont "Ich bin groせartig!"
 	done
 
 _BTWinM13Text:
-	text "Uh? My plans are"
-	line "out of whack…"
+	text "Uh? Du hast meine"
+	line "Pläne durchkreuzt…"
 	done
 
 _BTGreetingM14Text:
-	text "I bet you can't"
-	line "beat me!"
+	text "Ich wette, du"
+	line "kannst mich"
+	cont "nicht besiegen!"
 	done
 
 _BTLossM14Text:
-	text "Those #MON"
-	line "aren't enough!"
+	text "Diese #MON"
+	line "reichen nicht aus!"
 	done
 
 _BTWinM14Text:
-	text "I want your"
-	line "#MON. Please?"
+	text "Ich will deine"
+	line "#MON. Bitte?"
 	done
 
 _BTGreetingM15Text:
-	text "I'll show you a"
-	line "real battle!"
+	text "Ich zeige dir"
+	line "den wahren"
+	cont "Kampf!"
 	done
 
 _BTLossM15Text:
-	text "This battle…"
-	line "I'm bored!"
+	text "Dieser Kampf…"
+	line "Wie langweilig!"
 	done
 
 _BTWinM15Text:
-	text "…I won't turn tail"
-	line "in battle!"
+	text "…Ich fliehe"
+	line "nicht aus Kämpfen!"
 	done
 
 _BTGreetingM16Text:
-	text "Let's go!"
-	line "No holds barred!"
+	text "Auf gehtわ!"
+	line "Nichts geht mehr!"
 	done
 
 _BTLossM16Text:
-	text "Sorry! I wanted"
-	line "the win more!"
+	text "Sorry! Mein"
+	line "Siegeswille war"
+	cont "stärker!"
 	done
 
 _BTWinM16Text:
-	text "Wahah! Congrats!"
-	line "I can't do better!"
+	text "Wuah! Glückwunsch!"
+	line "Ich kann es"
+	cont "nicht besser!"
 	done
 
 _BTGreetingM17Text:
-	text "My #MON skills"
-	line "are phenomenal!"
+	text "Die Fähigkeiten"
+	line "meiner #MON"
+	cont "sind phänomenal!"
 	done
 
 _BTLossM17Text:
-	text "You've got a long"
-	line "way to go."
+	text "Du hast noch einen"
+	line "langen Weg vor"
 
-	para "Well, keep trying!"
-	line "Best of luck!"
+	para "dir. Nun, mach"
+	line "weiter so! Viel"
+	cont "Glück!"
 	done
 
 _BTWinM17Text:
-	text "Aww… Don't lose"
-	line "after beating me."
+	text "Arg… Verliere"
+	line "nicht, nachdem du"
+	cont "mich besiegt hast."
 	done
 
 _BTGreetingM18Text:
-	text "Who are you?"
-	line "I don't know you…"
+	text "Wer bist du?"
+	line "Ich kenne dich"
+	cont "nicht…"
 	done
 
 _BTLossM18Text:
-	text "I must've imagined"
-	line "that."
+	text "Ich hätte mir das"
+	line "denken können."
 
-	para "There seems to be"
-	line "no one here…"
+	para "Es scheint nie-"
+	line "mand hier zu sein…"
 	done
 
 _BTWinM18Text:
-	text "Who am I?"
-	line "I don't know…"
+	text "Wer bin ich?"
+	line "Ich weiせ es nicht…"
 	done
 
 _BTGreetingM19Text:
-	text "Um… Are you that…"
-	line "um…person?"
+	text "Ähm…Bist du diese…"
+	line "Äh… Person?"
 	done
 
 _BTLossM19Text:
-	text "It doesn't appear"
-	line "to be you…"
+	text "Du scheinst es"
+	line "nicht zu sein…"
 	done
 
 _BTWinM19Text:
-	text "Then you really"
-	line "are the legendary…"
+	text "Dann bist du wirk-"
+	line "lich legendär…"
 	done
 
 _BTGreetingM20Text:
-	text "I heard that"
-	line "you're hot!"
+	text "Ich hörte, dass"
+	line "du stark bist!"
 	done
 
 _BTLossM20Text:
-	text "Not bad. I was"
-	line "just a bit better."
+	text "Nicht schlecht."
+	line "Ich war den ent-"
+	cont "scheidenden Tick"
+	cont "besser."
 	done
 
 _BTWinM20Text:
-	text "Eh, you're not"
-	line "that special."
+	text "Eh, so besonders"
+	line "bist du nicht."
 	done
 
 _BTGreetingM21Text:
-	text "I'm scared about"
-	line "what might happen."
+	text "Ich habe Angst,"
+	line "was passieren"
 
-	para "My #MON are way"
-	line "too strong."
+	para "wird. Meine #-"
+	line "MON sind zu stark."
 	done
 
 _BTLossM21Text:
-	text "See? My #MON"
-	line "were too strong."
+	text "Siehst du? Meine"
+	line "#MON waren"
+	cont "zu stark."
 	done
 
 _BTWinM21Text:
-	text "Graa! My #MON"
-	line "were total wimps!"
+	text "Uah! Meine #MON"
+	line "waren totale"
+	cont "Schwächlinge!"
 	done
 
 _BTGreetingM22Text:
-	text "Hey, there!"
-	line "I'll take you on!"
+	text "Heh, du da!"
+	line "Ich nehme es mit"
+	cont "dir auf!"
 	done
 
 _BTLossM22Text:
-	text "Don't you have a"
-	line "better strategy?"
+	text "Hast du keine"
+	line "bessere Strategie?"
 	done
 
 _BTWinM22Text:
-	text "You've got decent"
-	line "style!"
+	text "Du hast einen"
+	line "bemerkenswerten"
+	cont "Stil!"
 	done
 
 _BTGreetingM23Text:
-	text "I wonder if I can"
-	line "battle properly…"
+	text "Ich frage mich, ob"
+	line "ich richtig"
+	cont "kämpfen kann…"
 	done
 
 _BTLossM23Text:
-	text "Um… Sorry…"
-	line "I think I won."
+	text "Ähm… Sorry…"
+	line "Ich denke… Ich"
+	cont "habe gewonnen."
 	done
 
 _BTWinM23Text:
-	text "I guess I'm not"
-	line "good enough yet…"
+	text "Ich denke, ich bin"
+	line "noch nicht gut"
+	cont "genug…"
 	done
 
 _BTGreetingM24Text:
 	text "Wrrooar!"
-	line "I won't lose!"
+	line "Ich werde nicht"
+	cont "verlieren!"
 	done
 
 _BTLossM24Text:
-	text "Wrrooar! I knew"
-	line "I was a genius!"
+	text "Wooar! Ich wusste,"
+	line "ich bin genial!"
 	done
 
 _BTWinM24Text:
-	text "Arrooh! I hate it"
-	line "when I lose!"
+	text "Arrooh! Ich hasse"
+	line "es, zu verlieren!"
 	done
 
 _BTGreetingM25Text:
-	text "Sorry, but I'm"
-	line "going to win."
+	text "Sorry, aber ich"
+	line "werde gewinnen."
 	done
 
 _BTLossM25Text:
-	text "Yeah! My #MON"
-	line "rule!"
+	text "Yo! Meine #MON"
+	line "sind die Besten!"
 	done
 
 _BTWinM25Text:
-	text "Oh, close! I lost"
-	line "by just a bit!"
+	text "Oh, knapp! Ich"
+	line "habe nur knapp"
+	cont "verloren!"
 	done
 
 _BTGreetingF1Text:
-	text "OK, I'm not"
-	line "fooling around!"
+	text "O.K., ich albere"
+	line "nicht herum!"
 	done
 
 _BTLossF1Text:
-	text "Yay! Too easy!"
-	line "Like, no way!"
+	text "Yo! Zu leicht!"
+	line "Im Handumdrehen!"
 	done
 
 _BTWinF1Text:
-	text "No!"
-	line "Like, no way!"
+	text "Nein!"
+	line "Ratzfatz!"
 	done
 
 _BTGreetingF2Text:
-	text "Look! My #MON"
-	line "are really cute!"
+	text "Sieh! Meine #-"
+	line "MON sind so süせ!"
 	done
 
 _BTLossF2Text:
-	text "Aren't they really"
-	line "adorable?"
+	text "Sind sie nicht"
+	line "bezaubernd?"
 	done
 
 _BTWinF2Text:
-	text "I'm sorry, it's"
-	line "all my fault!"
+	text "Tut mir Leid, es"
+	line "ist meine Schuld!"
 	done
 
 _BTGreetingF3Text:
-	text "Let's get our"
-	line "battle started!"
+	text "Unser Kampf möge"
+	line "beginnen!"
 	done
 
 _BTLossF3Text:
-	text "Was I too strong"
-	line "for you?"
+	text "War ich dir zu"
+	line "stark?"
 	done
 
 _BTWinF3Text:
-	text "Ooh, you're in a"
-	line "different class."
+	text "Oh, du spielst in"
+	line "einer anderen"
+	cont "Liga."
 	done
 
 _BTGreetingF4Text:
-	text "Are we going to"
-	line "battle? Let's!"
+	text "Kämpfen wir? Na,"
+	line "dann los!"
 	done
 
 _BTLossF4Text:
-	text "Oh, you're too"
-	line "weak. Shame."
+	text "Oh, du bist zu"
+	line "schwach. Streue"
+	cont "Asche über dein"
+	cont "Haupt."
 	done
 
 _BTWinF4Text:
-	text "Wow! Are you quite"
-	line "satisfied?"
+	text "Wow! Bist du nun"
+	line "zufrieden?!"
 	done
 
 _BTGreetingF5Text:
-	text "Oh, you have some"
-	line "rare #MON."
+	text "Oh, du hast einige"
+	line "seltene #MON."
 	done
 
 _BTLossF5Text:
-	text "May I have one of"
-	line "your #MON?"
+	text "Darf ich eines"
+	line "deiner #MON"
+	cont "haben?"
 	done
 
 _BTWinF5Text:
-	text "…I want one of"
-	line "your #MON."
+	text "…Ich möchte eines"
+	line "deiner #MON."
 	done
 
 _BTGreetingF6Text:
-	text "Want to hear about"
-	line "my cute #MON?"
+	text "Möchtest du etwas"
+	line "von meinen süせen"
+	cont "#MON wissen?"
 	done
 
 _BTLossF6Text:
-	text "What do you think"
-	line "about my cuties?"
+	text "Was hältst du"
+	line "von meinen"
+	cont "Schätzchen?"
 	done
 
 _BTWinF6Text:
-	text "Oh! My! You're a"
-	line "dreadful trainer!"
+	text "Oh! Nein! Du bist"
+	line "ein scheuせlicher"
+	cont "Trainer!"
 	done
 
 _BTGreetingF7Text:
-	text "Battle? Sure!"
-	line "Right now!"
+	text "Kämpfen? Gewiss!"
+	line "Sofort!"
 	done
 
 _BTLossF7Text:
-	text "Oh, I love it!"
-	line "Battling is wild!"
+	text "Oh, ich liebe es!"
+	line "Kämpfen ist wild!"
 	done
 
 _BTWinF7Text:
-	text "Oh, how rude! Wait"
-	line "till next time!"
+	text "Oh, wie ungezogen!"
+	line "Warte nur auf das"
+	cont "nächste Mal!"
 	done
 
 _BTGreetingF8Text:
-	text "Please let me win!"
-	line "Please?"
+	text "Bitte lass mich"
+	line "gewinnen! Bitte?"
 	done
 
 _BTLossF8Text:
-	text "Wow, thank you!"
-	line "You're so nice!"
+	text "Wow, danke!"
+	line "Du bist nett!"
 	done
 
 _BTWinF8Text:
-	text "You're mean!"
-	line "I hate meanies!"
+	text "Du bist gemein!"
+	line "Ich hasse"
+	cont "Fieslinge!"
 	done
 
 _BTGreetingF9Text:
-	text "Well, can we"
-	line "begin?"
+	text "Nun, können wir"
+	line "anfangen?"
 	done
 
 _BTLossF9Text:
-	text "Well, I beg your"
-	line "pardon…"
+	text "Nun, was hast"
+	line "du gesagt…"
 	done
 
 _BTWinF9Text:
-	text "Sob… That's not"
-	line "fair!"
+	text "Schluchz… Das ist"
+	line "nicht fair!"
 	done
 
 _BTGreetingF10Text:
-	text "I'm good!"
-	line "You can't win."
+	text "Ich bin gut!"
+	line "Du kannst nicht"
+	cont "gewinnen."
 	done
 
 _BTLossF10Text:
-	text "Giving up? You're"
-	line "pretty weak!"
+	text "Du gibst auf? Du"
+	line "bist sehr schwach!"
 	done
 
 _BTWinF10Text:
-	text "I won't accept"
-	line "this… No way!"
+	text "Ich werde das"
+	line "nicht akzeptieren…"
+	cont "Niemals!!"
 	done
 
 _BTGreetingF11Text:
-	text "Are you treating"
-	line "this seriously?"
+	text "Behandelst du die"
+	line "Angelegenheit"
+	cont "ernsthaft?"
 	done
 
 _BTLossF11Text:
-	text "Oh, sorry! Looks"
-	line "like I won!"
+	text "Oh, sorry! Sieht"
+	line "aus, als hätte"
+	cont "ich gewonnen!"
 	done
 
 _BTWinF11Text:
-	text "Oh, how nasty!"
-	line "You were serious!"
+	text "Oh, wie übel!"
+	line "Du hast ernst"
+	cont "gemacht!"
 	done
 
 _BTGreetingF12Text:
-	text "Ahahah! I'll take"
-	line "it easy on you!"
+	text "Ahahah! Dich pack"
+	line "ich doch mit"
+	cont "links!"
 	done
 
 _BTLossF12Text:
-	text "Oops, sorry! But"
-	line "I'm happy too!"
+	text "Ups, sorry! Aber,"
+	line "ich bin auch"
+	cont "glücklich!"
 	done
 
 _BTWinF12Text:
-	text "Oh, oh, I lost!"
-	line "Thanks. Bye!"
+	text "Oh, oh, ich habe"
+	line "verloren! Danke."
+	cont "Tschüss!"
 	done
 
 _BTGreetingF13Text:
-	text "BATTLE TOWER is a"
-	line "tough place!"
+	text "Der DUELLTURM ist"
+	line "ein Ort für"
+	cont "harte Kämpfe!"
 	done
 
 _BTLossF13Text:
-	text "You might have a"
-	line "hard time."
+	text "Es könnte sehr"
+	line "schwer werden."
 	done
 
 _BTWinF13Text:
-	text "Ooh, you might"
-	line "make a run here!"
+	text "Oh, du könntest"
+	line "einen Lauf haben!"
 	done
 
 _BTGreetingF14Text:
-	text "I want to see your"
-	line "style in action!"
+	text "Ich möchte dich in"
+	line "Aktion sehen!"
 	done
 
 _BTLossF14Text:
-	text "Every battle is a"
-	line "drama!"
+	text "Jeder Kampf ist"
+	line "ein Drama!"
 	done
 
 _BTWinF14Text:
-	text "Oh… Want to trade"
-	line "something?"
+	text "Oh… Willst du"
+	line "etwas tauschen?"
 	done
 
 _BTGreetingF15Text:
-	text "OK, here goes!"
-	line "I have momentum!"
+	text "O.K., los!"
+	line "Ich habe Schwung!"
 	done
 
 _BTLossF15Text:
-	text "See, I rolled"
-	line "right over you!"
+	text "Ha, ich habe dich"
+	line "platt gemacht!"
 	done
 
 _BTWinF15Text:
-	text "No! This did not"
-	line "happen!"
+	text "Nein! Dies ist"
+	line "nie geschehen!"
 	done

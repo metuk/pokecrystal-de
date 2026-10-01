@@ -116,6 +116,9 @@ def main():
 
 	stats = Counter()
 	problems = []
+	learned = {}
+	if os.path.exists('de_syms_learned.json'):
+		learned = json.load(open('de_syms_learned.json'))
 
 	for path in files:
 		src, blocks, order = parse_blocks(path)
@@ -163,7 +166,12 @@ def main():
 						return n
 				return f'${v:04x}'
 
+			en_fars = [l.split()[1] for l in b.lines if l.startswith('text_far ')]
+			far_index = [0]
+
 			def name_far(bank, addr):
+				i = far_index[0]
+				far_index[0] += 1
 				names = de_rev.get((bank, addr), [])
 				for n in names:
 					if n in en_words:
@@ -171,6 +179,11 @@ def main():
 				for n in names:
 					if '.' not in n:
 						return n
+				# assume the n-th text_far corresponds to the n-th English one
+				if i < len(en_fars) and en_fars[i] not in de:
+					n = en_fars[i]
+					learned[n] = {'bank': bank, 'addr': addr, 'src': 'far'}
+					return n
 				raise TextError(f'text_far target {bank:02x}:{addr:04x} unknown')
 
 			try:
@@ -200,6 +213,8 @@ def main():
 					i += 1
 			open(path, 'w', encoding='utf-8').write('\n'.join(out))
 
+	json.dump(learned, open('de_syms_learned.json', 'w'), indent=0, sort_keys=True)
+	print(f'learned {len(learned)} text_far targets')
 	for k, v in stats.most_common():
 		print(f'{k}: {v}')
 	with open('retext_problems.txt', 'w') as f:

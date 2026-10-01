@@ -25,18 +25,20 @@ BlackthornDragonSpeechHouseMagazineBookshelf: ; unreferenced
 	jumpstd MagazineBookshelfScript
 
 BlackthornDragonSpeechHouseGrannyText:
-	text "A clan of trainers"
-	line "who can freely"
+	text "Es gibt hier in"
+	line "EBENHOLZ CITY"
 
-	para "command dragons"
-	line "live right here in"
-	cont "BLACKTHORN."
+	para "einen Trainerklan,"
+	line "der Drachen nach"
 
-	para "As a result, there"
-	line "are many legends"
+	para "freien Stücken"
+	line "Befehle erteilt."
 
-	para "about dragons in"
-	line "this town."
+	para "Daher gibt es in"
+	line "dieser Stadt so"
+
+	para "viele Legenden"
+	line "über Drachen."
 	done
 
 BlackthornDragonSpeechHouseDratiniText:

@@ -31,100 +31,108 @@ BattleTowerOutsideSign:
 	jumptext BattleTowerOutsideSignText
 
 BattleTowerOutsideYoungsterText_NotYetOpen: ; unreferenced
-	text "Wow, the BATTLE"
-	line "TOWER is huge! My"
+	text "Wow, der DUELLTURM"
+	line "ist riesig! Mein"
 
-	para "neck is tired from"
-	line "looking up at it."
+	para "Nacken ist schon"
+	line "steif, weil ich"
+
+	para "ständig hinauf-"
+	line "schaue."
 	done
 
 BattleTowerOutsideYoungsterText_Mobile: ; unreferenced
-	text "Wow, the BATTLE"
-	line "TOWER is huge!"
+	text "Wow, der DUELLTURM"
+	line "ist riesig!"
 
-	para "Since there are a"
-	line "whole bunch of"
+	para "Da sich darin so"
+	line "viele Trainer"
 
-	para "trainers inside,"
-	line "there must also be"
+	para "tummeln, muss es"
+	line "auch sehr viele"
 
-	para "a wide variety of"
-	line "#MON."
+	para "unterschiedliche"
+	line "#MON geben."
 	done
 
 BattleTowerOutsideYoungsterText:
-	text "Wow, the BATTLE"
-	line "TOWER is huge!"
+	text "Wow, der DUELLTURM"
+	line "ist riesig!"
 
-	para "There must be many"
-	line "kinds of #MON"
-	cont "in there!"
+	para "Es muss dort viele"
+	line "#MON geben!"
 	done
 
 BattleTowerOutsideBeautyText_NotYetOpen: ; unreferenced
-	text "What on earth do"
-	line "they do here?"
+	text "Was geht denn hier"
+	line "vor sich?"
 
-	para "If the name says"
-	line "anything, I guess"
+	para "Nomen est Omen:"
+	line "Hier muss es"
 
-	para "it must be for"
-	line "#MON battles."
+	para "um #MON-Kämpfe"
+	line "gehen."
 	done
 
 BattleTowerOutsideBeautyText:
-	text "You can use only"
-	line "three #MON."
+	text "Du darfst nur drei"
+	line "#MON einsetzen."
 
-	para "It's so hard to"
-	line "decide which three"
+	para "Es fällt einem"
+	line "nicht leicht, drei"
 
-	para "should go into"
-	line "battle…"
+	para "#MON für den"
+	line "Kampf auszuwählen…"
 	done
 
 BattleTowerOutsideSailorText_Mobile: ; unreferenced
 	text "Ehehehe…"
-	line "I sneaked out of"
-	cont "work to come here."
+	line "Ich schlich mich"
 
-	para "I'm never giving"
-	line "up until I become"
-	cont "a LEADER!"
+	para "von der Arbeit"
+	line "weg, um hierher"
+	cont "zu kommen"
+
+	para "Ich werde nicht"
+	line "eher aufgeben, bis"
+	cont "ich ein"
+	cont "PRIMUS bin!"
 	done
 
 BattleTowerOutsideSailorText:
-	text "Hehehe, I snuck"
-	line "out from work."
+	text "Hehehe, ich drücke"
+	line "mich vor der Ar-"
+	cont "beit. Ich kann"
 
-	para "I can't bail out"
-	line "until I've won!"
+	para "nicht zurück, bis"
+	line "ich siege. Ich"
 
-	para "I have to win it"
-	line "all. That I must!"
+	para "muss alles gewin-"
+	line "nen. Es ist ein"
+	cont "Zwang!"
 	done
 
 BattleTowerOutsideSignText_NotYetOpen: ; unreferenced
 ; originally shown when the Battle Tower was closed
-	text "BATTLE TOWER"
+	text "DUELLTURM"
 	done
 
 BattleTowerOutsideSignText:
-	text "BATTLE TOWER"
+	text "DUELLTURM"
 
-	para "Take the Ultimate"
-	line "Trainer Challenge!"
+	para "Die ultimative"
+	line "Herausforderung!"
 	done
 
 BattleTowerOutsideText_DoorsClosed: ; unreferenced
 ; originally shown when the Battle Tower was closed
-	text "The BATTLE TOWER's"
-	line "doors are closed…"
+	text "Der DUELLTURM"
+	line "ist geschlossen…"
 	done
 
 BattleTowerOutsideText_DoorsOpen: ; unreferenced
 ; originally shown after the Battle Tower opened
-	text "It's open!"
+	text "Geöffnet!"
 	done
 
 BattleTowerOutside_MapEvents:

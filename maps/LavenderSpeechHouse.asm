@@ -13,17 +13,18 @@ LavenderSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 LavenderSpeechHousePokefanFText:
-	text "LAVENDER is a"
-	line "tiny, quiet town"
+	text "LAVANDIA ist eine"
+	line "ruhige, kleine"
 
-	para "at the foot of the"
-	line "mountains."
+	para "Stadt am Fuせe der"
+	line "Berge."
 
-	para "It's gotten a bit"
-	line "busier since the"
+	para "In letzter Zeit"
+	line "ist sie durch den"
 
-	para "RADIO TOWER was"
-	line "built."
+	para "Bau des RADIOTURMs"
+	line "etwas geschäftiger"
+	cont "geworden."
 	done
 
 LavenderSpeechHouse_MapEvents:

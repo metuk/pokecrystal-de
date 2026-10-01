@@ -40,37 +40,40 @@ SaffronPokecenter1FYoungsterScript:
 	jumptextfaceplayer SaffronPokecenter1FYoungsterText
 
 SaffronPokecenter1FTeacherText:
-	text "What are JOHTO's"
-	line "#MON CENTERS"
-	cont "like?"
+	text "Wie sehen die"
+	line "#MON-CENTER in"
+	cont "JOHTO aus?"
 
-	para "…Oh, I see. So"
-	line "they're not much"
+	para "…Oh, aha. Sie"
+	line "unterscheiden sich"
 
-	para "different from the"
-	line "ones in KANTO."
+	para "kaum von denen"
+	line "in KANTO."
 
-	para "I can go to JOHTO"
-	line "without worrying,"
-	cont "then!"
+	para "Ich kann also nach"
+	line "JOHTO gehen, ohne"
+	cont "mich zu sorgen!"
 	done
 
 SaffronPokecenter1FTeacherMobileText:
-	text "What are JOHTO's"
-	line "#MON CENTERS"
-	cont "like?"
+	text "Wie sehen die"
+	line "#MON-CENTER in"
+	cont "JOHTO aus?"
 
-	para "…Oh, I see."
-	line "So they let you"
+	para "…Oh, aha."
+	line "Man kann auch über"
 
-	para "link with people"
-	line "far away?"
+	para "groせe Distanzen"
+	line "tauschen?"
 
-	para "Then I'll get my"
-	line "friend in JOHTO to"
+	para "Dann sage ich mei-"
+	line "nem Freund in"
 
-	para "catch a MARILL and"
-	line "trade it to me!"
+	para "JOHTO, dass er mir"
+	line "ein MARILL fangen"
+
+	para "und dann mit mir"
+	line "tauschen soll!"
 	done
 
 SaffronPokecenter1FFisherText:

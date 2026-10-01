@@ -21,26 +21,29 @@ OlivineMartLassScript:
 	jumptextfaceplayer OlivineMartLassText
 
 OlivineMartCooltrainerFText:
-	text "Do your #MON"
-	line "already know the"
+	text "Können deine #-"
+	line "MON schon Leute"
 
-	para "move for carrying"
-	line "people on water?"
+	para "übers Wasser tra-"
+	line "gen?"
 	done
 
 OlivineMartLassText:
-	text "My BUTTERFREE came"
-	line "from my boyfriend"
-	cont "overseas."
+	text "Ich habe mein"
+	line "SMETTBO von meinem"
+	cont "Freund aus Übersee"
+	cont "bekommen."
 
-	para "It carried some"
-	line "MAIL from him."
+	para "Es hatte einen"
+	line "BRIEF von ihm da-"
+	cont "bei."
 
-	para "Want to know what"
-	line "it says?"
+	para "Willst du wissen,"
+	line "was er schreibt?"
 
-	para "Let's see… Nope!"
-	line "It's a secret!"
+	para "Mal sehen… Oh!"
+	line "Das ist ein Ge-"
+	cont "heimnis!"
 	done
 
 OlivineMart_MapEvents:

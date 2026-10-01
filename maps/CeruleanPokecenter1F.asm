@@ -23,41 +23,44 @@ CeruleanPokecenter1FGymGuideScript:
 	jumptextfaceplayer CeruleanPokecenter1FGymGuideText
 
 CeruleanPokecenter1FSuperNerdText:
-	text "For battles, I'd"
-	line "much rather use"
+	text "Ich kämpfe lieber"
+	line "mit #MON, die"
 
-	para "#MON I've been"
-	line "raising, even if"
+	para "ich trainiert"
+	line "habe, auch wenn"
 
-	para "they're weaker"
-	line "than some newly"
-	cont "caught #MON."
+	para "sie schwach sind,"
+	line "als mit #MON,"
+
+	para "die ich neu"
+	line "gefangen habe."
 	done
 
 CeruleanPokecenter1FSuperNerdText_Mobile:
-	text "Do you battle by"
-	line "mobile phone?"
+	text "Kämpfst du via"
+	line "Handy?"
 
-	para "If time runs out"
-	line "during a battle,"
+	para "Beendet das Zeit-"
+	line "limit den Kampf,"
 
-	para "waiting to see who"
-	line "won is really"
-	cont "nerve wracking."
+	para "ist es nervenzer-"
+	line "reiせend den Ge-"
+	cont "winner abzuwarten."
 	done
 
 CeruleanPokecenter1FGymGuideText:
-	text "The MAGNET TRAIN"
-	line "travels at over"
+	text "Mit einer Ge-"
+	line "schwindigkeit von"
 
-	para "340 mph. It goes"
-	line "between KANTO and"
+	para "über 550km/h reist"
+	line "der MAGNETZUG in"
 
-	para "JOHTO in almost no"
-	line "time at all."
+	para "null Komma nichts"
+	line "zwischen KANTO und"
+	cont "JOHTO hin und her."
 
-	para "It really makes"
-	line "JOHTO accessible."
+	para "Dadurch ist JOHTO"
+	line "ganz nah."
 	done
 
 CeruleanPokecenter1F_MapEvents:

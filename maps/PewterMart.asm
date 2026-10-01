@@ -21,26 +21,30 @@ PewterMartSuperNerdScript:
 	jumptextfaceplayer PewterMartSuperNerdText
 
 PewterMartYoungsterText:
-	text "Hi! Check out my"
-	line "GYARADOS!"
+	text "Hi! Mach doch"
+	line "Bekanntschaft mit"
+	cont "meinem GARADOS!"
 
-	para "I raised it from a"
-	line "MAGIKARP. I can't"
+	para "Ich habe es als"
+	line "KARPADOR auf-"
+	cont "gezogen. Kaum zu"
 
-	para "believe how strong"
-	line "it has become."
+	para "glauben, wie stark"
+	line "es geworden ist."
 	done
 
 PewterMartSuperNerdText:
-	text "There once was a"
-	line "weird old man who"
-	cont "sold MAGIKARP."
+	text "Es gab mal einen"
+	line "komischen, alten"
+	cont "Mann, der KARPADOR"
+	cont "verkaufte."
 
-	para "He was saying the"
-	line "MAGIKARP from the"
+	para "Er sagte immer,"
+	line "die KARPADOR im"
 
-	para "LAKE OF RAGE were"
-	line "excellent."
+	para "SEE DES ZORNS"
+	line "seien"
+	cont "auせergewöhnlich."
 	done
 
 PewterMart_MapEvents:

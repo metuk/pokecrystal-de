@@ -33,15 +33,19 @@ MahoganyRedGyaradosSpeechHouseUnusedBookshelf2: ; unreferenced
 	jumpstd MagazineBookshelfScript
 
 MahoganyRedGyaradosSpeechHouseBlackBeltText:
-	text "I heard that a red"
-	line "GYARADOS appeared"
-	cont "at the LAKE."
+	text "Ich hörte, dass"
+	line "ein rotes GARADOS"
 
-	para "That's odd, since"
-	line "even ordinary"
+	para "am SEE erschienen"
+	line "sein soll."
 
-	para "GYARADOS are rare"
-	line "in that lake…"
+	para "Das ist seltsam,"
+	line "da schon normale"
+
+	para "GARADOS in diesem"
+	line "See sehr selten"
+
+	para "sind…"
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText:

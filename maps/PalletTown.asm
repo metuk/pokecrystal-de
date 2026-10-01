@@ -31,40 +31,42 @@ BluesHouseSign:
 	jumptext BluesHouseSignText
 
 PalletTownTeacherText:
-	text "I'm raising #-"
-	line "MON too."
+	text "Ich trainiere auch"
+	line "#MON. Sie"
 
-	para "They serve as my"
-	line "private guards."
+	para "dienen mir als"
+	line "Leibwächter."
 	done
 
 PalletTownFisherText:
-	text "Technology is"
-	line "incredible!"
+	text "Die Technik ist"
+	line "unglaublich!"
 
-	para "You can now trade"
-	line "#MON across"
-	cont "time like e-mail."
+	para "Du kannst jetzt"
+	line "#MON durch die"
+	cont "Zeit senden, wie"
+	cont "E-Mails."
 	done
 
 PalletTownSignText:
-	text "PALLET TOWN"
+	text "ALABASTIA"
 
-	para "A Tranquil Setting"
-	line "of Peace & Purity"
+	para "Eine Stätte des"
+	line "Friedens und der"
+	cont "Reinheit"
 	done
 
 RedsHouseSignText:
-	text "RED'S HOUSE"
+	text "HAUS von ROT"
 	done
 
 OaksLabSignText:
-	text "OAK #MON"
-	line "RESEARCH LAB"
+	text "PROF. EICH"
+	line "#MON LABOR"
 	done
 
 BluesHouseSignText:
-	text "BLUE'S HOUSE"
+	text "HAUS von BLAU"
 	done
 
 PalletTown_MapEvents:

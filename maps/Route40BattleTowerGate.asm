@@ -19,53 +19,58 @@ Route40BattleTowerGateTwinScript:
 	jumptextfaceplayer Route40BattleTowerGateTwinText
 
 Route40BattleTowerGateUnusedText1: ; unreferenced
-	text "Did you come to"
-	line "see the BATTLE"
-	cont "TOWER too?"
+	text "Bist du auch ge-"
+	line "kommen, um den"
+	cont "DUELLTURM zu"
+	cont "sehen?"
 
-	para "But I guess you"
-	line "can't go in yet."
+	para "Aber du kannst"
+	line "noch nicht hinein."
 	done
 
 Route40BattleTowerGateUnusedText2: ; unreferenced
-	text "BATTLE TOWER has"
-	line "opened."
+	text "Der DUELLTURM ist"
+	line "geöffnet."
 
-	para "I want to go, but"
-	line "I haven't thought"
+	para "Ich möchte hinein,"
+	line "aber ich habe mir"
 
-	para "up a cool line for"
-	line "when I win."
+	para "noch keinen guten"
+	line "Spruch ausgedacht,"
+	cont "wenn ich gewinne."
 	done
 
 Route40BattleTowerGateRockerText:
-	text "Are you going to"
-	line "the BATTLE TOWER?"
+	text "Gehst du zum"
+	line "DUELLTURM?"
 
-	para "This is a secret,"
-	line "but if you win a"
+	para "Das ist ein Ge-"
+	line "heimnis, aber du"
 
-	para "whole lot, you can"
-	line "win special gifts."
+	para "erhältst spezielle"
+	line "Preise, wenn du"
+	cont "oft gewinnst."
 	done
 
 Route40BattleTowerGateUnusedText3: ; unreferenced
-	text "I'm going to train"
-	line "my #MON so I'll"
+	text "Ich trainiere"
+	line "meine #MON,"
 
-	para "be all ready for"
-	line "the BATTLE TOWER."
+	para "damit ich bereit"
+	line "für den DUELLTURM"
+	cont "bin."
 	done
 
 Route40BattleTowerGateTwinText:
-	text "The levels of the"
-	line "#MON I want to"
+	text "Die Level der"
+	line "#MON, die ich"
 
-	para "use are all"
-	line "different."
+	para "einsetzen möchte,"
+	line "sind unter-"
+	cont "schiedlich."
 
-	para "I have to go train"
-	line "them now!"
+	para "Ich muss sie jetzt"
+	line "trainieren!"
 	done
 
 Route40BattleTowerGate_MapEvents:

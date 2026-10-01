@@ -175,8 +175,6 @@ def main():
 			c.de_off, c.src = found[0], 'unique-rom'
 
 	# Pass 2: sequential propagation within sections.
-	# Specific chunks propagate from either neighbour; weak (short) chunks only
-	# when the candidate positions from both neighbours agree (or only one exists).
 	def candidates(cs, i, c):
 		# Short chunks may only chain from one side within the same source file
 		# (whole files may have moved); with both neighbours they must agree.
@@ -194,43 +192,123 @@ def main():
 			return [b]
 		return []
 
-	for weak_ok in (False, True):
-		changed = True
-		while changed:
-			changed = False
-			for cs in sects:
-				for i, c in enumerate(cs):
-					if c.de_off is not None:
-						continue
-					cands = candidates(cs, i, c)
-					if not cands:
-						continue
-					weak = c.spec() < WEAK_SPEC
-					if weak and not weak_ok:
-						continue
-					good = [off for off in cands if c.matches_at(base, off)]
-					if not good:
-						continue
-					c.de_off, c.src = good[0], 'seq'
-					changed = True
+	def propagate():
+		for weak_ok in (False, True):
+			changed = True
+			while changed:
+				changed = False
+				for cs in sects:
+					for i, c in enumerate(cs):
+						if c.de_off is not None:
+							continue
+						if c.spec() < WEAK_SPEC and not weak_ok:
+							continue
+						good = [off for off in candidates(cs, i, c) if c.matches_at(base, off)]
+						if good:
+							c.de_off, c.src = good[0], 'seq'
+							changed = True
 
 	# Pass 3: local search for short chunks between matched neighbours
-	for cs in sects:
-		for i, c in enumerate(cs):
-			if c.de_off is not None or c.spec() < 4:
-				continue
-			prev = next((p for p in reversed(cs[:i]) if p.de_off is not None and p.src != 'gap'), None)
-			nxt = next((n for n in cs[i + 1:] if n.de_off is not None and n.src != 'gap'), None)
-			if not prev or not nxt:
-				continue
-			lo, hi = prev.de_off + prev.size, nxt.de_off
-			if not 0 <= hi - lo <= 0x800:
-				continue
-			found = search(base, c.pattern(), lo, hi)
-			if len(found) == 1:
-				c.de_off, c.src = found[0], 'local'
+	def local_search():
+		for cs in sects:
+			for i, c in enumerate(cs):
+				if c.de_off is not None or c.spec() < 4:
+					continue
+				prev = next((p for p in reversed(cs[:i]) if p.de_off is not None and p.src != 'gap'), None)
+				nxt = next((n for n in cs[i + 1:] if n.de_off is not None and n.src != 'gap'), None)
+				if not prev or not nxt:
+					continue
+				lo, hi = prev.de_off + prev.size, nxt.de_off
+				if not 0 <= hi - lo <= 0x800:
+					continue
+				found = search(base, c.pattern(), lo, hi)
+				if len(found) == 1:
+					c.de_off, c.src = found[0], 'local'
 
-	# Pass 4: an unmatched chunk right after a matched one starts where that one ends
+	sym_sect = {}
+	for obj in objects:
+		for sect in obj.sections:
+			for sym in sect.symbols:
+				sym_sect[sym.name] = id(sect)
+	chunk_by_name = {}
+	for c in all_chunks:
+		for n in c.names:
+			chunk_by_name[n] = c
+
+	# Pass 4: pointers read from located chunks locate their targets;
+	# repeat until nothing new is found (pointer tables lead to more pointers)
+	def infer_pointers():
+		votes = defaultdict(Counter)
+		bank_votes = defaultdict(Counter)
+		for c in all_chunks:
+			if c.de_off is None or c.src == 'gap':
+				continue
+			chunk_bank = c.de_off // BANK
+			built_bank = c.built_off // BANK
+			for p in c.sect.patches:
+				if not c.start <= p.offset < c.end or p.type == 3:
+					continue
+				cl = classify_patch(parse_rpn(p.rpn, c.obj.symbols))
+				if not cl:
+					continue
+				kind, name, addend = cl
+				pos = c.de_off + p.offset - c.start
+				if kind == 'bank':
+					bank_votes[name][base[pos]] += 1
+				elif kind == 'addr' and p.type == 1:
+					v = base[pos] | base[pos + 1] << 8
+					votes[name][(v - addend) & 0xffff, built_bank, chunk_bank] += 1
+
+		# DE bank of each built section: located chunks, plus BANK() votes of its labels
+		sect_banks = defaultdict(Counter)
+		for c in all_chunks:
+			if c.de_off is not None and c.src != 'gap':
+				sect_banks[id(c.sect)][c.de_off // BANK] += c.size
+		for name, cnt in bank_votes.items():
+			if name in sym_sect:
+				sect_banks[sym_sect[name]][cnt.most_common(1)[0][0]] += 1000
+
+		ptrs = {}
+		for name, cnt in votes.items():
+			if name not in sym_addrs:
+				continue
+			sb, sa = sym_addrs[name]
+			if sa >= 0x8000:
+				continue
+			(addr, built_bank, chunk_bank), _ = cnt.most_common(1)[0]
+			if addr < 0x4000:
+				bank = 0
+			elif name in bank_votes:
+				bank = bank_votes[name].most_common(1)[0][0]
+			elif sb == built_bank:
+				bank = chunk_bank
+			elif sect_banks.get(sym_sect.get(name)):
+				bank = sect_banks[sym_sect[name]].most_common(1)[0][0]
+			else:
+				continue
+			if addr < 0x4000 and bank or addr >= 0x8000:
+				continue
+			ptrs[name] = (bank, addr)
+		return ptrs
+
+	ptrs = {}
+	for _ in range(20):
+		propagate()
+		local_search()
+		ptrs = infer_pointers()
+		new = 0
+		for name, (bank, addr) in ptrs.items():
+			c = chunk_by_name.get(name)
+			if c is None or c.de_off is not None:
+				continue
+			off = rom_offset(bank, addr)
+			if c.matches_at(base, off):
+				c.de_off, c.src = off, 'ptr'
+				new += 1
+		if not new:
+			break
+
+	# Pass 5: an unmatched chunk right after a matched one starts where that one ends
 	for cs in sects:
 		for i, c in enumerate(cs):
 			if c.de_off is None and i > 0 and cs[i - 1].de_off is not None and cs[i - 1].src != 'gap' \
@@ -245,64 +323,18 @@ def main():
 		bank, addr = to_bank_addr(c.de_off)
 		for n in c.names:
 			de[n] = {'bank': bank, 'addr': addr, 'src': c.src}
-
-	# Pointer votes from matched chunks
-	built_rom_bank = {n: b for n, (b, a) in sym_addrs.items()}
-	votes = defaultdict(Counter)
-	bank_votes = defaultdict(Counter)
-	for c in all_chunks:
-		if c.de_off is None or c.src == 'gap':
-			continue
-		chunk_bank = c.de_off // BANK
-		built_bank = c.built_off // BANK
-		for p in c.sect.patches:
-			if not c.start <= p.offset < c.end or p.type == 3:
-				continue
-			cl = classify_patch(parse_rpn(p.rpn, c.obj.symbols))
-			if not cl:
-				continue
-			kind, name, addend = cl
-			pos = c.de_off + p.offset - c.start
-			if kind == 'bank':
-				bank_votes[name][base[pos]] += 1
-			elif kind == 'addr' and p.type == 1:
-				v = base[pos] | base[pos + 1] << 8
-				votes[name][(v - addend) & 0xffff, built_bank, chunk_bank] += 1
-
-	# DE bank of each built section: located chunks, plus BANK() votes of its labels
-	sym_sect = {}
-	for obj in objects:
-		for sect in obj.sections:
-			for sym in sect.symbols:
-				sym_sect[sym.name] = id(sect)
-	sect_banks = defaultdict(Counter)
-	for c in all_chunks:
-		if c.de_off is not None and c.src != 'gap':
-			sect_banks[id(c.sect)][c.de_off // BANK] += c.size
-	for name, cnt in bank_votes.items():
-		if name in sym_sect:
-			sect_banks[sym_sect[name]][cnt.most_common(1)[0][0]] += 1000
-
 	inferred = 0
-	for name, cnt in votes.items():
-		if name in de or name not in sym_addrs:
-			continue
-		sb, sa = sym_addrs[name]
-		if sa >= 0x8000:
-			continue
-		(addr, built_bank, chunk_bank), _ = cnt.most_common(1)[0]
-		if addr < 0x4000:
-			bank = 0
-		elif name in bank_votes:
-			bank = bank_votes[name].most_common(1)[0][0]
-		elif sb == built_bank:
-			bank = chunk_bank
-		elif sect_banks.get(sym_sect.get(name)):
-			bank = sect_banks[sym_sect[name]].most_common(1)[0][0]
-		else:
-			continue
-		de[name] = {'bank': bank, 'addr': addr, 'src': 'ptr'}
-		inferred += 1
+	for name, (bank, addr) in ptrs.items():
+		if name not in de:
+			de[name] = {'bank': bank, 'addr': addr, 'src': 'ptr'}
+			inferred += 1
+
+	# Addresses learned by retext.py from text_far operands
+	if os.path.exists('de_syms_learned.json'):
+		for name, e in json.load(open('de_syms_learned.json')).items():
+			if name not in de:
+				de[name] = e
+				inferred += 1
 
 	json.dump(de, open(args.output, 'w'), indent=0, sort_keys=True)
 

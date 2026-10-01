@@ -266,11 +266,12 @@ Route31PokeBall:
 	itemball POKE_BALL
 
 Route31CooltrainerMText:
-	text "DARK CAVE…"
+	text "DUNKELHÖHLE…"
 
-	para "If #MON could"
-	line "light it up, I'd"
-	cont "explore it."
+	para "Wenn ein #MON"
+	line "für Licht sorgen"
+	cont "könnte, würde ich"
+	cont "sie erforschen."
 	done
 
 BugCatcherWade1SeenText:

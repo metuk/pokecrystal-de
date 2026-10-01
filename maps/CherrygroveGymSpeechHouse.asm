@@ -17,29 +17,33 @@ CherrygroveGymSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 CherrygroveGymSpeechHousePokefanMText:
-	text "You're trying to"
-	line "see how good you"
+	text "Möchtest du he-"
+	line "rausfinden, wie"
 
-	para "are as a #MON"
-	line "trainer?"
+	para "gut du als #-"
+	line "MON-Trainer bist?"
 
-	para "You better visit"
-	line "the #MON GYMS"
-
-	para "all over JOHTO and"
-	line "collect BADGES."
+	para "Dann solltest du"
+	line "alle #MON ARE-"
+	cont "NEN in JOHTO auf-"
+	cont "suchen und ORDEN"
+	cont "sammeln."
 	done
 
 CherrygroveGymSpeechHouseBugCatcherText:
-	text "When I get older,"
-	line "I'm going to be a"
-	cont "GYM LEADER!"
+	text "Wenn ich älter"
+	line "bin, werde ich"
+	cont "auch ein ARENA-"
+	cont "LEITER!"
 
-	para "I make my #MON"
-	line "battle with my"
+	para "Ich werde meine"
+	line "#MON gegen"
 
-	para "friend's to make"
-	line "them tougher!"
+	para "die meiner Freunde"
+	line "antreten lassen,"
+
+	para "damit sie stärker"
+	line "werden!"
 	done
 
 CherrygroveGymSpeechHouse_MapEvents:

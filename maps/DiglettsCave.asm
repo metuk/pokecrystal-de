@@ -13,11 +13,12 @@ DiglettsCaveHiddenMaxRevive:
 	hiddenitem MAX_REVIVE, EVENT_DIGLETTS_CAVE_HIDDEN_MAX_REVIVE
 
 DiglettsCavePokefanMText:
-	text "A bunch of DIGLETT"
-	line "popped out of the"
+	text "Einige DIGDA sind"
+	line "plötzlich vor mir"
 
-	para "ground! That was"
-	line "shocking."
+	para "aufgetaucht! Ich"
+	line "habe mich er-"
+	cont "schreckt."
 	done
 
 DiglettsCave_MapEvents:

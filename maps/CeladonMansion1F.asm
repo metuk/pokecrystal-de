@@ -43,14 +43,15 @@ CeladonMansion1FBookshelf:
 	jumpstd PictureBookshelfScript
 
 CeladonMansionManagerText:
-	text "My dear #MON"
-	line "keep me company,"
+	text "Meine süせen #-"
+	line "MON sind meine"
 
-	para "so I don't ever"
-	line "feel lonely."
+	para "Begleiter. Mit"
+	line "ihnen fühle ich"
+	cont "mich nie allein."
 
-	para "MEOWTH even brings"
-	line "money home."
+	para "MAUZI bringt sogar"
+	line "Geld nach Hause."
 	done
 
 CeladonMansion1FMeowthText:

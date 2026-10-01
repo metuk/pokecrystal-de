@@ -40,60 +40,63 @@ GoldenrodDeptStore2FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore2FUnusedText1: ; unreferenced
-	text "We intend to sell"
-	line "items for #MON"
-	cont "to hold."
+	text "Wir wollen Items"
+	line "verkaufen, die von"
+	cont "#MON getragen"
+	cont "werden können."
 
-	para "This is a free"
-	line "gift. Have a #-"
-	cont "MON hold it."
+	para "Das ist ein Werbe-"
+	line "Geschenk. Lass ein"
+	cont "#MON es tragen."
 	done
 
 GoldenrodDeptStore2FUnusedText2: ; unreferenced
-	text "By giving #MON"
-	line "items to hold, I"
-
-	para "bet trainers will"
-	line "develop new battle"
-	cont "techniques."
+	text "Trägt ein #MON"
+	line "ein Item, könnte"
+	cont "das einen Kampf zu"
+	cont "deinen Gunsten"
+	cont "entscheiden."
 	done
 
 GoldenrodDeptStore2FYoungsterText:
-	text "#GEAR can store"
-	line "up to ten phone"
-	cont "numbers."
+	text "Der #COM kann"
+	line "bis zu zehn Num-"
+	cont "mern speichern."
 
-	para "It's hard to de-"
-	line "cide which numbers"
-	cont "to keep."
+	para "Es ist schwer zu"
+	line "entscheiden, wel-"
+	cont "che Nummer man be-"
+	cont "halten soll."
 	done
 
 GoldenrodDeptStore2FCooltrainerFText:
-	text "I got my ABRA at"
-	line "the GAME CORNER."
+	text "Ich habe mein ABRA"
+	line "in der SPIELHALLE"
 
-	para "Now it's my best"
-	line "partner."
+	para "gewonnen. Jetzt"
+	line "ist es mein bester"
+
+	para "Partner."
 	done
 
 GoldenrodDeptStore2FGentlemanText:
-	text "This DEPT.STORE"
-	line "makes me realize"
+	text "Dieses KAUFHAUS"
+	line "zeigt mir, dass"
 
-	para "that GOLDENROD is"
-	line "a big city."
+	para "DUKATIA CITY eine"
+	line "sehr groせe Stadt"
+	cont "ist."
 
-	para "The selection here"
-	line "is unmatched any-"
-	cont "where else."
+	para "Dieses Angebot ist"
+	line "unübertrefflich!"
 	done
 
 GoldenrodDeptStore2FDirectoryText:
-	text "Your Travel"
-	line "Companion"
+	text "Ihr Reise-"
+	line "begleiter"
 
-	para "2F TRAINER'S"
-	line "   MARKET"
+	para "1S TRAINER-"
+	line "   MARKT"
 	done
 
 GoldenrodDeptStore2F_MapEvents:

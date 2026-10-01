@@ -20,63 +20,66 @@ ElmsHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 ElmsWifeText:
-	text "Hi, <PLAY_G>! My"
-	line "husband's always"
+	text "Hi, <PLAY_G>! Mein"
+	line "Mann ist immer so"
 
-	para "so busy--I hope"
-	line "he's OK."
+	para "beschäftigt. Ich"
+	line "hoffe, es geht ihm"
+	cont "gut."
 
-	para "When he's caught"
-	line "up in his #MON"
-
-	para "research, he even"
-	line "forgets to eat."
+	para "Wenn er sich in"
+	line "seine #MON-"
+	cont "Forschungen ver-"
+	cont "tieft, vergisst er"
+	cont "sogar zu essen."
 	done
 
 ElmsSonText:
-	text "When I grow up,"
-	line "I'm going to help"
-	cont "my dad!"
+	text "Wenn ich groせ bin,"
+	line "helfe ich meinem"
+	cont "Papa!"
 
-	para "I'm going to be a"
-	line "great #MON"
-	cont "professor!"
+	para "Ich werde ein"
+	line "groせartiger #-"
+	cont "MON-Professor!"
 	done
 
 ElmsHouseLabFoodText: ; unreferenced
-	text "There's some food"
-	line "here. It must be"
-	cont "for the LAB."
+	text "Hier ist etwas zu"
+	line "essen. Es muss für"
+	cont "das LABOR sein."
 	done
 
 ElmsHousePokemonFoodText: ; unreferenced
-	text "There's some food"
-	line "here. This must be"
-	cont "for #MON."
+	text "Hier ist etwas zu"
+	line "essen. Es muss für"
+	cont "die #MON sein."
 	done
 
 ElmsHousePCText:
-	text "#MON. Where do"
-	line "they come from? "
+	text "#MON. Woher"
+	line "kommen sie?"
 
-	para "Where are they"
-	line "going?"
+	para "Wohin gehen sie?"
 
-	para "Why has no one"
-	line "ever witnessed a"
-	cont "#MON's birth?"
+	para "Warum war noch nie"
+	line "jemand Zeuge der"
+	cont "Geburt eines"
+	cont "#MON?"
 
-	para "I want to know! I"
-	line "will dedicate my"
+	para "Ich will es wis-"
+	line "sen. Ich werde"
 
-	para "life to the study"
-	line "of #MON!"
+	para "mein Leben in den"
+	line "Dienst der #-"
+	cont "MON-Forschung"
+	cont "stellen!"
 
 	para "…"
 
-	para "It's a part of"
-	line "PROF.ELM's re-"
-	cont "search papers."
+	para "Dies ist ein Teil"
+	line "von PROF. LINDs"
+	cont "Aufzeichnungen."
 	done
 
 ElmsHouse_MapEvents:

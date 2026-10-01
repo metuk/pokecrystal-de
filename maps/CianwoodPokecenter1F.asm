@@ -36,12 +36,13 @@ CianwoodPokecenter1FSuperNerdScript:
 	jumptextfaceplayer CianwoodPokecenter1FSuperNerdText
 
 CianwoodPokecenter1FLassText:
-	text "Did you meet the"
-	line "#MANIAC?"
+	text "Hast du schon den"
+	line "#MANIAC getrof-"
+	cont "fen?"
 
-	para "He's always brag-"
-	line "ging about his"
-	cont "rare #MON."
+	para "Er gibt immer mit"
+	line "seinen seltenen"
+	cont "#MON an."
 	done
 
 CianwoodGymGuideText:

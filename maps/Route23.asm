@@ -14,10 +14,12 @@ IndigoPlateauSign:
 IndigoPlateauSignText:
 	text "INDIGO PLATEAU"
 
-	para "The Ultimate Goal"
-	line "for Trainers!"
+	para "Das Ultimative"
+	line "Ziel Aller"
+	cont "Trainer!"
 
-	para "#MON LEAGUE HQ"
+	para "HAUPTQUARTIER der"
+	line "#MON LIGA"
 	done
 
 Route23_MapEvents:

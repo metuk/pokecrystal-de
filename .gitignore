@@ -42,3 +42,4 @@ gfx/pokemon/*/frames.asm
 de_syms.json
 retext_problems.txt
 __pycache__/
+de_syms_learned.json

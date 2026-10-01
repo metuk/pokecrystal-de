@@ -106,161 +106,176 @@ SaffronCityMartSign:
 	jumpstd MartSignScript
 
 SaffronCityLass1Text:
-	text "A little girl who"
-	line "is an expert at"
+	text "Hier lebt ein"
+	line "kleines Mädchen,"
 
-	para "mimicking people"
-	line "lives here."
+	para "das hervorragend"
+	line "Menschen nachahmt."
 
-	para "She even mimics"
-	line "the people she's"
+	para "Sie imitiert sogar"
+	line "Menschen, mit"
 
-	para "conversing with."
-	line "It's confusing."
+	para "denen sie sich"
+	line "gerade unterhält."
+
+	para "Das ist sehr"
+	line "verwirrend."
 	done
 
 SaffronCityLass1Text_ReturnedMachinePart:
-	text "The COPYCAT girl"
-	line "looked unhappy."
+	text "Die NACHAHMERIN"
+	line "sieht unglücklich"
 
-	para "She said she lost"
-	line "her favorite #"
-	cont "DOLL--CLEFAIRY."
+	para "aus. Sie hat ihre"
+	line "Lieblings-#-"
+	cont "PUPPE - PIEPI -"
+	cont "verloren."
 	done
 
 SaffronCityPokefanMText:
-	text "You came out from"
-	line "JOHTO?"
+	text "Du bist von JOHTO"
+	line "hergekommen?"
 
-	para "You can zip back"
-	line "home if the MAGNET"
-	cont "TRAIN's running."
+	para "Wenn der MAGNETZUG"
+	line "läuft, bist du"
+	cont "ganz schnell"
+	cont "wieder zu Hause."
 	done
 
 SaffronCityPokefanMText_ReturnedMachinePart:
-	text "You came out from"
+	text "Du kommst aus"
 	line "JOHTO?"
 
-	para "You can zip back"
-	line "home by hopping on"
-	cont "the MAGNET TRAIN."
+	para "Mit dem MAGNETZUG"
+	line "bist du ganz"
+	cont "schnell wieder"
+	cont "zu Hause."
 	done
 
 SaffronCityCooltrainerMText:
-	text "I went to the GYM,"
-	line "raring for battles"
-	cont "against trainers…"
+	text "Ich ging zur PKMN-"
+	line "ARENA, weil ich"
+	cont "unbedingt kämpfen"
+	cont "wollte…"
 
-	para "It turns out, I"
-	line "stumbled into the"
+	para "Wie sich heraus-"
+	line "stellte, bin ich"
 
-	para "unused GYM next"
-	line "door."
+	para "ausgerechnet in"
+	line "der verlassenen"
 
-	para "Boy, I was pretty"
-	line "embarrassed."
+	para "PKMN-ARENA"
+	line "gelandet."
+
+	para "War mir das"
+	line "peinlich!"
 	done
 
 SaffronCityCooltrainerFText:
-	text "This is SILPH CO.,"
-	line "famous for #MON"
-	cont "merchandise."
+	text "Das ist die SILPH"
+	line "CO., berühmt für"
+	cont "ihre #MON-"
+	cont "Artikel."
 
-	para "In the past, TEAM"
-	line "ROCKET wanted the"
+	para "TEAM ROCKET wollte"
+	line "sie wegen dieser"
 
-	para "company because of"
-	line "that."
+	para "Waren für sich"
+	line "nutzen."
 	done
 
 SaffronCityFisherText:
-	text "Chew… Chew…"
+	text "Mampf… Mampf…"
 
-	para "I hear there's big"
-	line "trouble brewing at"
-	cont "the POWER PLANT."
+	para "Wie ich höre,"
+	line "braut sich da"
+	cont "etwas im KRAFTWERK"
+	cont "zusammen."
 
-	para "Chew… Chew…"
+	para "Mampf… Mampf…"
 	done
 
 SaffronCityFisherText_ReturnedMachinePart:
-	text "Chew… Chew…"
+	text "Mampf… Mampf…"
 
-	para "I hear there was"
-	line "big trouble at the"
-	cont "POWER PLANT."
+	para "Wie ich höre,"
+	line "braute sich da"
+	cont "etwas im KRAFTWERK"
+	cont "zusammen."
 
-	para "Chew… Chew…"
-	line "Haaah, I'm full!"
+	para "Mampf… Mampf…"
+	line "Aah, ich bin satt!"
 	done
 
 SaffronCityYoungster1Text:
-	text "Going into an"
-	line "alley for the"
+	text "Ich finde es"
+	line "unheimlich, wenn"
 
-	para "first time makes"
-	line "me sorta anxious."
+	para "ich zum ersten Mal"
+	line "einen engen Gang"
+	cont "betrete."
 	done
 
 SaffronCityYoungster2Text:
-	text "There's a place"
-	line "called TRAINER"
+	text "In VERTANIA CITY"
+	line "gibt es ein HAUS"
 
-	para "HOUSE in VIRIDIAN"
-	line "where trainers"
+	para "für TRAINER. Dort"
+	line "treffen sich"
 
-	para "gather from all"
-	line "over the place."
+	para "Trainer der ganzen"
+	line "Welt."
 	done
 
 SaffronCityLass2Text:
-	text "Our city was"
-	line "featured on a"
-	cont "radio program."
+	text "Über unsere Stadt"
+	line "wurde mal im Radio"
+	cont "berichtet."
 
-	para "It's nice to hear"
-	line "praise for your"
+	para "Es ist schön, dass"
+	line "für deine Stadt"
 
-	para "city, but it's a"
-	line "bit embarrassing"
-	cont "too."
+	para "geworben wird,"
+	line "aber es ist auch"
+	cont "ein bisschen"
+	cont "peinlich."
 	done
 
 SaffronCitySignText:
-	text "SAFFRON CITY"
+	text "SAFFRONIA CITY"
 
-	para "Shining, Golden"
-	line "Land of Commerce"
+	para "Golden Schimmernde"
+	line "Stadt des Handels"
 	done
 
 SaffronGymSignText:
-	text "SAFFRON CITY"
-	line "#MON GYM"
-	cont "LEADER: SABRINA"
+	text "PKMN-ARENA von"
+	line "SAFFRONIA CITY"
+	cont "LEITUNG: SABRINA"
 
-	para "The Master of"
-	line "Psychic #MON!"
+	para "Die Meisterin der"
+	line "Psycho-#MON!"
 	done
 
 FightingDojoSignText:
-	text "Everyone Welcome!"
-	line "FIGHTING DOJO"
+	text "Willkommen!"
+	line "KARATE DOJO"
 	done
 
 SilphCoSignText:
 	text "SILPH CO."
-	line "OFFICE BUILDING"
+	line "BÜROGEBÄUDE"
 	done
 
 MrPsychicsHouseSignText:
-	text "MR.PSYCHIC'S"
-	line "HOUSE"
+	text "HAUS von"
+	line "MR. PSYCHO"
 	done
 
 SaffronCityMagnetTrainStationSignText:
-	text "SAFFRON CITY"
-	line "MAGNET TRAIN"
-	cont "STATION"
+	text "SAFFRONIA CITY"
+	line "MAGNETZUG-"
+	cont "BAHNHOF"
 	done
 
 SaffronCity_MapEvents:

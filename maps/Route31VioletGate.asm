@@ -14,15 +14,16 @@ Route31VioletGateCooltrainerFScript:
 	jumptextfaceplayer Route31VioletGateCooltrainerFText
 
 Route31VioletGateOfficerText:
-	text "Hi there!"
-	line "Did you visit"
-	cont "SPROUT TOWER?"
+	text "Tach auch!"
+	line "Warst du im"
+	cont "KNOFENSA-TURM?"
 	done
 
 Route31VioletGateCooltrainerFText:
-	text "I came too far"
-	line "out. I'd better"
-	cont "phone home!"
+	text "Ich bin zu weit"
+	line "gelaufen. Ich"
+	cont "sollte zu Hause"
+	cont "anrufen!"
 	done
 
 Route31VioletGate_MapEvents:

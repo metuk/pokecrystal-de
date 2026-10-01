@@ -21,28 +21,33 @@ LavenderMartRockerScript:
 	jumptextfaceplayer LavenderMartRockerText
 
 LavenderMartPokefanMText:
-	text "REPEL is a neces-"
-	line "sity if you are"
+	text "Es ist unabding-"
+	line "bar, SCHUTZ bei"
 
-	para "going to explore a"
-	line "cave."
+	para "sich zu haben,"
+	line "wenn man Höhlen"
+	cont "erkundet."
 
-	para "Even though I like"
-	line "exploring, I still"
+	para "Obwohl ich Höhlen"
+	line "sehr gerne"
 
-	para "haven't made it to"
-	line "all the caves."
+	para "erforsche, habe"
+	line "ich noch nicht"
+	cont "alle erforscht."
 	done
 
 LavenderMartRockerText:
-	text "I heard about a"
-	line "craftsman who"
+	text "Ich habe von einem"
+	line "Kunstschmied"
 
-	para "makes custom BALLS"
-	line "in the JOHTO town"
+	para "gehört, der maせ-"
+	line "gefertigte #-"
+	cont "BÄLLE in AZALEA"
 
-	para "of AZALEA. I wish"
-	line "I had some."
+	para "in JOHTO her-"
+	line "stellt. Ich"
+	cont "wünschte, ich"
+	cont "hätte auch welche."
 	done
 
 LavenderMart_MapEvents:

@@ -14,22 +14,27 @@ Route36RuinsOfAlphGateGrampsScript:
 	jumptextfaceplayer Route36RuinsOfAlphGateGrampsText
 
 Route36RuinsOfAlphGateOfficerText:
-	text "Don't you wonder"
-	line "who'd make some-"
-	cont "thing like this?"
-	cont "And why?"
+	text "Fragst du dich"
+	line "nicht, wer so"
+	cont "etwas tun sollte"
+	cont "und warum?"
 	done
 
 Route36RuinsOfAlphGateGrampsText:
-	text "Did you see that"
-	line "strange tree in"
-	cont "the road?"
+	text "Hast du diesen"
+	line "merkwürdigen Baum"
 
-	para "That may explain"
-	line "why fewer people"
+	para "auf der Straせe"
+	line "gesehen?"
 
-	para "are visiting the"
-	line "RUINS OF ALPH."
+	para "Das könnte"
+	line "erklären, weshalb"
+
+	para "immer weniger"
+	line "Menschen die"
+
+	para "ALPH-RUINEN"
+	line "besuchen."
 	done
 
 Route36RuinsOfAlphGate_MapEvents:

@@ -20,9 +20,10 @@ MountMoonGiftShopLassScript:
 	jumptextfaceplayer MountMoonGiftShopLassText
 
 MountMoonGiftShopLassText:
-	text "When the sun goes"
-	line "down, CLEFAIRY"
-	cont "come out to play."
+	text "Bei Sonnenunter-"
+	line "gang kommen PIEPI"
+	cont "heraus, um zu"
+	cont "spielen."
 	done
 
 MountMoonGiftShop_MapEvents:

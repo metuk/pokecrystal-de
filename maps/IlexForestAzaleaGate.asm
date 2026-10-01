@@ -14,18 +14,20 @@ IlexForestAzaleaGateGrannyScript:
 	jumptextfaceplayer IlexForestAzaleaGateGrannyText
 
 IlexForestAzaleaGateOfficerText:
-	text "ILEX FOREST is"
-	line "big. Be careful!"
-	cont "Don't get lost."
+	text "Vorsicht! Verlaufe"
+	line "dich nicht! Der"
+	cont "STEINEICHENWALD"
+	cont "ist groせ."
 	done
 
 IlexForestAzaleaGateGrannyText:
-	text "The FOREST is"
-	line "watched over by"
-	cont "its protector."
+	text "Der WALD wird von"
+	line "seinem"
+	cont "Schutzpatron"
+	cont "bewacht."
 
-	para "Stay out of"
-	line "mischief!"
+	para "Mach keine"
+	line "Dummheiten!"
 	done
 
 IlexForestAzaleaGate_MapEvents:

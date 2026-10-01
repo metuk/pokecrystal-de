@@ -1,30 +1,29 @@
 _FruitBearingTreeText::
-	text "It's a fruit-"
-	line "bearing tree."
+	text "Es ist ein"
+	line "Obstbaum."
 	done
 
 _HeyItsFruitText::
-	text "Hey! It's"
+	text "Hey! Das ist eine"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 _ObtainedFruitText::
-	text "Obtained"
-	line "@"
 	text_ram wStringBuffer3
-	text "!"
+	text_start
+	line "erhalten!"
 	done
 
 _FruitPackIsFullText::
-	text "But the PACK is"
-	line "full…"
+	text "Aber der BEUTEL"
+	line "ist voll…"
 	done
 
 _NothingHereText::
-	text "There's nothing"
-	line "here…"
+	text "Hier ist"
+	line "nichts…"
 	done
 
 _WhichApricornText::
@@ -552,8 +551,9 @@ _OPT_OakText1::
 
 _OPT_OakText2::
 	text_start
-	line "may be seen around"
-	done
+	line "EICH: @"
+	text_ram wMonOrItemNameBuffer
+	text_end
 
 _OPT_OakText3::
 	text_start

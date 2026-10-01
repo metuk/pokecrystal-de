@@ -25,12 +25,12 @@ OlivineHouseBetaBookshelf2:
 	jumpstd MagazineBookshelfScript
 
 OlivineHouseBetaTeacherText:
-	text "When my #MON"
-	line "got sick, the"
+	text "Als mein #MON"
+	line "krank war, hat der"
 
-	para "PHARMACIST in"
-	line "ECRUTEAK made some"
-	cont "medicine for me."
+	para "APOTHEKER in TEAK"
+	line "CITY eine Medizin"
+	cont "zubereitet."
 	done
 
 OlivineHouseBetaRhydonText:

@@ -35,11 +35,12 @@ Route10Pokecenter1FCooltrainerFScript:
 	jumptextfaceplayer Route10Pokecenter1FCooltrainerFText
 
 Route10Pokecenter1FGentlemanText:
-	text "A #MON CENTER"
-	line "near a cave?"
+	text "Ein #MON-CENTER"
+	line "neben einem"
+	cont "Tunnel?"
 
-	para "That's mighty"
-	line "convenient."
+	para "Das ist sehr"
+	line "praktisch."
 	done
 
 Route10Pokecenter1FGymGuideText:

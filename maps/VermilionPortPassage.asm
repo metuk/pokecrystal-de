@@ -10,10 +10,10 @@ VermilionPortPassageTeacherScript:
 	jumptextfaceplayer VermilionPortPassageTeacherText
 
 VermilionPortPassageTeacherText:
-	text "The FAST SHIP"
-	line "sails on Wednes-"
-	cont "days and Sundays"
-	cont "every week."
+	text "Das SCHNELLBOOT"
+	line "fährt immer"
+	cont "mittwochs und"
+	cont "sonntags."
 	done
 
 VermilionPortPassage_MapEvents:

@@ -34,8 +34,9 @@ Route17Route18GateCannotPassMovement:
 	step_end
 
 Route17Route18GateOfficerText:
-	text "CYCLING ROAD"
-	line "Uphill Starts Here"
+	text "RADWEG"
+	line "Ab hier gehtわ"
+	cont "bergauf."
 	done
 
 Route17Route18GateCannotPassText:

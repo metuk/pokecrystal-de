@@ -21,26 +21,29 @@ AzaleaMartBugCatcherScript:
 	jumptextfaceplayer AzaleaMartBugCatcherText
 
 AzaleaMartCooltrainerMText:
-	text "There's no GREAT"
-	line "BALL here. #"
+	text "Hier gibt es keine"
+	line "SUPERBÄLLE. Ich"
 
-	para "BALLS will have"
-	line "to do."
+	para "werde mit #-"
+	line "BÄLLEN auskommen"
+	cont "müssen."
 
-	para "I wish KURT would"
-	line "make me some of"
-	cont "his custom BALLS."
+	para "Ich wünschte, KURT"
+	line "würde mir einen"
+	cont "seiner BÄLLE"
+	cont "machen."
 	done
 
 AzaleaMartBugCatcherText:
-	text "A GREAT BALL is"
-	line "better for catch-"
-	cont "ing #MON than a"
-	cont "# BALL."
+	text "Ein SUPERBALL eig-"
+	line "net sich besser"
+	cont "zum Fangen von"
+	cont "#MON als ein"
+	cont "#BALL."
 
-	para "But KURT's might"
-	line "be better some-"
-	cont "times."
+	para "Aber manchmal sind"
+	line "KURTs BÄLLE"
+	cont "besser."
 	done
 
 AzaleaMart_MapEvents:
