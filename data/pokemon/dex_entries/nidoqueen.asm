@@ -1,10 +1,10 @@
 	db "BOHRER@" ; species name
-	dw 22541, 33538 ; height, weight
+	dbw 13, 600 ; height, weight
 
-	db   "ie harten Schup-"
+	db   "Die harten Schup-"
 	next "pen, die seinen"
 	next "Körper bedecken,"
+
 	page "dienen als her-"
 	next "vorragender Schutz"
 	next "gegen Angriffe.@"
-

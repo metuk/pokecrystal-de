@@ -1,10 +1,10 @@
 	db "MONDSCHEIN@" ; species name
-	dw 3594, 33025 ; height, weight
+	dbw 10, 270 ; height, weight
 
-	db   "ei Vollmond oder"
+	db   "Bei Vollmond oder"
 	next "bei Aufregung"
 	next "leuchten die ring-"
+
 	page "förmigen Muster"
 	next "auf seinem Körper"
 	next "gelb auf.@"
-

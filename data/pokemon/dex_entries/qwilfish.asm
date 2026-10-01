@@ -1,10 +1,10 @@
 	db "BALLON@" ; species name
-	dw 9989, 37376 ; height, weight
+	dbw 5, 39 ; height, weight
 
-	db   "ieht es sich ei-"
+	db   "Sieht es sich ei-"
 	next "nem gröせerem Feind"
 	next "gegenüber, trinkt"
+
 	page "es möglichst viel"
 	next "Wasser, um gröせer"
 	next "zu wirken.@"
-

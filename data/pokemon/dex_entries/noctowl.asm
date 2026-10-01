@@ -1,10 +1,10 @@
 	db "EULE@" ; species name
-	dw 38928, 32769 ; height, weight
+	dbw 16, 408 ; height, weight
 
-	db   "ufgrund seiner"
+	db   "Aufgrund seiner"
 	next "weichen Federn"
 	next "fliegt es so lei-"
+
 	page "se, dass es sich"
 	next "unbemerkt seiner"
 	next "Beute nähern kann.@"
-

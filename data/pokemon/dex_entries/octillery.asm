@@ -1,10 +1,10 @@
 	db "HOCHDRUCK@" ; species name
-	dw 7433, 33793 ; height, weight
+	dbw 9, 285 ; height, weight
 
-	db   "s schläft ins-"
+	db   "Es schläft ins-"
 	next "tinktiv in"
 	next "Löchern. Oft"
+
 	page "usurpiert es die"
 	next "Schlafplätze von"
 	next "anderen.@"
-

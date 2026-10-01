@@ -1,10 +1,10 @@
 	db "HADES@" ; species name
-	dw 27654, 34816 ; height, weight
+	dbw 6, 108 ; height, weight
 
-	db   "m Morgengrauen"
+	db   "Im Morgengrauen"
 	next "schallt sein omi-"
 	next "nöses Geheule über"
+
 	page "das Gebiet, das es"
 	next "für sich"
 	next "beansprucht.@"
-

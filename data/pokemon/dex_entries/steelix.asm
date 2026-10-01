@@ -1,10 +1,10 @@
 	db "STAHLBOA@" ; species name
-	dw 41052, 33551 ; height, weight
+	dbw 92, 4000 ; height, weight
 
-	db   "ie vielen Metall-"
+	db   "Die vielen Metall-"
 	next "teilchen, die den"
 	next "Körper dieses"
+
 	page "#MON bedecken,"
 	next "reflektieren das"
 	next "Licht sehr gut.@"
-

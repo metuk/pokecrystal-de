@@ -1,10 +1,10 @@
 	db "BEUTELWURM@" ; species name
-	dw 18438, 33792 ; height, weight
+	dbw 6, 72 ; height, weight
 
-	db   "s setzt eine"
+	db   "Es setzt eine"
 	next "klebrige, luft-"
 	next "trocknende Flüs-"
+
 	page "sigkeit ein, um"
 	next "seinem Körper Rin-"
 	next "de hinzuzufügen.@"
-

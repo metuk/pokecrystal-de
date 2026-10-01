@@ -1,10 +1,10 @@
 	db "FLEDERMAUS@" ; species name
-	dw 19208, 32768 ; height, weight
+	dbw 8, 75 ; height, weight
 
-	db   "m Tag versammelt"
+	db   "Am Tag versammelt"
 	next "es sich mit"
 	next "seinesgleichen und"
+
 	page "hängt sich an De-"
 	next "cken von Häusern"
 	next "oder Höhlen.@"
-

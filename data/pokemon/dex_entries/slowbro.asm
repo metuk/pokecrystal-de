@@ -1,10 +1,10 @@
 	db "SYMBIOSE@" ; species name
-	dw 4368, 33539 ; height, weight
+	dbw 16, 785 ; height, weight
 
-	db   "as MUSCHAS an"
+	db   "Das MUSCHAS an"
 	next "seiner Rute lässt"
 	next "nicht locker, da"
+
 	page "ein leckerer Ge-"
 	next "schmack aus seiner"
 	next "Rute strömt.@"
-

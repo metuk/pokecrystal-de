@@ -2213,7 +2213,7 @@ PCString_TheresNoRoom: db "Die BOX ist voll!@"
 PCString_NoMoreUsablePKMN: db "Nicht einsetzbar.@"
 PCString_RemoveMail: db "Entferne BRIEF.@"
 PCString_ReleasedPKMN: db "<PK><MN> freigelassen.@"
-PCString_Bye: db "Bye,@"
+PCString_Bye: db "Ade, @"
 PCString_Stored: db "Stored @"
 PCString_Got: db "Got @"
 PCString_Non: db "Non.@" ; unreferenced

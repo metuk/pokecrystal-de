@@ -1,10 +1,10 @@
 	db "SCHIMMEL@" ; species name
-	dw 52486, 37376 ; height, weight
+	dbw 6, 205 ; height, weight
 
-	db   "ein Zehensekret"
+	db   "Sein Zehensekret"
 	next "ätzt Löcher für"
 	next "Nester in Felsen."
+
 	page "Mischt man es mit"
 	next "BEEREN, entsteht"
 	next "leckerer Saft.@"
-

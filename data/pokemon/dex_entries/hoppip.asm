@@ -1,10 +1,10 @@
 	db "LÖWENZAHN@" ; species name
-	dw 1284, 33792 ; height, weight
+	dbw 4, 5 ; height, weight
 
-	db   "ine kleine Brise"
+	db   "Eine kleine Brise"
 	next "reicht aus, um es"
 	next "wegzuwehen. Es"
+
 	page "kann sogar bis in"
 	next "den nächsten Ort"
 	next "getragen werden.@"
-

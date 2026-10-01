@@ -1,10 +1,10 @@
 	db "FINSTERNIS@" ; species name
-	dw 5381, 33792 ; height, weight
+	dbw 5, 21 ; height, weight
 
-	db   "s versteckt jeden"
+	db   "Es versteckt jeden"
 	next "schimmernden"
 	next "Gegenstand."
+
 	page "KRAMURX und MAUZI"
 	next "rauben sich gegen-"
 	next "seitig die Beute.@"
-

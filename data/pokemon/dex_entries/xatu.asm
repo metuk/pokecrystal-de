@@ -1,10 +1,10 @@
 	db "MYSTIK@" ; species name
-	dw 38415, 38400 ; height, weight
+	dbw 15, 150 ; height, weight
 
-	db   "enn es bei Son-"
+	db   "Wenn es bei Son-"
 	next "nenaufgang anfängt"
 	next "zu meditieren,"
+
 	page "vergeht der ganze"
 	next "Tag, ehe es sich"
 	next "wieder bewegt.@"
-

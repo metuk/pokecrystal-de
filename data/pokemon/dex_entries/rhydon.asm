@@ -1,10 +1,10 @@
 	db "BOHRER@" ; species name
-	dw 45075, 38404 ; height, weight
+	dbw 19, 1200 ; height, weight
 
-	db   "enn es sein boh-"
+	db   "Wenn es sein boh-"
 	next "rerähnliches Horn"
 	next "dreht, kann es"
+
 	page "sogar einen Roh-"
 	next "diamanten leicht"
 	next "zerschmettern.@"
-

@@ -1,10 +1,10 @@
 	db "TRANSPORT@" ; species name
-	dw 38937, 33544 ; height, weight
+	dbw 25, 2200 ; height, weight
 
-	db   "ieses gutmütige"
+	db   "Dieses gutmütige"
 	next "#MON nimmt"
 	next "gerne Menschen mit"
+
 	page "und ist somit ein"
 	next "komfortables Fort-"
 	next "bewegungsmittel.@"
-

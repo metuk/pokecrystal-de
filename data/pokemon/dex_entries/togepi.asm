@@ -1,10 +1,10 @@
 	db "ZACKENBALL@" ; species name
-	dw 3843, 33792 ; height, weight
+	dbw 3, 15 ; height, weight
 
-	db   "s gilt als"
+	db   "Es gilt als"
 	next "Glücksbringer."
 	next "Man sagt, seine"
+
 	page "Schale ist voll"
 	next "von purer Freude."
 	next "@"
-

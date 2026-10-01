@@ -1,10 +1,10 @@
 	db "ANGLER@" ; species name
-	dw 30725, 37376 ; height, weight
+	dbw 5, 120 ; height, weight
 
-	db   "eine Antennen,"
+	db   "Seine Antennen,"
 	next "die aus Flossen"
 	next "entstanden sind,"
+
 	page "sind sowohl posi-"
 	next "tiv als auch"
 	next "negativ geladen.@"
-

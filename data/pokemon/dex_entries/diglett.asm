@@ -1,10 +1,10 @@
 	db "MAULWURF@" ; species name
-	dw 2050, 33792 ; height, weight
+	dbw 2, 8 ; height, weight
 
-	db   "s gräbt in der"
+	db   "Es gräbt in der"
 	next "Erde und nagt an"
 	next "Baumwurzeln. Es"
+
 	page "kommt nur heraus,"
 	next "wenn die Sonne"
 	next "nicht scheint.@"
-

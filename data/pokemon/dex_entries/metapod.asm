@@ -1,10 +1,10 @@
 	db "KOKON@" ; species name
-	dw 25351, 34816 ; height, weight
+	dbw 7, 99 ; height, weight
 
-	db   "n diesem Ent-"
+	db   "In diesem Ent-"
 	next "wicklungsstadium"
 	next "kann es nur seinen"
+
 	page "Panzer erhärten."
 	next "Daher bewegt es"
 	next "sich nicht.@"
-

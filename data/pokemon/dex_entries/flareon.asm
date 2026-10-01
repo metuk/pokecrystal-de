@@ -1,10 +1,10 @@
 	db "FEUER@" ; species name
-	dw 64009, 34560 ; height, weight
+	dbw 9, 250 ; height, weight
 
-	db   "at dieses #MON"
+	db   "Hat dieses #MON"
 	next "genügend Wärme im"
 	next "Körper gesammelt,"
+
 	page "kann seine Körper-"
 	next "temperatur 900"
 	next "Grad C erreichen.@"
-

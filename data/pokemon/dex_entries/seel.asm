@@ -1,10 +1,10 @@
 	db "SEEHUND@" ; species name
-	dw 33803, 37379 ; height, weight
+	dbw 11, 900 ; height, weight
 
-	db   "ein hellblaues"
+	db   "Sein hellblaues"
 	next "Fell schützt es"
 	next "vor Kälte. Es"
+
 	page "liebt das"
 	next "Schwimmen in"
 	next "Eismeeren.@"
-

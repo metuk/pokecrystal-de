@@ -1,10 +1,10 @@
 	db "DRACHE@" ; species name
-	dw 42280, 35840 ; height, weight
+	dbw 40, 165 ; height, weight
 
-	db   "an nennt es das"
+	db   "Man nennt es das"
 	next "göttliche #MON."
 	next "Wenn sein gesamter"
+
 	page "Körper ein wenig"
 	next "leuchtet, ändert"
 	next "sich das Wetter.@"
-

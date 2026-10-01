@@ -1,10 +1,10 @@
 	db "LAUB@" ; species name
-	dw 40460, 33536 ; height, weight
+	dbw 12, 158 ; height, weight
 
-	db   "er Duft, aus den"
+	db   "Der Duft, aus den"
 	next "Knospen um seinen"
 	next "Hals, setzt bei"
+
 	page "jedem, der ihn"
 	next "riecht, neue"
 	next "Energien frei.@"
-

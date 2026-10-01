@@ -1,10 +1,10 @@
 	db "ELEKTRO@" ; species name
-	dw 60166, 33792 ; height, weight
+	dbw 6, 235 ; height, weight
 
-	db   "s mag gewaltigen"
+	db   "Es mag gewaltigen"
 	next "Donner. Die Luft"
 	next "zwischen seinen"
+
 	page "Hörnern leuchtet"
 	next "blau, wenn es sich"
 	next "auflädt.@"
-

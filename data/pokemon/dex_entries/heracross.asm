@@ -1,10 +1,10 @@
 	db "EINZELHORN@" ; species name
-	dw 7183, 35842 ; height, weight
+	dbw 15, 540 ; height, weight
 
-	db   "it seiner herku-"
+	db   "Mit seiner herku-"
 	next "lischen Kraft kann"
 	next "es Objekte, die"
+
 	page "100-mal sein Kör-"
 	next "pergewicht haben,"
 	next "mühelos umwerfen.@"
-

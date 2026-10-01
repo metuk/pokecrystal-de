@@ -1,10 +1,10 @@
 	db "FLEDERMAUS@" ; species name
-	dw 9744, 38402 ; height, weight
+	dbw 16, 550 ; height, weight
 
-	db   "enn seine spitzen"
+	db   "Wenn seine spitzen"
 	next "Zähne die Beute"
 	next "durchbohren, saugt"
+
 	page "es ihr sofort mehr"
 	next "als 300 ml Blut"
 	next "aus.@"
-

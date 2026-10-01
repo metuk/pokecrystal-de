@@ -1,10 +1,10 @@
 	db "FLEDERMAUS@" ; species name
-	dw 60946, 32770 ; height, weight
+	dbw 18, 750 ; height, weight
 
-	db   "ufgrund seines"
+	db   "Aufgrund seines"
 	next "Strebens noch"
 	next "schneller und lei-"
+
 	page "ser zu fliegen,"
 	next "wuchsen ihm zwei"
 	next "neue Flügel.@"
-

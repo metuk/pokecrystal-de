@@ -1,10 +1,10 @@
 	db "MAGNET@" ; species name
-	dw 22538, 38146 ; height, weight
+	dbw 10, 600 ; height, weight
 
-	db   "ersammeln sich"
+	db   "Versammeln sich"
 	next "viele MAGNETON,"
 	next "entsteht ein"
+
 	page "starkes Magnet-"
 	next "feld, das Radio-"
 	next "wellen zerstört.@"
-

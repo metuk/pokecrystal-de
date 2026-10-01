@@ -1,10 +1,10 @@
 	db "LAVA@" ; species name
-	dw 24071, 37377 ; height, weight
+	dbw 7, 350 ; height, weight
 
-	db   "ie versammeln"
+	db   "Sie versammeln"
 	next "sich in heiせen"
 	next "Gebieten. Kühlt es"
+
 	page "sich ab, so wird"
 	next "auch seine Haut"
 	next "sofort hart.@"
-

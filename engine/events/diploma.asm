@@ -18,11 +18,10 @@ PlaceDiplomaOnScreen:
 	ld de, .Player
 	hlcoord 2, 5
 	call PlaceString
-	ld de, .EmptyString
-	hlcoord 15, 5
-	call PlaceString
 	ld de, wPlayerName
-	hlcoord 9, 5
+	ld h, b
+	ld l, c
+	inc hl
 	call PlaceString
 	ld de, .Certification
 	hlcoord 2, 8
@@ -36,18 +35,16 @@ PlaceDiplomaOnScreen:
 	ret
 
 .Player:
-	db "PLAYER@"
+	db "TRAINER@"
 
-.EmptyString:
+.EmptyString: ; unreferenced
 	db "@"
 
 .Certification:
-	db   "This certifies"
-	next "that you have"
-	next "completed the"
-	next "new #DEX."
-	next "Congratulations!"
-	db   "@"
+	db   "Bestätigung über"
+	next "einen kompletten"
+	next "neuen #DEX."
+	next "Gratulation!@"
 
 PrintDiplomaPage2:
 	hlcoord 0, 0

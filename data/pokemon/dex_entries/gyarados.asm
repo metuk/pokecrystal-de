@@ -1,10 +1,10 @@
 	db "GRAUSAM@" ; species name
-	dw 11841, 33801 ; height, weight
+	dbw 65, 2350 ; height, weight
 
-	db   "s taucht auf,"
+	db   "Es taucht auf,"
 	next "wenn es eine welt-"
 	next "weite Krise gibt"
+
 	page "und brennt jeden"
 	next "Ort nieder, den"
 	next "es passiert.@"
-

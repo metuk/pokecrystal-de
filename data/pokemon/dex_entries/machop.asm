@@ -1,10 +1,10 @@
 	db "KRAFTPROTZ@" ; species name
-	dw 49928, 33792 ; height, weight
+	dbw 8, 195 ; height, weight
 
-	db   "s trainiert,"
+	db   "Es trainiert,"
 	next "indem es in den"
 	next "Bergen Felsen"
+
 	page "stemmt. Selbst ein"
 	next "GEOROK ist für ihn"
 	next "ein Leichtgewicht.@"
-

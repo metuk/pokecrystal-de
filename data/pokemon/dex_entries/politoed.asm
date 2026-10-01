@@ -1,10 +1,10 @@
 	db "FROSCH@" ; species name
-	dw 21259, 33025 ; height, weight
+	dbw 11, 339 ; height, weight
 
-	db   "läht es seinen"
+	db   "Bläht es seinen"
 	next "Hals auf, um zu"
 	next "quaken, versammeln"
+
 	page "sich QUAPSEL und"
 	next "QUAPUTZI von Nah"
 	next "und Fern.@"
-

@@ -1,10 +1,10 @@
 	db "VIELENDER@" ; species name
-	dw 51214, 33538 ; height, weight
+	dbw 14, 712 ; height, weight
 
-	db   "ie Kugeln, die"
+	db   "Die Kugeln, die"
 	next "an abgefallenem"
 	next "Geweih gefunden"
+
 	page "werden, können zu"
 	next "Schlafpuder"
 	next "gemahlen werden.@"
-

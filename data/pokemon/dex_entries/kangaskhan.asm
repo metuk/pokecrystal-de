@@ -1,10 +1,10 @@
 	db "MUTTERTIER@" ; species name
-	dw 8214, 33539 ; height, weight
+	dbw 22, 800 ; height, weight
 
-	db   "a es sein Baby,"
+	db   "Da es sein Baby,"
 	next "das in seinem"
 	next "Beutel sitzt,"
+
 	page "nicht verletzen"
 	next "will, schläft"
 	next "es im Stehen.@"
-

@@ -1,10 +1,10 @@
 	db "EI@" ; species name
-	dw 23051, 33537 ; height, weight
+	dbw 11, 346 ; height, weight
 
-	db   "ie Menschen ver-"
+	db   "Die Menschen ver-"
 	next "suchen es wegen"
 	next "seiner nahrhaften"
+
 	page "Eier zu fangen."
 	next "Aber es ist"
 	next "selten zu finden.@"
-

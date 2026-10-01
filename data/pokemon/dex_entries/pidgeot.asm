@@ -1,10 +1,10 @@
 	db "VOGEL@" ; species name
-	dw 35599, 32769 ; height, weight
+	dbw 15, 395 ; height, weight
 
-	db   "ufgrund seiner"
+	db   "Aufgrund seiner"
 	next "überragenden Seh-"
 	next "fähigkeit kann es"
+
 	page "KARPADOR selbst"
 	next "aus einer Höhe von"
 	next "1000 m erkennen.@"
-

@@ -1,10 +1,10 @@
 	db "MILCHKUH@" ; species name
-	dw 62220, 37890 ; height, weight
+	dbw 12, 755 ; height, weight
 
-	db   "m MILTANK zu"
+	db   "Um MILTANK zu"
 	next "melken, muss man"
 	next "ein Gespür dafür"
+
 	page "haben, wie man das"
 	next "Euter rhythmisch"
 	next "auf und ab bewegt.@"
-

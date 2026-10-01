@@ -151,7 +151,7 @@ SilphCoName:         db "SILPH CO.@" ; unreferenced
 SafariZoneName:      db "SAFARI-ZONE@" ; unreferenced
 SeafoamIslandsName:  db "SEESCHAUM<TTE>INSELN@"
 PokemonMansionName:  db "PKMN-HAUS@" ; unreferenced
-CeruleanCaveName:    db "CERULEAN<BSP>CAVE@" ; unreferenced
+CeruleanCaveName:    db "AZURIA-HÖHLE@" ; unreferenced
 Route1Name:          db "ROUTE 1@"
 Route2Name:          db "ROUTE 2@"
 Route3Name:          db "ROUTE 3@"

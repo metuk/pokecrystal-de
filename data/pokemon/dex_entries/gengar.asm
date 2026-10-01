@@ -1,10 +1,10 @@
 	db "SCHATTEN@" ; species name
-	dw 38159, 33793 ; height, weight
+	dbw 15, 405 ; height, weight
 
-	db   "s versteckt sich"
+	db   "Es versteckt sich"
 	next "im Schatten der"
 	next "Menschen und"
+
 	page "absorbiert deren"
 	next "Wärme, so dass die"
 	next "Menschen frieren.@"
-

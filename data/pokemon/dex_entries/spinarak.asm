@@ -1,10 +1,10 @@
 	db "FADENWURF@" ; species name
-	dw 21765, 34048 ; height, weight
+	dbw 5, 85 ; height, weight
 
-	db   "alls sich Beute"
+	db   "Falls sich Beute"
 	next "in seinem Netz"
 	next "verfängt, verharrt"
+
 	page "es bewegungslos"
 	next "bis zum Einbruch"
 	next "der Nacht.@"
-

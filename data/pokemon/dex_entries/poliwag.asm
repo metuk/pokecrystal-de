@@ -1,10 +1,10 @@
 	db "KAULQUAPPE@" ; species name
-	dw 31750, 33536 ; height, weight
+	dbw 6, 124 ; height, weight
 
-	db   "er Kreisel auf"
+	db   "Der Kreisel auf"
 	next "seinem Bauch sind"
 	next "seine Innereien,"
+
 	page "die durchscheinen."
 	next "Hat es gefressen,"
 	next "sind sie klarer.@"
-

@@ -1,10 +1,10 @@
 	db "KNEIFER@" ; species name
-	dw 22541, 37378 ; height, weight
+	dbw 13, 600 ; height, weight
 
-	db   "eine Riesenschere"
+	db   "Seine Riesenschere"
 	next "ist sehr stark,"
 	next "wenn es aber nicht"
+
 	page "kämpft, kommt sie"
 	next "ihm häufig in die"
 	next "Quere.@"
-

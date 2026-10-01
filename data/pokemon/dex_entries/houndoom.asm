@@ -1,10 +1,10 @@
 	db "HADES@" ; species name
-	dw 24078, 33537 ; height, weight
+	dbw 14, 350 ; height, weight
 
-	db   "er stechende"
+	db   "Der stechende"
 	next "Gestank seiner"
 	next "Flamme, die seinem"
+
 	page "Maul entspringt,"
 	next "kommt von dem Gift"
 	next "in seinem Körper.@"
-

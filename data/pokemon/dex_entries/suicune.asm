@@ -1,10 +1,10 @@
 	db "POLARLICHT@" ; species name
-	dw 19988, 33543 ; height, weight
+	dbw 20, 1870 ; height, weight
 
-	db   "ieses göttliche"
+	db   "Dieses göttliche"
 	next "#MON rennt"
 	next "über das Land. Es"
+
 	page "ist ständig auf"
 	next "Suche nach purem"
 	next "Wasser.@"
-

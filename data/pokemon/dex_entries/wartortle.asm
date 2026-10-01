@@ -1,10 +1,10 @@
 	db "KRÖTE@" ; species name
-	dw 57610, 37376 ; height, weight
+	dbw 10, 225 ; height, weight
 
-	db   "ein langer und"
+	db   "Sein langer und"
 	next "buschiger Schwanz"
 	next "zeugt von Lang-"
+
 	page "lebigkeit. Darum"
 	next "ist es bei alten"
 	next "Menschen beliebt.@"
-

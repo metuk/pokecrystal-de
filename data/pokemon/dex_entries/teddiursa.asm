@@ -1,10 +1,10 @@
 	db "KLEINBÄR@" ; species name
-	dw 22534, 33792 ; height, weight
+	dbw 6, 88 ; height, weight
 
-	db   "s frisst ständig"
+	db   "Es frisst ständig"
 	next "Honig. Seine"
 	next "Pfoten schmecken"
+
 	page "immer süせ, da es"
 	next "ständig nach Honig"
 	next "sucht.@"
-

@@ -1,10 +1,10 @@
 	db "HUND@" ; species name
-	dw 48647, 37376 ; height, weight
+	dbw 7, 190 ; height, weight
 
-	db   "töせt es in seinem"
+	db   "Stöせt es in seinem"
 	next "weiten Gebiet auf"
 	next "einen fremden Ge-"
+
 	page "ruch, versucht es"
 	next "den Eindringling"
 	next "zu vertreiben.@"
-

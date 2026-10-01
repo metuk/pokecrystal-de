@@ -1,10 +1,10 @@
 	db "KAULQUAPPE@" ; species name
-	dw 7181, 35842 ; height, weight
+	dbw 13, 540 ; height, weight
 
-	db   "ittels seiner"
+	db   "Mittels seiner"
 	next "starken Arme und"
 	next "Beine kann es für"
+
 	page "den Bruchteil"
 	next "einer Sekunde über"
 	next "Wasser laufen.@"
-

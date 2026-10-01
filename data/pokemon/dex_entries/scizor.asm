@@ -1,10 +1,10 @@
 	db "SCHERE@" ; species name
-	dw 39954, 33540 ; height, weight
+	dbw 18, 1180 ; height, weight
 
-	db   "ieses #MON"
+	db   "Dieses #MON"
 	next "kann mit seinen"
 	next "stählernen Scheren"
+
 	page "jeden harten"
 	next "Gegenstand mühelos"
 	next "zermalmen.@"
-

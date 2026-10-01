@@ -1,10 +1,10 @@
 	db "STERNFORM@" ; species name
-	dw 7683, 38400 ; height, weight
+	dbw 3, 30 ; height, weight
 
-	db   "enn man den Ein-"
+	db   "Wenn man den Ein-"
 	next "schlagkrater eines"
 	next "Meteors findet,"
+
 	page "ist dieses #MON"
 	next "bestimmt in der"
 	next "Nähe.@"
-

@@ -1,10 +1,10 @@
 	db "KRÄUTER@" ; species name
-	dw 60690, 35075 ; height, weight
+	dbw 18, 1005 ; height, weight
 
-	db   "eder, der neben"
+	db   "Jeder, der neben"
 	next "ihm steht, fühlt"
 	next "sich erfrischt,"
+
 	page "als ob er sich in"
 	next "sonnigen Wäldern"
 	next "entspannt hätte.@"
-

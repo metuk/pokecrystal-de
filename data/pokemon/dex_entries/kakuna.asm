@@ -1,10 +1,10 @@
 	db "KOKON@" ; species name
-	dw 25606, 33792 ; height, weight
+	dbw 6, 100 ; height, weight
 
-	db   "s kann sich kaum"
+	db   "Es kann sich kaum"
 	next "bewegen. Daher"
 	next "lehnt es sich"
+
 	page "gegen dicke Stämme"
 	next "und erwartet"
 	next "seine Entwicklung.@"
-

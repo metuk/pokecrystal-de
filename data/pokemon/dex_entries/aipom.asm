@@ -1,10 +1,10 @@
 	db "LANGSCHWEIF@" ; species name
-	dw 29448, 33792 ; height, weight
+	dbw 8, 115 ; height, weight
 
-	db   "s setzt seinen"
+	db   "Es setzt seinen"
 	next "Schwanz ein, um"
 	next "sich an Äste zu"
+
 	page "hängen. Dann"
 	next "schwingt es sich"
 	next "von Ast zu Ast.@"
-

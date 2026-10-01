@@ -1,10 +1,10 @@
 	db "BALLON@" ; species name
-	dw 30730, 37376 ; height, weight
+	dbw 10, 120 ; height, weight
 
-	db   "ein dichtes,"
+	db   "Sein dichtes,"
 	next "flauschiges Fell "
 	next "fühlt sich so toll"
+
 	page "an, dass man nicht"
 	next "aufhören kann, es"
 	next "anzufassen.@"
-

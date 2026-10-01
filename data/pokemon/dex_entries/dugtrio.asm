@@ -1,10 +1,10 @@
 	db "MAULWURF@" ; species name
-	dw 19719, 33537 ; height, weight
+	dbw 7, 333 ; height, weight
 
-	db   "iese DIGDA-Dril-"
+	db   "Diese DIGDA-Dril-"
 	next "linge graben"
 	next "100 km unter"
+
 	page "Normalnull. Keiner"
 	next "weiせ, wie es dort"
 	next "aussieht.@"
-
