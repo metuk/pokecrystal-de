@@ -30,7 +30,7 @@ gfx/pokedex/pokedex_sgb.2bpp.lz: LZFLAGS += --prefer-alternate
 gfx/pokedex/question_mark.2bpp.lz: LZFLAGS += --align 4
 gfx/pokedex/slowpoke.2bpp.lz: LZFLAGS += --literal-only --align 1
 
-gfx/pokegear/pokegear.2bpp.lz: LZFLAGS += --literal-only --align 1
+gfx/pokegear/pokegear.2bpp.lz: LZFLAGS += --skip-initial-byte --prefer-alternate --align 0
 gfx/pokegear/pokegear_sprites.2bpp.lz: LZFLAGS += --align 4
 gfx/pokegear/town_map.2bpp.lz: LZFLAGS += --literal-only --align 1
 
