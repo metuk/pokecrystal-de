@@ -301,7 +301,7 @@ def main():
 		if path in includes:
 			e = de.get(includes[path])
 			if e and includes[path] in built_syms:
-				starts.append((0, rom_offset(e['bank'], e['addr']), includes[path]))
+				starts.append((0, rom_offset(e['bank'], e['addr']), includes[path], None))
 		scope = None
 		other_charmap = False
 		for i, l in enumerate(lines):
@@ -318,14 +318,32 @@ def main():
 				name = f'{scope}{name}'
 			else:
 				scope = name
-			if m[3] and not m[3].startswith(';'):
-				continue
 			e = de.get(name)
-			if e and name in built_syms:
-				starts.append((i + 1, rom_offset(e['bank'], e['addr']), name))
-		for start, pos, name in starts:
+			if not e or name not in built_syms:
+				continue
+			if m[3] and not m[3].startswith(';'):
+				# inline label: `.Label: db "..."`
+				starts.append((i, rom_offset(e['bank'], e['addr']), name, l[:len(l) - len(m[3])]))
+			else:
+				starts.append((i + 1, rom_offset(e['bank'], e['addr']), name, None))
+		for start, pos, name, prefix in starts:
+			walk_lines = lines
+			if prefix:
+				walk_lines = lines[:start] + ['\t' + lines[start][len(prefix):]] + lines[start + 1:]
 			try:
-				out, why = walker.walk(lines, start, pos, rom_offset(*built_syms[name]))
+				out, why = walker.walk(walk_lines, start, pos, rom_offset(*built_syms[name]))
+				if prefix and start in out:
+					v = out[start]
+					if isinstance(v, list):
+						if len(v) != 1:
+							continue
+						v = v[0]
+					if v is None:
+						continue
+					out[start] = prefix + v.lstrip('\t')
+				# only keep the inline label's own line
+				if prefix:
+					out = {k: v for k, v in out.items() if k == start}
 			except (ValueError, IndexError) as ex:
 				stats['error'] += 1
 				if args.verbose:

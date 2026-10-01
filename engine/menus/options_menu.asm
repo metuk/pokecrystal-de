@@ -149,9 +149,9 @@ Options_TextSpeed:
 	dw .Mid
 	dw .Slow
 
-.Fast: db "FAST@"
-.Mid:  db "MID @"
-.Slow: db "SLOW@"
+.Fast: db "3@"
+.Mid:  db "2@"
+.Slow: db "1@"
 
 GetTextSpeed:
 ; converts TEXT_DELAY_* value in a to OPT_TEXT_SPEED_* value in c,
@@ -213,8 +213,8 @@ Options_BattleScene:
 	and a
 	ret
 
-.On:  db "ON @"
-.Off: db "OFF@"
+.On:  db "AN @"
+.Off: db "AUS@"
 
 Options_BattleStyle:
 	ld hl, wOptions
@@ -251,8 +251,8 @@ Options_BattleStyle:
 	and a
 	ret
 
-.Shift: db "SHIFT@"
-.Set:   db "SET  @"
+.Shift: db "WECHSEL@"
+.Set:   db "FOLGEND@"
 
 Options_Sound:
 	ld hl, wOptions
@@ -358,11 +358,11 @@ Options_Print:
 	dw .Darker
 	dw .Darkest
 
-.Lightest: db "LIGHTEST@"
-.Lighter:  db "LIGHTER @"
-.Normal:   db "NORMAL  @"
-.Darker:   db "DARKER  @"
-.Darkest:  db "DARKEST @"
+.Lightest: db "SEHR HELL  @"
+.Lighter:  db "HELL       @"
+.Normal:   db "NORMAL     @"
+.Darker:   db "DUNKEL     @"
+.Darkest:  db "SEHR DUNKEL@"
 
 GetPrinterSetting:
 ; converts GBPRINTER_* value in a to OPT_PRINT_* value in c,
@@ -436,8 +436,8 @@ Options_MenuAccount:
 	and a
 	ret
 
-.Off: db "OFF@"
-.On:  db "ON @"
+.Off: db "AUS@"
+.On:  db "AN @"
 
 Options_Frame:
 	ld hl, wTextboxFrame

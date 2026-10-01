@@ -299,9 +299,9 @@ InitializeNPCNames:
 	ret
 
 .Rival:  db "???@"
-.Red:    db "RED@"
-.Green:  db "GREEN@"
-.Mom:    db "MOM@"
+.Red:    db "ROT@"
+.Green:  db "GRÜN@"
+.Mom:    db "MAMA@"
 
 InitializeWorld:
 	call ShrinkPlayer

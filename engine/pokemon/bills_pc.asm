@@ -2204,22 +2204,22 @@ BillsPC_InitGFX:
 PCSelectLZ: INCBIN "gfx/pc/pc.2bpp.lz"
 PCMailGFX:  INCBIN "gfx/pc/pc_mail.2bpp"
 
-PCString_ChooseaPKMN: db "Choose a <PK><MN>.@"
-PCString_WhatsUp: db "What's up?@"
-PCString_ReleasePKMN: db "Release <PK><MN>?@"
-PCString_MoveToWhere: db "Move to where?@"
-PCString_ItsYourLastPKMN: db "It's your last <PK><MN>!@"
-PCString_TheresNoRoom: db "There's no room!@"
-PCString_NoMoreUsablePKMN: db "No more usable <PK><MN>!@"
-PCString_RemoveMail: db "Remove MAIL.@"
-PCString_ReleasedPKMN: db "Released <PK><MN>.@"
+PCString_ChooseaPKMN: db "#MON wählen.@"
+PCString_WhatsUp: db "Wähle!@"
+PCString_ReleasePKMN: db "<PK><MN> freilassen?@"
+PCString_MoveToWhere: db "Wohin verschieben?@"
+PCString_ItsYourLastPKMN: db "Letztes #MON!@"
+PCString_TheresNoRoom: db "Die BOX ist voll!@"
+PCString_NoMoreUsablePKMN: db "Nicht einsetzbar.@"
+PCString_RemoveMail: db "Entferne BRIEF.@"
+PCString_ReleasedPKMN: db "<PK><MN> freigelassen.@"
 PCString_Bye: db "Bye,@"
 PCString_Stored: db "Stored @"
 PCString_Got: db "Got @"
 PCString_Non: db "Non.@" ; unreferenced
 PCString_BoxFull: db "The BOX is full.@"
 PCString_PartyFull: db "The party's full!@"
-PCString_NoReleasingEGGS: db "No releasing EGGS!@"
+PCString_NoReleasingEGGS: db "EI ablegen verbt.!@"
 
 _ChangeBox:
 	call LoadStandardMenuHeader

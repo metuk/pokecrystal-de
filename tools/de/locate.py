@@ -350,13 +350,20 @@ def main():
 
 	# Unmatched chunks, for tools/de/todo.py
 	unmatched = []
-	for c in all_chunks:
-		if c.de_off is None or c.src == 'gap':
+	for cs in sects:
+		for i, c in enumerate(cs):
+			if c.de_off is not None and c.src != 'gap':
+				continue
 			line = next((sym.line for sym in c.sect.symbols if sym.value == c.start), None)
+			prev = next((p for p in reversed(cs[:i]) if p.de_off is not None and p.src != 'gap'), None)
+			nxt = next((n for n in cs[i + 1:] if n.de_off is not None and n.src != 'gap'), None)
 			unmatched.append({
 				'file': c.file, 'line': line, 'names': c.names, 'section': c.sect.name,
 				'size': c.size, 'built': c.built_off,
 				'de_guess': c.de_off,
+				'de_prev_end': prev.de_off + prev.size if prev else None,
+				'de_next': nxt.de_off if nxt else None,
+				'next_names': nxt.names if nxt else None,
 			})
 	json.dump(unmatched, open('de_unmatched.json', 'w'), indent=0)
 

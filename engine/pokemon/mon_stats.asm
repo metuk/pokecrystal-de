@@ -424,10 +424,10 @@ PlaceNonFaintStatus:
 	pop de
 	ret
 
-SlpString: db "SLP@"
-PsnString: db "PSN@"
-BrnString: db "BRN@"
-FrzString: db "FRZ@"
+SlpString: db "SLF@"
+PsnString: db "GIF@"
+BrnString: db "BRT@"
+FrzString: db "GFR@"
 ParString: db "PAR@"
 
 ListMoves:
