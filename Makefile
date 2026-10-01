@@ -125,7 +125,7 @@ pokecrystal-de.gbc: RGBFIXFLAGS += -i BYTD -n 0
 %.gbc: $$(%_obj) layout.link
 	$(RGBLINK) $(RGBLINKFLAGS) -l layout.link -n $*.sym -m $*.map -o $@ $(filter %.o,$^)
 	$(RGBFIX) $(RGBFIXFLAGS) $@
-	tools/stadium $@
+	tools/stadium --european $@
 
 
 ### LZ compression rules
