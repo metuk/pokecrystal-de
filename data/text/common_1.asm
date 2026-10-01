@@ -597,142 +597,142 @@ _OPT_UndeniablyKindOfText::
 
 _OPT_UnbearablyText::
 	text_start
-	line "Wie freundlich."
+	line "Nicht zu ertragen…"
 	done
 
 _OPT_WowImpressivelyText::
 	text_start
-	line "Nicht zu ertragen…"
+	line "Wow, faszinierend."
 	done
 
 _OPT_AlmostPoisonouslyText::
 	text_start
-	line "Wow, faszinierend."
+	line "Fast giftig."
 	done
 
 _OPT_SensuallyText::
 	text_start
-	line "Fast giftig."
+	line "Wie einfühlsam."
 	done
 
 _OPT_MischievouslyText::
 	text_start
-	line "Wie einfühlsam."
+	line "So schelmisch."
 	done
 
 _OPT_TopicallyText::
 	text_start
-	line "So schelmisch."
+	line "Sehr aktuell."
 	done
 
 _OPT_AddictivelyText::
 	text_start
-	line "Sehr aktuell."
+	line "Suchterregend."
 	done
 
 _OPT_LooksInWaterText::
 	text_start
-	line "Suchterregend."
+	line "Schaut ins Wasser."
 	done
 
 _OPT_EvolutionMustBeText::
 	text_start
-	line "Schaut ins Wasser."
+	line "Entwicklung, ja."
 	done
 
 _OPT_ProvocativelyText::
 	text_start
-	line "Entwicklung, ja."
+	line "Wie provozierend."
 	done
 
 _OPT_FlippedOutText::
 	text_start
-	line "Wie provozierend."
+	line "Wie ausgeflippt."
 	done
 
 _OPT_HeartMeltinglyText::
 	text_start
-	line "Wie ausgeflippt."
+	line "Wie wunderbar."
 	done
 
 _OPT_CuteText::
 	text_start
-	line "Wie wunderbar."
+	line "Wie niedlich."
 	done
 
 _OPT_WeirdText::
 	text_start
-	line "Wie niedlich."
+	line "Wie verrückt."
 	done
 
 _OPT_PleasantText::
 	text_start
-	line "Wie verrückt."
+	line "Wie angenehm."
 	done
 
 _OPT_BoldSortOfText::
 	text_start
-	line "Wie angenehm."
+	line "Wie dreist."
 	done
 
 _OPT_FrighteningText::
 	text_start
-	line "Wie dreist."
+	line "Furchterregend."
 	done
 
 _OPT_SuaveDebonairText::
 	text_start
-	line "Furchterregend."
+	line "Wie weltmännisch!"
 	done
 
 _OPT_PowerfulText::
 	text_start
-	line "Wie weltmännisch!"
+	line "Wie stark."
 	done
 
 _OPT_ExcitingText::
 	text_start
-	line "Wie stark."
+	line "Wie aufregend."
 	done
 
 _OPT_GroovyText::
 	text_start
-	line "Wie aufregend."
+	line "Jetzt!"
 	done
 
 _OPT_InspiringText::
 	text_start
-	line "Jetzt!"
+	line "Wie inspirierend."
 	done
 
 _OPT_FriendlyText::
 	text_start
-	line "Wie inspirierend."
+	line "Wie freundlich."
 	done
 
 _OPT_HotHotHotText::
 	text_start
-	line "Wie freundlich."
+	line "Wie interessant!"
 	done
 
 _OPT_StimulatingText::
 	text_start
-	line "Wie interessant!"
+	line "Wie anregend."
 	done
 
 _OPT_GuardedText::
 	text_start
-	line "Wie anregend."
+	line "Gut geschützt."
 	done
 
 _OPT_LovelyText::
 	text_start
-	line "Gut geschützt."
+	line "Wie lieblich."
 	done
 
 _OPT_SpeedyText::
 	text_start
-	line "Wie lieblich."
+	line "Wie rasant."
 	done
 
 _OPT_PokemonChannelText::

@@ -391,55 +391,55 @@ OaksPKMNTalk8:
 	text_end
 
 .OPT_UndeniablyKindOfText:
-	text_far _OPT_UnbearablyText
+	text_far _OPT_UndeniablyKindOfText
 	text_end
 
 .OPT_UnbearablyText:
-	text_far _OPT_WowImpressivelyText
+	text_far _OPT_UnbearablyText
 	text_end
 
 .OPT_WowImpressivelyText:
-	text_far _OPT_AlmostPoisonouslyText
+	text_far _OPT_WowImpressivelyText
 	text_end
 
 .OPT_AlmostPoisonouslyText:
-	text_far _OPT_SensuallyText
+	text_far _OPT_AlmostPoisonouslyText
 	text_end
 
 .OPT_SensuallyText:
-	text_far _OPT_MischievouslyText
+	text_far _OPT_SensuallyText
 	text_end
 
 .OPT_MischievouslyText:
-	text_far _OPT_TopicallyText
+	text_far _OPT_MischievouslyText
 	text_end
 
 .OPT_TopicallyText:
-	text_far _OPT_AddictivelyText
+	text_far _OPT_TopicallyText
 	text_end
 
 .OPT_AddictivelyText:
-	text_far _OPT_LooksInWaterText
+	text_far _OPT_AddictivelyText
 	text_end
 
 .OPT_LooksInWaterText:
-	text_far _OPT_EvolutionMustBeText
+	text_far _OPT_LooksInWaterText
 	text_end
 
 .OPT_EvolutionMustBeText:
-	text_far _OPT_ProvocativelyText
+	text_far _OPT_EvolutionMustBeText
 	text_end
 
 .OPT_ProvocativelyText:
-	text_far _OPT_FlippedOutText
+	text_far _OPT_ProvocativelyText
 	text_end
 
 .OPT_FlippedOutText:
-	text_far _OPT_HeartMeltinglyText
+	text_far _OPT_FlippedOutText
 	text_end
 
 .OPT_HeartMeltinglyText:
-	text_far _OPT_CuteText
+	text_far _OPT_HeartMeltinglyText
 	text_end
 
 OaksPKMNTalk9:
@@ -488,63 +488,63 @@ OaksPKMNTalk9:
 	assert_table_length NUM_OAKS_POKEMON_TALK_ADJECTIVES
 
 .OPT_CuteText:
-	text_far _OPT_WeirdText
+	text_far _OPT_CuteText
 	text_end
 
 .OPT_WeirdText:
-	text_far _OPT_PleasantText
+	text_far _OPT_WeirdText
 	text_end
 
 .OPT_PleasantText:
-	text_far _OPT_BoldSortOfText
+	text_far _OPT_PleasantText
 	text_end
 
 .OPT_BoldSortOfText:
-	text_far _OPT_FrighteningText
+	text_far _OPT_BoldSortOfText
 	text_end
 
 .OPT_FrighteningText:
-	text_far _OPT_SuaveDebonairText
+	text_far _OPT_FrighteningText
 	text_end
 
 .OPT_SuaveDebonairText:
-	text_far _OPT_PowerfulText
+	text_far _OPT_SuaveDebonairText
 	text_end
 
 .OPT_PowerfulText:
-	text_far _OPT_ExcitingText
+	text_far _OPT_PowerfulText
 	text_end
 
 .OPT_ExcitingText:
-	text_far _OPT_GroovyText
+	text_far _OPT_ExcitingText
 	text_end
 
 .OPT_GroovyText:
-	text_far _OPT_InspiringText
+	text_far _OPT_GroovyText
 	text_end
 
 .OPT_InspiringText:
-	text_far _OPT_FriendlyText
+	text_far _OPT_InspiringText
 	text_end
 
 .OPT_FriendlyText:
-	text_far _OPT_HotHotHotText
+	text_far _OPT_FriendlyText
 	text_end
 
 .OPT_HotHotHotText:
-	text_far _OPT_StimulatingText
+	text_far _OPT_HotHotHotText
 	text_end
 
 .OPT_StimulatingText:
-	text_far _OPT_GuardedText
+	text_far _OPT_StimulatingText
 	text_end
 
 .OPT_GuardedText:
-	text_far _OPT_LovelyText
+	text_far _OPT_GuardedText
 	text_end
 
 .OPT_LovelyText:
-	text_far _OPT_SpeedyText
+	text_far _OPT_LovelyText
 	text_end
 
 .OPT_SpeedyText:
