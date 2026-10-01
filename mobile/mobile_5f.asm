@@ -1840,7 +1840,7 @@ Function17dc1f:
 	ld [wc709], a
 	add $4
 	ld [wc70b], a
-	ld a, $96
+	ld a, $9d
 	ld [wc70d], a
 	ld a, $5c
 	ld [wc70e], a
