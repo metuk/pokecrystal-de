@@ -313,6 +313,17 @@ InitPokegearTilemap:
 	hlcoord 12, 1
 	ld de, .switch
 	call PlaceString
+	; patch the clock frame for the longer German text
+	hlcoord 11, 0
+	ld [hl], $30
+	inc hl
+	ld [hl], ' '
+	hlcoord 11, 1
+	ld [hl], ' '
+	hlcoord 11, 2
+	ld [hl], $32
+	inc hl
+	ld [hl], ' '
 	hlcoord 0, 12
 	lb bc, 4, 18
 	call Textbox
@@ -320,7 +331,7 @@ InitPokegearTilemap:
 	ret
 
 .switch
-	db " SWITCH▶@"
+	db " WEITER▶@"
 
 .Map:
 	ld a, [wPokegearMapPlayerIconLandmark]
@@ -1249,10 +1260,9 @@ PokegearPhoneContactSubmenu:
 .CallDeleteCancelStrings:
 	dwcoord 10, 6
 	db 3
-	db   "CALL"
-	next "DELETE"
-	next "CANCEL"
-	db   "@"
+	db   "ANRUF"
+	next "LÖSCHEN"
+	next "ZURÜCK@"
 
 .CallDeleteCancelJumptable:
 	dw .Call
@@ -1262,9 +1272,8 @@ PokegearPhoneContactSubmenu:
 .CallCancelStrings:
 	dwcoord 10, 8
 	db 2
-	db   "CALL"
-	next "CANCEL"
-	db   "@"
+	db   "ANRUF"
+	next "ZURÜCK@"
 
 .CallCancelJumptable:
 	dw .Call
