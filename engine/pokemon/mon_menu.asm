@@ -449,6 +449,35 @@ ComposeMailMessage:
 	ld de, wTempMailAuthor
 	ld bc, NAME_LENGTH - 1
 	call CopyBytes
+
+	; Look for a terminating byte in the first 8 characters of the player's name
+	ld b, -1
+	ld hl, wTempMailAuthor
+.find_terminator
+	inc b
+	ld a, b
+	cp PLAYER_NAME_LENGTH
+	jr nc, .continue
+	ld a, [hli]
+	cp '@'
+	jr nz, .find_terminator
+
+	; Redundant check
+	ld a, b
+	cp PLAYER_NAME_LENGTH
+	jr nc, .continue
+
+	; If it's found, write the nationality
+	ld hl, wTempMailNationality
+	ld a, 'E'
+	ld [hli], a
+	ld a, 'G'
+	ld [hl], a
+
+	; If the terminating byte isn't found, wTempMailNationality will hold
+	; the last two bytes copied from wPlayerName
+
+.continue
 	ld hl, wPlayerID
 	ld bc, 2
 	call CopyBytes

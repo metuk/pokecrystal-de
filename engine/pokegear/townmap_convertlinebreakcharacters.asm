@@ -8,8 +8,14 @@ TownMap_ConvertLineBreakCharacters:
 	jr z, .line_feed
 	cp '<BSP>'
 	jr z, .line_feed
+	cp '<SHY>'
+	jr z, .hyphen
 	inc hl
 	jr .loop
+
+.hyphen
+	ld [hl], '<-LF>'
+	jr .end
 
 .line_feed
 	ld [hl], '<LF>'
