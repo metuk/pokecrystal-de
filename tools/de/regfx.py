@@ -34,7 +34,7 @@ ALIGNS = [None, '0', '1', '2', '4']
 
 def find_incbin(label):
 	"""Find the INCBIN line right after `label` in the source."""
-	out = subprocess.run(['grep', '-rn', '--include=*.asm', '-E', rf'^{re.escape(label.split(".")[-1] if "." in label else label)}:', '.'],
+	out = subprocess.run(['grep', '-rn', '--include=*.asm', '-E', '^\\.?' + re.escape(label.split('.')[-1]) + ':', '.'],
 		capture_output=True, text=True).stdout
 	for hit in out.splitlines():
 		path, line, _ = hit.split(':', 2)

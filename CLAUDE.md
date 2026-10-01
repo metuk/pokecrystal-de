@@ -27,6 +27,9 @@ python3 tools/de/locate.py     # Build-Code im baserom finden -> de_syms.json, d
 python3 tools/de/retext.py     # text/line/para-Blöcke durch deutschen Text ersetzen
 python3 tools/de/restring.py   # li/dname/db-Strings, Beschreibungen, Dex-Einträge, Trainernamen
 python3 tools/de/todo.py [FILE]  # Dateien nach nicht passenden Bytes sortiert
+python3 tools/de/show.py FILE [-d] # englischer Quelltext neben deutschen Bytes (disassembliert / -d als Daten)
+python3 tools/de/regfx.py LABEL... | --all  # Grafiken (PNG) / Binärdateien aus baserom übernehmen, LZ-Flags suchen
+python3 tools/de/layout.py       # Section-Startadressen Build vs. DE
 ```
 
 - `locate.py`: zerlegt Sections an Labels in Stücke. Zeiger-Bytes (Patches aus den .o-Dateien) sind Platzhalter.
@@ -55,8 +58,19 @@ python3 tools/de/todo.py [FILE]  # Dateien nach nicht passenden Bytes sortiert
 - 2026-10-02: Crystal-1.1-Codebasis (`-D _CRYSTAL11`, EU basiert auf 1.1). Texte, Strings, Dex-Einträge per Pipeline übernommen.
   Map Scripts 26–28 in Bänken $75/$76/$79 (wie ES). Struktur 97,4 % gefunden, positionsgenau 86,3 %.
 
-## Nächste Schritte (alt)
+- 2026-10-02 (später): Grafiken übernommen (Logo, Tilesets, Diplom, Pokédex, Trainerpass, Schriften ...).
+  Viele DE-Grafiken sind "literal-only" LZ-komprimiert (Flags in gfx/lz.mk). Zwei Intro-Tilemaps sind mit einem
+  nicht reproduzierbaren Verfahren komprimiert und als `gfx/intro/*.de.lz` eingecheckt.
+  Struktur 99,2 % gefunden, positionsgenau 86,8 %. Rest: ~14 KB in ~360 Stücken (`tools/de/todo.py`).
 
-1. Code- und Charmap-Unterschiede von pokecrystal-es übernehmen (EU-Basis), dann an DE anpassen.
-2. Deutsche Texte per Skript aus baserom extrahieren (Charmap aus ES/DE ableiten).
-3. Bank für Bank auf 100 % bringen, ROM0 (Home) zuerst, weil sich Adressen sonst überall fortpflanzen.
+## Nächste Schritte
+
+1. Restliche Stücke mit `tools/de/todo.py` + `tools/de/show.py FILE` abarbeiten (echte EU-Codeänderungen).
+   Bekannte Muster: andere Bildschirmkoordinaten (`lb de`, `hlcoord`), Magikarp-Länge (InitializeMagikarpHouse: $4/$1d),
+   Credits mit anderen String-Indizes (constants für COPYRIGHT/STAFF; data/credits_strings.asm, credits_script.asm),
+   Radio (Oak's PKMN Talk mit zusätzlichem Text "wurde gesehen auf"), Landmark-Namen, Bills PC, Game-Corner-Menüs.
+   Der spanische Diff (`cd ../referenz/pokecrystal-es && git diff 8ae7686 HEAD -- DATEI`) zeigt, wo EU-Änderungen liegen.
+2. Offene Grafiken: PokegearGFX (`--trim-end 2`, DE-Größe abweichend), TheEndGFX und FontInversed (DE-Adresse unbekannt,
+   referenzierender Code noch nicht gefunden), Pokégear-Radio-Tilemap (RLE).
+3. `GameFreakText` (home/text.asm, unbenutzt) fehlt in DE -> entfernen.
+4. Danach Layout: `tools/de/layout.py` + `tools/romdiff.py` bis zur 100 % Übereinstimmung.
