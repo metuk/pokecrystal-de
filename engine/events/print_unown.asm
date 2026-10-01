@@ -209,11 +209,10 @@ UnownDexDoWhatString:
 	db "Auswählen.@"
 
 UnownDexMenuString:
-	db   UNOWNSTAMP_BOLD_A, " PRINT"
-	next UNOWNSTAMP_BOLD_B, " CANCEL"
-	next "← PREVIOUS"
-	next "→ NEXT"
-	db   "@"
+	db   UNOWNSTAMP_BOLD_A, " DRUCKEN"
+	next UNOWNSTAMP_BOLD_B, " ZURÜCK"
+	next $cf, " VORHER" ; "←"
+	next "→ NÄCHSTE@"
 
 UnownDexVacantString:
 	db "  LEER@"
