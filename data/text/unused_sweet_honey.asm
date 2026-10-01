@@ -9,60 +9,61 @@
 ; The last text is associated with a second NPC, probably a Butterfree.
 
 UnusedSweetHoneyText: ; unreferenced
-	text "My #MON is an"
-	line "expert at collect-"
-	cont "ing SWEET HONEY."
+	text "Mein #MON ist"
+	line "Meister im Sammeln"
+	cont "von HONIG."
 
-	para "I'll share some"
-	line "with you."
+	para "Ich gebe dir gerne"
+	line "etwas ab."
 	done
 
 UnusedSweetHoneyBagFullText: ; unreferenced
-	text "I want to give you"
-	line "some SWEET HONEY,"
-
-	para "but you have no"
-	line "room for it."
+	text "Ich würde dir ger-"
+	line "ne etwas HONIG ge-"
+	cont "ben, aber du hast"
+	cont "nicht genug Platz."
 	done
 
 UnusedSweetHoneyGiveText: ; unreferenced
-	text "Here you go! Have"
-	line "some SWEET HONEY!"
+	text "Bitte schön! Nimm"
+	line "etwas HONIG!"
 	done
 
 UnusedGotSweetHoneyText: ; unreferenced
-	text "<PLAYER> received"
-	line "SWEET HONEY."
+	text "<PLAYER> erhält"
+	line "HONIG."
 	done
 
 UnusedSweetHoneyAfterText1: ; unreferenced
-	text "My little brother"
-	line "takes SWEET HONEY"
+	text "Mein kleiner Bru-"
+	line "der nimmt den HO-"
+	cont "NIG und bringt ihn"
+	cont "irgendwo hin."
 
-	para "and goes somewhere"
-	line "with it."
-
-	para "I wonder what he's"
-	line "up to?"
+	para "Ich frage mich,"
+	line "was er vorhat?"
 	done
 
 UnusedSweetHoneyAfterText2: ; unreferenced
-	text "Did you put SWEET"
-	line "HONEY on a tree?"
+	text "Hast du schon mal"
+	line "HONIG an einen"
+	cont "Baum geschmiert?"
 
-	para "What happened to"
-	line "it?"
+	para "Was ist dann ge-"
+	line "schehen?"
 	done
 
 UnusedSweetHoneyAfterText3: ; unreferenced
-	text "Did you put SWEET"
-	line "HONEY on a tree?"
+	text "Hast du schon mal"
+	line "HONIG an einen"
+	cont "Baum geschmiert?"
 
-	para "It takes about a"
-	line "day for #MON to"
-	cont "be drawn to it."
+	para "Es dauert etwa ei-"
+	line "nen Tag, bis #-"
+	cont "MON davon angezo-"
+	cont "gen werden."
 	done
 
 UnusedSweetHoneyButterfreeText: ; unreferenced
-	text "BUTTERFREE: Freeh!"
+	text "SMETTBO: Booh!"
 	done
