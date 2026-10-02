@@ -3,8 +3,6 @@
 
 ## Questions
 
-- [What is pokecrystal11.gbc?](#what-is-pokecrystal11gbc)
-- [What is pokecrystal_au.gbc?](#what-is-pokecrystal_augbc)
 - [I can't build the ROM, `make` just prints an error!](#i-cant-build-the-rom-make-just-prints-an-error)
   - [`gcc`: command not found](#gcc-command-not-found)
   - ["ERROR: `UNION` already defined"](#error-union-already-defined)
@@ -19,16 +17,6 @@
 - [How do I write new features?](#how-do-i-write-new-features)
 - [How do I share code on Discord?](#how-do-i-share-code-on-discord)
 - [I need more help!](#i-need-more-help)
-
-
-## What is pokecrystal11.gbc?
-
-Version 1.1 of Pokémon Crystal, which fixed some issues with the initial international release. `make crystal11` defines `_CRYSTAL11` so the assembly builds the changed version.
-
-
-## What is pokecrystal_au.gbc?
-
-The Australian release of Pokémon Crystal, which is based on the international 1.1 release but censors gambling references from the Game Corners. `make crystal_au` defines `_CRYSTAL11` and `_CRYSTAL_AU` so the assembly builds the changed version.
 
 
 ## I can't build the ROM, `make` just prints an error!
@@ -104,7 +92,7 @@ If your code is on GitHub, you can [link to specific lines][snippethelp]. Put "`
 
 ## I need more help!
 
-Try asking on Discord or IRC (see [README.md](README.md)).
+Open an issue in this repository. For general questions about pokecrystal, the [pret Discord](https://discord.gg/d5dubZ3) (#pokecrystal) can also help, but keep in mind that this German version is not a pret project.
 
 [cygwin]: https://cygwin.com/install.html
 [rgbds]: https://github.com/gbdev/rgbds/releases
